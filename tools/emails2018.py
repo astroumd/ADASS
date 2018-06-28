@@ -1,6 +1,8 @@
 #! /usr/bin/env python
 
 
+from __future__ import print_function
+
 import xlrd
  
 def open_file(path):
@@ -13,7 +15,7 @@ def open_file(path):
         lname = s0.cell(row,4).value
         email = s0.cell(row,14).value
         #print   '"',fname,lname,'" <',email,'>'
-        print email
+        print(email)
         
 
  
