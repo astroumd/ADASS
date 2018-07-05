@@ -1,6 +1,6 @@
 
 
-all: students countries focus dinner tutorial
+all: students countries focus dinner tutorial abstract
 
 students:
 	@echo Student/General
