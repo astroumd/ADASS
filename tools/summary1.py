@@ -22,7 +22,7 @@ def open_file(path):
         #print   '"',fname,lname,'" <',email,'>'
         print(email)
 
-def xopen(path):
+def xopen(path, debug=False):
     book = xlrd.open_workbook(path)
     ns = book.nsheets
     s0 = book.sheet_by_index(0)
@@ -30,7 +30,8 @@ def xopen(path):
         print("Warning: %s has %d sheets" % (s0,ns))
     nr = s0.nrows
     nc = s0.ncols
-    # print("%d x %d in %s" % (nr,nc,path))
+    if debug:
+        print("%d x %d in %s" % (nr,nc,path))
     s={}
     for row in range(3,nr):
         name = s0.cell(row,4).value + ", " + s0.cell(row,3).value
@@ -46,11 +47,13 @@ def report_1(x1,x2,x3):
         focus_demo = r[25].value
         demo_booth = r[26].value
         email      = r[14].value
+        print(present,key,email,title)
         if key in x2:
-            a2 = "ABS2"
-        else:
-            a2 = ""
-        print(present,key,email,a2,title)
+            present2 = x2[key][22].value
+            title2   = x2[key][23].value
+            print("  ABS2",present2,key,title)            
+            
+
 
 def report_2(x1,x2,x3):
     for key in x1.keys():
@@ -62,7 +65,9 @@ def report_2(x1,x2,x3):
 
  
 if __name__ == "__main__":
-    x1 = xopen(p1)   # 3,4
-    x2 = xopen(p2)   # 3,4
-    x3 = xopen(p3)   # 3,4
+    debug = False
+    x1 = xopen(p1, debug)
+    x2 = xopen(p2, debug)
+    x3 = xopen(p3, debug)
+
     report_1(x1,x2,x3)
