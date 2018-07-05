@@ -21,3 +21,7 @@ dinner:
 tutorial:
 	@echo Tutorial
 	@./tutorial.py|sort |uniq -c | sort -nr
+
+abstract:
+	@echo Abstract
+	@./abstract.py|sort |uniq -c | sort -nr
