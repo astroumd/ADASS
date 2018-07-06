@@ -47,11 +47,21 @@ def report_1(x1,x2,x3):
         focus_demo = r[25].value
         demo_booth = r[26].value
         email      = r[14].value
-        print(present,key,email,title)
+        if present == 'Talk/Focus Demo':
+            if focus_demo == '1' and demo_booth == '1':
+                print("F+B",key,email,title)
+            elif focus_demo == '1':
+                print("F",key,email,title)            
+            elif demo_booth == '1':
+                print("B",key,email,title)                        
+            else:
+                print("O",key,email,title)
+        else:
+            print("P",key,email,title)
         if key in x2:
             present2 = x2[key][22].value
             title2   = x2[key][23].value
-            print("  ABS2",present2,key,title)            
+            print("  ABS2",present2,key,title2)            
             
 
 
