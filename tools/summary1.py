@@ -10,6 +10,11 @@ p1 = 'ADASS 2018  Submitted Abstracts.xls'
 p2 = 'ADASS 2018  Submitted Abstracts(1).xls'
 p3 = 'ADASS 2018  Total Registrant Re.xls'
 
+p1 = 'reg_07_09/ADASS 2018  Submitted Abstracts.xls'  
+p2 = 'reg_07_09/ADASS 2018  Submitted Abstracts(1).xls'
+p3 = 'reg_07_09/ADASS 2018  Total Registrant Re.xls'
+
+
 def open_file(path):
     book = xlrd.open_workbook(path)
     ns = book.nsheets
@@ -39,29 +44,33 @@ def xopen(path, debug=False):
         
     return s
 
-def report_1(x1,x2,x3):
+def report_1(x1,x2,x3, abstract=False):
     for key in x1.keys():
-        present = x1[key][22].value
-        title   = x1[key][23].value
+        present   = x1[key][22].value
+        title1    = x1[key][23].value
+        abstract1 = x1[key][24].value
         r = x3[key]
         focus_demo = r[25].value
         demo_booth = r[26].value
         email      = r[14].value
         if present == 'Talk/Focus Demo':
             if focus_demo == '1' and demo_booth == '1':
-                print("F+B",key,email,title)
+                print("F+B",key,email,title1)
             elif focus_demo == '1':
-                print("F",key,email,title)            
+                print("F",key,email,title1)            
             elif demo_booth == '1':
-                print("B",key,email,title)                        
+                print("B",key,email,title1)                        
             else:
-                print("O",key,email,title)
+                print("O",key,email,title1)
         else:
-            print("P",key,email,title)
+            print("P",key,email,title1)
+        if abstract: print("    abs:",abstract1)
         if key in x2:
-            present2 = x2[key][22].value
-            title2   = x2[key][23].value
-            print("  ABS2",present2,key,title2)            
+            present2  = x2[key][22].value
+            title2    = x2[key][23].value
+            abstract2 = x2[key][23].value
+            print("  ABS2",key,title2)
+            if abstract: print("    abs:",abstract2)
             
 
 
