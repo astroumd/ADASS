@@ -6,13 +6,9 @@ from __future__ import print_function
 import xlrd
 
 
-p1 = 'ADASS 2018  Submitted Abstracts.xls'  
-p2 = 'ADASS 2018  Submitted Abstracts(1).xls'
-p3 = 'ADASS 2018  Total Registrant Re.xls'
-
-p1 = 'reg_07_09/ADASS 2018  Submitted Abstracts.xls'  
-p2 = 'reg_07_09/ADASS 2018  Submitted Abstracts(1).xls'
-p3 = 'reg_07_09/ADASS 2018  Total Registrant Re.xls'
+p1 = 'reg/ADASS 2018  Submitted Abstracts.xls'  
+p2 = 'reg/ADASS 2018  Submitted Abstracts(1).xls'
+p3 = 'reg/ADASS 2018  Total Registrant Re.xls'
 
 
 def open_file(path):
