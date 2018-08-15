@@ -1,5 +1,12 @@
 #! /usr/bin/env python
 #
+# Usage:
+#     mailer.py template_file subject_line email_file EMAIL,NAME,TITLE
+#
+#     email_file needs to have the email in 1st column, optional other directives
+#     that can be used in ${NAME} type macro expansions
+#
+#
 # alternative ideas:
 #     http://naelshiab.com/tutorial-send-email-python/
 #     https://www.geeksforgeeks.org/send-mail-attachment-gmail-account-using-python/
@@ -12,6 +19,9 @@
 
 
 import sys
+from string import Template
+import smtplib
+import shlex
 
 def get_file(filename):
     """
@@ -31,15 +41,21 @@ def get_file(filename):
 # Function to read the contacts from a given contact file and return a
 # list of names and email addresses
 def get_contacts(filename):
-    names = []
-    emails = []
+    ncol = 0
     with open(filename, mode='r', encoding='utf-8') as contacts_file:
         for a_contact in contacts_file:
-            names.append(a_contact.split()[0])
-            emails.append(a_contact.split()[1])
-    return names, emails
+            if a_contact[0] == '#': continue
+            w = shlex.split(a_contact)
+            if ncol == 0:
+                ncol = len(w)
+                print("Found %d columns" % ncol)
+                col = []
+                for i in range(ncol):
+                    col.append([])
+            for i in range(ncol):
+                col[i].append(w[i])
+    return col
 
-from string import Template
 
 def read_template(filename):
     with open(filename, 'r', encoding='utf-8') as template_file:
@@ -47,10 +63,33 @@ def read_template(filename):
     return Template(template_file_content)
 
 
-# import the smtplib module. It should be included in Python by default
-import smtplib
-
 
 if __name__ == "__main__":
-    emails = sys.argv[1]
-    template = sys.argv[2]
+    if len(sys.argv) != 5:
+        print("Usage: %s message subject contacts col1,col2,..." % sys.argv[0])
+        sys.exit(1)
+    T_message = read_template(sys.argv[1])
+    T_subject = Template(sys.argv[2])
+    cols = get_contacts(sys.argv[3])
+    dirs = sys.argv[4].split(',')
+    print('cols: ',dirs)
+
+    kwargs={}
+    for i in range(len(cols[0])):
+        for j in range(len(dirs)):
+            kwargs[dirs[j]] = cols[j][i]
+            if dirs[j] == 'EMAIL' :
+                e1 = cols[j][i]
+        s1 = T_subject.substitute(**kwargs)
+        print("s1: ",s1)
+
+        m1 = T_message.substitute(**kwargs)
+        print("m1: ",m1)
+
+        f1 = 'tmp.msg'
+        fd1 = open(f1,'w')
+        fd1.write(m1)
+        fd1.close()
+
+        cmd = 'mailx -s "%s" %s < %s' % (s1,e1,f1)
+        print(cmd)
