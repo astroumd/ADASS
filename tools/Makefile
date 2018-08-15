@@ -1,27 +1,55 @@
 
 
-all: students countries focus dinner tutorial abstract
+all: students countries focus dinner tutorial abstract demo financial companion proceedings date diet
 
 students:
 	@echo Student/General
-	@./students.py| sort | uniq -c
+	@./counter.py 1 |sort | uniq -c
 
 countries:
 	@echo Countries
-	@./countries.py|sort | uniq -c | sort -nr
+	@./counter.py 12 |sort | uniq -c | sort -nr
 
 focus:
 	@echo Focus Demo
-	@./focus.py|sort |uniq -c
+	@./counter.py 25 |sort | uniq -c
 
 dinner:
 	@echo Dinner
-	@./dinner.py|sort |uniq -c | sort -nr
+	@./counter.py 23 |sort | uniq -c | sort -nr
 
 tutorial:
 	@echo Tutorial
-	@./tutorial.py|sort |uniq -c | sort -nr
+	@./counter.py 22 |sort | uniq -c | sort -nr
 
 abstract:
 	@echo Abstract
-	@./abstract.py|sort |uniq -c | sort -nr
+	@./counter.py 28 |sort | uniq -c | sort -nr
+
+abstract2:
+	@echo Abstract2
+	@./counter.py 29 demo financial companion
+
+demo:
+	@echo Demo
+	@./counter.py 27 |sort | uniq -c | sort -nr
+
+financial:
+	@echo Financial
+	@./counter.py 18 |sort | uniq -c | sort -nr
+
+companion:
+	@echo Companion
+	@./counter.py 19 |sort | uniq -c | sort -nr
+
+proceedings:
+	@echo Proceedings
+	@./counter.py 20 |sort | uniq -c | sort -nr
+
+date:
+	@echo RegDate
+	@./counter.py 0 |sort | uniq -c | sort -k 2
+
+diet:
+	@echo Diet
+	@./counter.py 16 |sort | uniq -c | sort -nr
