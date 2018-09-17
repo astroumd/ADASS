@@ -18,6 +18,7 @@
 # This needs to be in python3
 
 
+import os
 import sys
 from string import Template
 import smtplib
@@ -42,7 +43,8 @@ def get_file(filename):
 # list of names and email addresses
 def get_contacts(filename):
     ncol = 0
-    with open(filename, mode='r', encoding='utf-8') as contacts_file:
+    #with open(filename, mode='r', encoding='utf-8') as contacts_file:
+    with open(filename, mode='r') as contacts_file:
         for a_contact in contacts_file:
             if a_contact[0] == '#': continue
             w = shlex.split(a_contact)
@@ -58,7 +60,8 @@ def get_contacts(filename):
 
 
 def read_template(filename):
-    with open(filename, 'r', encoding='utf-8') as template_file:
+    # with open(filename, 'r', encoding='utf-8') as template_file:
+    with open(filename, 'r') as template_file:
         template_file_content = template_file.read()
     return Template(template_file_content)
 
@@ -81,15 +84,18 @@ if __name__ == "__main__":
             if dirs[j] == 'EMAIL' :
                 e1 = cols[j][i]
         s1 = T_subject.substitute(**kwargs)
-        print("s1: ",s1)
+        # print("s1: ",s1)
 
         m1 = T_message.substitute(**kwargs)
-        print("m1: ",m1)
+        # print("m1: ",m1)
 
         f1 = 'tmp.msg'
         fd1 = open(f1,'w')
         fd1.write(m1)
         fd1.close()
 
-        cmd = 'mailx -s "%s" %s < %s' % (s1,e1,f1)
+        return_adress = "adass2018@astro.umd.edu"
+
+        cmd = 'mailx -r %s -s "%s" %s < %s' % (return_adress,s1,e1,f1)
         print(cmd)
+        os.system(cmd)
