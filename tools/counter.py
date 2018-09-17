@@ -5,21 +5,12 @@ from __future__ import print_function
 
 import xlrd
 import sys
- 
-def open_file(path,col):
-    book = xlrd.open_workbook(path)
-    ns = book.nsheets
-    s0 = book.sheet_by_index(0)
-    n = s0.nrows
-    for row in range(3,n):
-        fname = s0.cell(row,3).value
-        lname = s0.cell(row,4).value
-        cval  = s0.cell(row,col).value
-        print(cval)
-        
+import adass2018 as adass
 
- 
 if __name__ == "__main__":
-    path = "reg/ADASS 2018  Total Registrant Re.xls"
+    a = adass.adass('reg')
     col = int(sys.argv[1])
-    open_file(path,col)
+    if col < 0:
+        a.report_0()
+    else:
+        a.print_col(col)
