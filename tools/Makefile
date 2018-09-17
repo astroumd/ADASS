@@ -1,6 +1,7 @@
 
 
-all: students countries focus dinner tutorial abstract demo financial companion proceedings date diet
+all: students countries focus dinner tutorial abstract demo financial companion proceedings date diet \
+	adass-0 adass-1 adass-2
 
 students:
 	@echo Student/General
@@ -53,3 +54,14 @@ date:
 diet:
 	@echo Diet
 	@./counter.py 16 |sort | uniq -c | sort -nr
+
+
+adass-0:
+	./counter.py -1 > adass-0.txt
+
+adass-1:
+	./emails2018.py > adass-1.txt
+
+adass-2:
+	./adass2018.py > adass-2.txt
+
