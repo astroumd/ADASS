@@ -4,7 +4,8 @@
 from __future__ import print_function
 
 import xlrd
- 
+import adass2018 as adass
+
 def open_file(path):
     book = xlrd.open_workbook(path)
     ns = book.nsheets
@@ -20,5 +21,5 @@ def open_file(path):
 
  
 if __name__ == "__main__":
-    path = "ADASS 2018  Total Registrant Re.xls"
-    open_file(path)
+    a = adass.adass('reg')
+    a.report_4(False)
