@@ -146,4 +146,4 @@ if __name__ == "__main__":
             o1[i] = o1[i].strip()
         a.report_3(o1)
     else:
-        a.report_1(True)
+        a.report_1(False)
