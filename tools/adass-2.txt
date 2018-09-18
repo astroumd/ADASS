@@ -1,9 +1,9 @@
-162 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 159 entries
-8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
-Accepted 5 entries
-216 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 200 entries
+164 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 161 entries
+9 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
+Accepted 6 entries
+218 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 202 entries
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
 O Albert, Kinga albert@mps.mpg.de Performance analysis of the SO/PHI software framework for on-board data reduction
@@ -45,6 +45,7 @@ X Derriere, Sébastien sebastien.derriere@astro.unistra.fr
 O Deshpande, Shubhankar shubhankardeshpande@hotmail.com GMRT Archival Utility for Data Analysis
 O Diaz, Rosa rdiaz@stsci.edu Adding Science Validation to the  JWST Calibration Pipeline.
 O Donaldson, Tom tdonaldson@stsci.edu Astropy and the Virtual Observatory
+P Dowler, Patrick pdowler.cadc@gmail.com Archive-2.0: Metadata and Data Synchronisation between MAST, CADC, and ESAC
 P Ebisawa, Ken ebisawa@isas.jaxa.jp CALET Gamma-ray Burst Monitor web-analysis system
 P Eguchi, Satoshi satoshieguchi@fukuoka-u.ac.jp Prototype Implementation of a Web-Based Gravitational Wave Signal Analyzer: SNEGRAF
 O Fan, Dongwei fandongwei@nao.cas.cn A simple survey for cross-matching method
@@ -70,6 +71,8 @@ P Han, Jun hanjun@nao.cas.cn The conceptual design of amateur public observatory
 X Holman, Matthew mholman@cfa.harvard.edu The Minor Planet Center Data Processing System
 P Ibarra, Aitor aitor.ibarra@sciops.esa.int Standardization of object visibility and planning information through VO protocols
 O Iwasaki, Hiroyoshi h.iwasaki@rikkyo.ac.jp A new implementation of deep neural network to spatio-spectral analysis in X-ray astronomy
+P Johnston, Kyle kyjohnst2000@my.fit.edu A Novel Detection Metric Design for Identification of O'Connell Effect Eclipsing Binaries
+  ABS2 Johnston, Kyle Variable Star Classification Using Multi-View Metric Learning
 F Joliet, Emmanuel ejoliet@ipac.caltech.edu Visualization in IRSA Services using Firefly
 O Juric, Mario mjuric@astro.washington.edu The ZTF Alert Stream: Lessons from the first six months of operating an LSST precursor
 P Kaleida, Catherine ckaleida@stsci.edu JWST Data Management Subsystem Operations:  Preparing to Receive, Process, and Archive JWST Data
