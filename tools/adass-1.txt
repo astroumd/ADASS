@@ -60,6 +60,7 @@ carlos.gabriel@sciops.esa.int
 vincent.geers@stfc.ac.uk
 Giovanna.Giardino@esa.int
 s.gilda@ufl.edu
+rgill@lsst.org
 jgonzale@sciops.esa.int
 jcg@ipac.caltech.edu
 ggracia@sciops.esa.int
@@ -105,6 +106,7 @@ dliska@stsci.edu
 loose@astron.nl
 Nuria.Lorente@aao.gov.au
 mireille.louys@unistra.fr
+mlundquist@email.arizona.edu
 katharina.lutz@astro.unistra.fr
 max@ihep.ac.cn
 jeff.mader@gmail.com

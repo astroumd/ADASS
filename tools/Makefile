@@ -68,3 +68,8 @@ adass-2:
 adass-3:
 	./abstracts.py > adass-3.txt
 
+#       our dropbox keeps a pretty recent update to the 3 registration sheets
+#       or grab the 3 files from our LOC google drive folder "registration" and
+#       symlink with 'reg' since that's a hardcoded name here 
+reg:
+	ln -sf ~/Dropbox/adass2018 reg
