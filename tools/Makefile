@@ -1,7 +1,7 @@
 
 
 all: students countries focus dinner tutorial abstract demo financial companion proceedings date diet \
-	adass-0 adass-1 adass-2
+	adass-0 adass-1 adass-2 adass-3
 
 students:
 	@echo Student/General
@@ -64,4 +64,7 @@ adass-1:
 
 adass-2:
 	./adass2018.py > adass-2.txt
+
+adass-3:
+	./abstracts.py > adass-3.txt
 
