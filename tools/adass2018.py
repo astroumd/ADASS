@@ -25,8 +25,6 @@ class adass(object):
         (self.x1,self.r1) = self.xopen(self.p1, debug)
         (self.x2,self.r2) = self.xopen(self.p2, debug)
         (self.x3,self.r3) = self.xopen(self.p3, debug)
-        # figure this later (0 for sep 16 and before, 1 or sep 17 and later)
-        self.off = 1
 
     def xopen(self, path, debug=False, status = True):
         """
@@ -66,11 +64,15 @@ class adass(object):
         return (s,row_values)
 
     def print_col(self, col):
+        """ print a given columns. expert mode
+        """
         for key in self.x3.keys():
             r = self.x3[key]
             print(r[col+self.off].value)
 
     def report_0(self):
+        """ print just the 'Lastname, Firstname' key
+        """
         for key in self.x3.keys():
             print(key)
 
@@ -83,6 +85,7 @@ class adass(object):
             focus_demo = r[25+self.off].value
             demo_booth = r[26+self.off].value
             email      = r[14+self.off].value
+            if abstract: print(" ")
             if present == 'Talk/Focus Demo':
                 if focus_demo == '1' and demo_booth == '1':
                     print("F+B",key,email,title1)
@@ -92,15 +95,17 @@ class adass(object):
                     print("B",key,email,title1)                        
                 else:
                     print("O",key,email,title1)
-            else:
+            elif present == 'Poster':
                 print("P",key,email,title1)
-            if abstract: print("    abs:",abstract1)
+            else:
+                print("X",key,email,title1)
+            if abstract: print("    ABS:",abstract1)
             if key in self.x2:
                 present2  = self.x2[key][22].value
                 title2    = self.x2[key][23].value
                 abstract2 = self.x2[key][23].value
                 print("  ABS2",key,title2)
-                if abstract: print("    abs:",abstract2)
+                if abstract: print("    ABS:",abstract2)
 
     def report_2(self,x1,x2,x3):
         for key in x1.keys():
