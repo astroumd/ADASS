@@ -1,6 +1,6 @@
 
 
-all: students countries focus dinner tutorial abstract demo financial companion proceedings date diet \
+all: students countries dinner tutorial abstract focus comm demo financial companion proceedings date diet \
 	adass-0 adass-1 adass-2 adass-3
 
 students:
@@ -10,10 +10,6 @@ students:
 countries:
 	@echo Countries
 	@./counter.py 12 |sort | uniq -c | sort -nr
-
-focus:
-	@echo Focus Demo
-	@./counter.py 25 |sort | uniq -c
 
 dinner:
 	@echo Dinner
@@ -31,8 +27,16 @@ abstract2:
 	@echo Abstract2
 	@./counter.py 29 demo financial companion
 
+focus:
+	@echo Focus DemoTalk
+	@./counter.py 25 |sort | uniq -c
+
+comm:
+	@echo Commercial DemoTable
+	@./counter.py 26 |sort | uniq -c | sort -nr
+
 demo:
-	@echo Demo
+	@echo Astro DemoTable
 	@./counter.py 27 |sort | uniq -c | sort -nr
 
 financial:
