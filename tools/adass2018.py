@@ -109,7 +109,7 @@ class adass(object):
 
     def report_2(self,x1,x2,x3):
         for key in x1.keys():
-            present = x1[key][22].value
+            present = x1[key][22+self.off].value
             r = x3[key]
             focus_demo = r[25+self.off].value
             demo_booth = r[26+self.off].value
@@ -137,6 +137,18 @@ class adass(object):
                 print('"%s" <%s>' % (key,email))
             else:
                 print(email)
+
+    def report_demo(self):
+        """ report who wants demo table
+        """
+        for key in self.x3.keys():
+            r = self.x3[key]
+            comm_booth  = r[26+self.off].value
+            astro_booth = r[27+self.off].value            
+            if comm_booth != "":
+                print(key,' COMMERCIAL')
+            if astro_booth != "":
+                print(key,' ASTRO')
 
  
 if __name__ == "__main__":
