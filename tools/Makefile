@@ -77,3 +77,6 @@ adass-3:
 #       symlink with 'reg' since that's a hardcoded name here 
 reg:
 	ln -sf ~/Dropbox/adass2018 reg
+
+git1:
+	git ci adass-0.txt adass-1.txt adass-2.txt adass-3.txt
