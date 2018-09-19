@@ -80,6 +80,7 @@ jorge.ibsen@alma.cl
 shiro@ism.ac.jp
 h.iwasaki@rikkyo.ac.jp
 tess.jaffe@nasa.gov
+tjenness@lsst.org
 kyjohnst2000@my.fit.edu
 ejoliet@ipac.caltech.edu
 mjuric@astro.washington.edu
