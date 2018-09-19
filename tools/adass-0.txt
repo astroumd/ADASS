@@ -26,7 +26,7 @@ Buchschacher, Nicolas
 Burnier, Julien
 Cai, Hongbo
 Cano, Juan Luis
-Cardiel, Nicolas
+Cardiel, Nicolás
 Chen, Wei
 Chilingarian, Igor
 Comrie, Angus
@@ -45,6 +45,7 @@ Deshpande, Shubhankar
 Deul, Erik
 Diaz, Rosa
 Donaldson, Tom
+Dowler, Patrick
 DuPrie, Kimberly
 Durand, Daniel
 Ebisawa, Ken
@@ -79,6 +80,7 @@ Ibsen, Jorge
 Ikeda, Shiro
 Iwasaki, Hiroyoshi
 Jaffe, Tess
+Johnston, Kyle
 Joliet, Emmanuel
 Juric, Mario
 Kaleida, Catherine
@@ -103,6 +105,7 @@ Lieu, Maggie
 Lim, Pey Lian
 Lin, Ganghua
 Liska, Dave
+Lo, Kenny
 Loose, Marcel
 Lorente, Nuria
 Louys, Mireille

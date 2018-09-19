@@ -45,6 +45,7 @@ shubhankardeshpande@hotmail.com
 deul@strw.leidenuniv.nl
 rdiaz@stsci.edu
 tdonaldson@stsci.edu
+pdowler.cadc@gmail.com
 kduprie@stsci.edu
 daniel_durand@mac.com
 ebisawa@isas.jaxa.jp
@@ -79,6 +80,7 @@ jorge.ibsen@alma.cl
 shiro@ism.ac.jp
 h.iwasaki@rikkyo.ac.jp
 tess.jaffe@nasa.gov
+kyjohnst2000@my.fit.edu
 ejoliet@ipac.caltech.edu
 mjuric@astro.washington.edu
 ckaleida@stsci.edu
@@ -103,6 +105,7 @@ maggie.lieu@sciops.esa.int
 lim@stsci.edu
 lgh@bao.ac.cn
 dliska@stsci.edu
+kennylo@slac.stanford.edu
 loose@astron.nl
 Nuria.Lorente@aao.gov.au
 mireille.louys@unistra.fr
