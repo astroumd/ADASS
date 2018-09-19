@@ -143,8 +143,11 @@ class adass(object):
         """
         for key in self.x3.keys():
             r = self.x3[key]
+            focus_demo  = r[25+self.off].value
             comm_booth  = r[26+self.off].value
             astro_booth = r[27+self.off].value            
+            if focus_demo != "":
+                print(key,' FOCUS')
             if comm_booth != "":
                 print(key,' COMMERCIAL')
             if astro_booth != "":
