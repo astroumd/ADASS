@@ -186,6 +186,7 @@ fxt44@mac.com
 ignacio.toledo@alma.cl
 etollerud@stsci.edu
 maurizio.tomasi@unimi.it
+vermaas@astron.nl
 fabio.vitello@inaf.it
 wangrui@nao.cas.cn
 warnerem@astro.umd.edu

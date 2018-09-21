@@ -2,8 +2,8 @@
 Accepted 162 entries
 9 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 6 entries
-220 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 204 entries
+221 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 205 entries
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
 O Albert, Kinga albert@mps.mpg.de Performance analysis of the SO/PHI software framework for on-board data reduction
@@ -52,7 +52,7 @@ O Fan, Dongwei fandongwei@nao.cas.cn A simple survey for cross-matching method
 P Feinstein, Carlos cfeinstein@fcaglp.unlp.edu.ar Extragalactic stellar photometry and the blending problem
 O Ferguson, Henry ferguson@stsci.edu Data Analysis Tools for JWST and Beyond
 P Fernique, Pierre Pierre.Fernique@astro.unistra.fr Time in Aladin
-F Fitzpatrick, Michael fitz@noao.edu The NOAO Data Lab: Design, Capabilities and Community Development
+O Fitzpatrick, Michael fitz@noao.edu The NOAO Data Lab: Design, Capabilities and Community Development
 O Ford, Eric ebf11@psu.edu Improving Exoplanet Detection through Machine Learning in Wavelength and Time Presenter
 P Gabriel, Carlos carlos.gabriel@sciops.esa.int The COSPAR Capacity Building Initiative: entering a new phase
 X Geers, Vincent vincent.geers@stfc.ac.uk MIRISim: the JWST-MIRI simulator
@@ -65,7 +65,7 @@ O Graves, Sarah s.graves@eaobservatory.org Harnessing the power of archival data
 P Grishin, Kirill kirillg6@gmail.com Open-source web tools for spectroscopic and imaging data visualization for the VOXAstro initiative
 X Guerra Noguero, Rocio rguerra@sciops.esa.int DevOps: the perfect ally for Science Operations for a large and distributed astronomy project.
 P Gupta, Pramod psgupta@uw.edu Computational Astrophysics with Go
-X Gwyn, Stephen gwyn.cadc@gmail.com MegaPipe 2.0: 10000 square degrees of CFHT MegaCam imaing
+X Gwyn, Stephen gwyn.cadc@gmail.com MegaPipe 2.0: 10000 square degrees of CFHT MegaCam imaging
 O Hague, Peter prh44@cam.ac.uk BaSC - A Bayesian path to improved source finding in radio astronomy
 P Han, Jun hanjun@nao.cas.cn The conceptual design of amateur public observatory software framework
 X Holman, Matthew mholman@cfa.harvard.edu The Minor Planet Center Data Processing System
