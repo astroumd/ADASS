@@ -1,9 +1,9 @@
-165 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 162 entries
+167 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 164 entries
 9 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 6 entries
-220 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 204 entries
+222 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 206 entries
  
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
     ABS: Detecting pulsars in time-domain radio astronomy using Fourier transform based techniques is a convenient and computationally efficient way to extract the faint single pulses from the noise in which they sit. However this technique, called periodicity searching, has some pitfalls. One of these is that the power contained in pulsar signal is spread into multiple harmonics in calculated power spectra. The incoherent harmonic sum algorithm is one way to rectify this. The algorithm sums the power that is spread across multiple harmonics back into a single fourier bin. This increases signal-to-noise ratio of detected pulsars and allows us to detect weaker pulsars as a result. Harmonic summing also forms part of search techniques used for detecting accelerated pulsars where a two-dimensional harmonic sum is required. Or in more complex cases such as for pulsars with elliptical orbits where a three-dimensional harmonic sum might be necessary. However porting the harmonic sum to many-core architectures like GPUs is not straightforward. The main problem that must be overcome is the very unfavourable memory access pattern, which gets worse as the dimensionality of the harmonic sum increases. We present a set of algorithms for calculating the harmonic sum that are more suited to many-core architectures such as GPUs. We present an evaluation of the sensitivity of these different approaches, the performance and discuss GPU portability.
@@ -289,7 +289,7 @@ O Ferguson, Henry ferguson@stsci.edu Data Analysis Tools for JWST and Beyond
 P Fernique, Pierre Pierre.Fernique@astro.unistra.fr Time in Aladin
     ABS: We present recent Aladin’s developments designed to handle and display the astronomical time dimension. Aladin was originally dedicated to visualise astronomical data in terms of spatial coordinates. Based on the same technology, we have incorporated a new dimension in Aladin: the time. This new Aladin prototype, based on the core of Version 10, incorporates two new components: a “time view” window and a “time coverage” capability. The “time view” window is a simple Aladin extension to its regular window originally designed to handle longitude VS latitude graphics. This new graphic method is dedicated to draw scatter plots where the primary axis is time and the secondary axis can be magnitude, flux, radial velocity, etc. The original spatial view and the new time view are fully interoperable allowing the users to select objects in either views to see them selected in all views simultaneously. The “time coverage” capability is based on the technology supporting the Multi-Ordered Coverage (MOCs), replacing the HEALPix space discretisation with a time scale instead. Thus the way the user manipulates time coverage is similar to space coverage manipulation, for instance performing fast coverage intersections or unions, generating a coverage from a list of sources, etc. These new capabilities are already available in the Aladin Beta version available on the Aladin CDS Web site.
  
-F Fitzpatrick, Michael fitz@noao.edu The NOAO Data Lab: Design, Capabilities and Community Development
+O Fitzpatrick, Michael fitz@noao.edu The NOAO Data Lab: Design, Capabilities and Community Development
     ABS: We describe the NOAO Data Lab, a new science platform to efficiently
 utilize catalog, image and spectral data from large surveys in the era of LSST.
 Data Lab provides access (through multiple interfaces) to many current NOAO,
@@ -371,6 +371,9 @@ O Gilda, Sankalp s.gilda@ufl.edu Importance of Feature Selection in ML models
 
 An ever looming threat to astronomical applications of ML and DL is the danger of overfitting of models. In particular, we refer to the problem of stellar parameterization from low-mid resolution spectra. A current method to deal with this issue is to develop and use spectral indices. This requires careful measurements of equivalent widths of blended spectral lines. This is prone to user error, and does not often result in very promising accuracies with respect to the stellar parameters. We demonstrate this problem by convolving high resolution (500,000) synthetic PHOENIX spectra to various low to mid resolutions, from 2,000 to 15,000. In this work, we tackle this problem using an iterative ML algorithm to sequential prune redundant features (wavelength points) to arrive at an optimal set of features with the strongest correlation with each of the output variables (stellar parameters) - T_eff, log(g) and [Fe/H]. We find that even at high resolution with tens of thousands of pixels or wavelength values, most of them are not only redundant, but actually decrease the mean absolute error (MAE) of the ML model. Our results are especially significant in this era of exploding astronomical capabilities, when we will be faced with the 'curse of dimensionality'. We illustrate the importance of feature selection to reduce noise, improve model predictions, and best utilize limited computational and hardware resources.
  
+X Gill, Ranpal rgill@lsst.org 
+    ABS: 
+ 
 O Gonzalez-Nuñez, Juan jgonzale@sciops.esa.int Driving Gaia Science from the ESA Archive: DR2 to DR3
     ABS: Released 25th April, Gaia DR2 hosted in the ESA Gaia archive is leading a paradigm shift in the way astronomers access and process astronomical data in ESA archives.
 
@@ -441,7 +444,7 @@ In this paper, I discuss the suitability of Go for Computational Astrophysics ba
 
 Due to Go's newness and since it is not targeted at scientific computing, there are a limited number of scientific computing libraries.  Hence, Go may not be a feasible choice for projects which depend on specialized libraries. However, for projects which are not dependent on such libraries, Go is an excellent language for Computational Astrophysics.
  
-X Gwyn, Stephen gwyn.cadc@gmail.com MegaPipe 2.0: 10000 square degrees of CFHT MegaCam imaing
+X Gwyn, Stephen gwyn.cadc@gmail.com MegaPipe 2.0: 10000 square degrees of CFHT MegaCam imaging
     ABS: MegaPipe, the MegaCam data processing pipeline at the CADC, has been
 upgraded to version 2.0 and has processed 10000 square degrees of
 the sky.  MegaPipe has been operating since 2008. It was originally
@@ -462,7 +465,7 @@ taken on more or less the same part of the sky. This limited the
 number of images that could stacked.  MegaPipe 2.0 instead stacks on
 set of 10000x10000 pixel tiles, each half a degree square evenly
 covering the whole sky. The result that twice much sky area can
-stacked, as shown in the attached figure.  There are now 10000 square
+stacked.  There are now 10000 square
 degrees of imaging in the ugriz bands available for download at:
 http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/access/graph.html
  
@@ -558,6 +561,11 @@ P Kaleida, Catherine ckaleida@stsci.edu JWST Data Management Subsystem Operation
 P Kaplan, Kyle kfkaplan@email.arizona.edu The algorithms behind the HPF and NEID pipeline
     ABS: Abstract: HPF and NEID are new high-resolution stabilized echelle spectrometers at the forefront of using radial velocity techniques to search for terrestrial mass exoplanets.  Nightly data taken at the telescopes with large format detectors must be automatically processed into radial velocities in less than 24 hours.  This requires a large investment in computer power and memory along with an automated pipeline that can check the quality of the data and handle issues without the need for human intervention.  I will present an overview of our pipeline and discuss the, sometimes novel, algorithms and techniques we use to turn the unprocessed 2D echellograms into optimally extracted 1D spectra.   These algorithms include the use of polygon clipping to rectify the curvature found in the beams on the detectors, the ability to fully account for aliasing in under-sampled data on the detector using flat lamp spectra, and the use of pixel count histograms to automatically match similar exposures and check the quality of the data.  I will also discuss how our pipeline is built up from many independent modules, making it robust against failure and allowing it to be easily modifiable.
  
+P Karim, Ramsey rkarim@astro.umd.edu Alpha-X: An Alpha Shape-based Hierarchical Clustering Algorithm
+    ABS: This project is an ongoing exploration into the utility of alpha shapes in describing hierarchical clustering. Alpha shapes, a concept introduced by Edelsbrunner and Mucke 1994 that relates to a generalization of convex hulls known as alpha hulls, describe boundaries of regions around point clusters that are associated (point to point) at distances less than some characteristic length scale $\alpha$. Algorithms for finding alpha shapes are based on the Delaunay triangulation of the point set, which leads to the notion of both “positive” space, in the inclusion of these triangles into the shapes, as well as “negative” space, in their exclusion. This well-defined negative space can indicate gaps in point clouds at a given $\alpha$ scale; hence the alpha shape approach can define both over- and under- densities of points. The concept of alpha shapes is a discrete approach and can thus be applied to sets of positions of stars to evaluate stellar clustering and associated voids.
+
+One feature we are developing is the representation of point-cloud substructures as $\alpha$ values in tree representations which capture the hierarchical lineage of structure at different values of $\alpha$. With this approach, alpha shapes could be used in an alternate hierarchical cluster detection method that characterizes clusters and their complementary gaps over a range of length scales and naturally yields defined boundaries for these cluster and gap shapes. Similar approaches using this method have been successfully implemented outside of astronomy, in fields such as molecular biology, pattern recognition, and digital shape sampling (Varshney, Brooks, and Wright 1994; Edelsbrunner 2010). Our project will continue to develop and validate this methodology, comparing it to extant methods used within our field to verify that it offers novel and significant analysis products before moving into specific scientific applications.
+ 
 O Kent, Brian bkent@nrao.edu 3D Data Visualization in Astrophysics
     ABS: We present unique methods for rendering astronomical data - 3D galaxy catalogs, planetary maps, data cubes, and simulations.  Using tools and languages including Blender, Python, and Google Spatial Media, a user can render their own science results, allowing for further analysis of their data phase space.  We aim to put these tools and methods in the hands of students and researchers so that they can bring their own data visualizations to life on different computing platforms.
  
@@ -645,8 +653,8 @@ P Li, Yinbi ybli@bao.ac.cn The application of Bagging TopPush method to searchin
 X Lieu, Maggie maggie.lieu@sciops.esa.int Deep learning of astronomical features with big data.
     ABS: In Astronomy, there is a tendency to build machine learning codes for very specific object detection in images. The classification of asteroids and non-asteroids should be no different than the classification of asteroids, stars, galaxies, cosmic rays, ghosts or any other artefact found in astronomical data. In computer science, it is not uncommon for machine learning to train on hundreds of thousands of object categories, so why are we not there yet? I will talk about image classification with deep learning and how we can make use of existing tools such as the ESA science archive, ESAsky and citizen science to help realise the full potential of object detection and image classification in Astronomy.
  
-O Lim, Pey Lian lim@stsci.edu stginga: Using Ginga for HST and JWST Data
-    ABS: stginga is a image visualization package using Ginga to assist in data analysis and quality assurance of science data from mainly but not limited to HST and JWST. In this talk, we will discuss the process of writing Ginga plugin and a short demo.
+P Lim, Pey Lian lim@stsci.edu stginga: Ginga Plugins for Data Analysis and Quality Assurance of HST and JWST Science Data
+    ABS: stginga is an image visualization package to assist in data analysis and quality assurance of science data from Hubble Space Telescope (HST) and James Webb Space Telescope (JWST).  It is based on the Ginga toolkit for building scientific viewers. In this poster, we will describe the main plugins developed for data analysis and quality assurance tasks with stginga.  We also discuss the basic outline of writing a Ginga plugin, with pointers to documentation and examples.
  
 P Lin, Ganghua lgh@bao.ac.cn The quality assurance of Chinese solar physics historical observation data archives
     ABS: The archives of Chinese solar physics history observation data mainly came from the 5 observation stations, they are based on 17 kinds of observation data, among them the longest observation data has been for more then 90 years. So it should be a needed taken seriously by each data worker that how to make so many kinds of data are processed better, so that a high quality archives can be constructed, and be provided conveniently to users for using. This paper introduces the every steps of processing of the archives, for example, from the digitalization of the original data archive, archiving, data processing, to share, in the each step of processing includes the quality assurance.

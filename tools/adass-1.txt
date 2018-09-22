@@ -86,6 +86,7 @@ ejoliet@ipac.caltech.edu
 mjuric@astro.washington.edu
 ckaleida@stsci.edu
 kfkaplan@email.arizona.edu
+rkarim@astro.umd.edu
 bkent@nrao.edu
 akepley@nrao.edu
 kongx@nao.cas.cn
@@ -186,6 +187,7 @@ fxt44@mac.com
 ignacio.toledo@alma.cl
 etollerud@stsci.edu
 maurizio.tomasi@unimi.it
+vermaas@astron.nl
 fabio.vitello@inaf.it
 wangrui@nao.cas.cn
 warnerem@astro.umd.edu

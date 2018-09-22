@@ -86,6 +86,7 @@ Joliet, Emmanuel
 Juric, Mario
 Kaleida, Catherine
 Kaplan, Kyle
+Karim, Ramsey
 Kent, Brian
 Kepley, Amanda
 Kong, Xiao
@@ -186,6 +187,7 @@ Timmes, Frank
 Toledo, Ignacio
 Tollerud, Erik
 Tomasi, Maurizio
+Vermaas, Nico
 Vitello, Fabio
 Wang, Rui
 Warner, Elizabeth

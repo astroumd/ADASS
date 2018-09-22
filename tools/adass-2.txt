@@ -1,9 +1,9 @@
-165 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 162 entries
+167 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 164 entries
 9 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 6 entries
-220 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 204 entries
+222 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 206 entries
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
 O Albert, Kinga albert@mps.mpg.de Performance analysis of the SO/PHI software framework for on-board data reduction
@@ -52,12 +52,13 @@ O Fan, Dongwei fandongwei@nao.cas.cn A simple survey for cross-matching method
 P Feinstein, Carlos cfeinstein@fcaglp.unlp.edu.ar Extragalactic stellar photometry and the blending problem
 O Ferguson, Henry ferguson@stsci.edu Data Analysis Tools for JWST and Beyond
 P Fernique, Pierre Pierre.Fernique@astro.unistra.fr Time in Aladin
-F Fitzpatrick, Michael fitz@noao.edu The NOAO Data Lab: Design, Capabilities and Community Development
+O Fitzpatrick, Michael fitz@noao.edu The NOAO Data Lab: Design, Capabilities and Community Development
 O Ford, Eric ebf11@psu.edu Improving Exoplanet Detection through Machine Learning in Wavelength and Time Presenter
 P Gabriel, Carlos carlos.gabriel@sciops.esa.int The COSPAR Capacity Building Initiative: entering a new phase
 X Geers, Vincent vincent.geers@stfc.ac.uk MIRISim: the JWST-MIRI simulator
 P Giardino, Giovanna Giovanna.Giardino@esa.int Preparing for JWST: a detailed simulation of a MOS deep field with NIRSpec
 O Gilda, Sankalp s.gilda@ufl.edu Importance of Feature Selection in ML models
+X Gill, Ranpal rgill@lsst.org 
 O Gonzalez-Nuñez, Juan jgonzale@sciops.esa.int Driving Gaia Science from the ESA Archive: DR2 to DR3
 F Good, John jcg@ipac.caltech.edu Image Processing in Python With Montage
 O Gracia Abril, Gonzalo ggracia@sciops.esa.int Gaia DPAC Project Office: Coordinating the production of the largest star catalogue.
@@ -65,7 +66,7 @@ O Graves, Sarah s.graves@eaobservatory.org Harnessing the power of archival data
 P Grishin, Kirill kirillg6@gmail.com Open-source web tools for spectroscopic and imaging data visualization for the VOXAstro initiative
 X Guerra Noguero, Rocio rguerra@sciops.esa.int DevOps: the perfect ally for Science Operations for a large and distributed astronomy project.
 P Gupta, Pramod psgupta@uw.edu Computational Astrophysics with Go
-X Gwyn, Stephen gwyn.cadc@gmail.com MegaPipe 2.0: 10000 square degrees of CFHT MegaCam imaing
+X Gwyn, Stephen gwyn.cadc@gmail.com MegaPipe 2.0: 10000 square degrees of CFHT MegaCam imaging
 O Hague, Peter prh44@cam.ac.uk BaSC - A Bayesian path to improved source finding in radio astronomy
 P Han, Jun hanjun@nao.cas.cn The conceptual design of amateur public observatory software framework
 X Holman, Matthew mholman@cfa.harvard.edu The Minor Planet Center Data Processing System
@@ -78,6 +79,7 @@ F Joliet, Emmanuel ejoliet@ipac.caltech.edu Visualization in IRSA Services using
 O Juric, Mario mjuric@astro.washington.edu The ZTF Alert Stream: Lessons from the first six months of operating an LSST precursor
 P Kaleida, Catherine ckaleida@stsci.edu JWST Data Management Subsystem Operations:  Preparing to Receive, Process, and Archive JWST Data
 P Kaplan, Kyle kfkaplan@email.arizona.edu The algorithms behind the HPF and NEID pipeline
+P Karim, Ramsey rkarim@astro.umd.edu Alpha-X: An Alpha Shape-based Hierarchical Clustering Algorithm
 O Kent, Brian bkent@nrao.edu 3D Data Visualization in Astrophysics
 O Kepley, Amanda akepley@nrao.edu Auto-multithresh: A General Purpose Automated Masking Algorithm for Clean
 P Kong, Xiao kongx@nao.cas.cn The construction of a new stellar classification template library for the LAMOST 1D Pipeline based on LAMOST DR5
@@ -93,7 +95,7 @@ O Li, Changhua lich@nao.cas.cn Design of KNN Star-QSO Classification Algorithm B
 P Li, Jian lijian@bao.ac.cn An Visual Telescope Control Interface Based on Browser
 P Li, Yinbi ybli@bao.ac.cn The application of Bagging TopPush method to searching for carbon stars
 X Lieu, Maggie maggie.lieu@sciops.esa.int Deep learning of astronomical features with big data.
-O Lim, Pey Lian lim@stsci.edu stginga: Using Ginga for HST and JWST Data
+P Lim, Pey Lian lim@stsci.edu stginga: Ginga Plugins for Data Analysis and Quality Assurance of HST and JWST Science Data
 P Lin, Ganghua lgh@bao.ac.cn The quality assurance of Chinese solar physics historical observation data archives
 O Loose, Marcel loose@astron.nl Agile and DevOps from the trenches at ASTRON
 X Lorente, Nuria Nuria.Lorente@aao.gov.au 
