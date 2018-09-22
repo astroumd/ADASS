@@ -1,7 +1,7 @@
 
 
 all: students countries dinner tutorial abstract focus comm demo financial companion proceedings date diet \
-	adass-0 adass-1 adass-2 adass-3
+	adass-0 adass-1 adass-2 adass-3 count
 
 students:
 	@echo Student/General
@@ -71,6 +71,9 @@ adass-2:
 
 adass-3:
 	./abstracts.py > adass-3.txt
+
+count:
+	@echo Counted `cat adass-0.txt | wc -l` participants
 
 #       our dropbox keeps a pretty recent update to the 3 registration sheets
 #       or grab the 3 files from our LOC google drive folder "registration" and
