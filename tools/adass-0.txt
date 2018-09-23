@@ -34,8 +34,8 @@ Coulais, Alain
 Crawford, Steven
 Cui, Chenzhou
 Cupani, Guido
-Dabin, Christophe
 DABIN, Christophe
+Dabin, Christophe
 DAI, CONG
 Daly, Philip
 Dempsey, James
@@ -64,6 +64,7 @@ Gilda, Sankalp
 Gill, Ranpal
 Gonzalez-Nuñez, Juan
 Good, John
+Goz, David
 Gracia Abril, Gonzalo
 Grange, Yan
 Graves, Sarah
@@ -124,6 +125,7 @@ Mechev, Alexandar
 Michel, Laurent
 Micol, Alberto
 Miller, Jennifer
+Million, Chase
 Mink, Jessica
 Molinaro, Marco
 Momcheva, Ivelina
@@ -172,6 +174,7 @@ Sharp, Nigel
 Shawhan, Peter
 Shen, Robert
 Shipman, Russell
+Shirasaki, Yuji
 Shortridge, Keith
 Sihlangu, Isaac
 Smith, Jeffrey

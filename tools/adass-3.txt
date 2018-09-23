@@ -1,9 +1,9 @@
-167 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 164 entries
+170 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 167 entries
 9 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 6 entries
-222 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 206 entries
+225 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 209 entries
  
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
     ABS: Detecting pulsars in time-domain radio astronomy using Fourier transform based techniques is a convenient and computationally efficient way to extract the faint single pulses from the noise in which they sit. However this technique, called periodicity searching, has some pitfalls. One of these is that the power contained in pulsar signal is spread into multiple harmonics in calculated power spectra. The incoherent harmonic sum algorithm is one way to rectify this. The algorithm sums the power that is spread across multiple harmonics back into a single fourier bin. This increases signal-to-noise ratio of detected pulsars and allows us to detect weaker pulsars as a result. Harmonic summing also forms part of search techniques used for detecting accelerated pulsars where a two-dimensional harmonic sum is required. Or in more complex cases such as for pulsars with elliptical orbits where a three-dimensional harmonic sum might be necessary. However porting the harmonic sum to many-core architectures like GPUs is not straightforward. The main problem that must be overcome is the very unfavourable memory access pattern, which gets worse as the dimensionality of the harmonic sum increases. We present a set of algorithms for calculating the harmonic sum that are more suited to many-core architectures such as GPUs. We present an evaluation of the sensitivity of these different approaches, the performance and discuss GPU portability.
@@ -394,6 +394,9 @@ The material presented here will be made freely available as a set of Jupyter no
 
 Montage is funded by the U. S. National Science Foundation (NSF)  under Grant Number ACI-1642453.
  
+P Goz, David david.goz@inaf.it 
+    ABS: 
+ 
 O Gracia Abril, Gonzalo ggracia@sciops.esa.int Gaia DPAC Project Office: Coordinating the production of the largest star catalogue.
     ABS: The ESA Gaia satellite is creating the most accurate map ever of the Milky Way.  The second release of the Gaia archive was made public in April 2018. The impact of this release in the scientific community can be quantified with the number of papers submitted since its publication, in average around 2 papers per day based on the released data since it was published. 
 
@@ -716,6 +719,9 @@ The direct database and Virtual Observatory access: The inherent limitation in t
 
 In this first release, processed data from the LPO are supported. Future plans include expanding the support to ALMA processed data and raw data from the LPO. It is planned that these new access points will gradually replace the current ones for La Silla Paranal data, while ALMA will keep maintaining a dedicated, separate access.
  
+P Million, Chase chase@millionconcepts.com tbd
+    ABS: tbd
+ 
 P Mink, Jessica jmink@cfa.harvard.edu Finding Your Place in the Cosmos with WCSTools
     ABS: The WCSTools package has been updated to include access to arbitrary-length keywords in FITS headers and the UCAC5 and GAIA catalogs. Examples of the use of those and older little -known features will be presented.
   ABS2 Mink, Jessica Data Formats BoF
@@ -941,6 +947,34 @@ The ASVO MWA project will lower the barrier for astronomers to enter the world o
  
 P Shipman, Russell russ@sron.nl Pipeline Processing of Stratospheric Terahertz Observatory (STO-2) Galactic Plane Survey
     ABS: The Stratospheric Terahertz Observatory is a balloon born experiment which observed 2.5 deg2 of the Galactic Plane in the [CII] 158 micron transition.  We describe the STO-2 data processing and data products as well as the challenges present with these data.
+ 
+P Shirasaki, Yuji yuji.shirasaki@nao.ac.jp VO service in Japan : Registry service based on Apache Solr and SIA v2 service for Japanese Facilities
+    ABS: Currently more than 20 thousands of VO services are registered in the
+VO registry database.
+Keyword Search is the most popular way to find a resource.
+There can be a lot of ways to implement this capability, and the performance
+depends on how to index the document describing the resource metadata.
+Apache Solr is an open source search platform and uses the Lucene Java
+search library for full-text indexing.
+The document is indexed after the process that removes stop words
+(not adequate for a keyword e.g. a, the, and, is, are ... ) and stems
+a word to a root word (e.g. clustering to cluster).
+Thus for the query of a keyword cluster, the Solr search system will
+return documents that contain a word cluster, clustering, or clustered.
+So it increases the probability for a given keyword to hit a desired
+resource metadata.
+
+In order to incorporate this feature, we upgraded the registry service
+behind the JVO portal to the one based on Solr from XML based DB.
+The data from Nobeyama Legacy project were released from the JVO portal
+on 1st June in 2018.
+The data are now distributed also through the most recent VO standard interface
+called SIA-v2.
+The data of ALMA and Subaru telescopes are also accessible through the SIA-v2.
+We are now working on distributing the data of Hyper-SuprimeCam SSP/DR1 and 
+also the data of Hitomi satellite under the collaboration with C-SODA/JAXA.
+
+We present those our recent development on Japanese Virtual Observatory system.
  
 P Sihlangu, Isaac isihlangu@ska.ac.za MeerKAT Radio Frequency Interefence characterization using Machine Learning
     ABS: The Square Kilometer Array (SKA) project is an international effort to build the worlds largest radio telescope, with a square kilometre (one million square metres) of collecting area spread over sites in Southern Africa and Australia. It will be the largest and the most sensitive radio telescope ever built and will observe the sky with unprecedented depth and detail. Science results from the SKA telescope are expected to change our understanding of the Universe.

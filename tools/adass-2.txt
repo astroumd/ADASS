@@ -1,9 +1,9 @@
-167 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 164 entries
+170 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 167 entries
 9 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 6 entries
-222 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 206 entries
+225 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 209 entries
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
 O Albert, Kinga albert@mps.mpg.de Performance analysis of the SO/PHI software framework for on-board data reduction
@@ -61,6 +61,7 @@ O Gilda, Sankalp s.gilda@ufl.edu Importance of Feature Selection in ML models
 X Gill, Ranpal rgill@lsst.org 
 O Gonzalez-Nuñez, Juan jgonzale@sciops.esa.int Driving Gaia Science from the ESA Archive: DR2 to DR3
 F Good, John jcg@ipac.caltech.edu Image Processing in Python With Montage
+P Goz, David david.goz@inaf.it 
 O Gracia Abril, Gonzalo ggracia@sciops.esa.int Gaia DPAC Project Office: Coordinating the production of the largest star catalogue.
 O Graves, Sarah s.graves@eaobservatory.org Harnessing the power of archival data to increase  scientific output: the JCMT experience.
 P Grishin, Kirill kirillg6@gmail.com Open-source web tools for spectroscopic and imaging data visualization for the VOXAstro initiative
@@ -109,6 +110,7 @@ O Martinez, Beatriz beatriz.martinez@esa.int Data-driven Space Science at ESA Sc
 F Mechev, Alexandar apmechev@strw.leidenuniv.nl Building LOFAR As A Service: Processing Petabytes with just a click
 P Michel, Laurent laurent.michel@astro.unistra.fr ALiX: An advanced search interface for AladinLite
 O Micol, Alberto amicol@eso.org The new science portal and the programmatic and VO interfaces of the ESO science archive
+P Million, Chase chase@millionconcepts.com tbd
 P Mink, Jessica jmink@cfa.harvard.edu Finding Your Place in the Cosmos with WCSTools
   ABS2 Mink, Jessica Data Formats BoF
 X Molinaro, Marco marco.molinaro@inaf.it 
@@ -152,6 +154,7 @@ O Sealey, Katrina katrina.sealey@aao.gov.au Bringing together the Australian sky
 O Shawhan, Peter pshawhan@umd.edu BoF: Data analysis challenges for multi-messenger astrophysics
 O Shen, Robert robert.shen@astronomyaustralia.org.au ASVO MWA project: lower technical barrier to access MWA data
 P Shipman, Russell russ@sron.nl Pipeline Processing of Stratospheric Terahertz Observatory (STO-2) Galactic Plane Survey
+P Shirasaki, Yuji yuji.shirasaki@nao.ac.jp VO service in Japan : Registry service based on Apache Solr and SIA v2 service for Japanese Facilities
 P Sihlangu, Isaac isihlangu@ska.ac.za MeerKAT Radio Frequency Interefence characterization using Machine Learning
 O Smith, Jeffrey jeffrey.smith@nasa.gov Lilith: A Versatile Instrument and All-Sky Simulator for use with Space-Based Astrophysics Observatories
 O Snyder, Gregory gsnyder@stsci.edu Mock Datasets and Galaxy Merger Statistics from Cosmological Hydro Simulations

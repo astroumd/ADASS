@@ -34,8 +34,8 @@ alain.coulais@obspm.fr
 scrawford@stsci.edu
 ccz@bao.ac.cn
 guido.cupani@inaf.it
-christophe.dabin@cnes.fr
 Christophe.Dabin@cnes.fr
+christophe.dabin@cnes.fr
 daicong2014@163.com
 pndaly@email.arizona.edu
 james.dempsey@csiro.au
@@ -64,6 +64,7 @@ s.gilda@ufl.edu
 rgill@lsst.org
 jgonzale@sciops.esa.int
 jcg@ipac.caltech.edu
+david.goz@inaf.it
 ggracia@sciops.esa.int
 grange@astron.nl
 s.graves@eaobservatory.org
@@ -124,6 +125,7 @@ apmechev@strw.leidenuniv.nl
 laurent.michel@astro.unistra.fr
 amicol@eso.org
 jmiller@gemini.edu
+chase@millionconcepts.com
 jmink@cfa.harvard.edu
 marco.molinaro@inaf.it
 imomcheva@stsci.edu
@@ -172,6 +174,7 @@ nsharp@nsf.gov
 pshawhan@umd.edu
 robert.shen@astronomyaustralia.org.au
 russ@sron.nl
+yuji.shirasaki@nao.ac.jp
 keith@knaveandvarlet.com.au
 isihlangu@ska.ac.za
 jeffrey.smith@nasa.gov
