@@ -34,8 +34,8 @@ alain.coulais@obspm.fr
 scrawford@stsci.edu
 ccz@bao.ac.cn
 guido.cupani@inaf.it
-Christophe.Dabin@cnes.fr
 christophe.dabin@cnes.fr
+Christophe.Dabin@cnes.fr
 daicong2014@163.com
 pndaly@email.arizona.edu
 james.dempsey@csiro.au
@@ -84,6 +84,7 @@ tess.jaffe@nasa.gov
 tjenness@lsst.org
 kyjohnst2000@my.fit.edu
 ejoliet@ipac.caltech.edu
+isabelle.joncour@univ-grenoble-alpes.fr
 mjuric@astro.washington.edu
 ckaleida@stsci.edu
 kfkaplan@email.arizona.edu

@@ -34,8 +34,8 @@ Coulais, Alain
 Crawford, Steven
 Cui, Chenzhou
 Cupani, Guido
-DABIN, Christophe
 Dabin, Christophe
+DABIN, Christophe
 DAI, CONG
 Daly, Philip
 Dempsey, James
@@ -84,6 +84,7 @@ Jaffe, Tess
 Jenness, Tim
 Johnston, Kyle
 Joliet, Emmanuel
+Joncour, Isabelle
 Juric, Mario
 Kaleida, Catherine
 Kaplan, Kyle

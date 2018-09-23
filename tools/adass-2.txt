@@ -1,9 +1,9 @@
-170 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 167 entries
+171 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 168 entries
 9 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 6 entries
-225 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 209 entries
+226 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 210 entries
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
 O Albert, Kinga albert@mps.mpg.de Performance analysis of the SO/PHI software framework for on-board data reduction
@@ -77,6 +77,7 @@ P Jenness, Tim tjenness@lsst.org Abstracting the storage and retrieval of image 
 P Johnston, Kyle kyjohnst2000@my.fit.edu A Novel Detection Metric Design for Identification of O'Connell Effect Eclipsing Binaries
   ABS2 Johnston, Kyle Variable Star Classification Using Multi-View Metric Learning
 F Joliet, Emmanuel ejoliet@ipac.caltech.edu Visualization in IRSA Services using Firefly
+P Joncour, Isabelle isabelle.joncour@univ-grenoble-alpes.fr Multiscale spatial analysis of young stars complex using the dbscan clustering algorithm recursivel
 O Juric, Mario mjuric@astro.washington.edu The ZTF Alert Stream: Lessons from the first six months of operating an LSST precursor
 P Kaleida, Catherine ckaleida@stsci.edu JWST Data Management Subsystem Operations:  Preparing to Receive, Process, and Archive JWST Data
 P Kaplan, Kyle kfkaplan@email.arizona.edu The algorithms behind the HPF and NEID pipeline
