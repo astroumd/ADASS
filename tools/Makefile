@@ -81,5 +81,10 @@ count:
 reg:
 	ln -sf ~/Dropbox/adass2018 reg
 
-git1:
+# commit
+gitci:
 	git ci adass-0.txt adass-1.txt adass-2.txt adass-3.txt
+
+# undo (shit happens)
+gitco:
+	git co adass-0.txt adass-1.txt adass-2.txt adass-3.txt
