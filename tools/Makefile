@@ -88,3 +88,7 @@ gitci:
 # undo (shit happens)
 gitco:
 	git co adass-0.txt adass-1.txt adass-2.txt adass-3.txt
+
+# get new/old names
+diff:
+	git diff adass-0.txt
