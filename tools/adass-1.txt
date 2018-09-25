@@ -69,6 +69,7 @@ ggracia@sciops.esa.int
 grange@astron.nl
 s.graves@eaobservatory.org
 kirillg6@gmail.com
+sgroom@ipac.caltech.edu
 rguerra@sciops.esa.int
 psgupta@uw.edu
 gwyn.cadc@gmail.com
@@ -181,12 +182,14 @@ isihlangu@ska.ac.za
 jeffrey.smith@nasa.gov
 gsnyder@stsci.edu
 songxy@ihep.ac.cn
+max.spolaor@tmctechnologies.com
 abigailstev@gmail.com
 felix.stoehr@gmx.de
 swade@stsci.edu
 y.tao@nao.cas.cn
 daniele.tavagnacco@inaf.it
 teuben@astro.umd.edu
+brian.a.thomas@nasa.gov
 fxt44@mac.com
 ignacio.toledo@alma.cl
 etollerud@stsci.edu

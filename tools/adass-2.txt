@@ -2,8 +2,8 @@
 Accepted 168 entries
 9 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 6 entries
-226 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 210 entries
+229 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 213 entries
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
 O Albert, Kinga albert@mps.mpg.de Performance analysis of the SO/PHI software framework for on-board data reduction
