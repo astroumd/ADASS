@@ -149,6 +149,8 @@ jacob.oloketuyi@ynao.ac.cn
 simon.otoole@mq.edu.au
 jose.parra@alma.cl
 sergiopr@fis.ucm.es
+cpaxson@cfa.harvard.edu
+jegpeek@stsci.edu
 jose.perea@sciops.esa.int
 fernando.perez@esa.int
 abbie.petulante@gmail.com
@@ -180,6 +182,7 @@ russ@sron.nl
 yuji.shirasaki@nao.ac.jp
 keith@knaveandvarlet.com.au
 isihlangu@ska.ac.za
+arfon@stsci.edu
 jeffrey.smith@nasa.gov
 gsnyder@stsci.edu
 songxy@ihep.ac.cn

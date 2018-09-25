@@ -1,9 +1,9 @@
-171 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 168 entries
+172 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 169 entries
 9 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 6 entries
-230 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 214 entries
+233 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 217 entries
  
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
     ABS: Detecting pulsars in time-domain radio astronomy using Fourier transform based techniques is a convenient and computationally efficient way to extract the faint single pulses from the noise in which they sit. However this technique, called periodicity searching, has some pitfalls. One of these is that the power contained in pulsar signal is spread into multiple harmonics in calculated power spectra. The incoherent harmonic sum algorithm is one way to rectify this. The algorithm sums the power that is spread across multiple harmonics back into a single fourier bin. This increases signal-to-noise ratio of detected pulsars and allows us to detect weaker pulsars as a result. Harmonic summing also forms part of search techniques used for detecting accelerated pulsars where a two-dimensional harmonic sum is required. Or in more complex cases such as for pulsars with elliptical orbits where a three-dimensional harmonic sum might be necessary. However porting the harmonic sum to many-core architectures like GPUs is not straightforward. The main problem that must be overcome is the very unfavourable memory access pattern, which gets worse as the dimensionality of the harmonic sum increases. We present a set of algorithms for calculating the harmonic sum that are more suited to many-core architectures such as GPUs. We present an evaluation of the sensitivity of these different approaches, the performance and discuss GPU portability.
@@ -835,6 +835,9 @@ X Parra, Jose jose.parra@alma.cl
  
 X Pascual, Sergio sergiopr@fis.ucm.es Runing GTC data reduction pipelines in Jupyter
     ABS: The data reduction pipelines for the GTC (Gran Telescopio Canarias) instruments EMIR and MEGARA are based on the same framework (numina, https://zenodo.org/record/1341361). The pipeline can be run either automatically at the telescope or using a command line interface. We have added support to run the pipeline inside a Jupyter notebook, with the python interpreter. The new classes in numina provide persistent storage of reductions and querying capabilities, to retrieve older reductions
+ 
+P Paxson, Charles cpaxson@cfa.harvard.edu Transforming Science Code into Maintainable Software, Insights into the G-CLEF Exposure Time Calculator
+    ABS: We explore a common workflow in research institutions where science code is transformed into robust, maintainable, and expandable code. The case study presented is the Exposure Time Calculator (ETC) for the Giant Magellan Telescope Consortium Large Earth Finder (G-CLEF) spectrometer.  We describe the process we took to develop requirements documentation and a web application from science code.  The ETC provides a rich set of features to help the scientists estimate the performance of the instrument including: the computation of exposure time, SNR, and precision radial velocity, GUI text results, downloadable FITS standard compliant summary of results, and graphical displays.  We highlight the importance of a requirements document for information exchange between scientist and engineer, where principles and assumptions can be collaboratively understood and solidified.  As the document matures, scientists may use it to specify new requirements.  We discuss the importance of making physical interpretations of the code, of understanding and ultimately cleaning of science code magic numbers, and of comprehending the overall flow.   This detailed analysis is important since requirements morph as the project progresses.  Therefore, a modular design, especially segmenting calibration tables from source code, allow hardware engineering data upgrades without affecting software code.  Science code need not be efficient in processing speed, and illuminating black boxes allow potential speed improvements.  The software implementation is verified by comparison with hand calculations by scientists and standard data sets (in our case, flux comparisons to stellar standards of known type), and implementing best practices such as unit tests.  We analyze this process for our own purposes as well as sharing this process to assist future software engineers.
  
 X Perea-Calderon, Jose Vicente jose.perea@sciops.esa.int 
     ABS: 

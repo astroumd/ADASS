@@ -1,9 +1,9 @@
-171 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 168 entries
+172 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 169 entries
 9 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 6 entries
-230 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 214 entries
+233 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 217 entries
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
 O Albert, Kinga albert@mps.mpg.de Performance analysis of the SO/PHI software framework for on-board data reduction
@@ -132,6 +132,7 @@ P O'Toole, Simon simon.otoole@mq.edu.au data central for Astronomers
   ABS2 O'Toole, Simon How do you get the most out of your teams?
 X Parra, Jose jose.parra@alma.cl 
 X Pascual, Sergio sergiopr@fis.ucm.es Runing GTC data reduction pipelines in Jupyter
+P Paxson, Charles cpaxson@cfa.harvard.edu Transforming Science Code into Maintainable Software, Insights into the G-CLEF Exposure Time Calculator
 X Perea-Calderon, Jose Vicente jose.perea@sciops.esa.int 
 P Perez, Fernando fernando.perez@esa.int Centralisation and management of science operations procedures and test cases using SOCCI
 X Pineau, Francois-Xavier francois-xavier.pineau@astro.unistra.fr 
