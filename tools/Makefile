@@ -1,7 +1,12 @@
 
 
-all: students countries dinner tutorial abstract focus comm demo financial companion proceedings date diet \
-	adass-0 adass-1 adass-2 adass-3 count
+TGT = adass-0     adass-1     adass-2     adass-3     adass-4      
+TXT = adass-0.txt adass-1.txt adass-2.txt adass-3.txt adass-4.txt  
+
+
+all: students countries dinner tutorial abstract focus comm demo financial companion proceedings date diet count \
+	$(TGT)
+
 
 students:
 	@echo Student/General
@@ -72,6 +77,9 @@ adass-2:
 adass-3:
 	./abstracts.py > adass-3.txt
 
+adass-4:
+	./demos.py > adass-4.txt
+
 count:
 	@echo Counted `cat adass-0.txt | wc -l` participants
 
@@ -83,11 +91,11 @@ reg:
 
 # commit
 gitci:
-	git ci adass-0.txt adass-1.txt adass-2.txt adass-3.txt
+	git ci $(TXT)
 
 # undo (shit happens)
 gitco:
-	git co adass-0.txt adass-1.txt adass-2.txt adass-3.txt
+	git co $(TXT)
 
 # get new/old names
 diff:
