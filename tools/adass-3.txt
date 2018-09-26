@@ -1,9 +1,9 @@
-172 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 169 entries
+175 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 172 entries
 9 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 6 entries
-233 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 217 entries
+236 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 220 entries
  
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
     ABS: Detecting pulsars in time-domain radio astronomy using Fourier transform based techniques is a convenient and computationally efficient way to extract the faint single pulses from the noise in which they sit. However this technique, called periodicity searching, has some pitfalls. One of these is that the power contained in pulsar signal is spread into multiple harmonics in calculated power spectra. The incoherent harmonic sum algorithm is one way to rectify this. The algorithm sums the power that is spread across multiple harmonics back into a single fourier bin. This increases signal-to-noise ratio of detected pulsars and allows us to detect weaker pulsars as a result. Harmonic summing also forms part of search techniques used for detecting accelerated pulsars where a two-dimensional harmonic sum is required. Or in more complex cases such as for pulsars with elliptical orbits where a three-dimensional harmonic sum might be necessary. However porting the harmonic sum to many-core architectures like GPUs is not straightforward. The main problem that must be overcome is the very unfavourable memory access pattern, which gets worse as the dimensionality of the harmonic sum increases. We present a set of algorithms for calculating the harmonic sum that are more suited to many-core architectures such as GPUs. We present an evaluation of the sensitivity of these different approaches, the performance and discuss GPU portability.
@@ -327,8 +327,8 @@ the Programme; b) a larger interaction between the diverse space disciplines rep
 c) an extension of the Programme with the aim of motivating younger students to move in the
 direction of space sciences in developing countries.
  
-X Geers, Vincent vincent.geers@stfc.ac.uk MIRISim: the JWST-MIRI simulator
-    ABS: TBD
+P Geers, Vincent vincent.geers@stfc.ac.uk MIRISim: the JWST-MIRI simulator
+    ABS: MIRISim is the simulator package for the JWST Mid-Infrared Instrument (MIRI), created by the MIRI European Consortium. MIRISim is designed to simulate photon propagation through MIRI, and delivers detector images consistent with the expected on-orbit performance. The simulated data has the same uncalibrated data format that will be made available to JWST observers, and include all metadata required for processing with the JWST calibration pipeline (under development by STScI). MIRISim is written in Python 3 and released as part of a custom Anaconda environment called MIRICLE, publicly available at www.miricle.org. We present an overview of MIRISim together with example simulations.
  
 P Giardino, Giovanna Giovanna.Giardino@esa.int Preparing for JWST: a detailed simulation of a MOS deep field with NIRSpec
     ABS: JWST/NIRSpec will be the first multi-object spectrograph (MOS) to fly
@@ -575,6 +575,9 @@ P Karim, Ramsey rkarim@astro.umd.edu Alpha-X: An Alpha Shape-based Hierarchical 
 
 One feature we are developing is the representation of point-cloud substructures as $\alpha$ values in tree representations which capture the hierarchical lineage of structure at different values of $\alpha$. With this approach, alpha shapes could be used in an alternate hierarchical cluster detection method that characterizes clusters and their complementary gaps over a range of length scales and naturally yields defined boundaries for these cluster and gap shapes. Similar approaches using this method have been successfully implemented outside of astronomy, in fields such as molecular biology, pattern recognition, and digital shape sampling (Varshney, Brooks, and Wright 1994; Edelsbrunner 2010). Our project will continue to develop and validate this methodology, comparing it to extant methods used within our field to verify that it offers novel and significant analysis products before moving into specific scientific applications.
  
+P Kawasaki, Wataru wataru.kawasaki@nao.ac.jp Vissage: viewing polarisation data from ALMA
+    ABS: Vissage (VISualisation Software for Astronomical Gigantic data cubEs) is a standalone FITS browser, primarily aiming to offer easy visualisation of huge, multi-dimensional FITS data from ALMA. We report its new features including basic capabilities of easily viewing polarisation data from ALMA.
+ 
 O Kent, Brian bkent@nrao.edu 3D Data Visualization in Astrophysics
     ABS: We present unique methods for rendering astronomical data - 3D galaxy catalogs, planetary maps, data cubes, and simulations.  Using tools and languages including Blender, Python, and Google Spatial Media, a user can render their own science results, allowing for further analysis of their data phase space.  We aim to put these tools and methods in the hands of students and researchers so that they can bring their own data visualizations to life on different computing platforms.
  
@@ -712,6 +715,9 @@ ESDC is exploring solutions for handling those challenges in different areas. Sp
  
 F Mechev, Alexandar apmechev@strw.leidenuniv.nl Building LOFAR As A Service: Processing Petabytes with just a click
     ABS: The LOFAR Radio Telescope produces PetaBytes of data each year. Processing such volumes is not possible at clusters provided by academic institutions, and thus needs to be launched and managed at a High Throughput Cluster. With increasing complexity of LOFAR workflows, building and maintaining new scientific workflows on a distributed architecture becomes prohibitively time consuming. To make pipeline development and deployment easy and data processing fast, we integrate cluster middleware and LOFAR software with a leading workflow orchestration software, Airflow. The result is a flexible  application that can launch and manage LOFAR processing. With Airflow, we can easily create a service for LOFAR users to process their data transparently.
+ 
+P Mellado, Pablo mellado@iram.es Realtime telescope and data visualization using web technologies
+    ABS: When performing onsite or remote observations in a telescope, it is very critical to have a good feedback about the current status of your ongoing observation. Nowadays the web technology have evolved to allow us to get data in realtime with the advantage of using just a web browser.
  
 P Michel, Laurent laurent.michel@astro.unistra.fr ALiX: An advanced search interface for AladinLite
     ABS: ALiX is a flexible catalog portal based on Aladin Lite. It it designed to use an interactive sky view as a primary selection tool. The ALiX view is constantly updated with data queried from the host database. It offers advanced functionalities allowing to mix local data with VO data. Users can draw areas of interest by hand and bookmark views.  ALiX has no dependency with any specific data source; it can be integrated in any existing portal.
@@ -941,6 +947,12 @@ different themes: Sun-Earth (STORMS: https://stormsweb.irap.omp.eu/, CLIMSO-DB: 
 SAMP (Simple Application Messaging Protocol) is also used to send spectra on the tools developed by OVGSO.
 The goal of the OVGSO is to share common tools for different thematics in astrophysics for a better use of the astrophysical data. This need has revealed to be crucial with the wealth of high-spatial/
 spectral resolution spectra for the past 15 years, with new generation of ground/space-based observatory. Dealing with a large quantity of data leads to optimized tools and a better and common access to the many databases.
+ 
+P Schaaff, Andre andre.schaaff@astro.unistra.fr Chatting with the astronomical data services.
+    ABS: In our everyday life, we use increasingly the voice to interact with assistants for heterogeneous requests (weather, booking, shopping, etc.). We present our experiments to apply the Natural Language Processing to the querying of astronomical data services. It is of course easy to prototype something. But is it realistic to propose it as a new way of interaction in a near future, as an alternative to the traditional forms exposing parameter fields, check boxes, etc.? 
+To answer to this question, it is necessary to answer before to the most fundamental question: is it possible to satisfy professional astronomers needs through this way? 
+We have not started from scratch as we have useful tools and resources (name resolver, authors in Simbad, missions and wavelengths in VizieR, etc.) and the Virtual Observatory (VO) brings us standards like TAP, UCDs, ..., implemented in the CDS services. 
+The interoperability, enabled by the VO, is a mandatory backbone. We explain how it helps us to query our services in Natural Language. And how it will be possible in a further step to query the whole VO through this way. We present our pragmatic approach based on a chatbot interface (involving Machine Learning) to reduce the gap between good and imprecisely/ambiguous queries. Comments (necessarily enthusiastic) are welcome. Collaborations too.
  
 O Sealey, Katrina katrina.sealey@aao.gov.au Bringing together the Australian sky - coordination and interoperability challenges of the All-Sky Virtual Observatory
     ABS: The Australian All-Sky Virtual Observatory (ASVO) consists currently of 5 nodes. There are 2 nodes with optical astronomical data; Data Central (MQ) and Skymapper (ANU). There are 2 nodes with radio data; Murchison Wide Field Array (MWA, Curtin) and CSIRO ASKAP Science Data Archive (CASDA, CSIRO). The last node is the Theoretical Astrophysical Observatory (TAO, Swin). These 5 nodes work together under the unified ASVO. 

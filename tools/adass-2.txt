@@ -1,9 +1,9 @@
-172 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 169 entries
+175 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 172 entries
 9 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 6 entries
-233 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 217 entries
+236 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 220 entries
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
 O Albert, Kinga albert@mps.mpg.de Performance analysis of the SO/PHI software framework for on-board data reduction
@@ -55,7 +55,7 @@ P Fernique, Pierre Pierre.Fernique@astro.unistra.fr Time in Aladin
 O Fitzpatrick, Michael fitz@noao.edu The NOAO Data Lab: Design, Capabilities and Community Development
 O Ford, Eric ebf11@psu.edu Improving Exoplanet Detection through Machine Learning in Wavelength and Time Presenter
 P Gabriel, Carlos carlos.gabriel@sciops.esa.int The COSPAR Capacity Building Initiative: entering a new phase
-X Geers, Vincent vincent.geers@stfc.ac.uk MIRISim: the JWST-MIRI simulator
+P Geers, Vincent vincent.geers@stfc.ac.uk MIRISim: the JWST-MIRI simulator
 P Giardino, Giovanna Giovanna.Giardino@esa.int Preparing for JWST: a detailed simulation of a MOS deep field with NIRSpec
 O Gilda, Sankalp s.gilda@ufl.edu Importance of Feature Selection in ML models
 X Gill, Ranpal rgill@lsst.org 
@@ -82,6 +82,7 @@ O Juric, Mario mjuric@astro.washington.edu The ZTF Alert Stream: Lessons from th
 P Kaleida, Catherine ckaleida@stsci.edu JWST Data Management Subsystem Operations:  Preparing to Receive, Process, and Archive JWST Data
 P Kaplan, Kyle kfkaplan@email.arizona.edu The algorithms behind the HPF and NEID pipeline
 P Karim, Ramsey rkarim@astro.umd.edu Alpha-X: An Alpha Shape-based Hierarchical Clustering Algorithm
+P Kawasaki, Wataru wataru.kawasaki@nao.ac.jp Vissage: viewing polarisation data from ALMA
 O Kent, Brian bkent@nrao.edu 3D Data Visualization in Astrophysics
 O Kepley, Amanda akepley@nrao.edu Auto-multithresh: A General Purpose Automated Masking Algorithm for Clean
 P Kong, Xiao kongx@nao.cas.cn The construction of a new stellar classification template library for the LAMOST 1D Pipeline based on LAMOST DR5
@@ -109,6 +110,7 @@ O Marquez, Maria Jose mariajose.marquez@eumetsat.int Galaxy Cataloguing Expert S
 O Martin, Thomas thomas.martin.1@ulaval.ca Putting more intelligence into the reduction and analysis of SITELLE data.
 O Martinez, Beatriz beatriz.martinez@esa.int Data-driven Space Science at ESA Science Data Centre
 F Mechev, Alexandar apmechev@strw.leidenuniv.nl Building LOFAR As A Service: Processing Petabytes with just a click
+P Mellado, Pablo mellado@iram.es Realtime telescope and data visualization using web technologies
 P Michel, Laurent laurent.michel@astro.unistra.fr ALiX: An advanced search interface for AladinLite
 O Micol, Alberto amicol@eso.org The new science portal and the programmatic and VO interfaces of the ESO science archive
 P Million, Chase chase@millionconcepts.com tbd
@@ -152,6 +154,7 @@ P Rubtsov, Evgenii ev.rubtcov@physics.msu.ru Stellar atmospheric parameters from
 O Rusholme, Benjamin rusholme@caltech.edu The Zwicky Transient Facility Data System
 O Salgado, Jesus Jesus.Salgado@sciops.esa.int Gaia DR2 and the Virtual Observatory: VO in operations new era
 P Sanguillon, Michele Michele.Sanguillon@umontpellier.fr An overview of the OVGSO data centre
+P Schaaff, Andre andre.schaaff@astro.unistra.fr Chatting with the astronomical data services.
 O Sealey, Katrina katrina.sealey@aao.gov.au Bringing together the Australian sky - coordination and interoperability challenges of the All-Sky Virtual Observatory
 O Shawhan, Peter pshawhan@umd.edu BoF: Data analysis challenges for multi-messenger astrophysics
 O Shen, Robert robert.shen@astronomyaustralia.org.au ASVO MWA project: lower technical barrier to access MWA data

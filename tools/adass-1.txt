@@ -91,6 +91,7 @@ mjuric@astro.washington.edu
 ckaleida@stsci.edu
 kfkaplan@email.arizona.edu
 rkarim@astro.umd.edu
+wataru.kawasaki@nao.ac.jp
 bkent@nrao.edu
 akepley@nrao.edu
 kongx@nao.cas.cn
@@ -125,6 +126,7 @@ beatriz.martinez@esa.int
 patrick.masi-phelps@dataiku.com
 tom.mcglynn@nasa.gov
 apmechev@strw.leidenuniv.nl
+mellado@iram.es
 laurent.michel@astro.unistra.fr
 amicol@eso.org
 jmiller@gemini.edu
@@ -174,6 +176,7 @@ rusholme@caltech.edu
 Jesus.Salgado@sciops.esa.int
 Michele.Sanguillon@umontpellier.fr
 renaud.savalle@obspm.fr
+andre.schaaff@astro.unistra.fr
 katrina.sealey@aao.gov.au
 nsharp@nsf.gov
 pshawhan@umd.edu

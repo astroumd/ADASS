@@ -91,6 +91,7 @@ Juric, Mario
 Kaleida, Catherine
 Kaplan, Kyle
 Karim, Ramsey
+Kawasaki, Wataru
 Kent, Brian
 Kepley, Amanda
 Kong, Xiao
@@ -125,6 +126,7 @@ Martinez, Beatriz
 Masi-Phelps, Patrick
 McGlynn, Thomas
 Mechev, Alexandar
+Mellado, Pablo
 Michel, Laurent
 Micol, Alberto
 Miller, Jennifer
@@ -174,6 +176,7 @@ Rusholme, Benjamin
 Salgado, Jesus
 Sanguillon, Michele
 Savalle, Renaud
+Schaaff, Andre
 Sealey, Katrina
 Sharp, Nigel
 Shawhan, Peter
