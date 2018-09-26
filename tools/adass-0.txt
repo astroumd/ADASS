@@ -25,6 +25,7 @@ Brasseur, Clara
 Brown, Matthew
 Buchschacher, Nicolas
 Burnier, Julien
+Busko, Ivo
 Cai, Hongbo
 Cano, Juan Luis
 Cardiel, Nicolás
@@ -59,6 +60,7 @@ Fernique, Pierre
 Fitzpatrick, Michael
 Ford, Eric
 Gabriel, Carlos
+Gaudet, Séverin
 Geers, Vincent
 Giardino, Giovanna
 Gilda, Sankalp
@@ -76,6 +78,7 @@ Gupta, Pramod
 Gwyn, Stephen
 Hague, Peter
 Han, Jun
+Hargis, Jonathan
 Harvey, Adam
 Holman, Matthew
 Ibarra, Aitor
@@ -148,6 +151,7 @@ Nolta, Michael
 Obi, Ikechukwu Anthony
 Ojero-Pascual, Eduardo
 Oloketuyi, Jacob
+O'Mullane, William
 O'Toole, Simon
 Paillassa, Maxime
 Parra, Jose

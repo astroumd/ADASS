@@ -25,6 +25,7 @@ cbrasseur@stsci.edu
 mbrown@keck.hawaii.edu
 nicolas.buchschacher@unige.ch
 julien.burnier@unige.ch
+busko@stsci.edu
 chb@bao.ac.cn
 juanlu001@gmail.com
 cardiel@ucm.es
@@ -59,6 +60,7 @@ Pierre.Fernique@astro.unistra.fr
 fitz@noao.edu
 ebf11@psu.edu
 carlos.gabriel@sciops.esa.int
+severin.gaudet@nrc-cnrc.gc.ca
 vincent.geers@stfc.ac.uk
 Giovanna.Giardino@esa.int
 s.gilda@ufl.edu
@@ -76,6 +78,7 @@ psgupta@uw.edu
 gwyn.cadc@gmail.com
 prh44@cam.ac.uk
 hanjun@nao.cas.cn
+jhargis@stsci.edu
 aharvey1@umbc.edu
 mholman@cfa.harvard.edu
 aitor.ibarra@sciops.esa.int
@@ -148,6 +151,7 @@ nolta@cita.utoronto.ca
 tonykassidy_z@yahoo.com
 eduardo.ojero@esa.int
 jacob.oloketuyi@ynao.ac.cn
+womullan@lsst.org
 simon.otoole@mq.edu.au
 maxime.paillassa@u-bordeaux.fr
 jose.parra@alma.cl
@@ -186,7 +190,7 @@ russ@sron.nl
 yuji.shirasaki@nao.ac.jp
 keith@knaveandvarlet.com.au
 isihlangu@ska.ac.za
-arfon@stsci.edu
+hmalik@stsci.edu
 jeffrey.smith@nasa.gov
 gsnyder@stsci.edu
 songxy@ihep.ac.cn
