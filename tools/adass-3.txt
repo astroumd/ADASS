@@ -1,9 +1,9 @@
-175 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 172 entries
+176 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 173 entries
 9 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 6 entries
-236 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 220 entries
+237 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 221 entries
  
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
     ABS: Detecting pulsars in time-domain radio astronomy using Fourier transform based techniques is a convenient and computationally efficient way to extract the faint single pulses from the noise in which they sit. However this technique, called periodicity searching, has some pitfalls. One of these is that the power contained in pulsar signal is spread into multiple harmonics in calculated power spectra. The incoherent harmonic sum algorithm is one way to rectify this. The algorithm sums the power that is spread across multiple harmonics back into a single fourier bin. This increases signal-to-noise ratio of detected pulsars and allows us to detect weaker pulsars as a result. Harmonic summing also forms part of search techniques used for detecting accelerated pulsars where a two-dimensional harmonic sum is required. Or in more complex cases such as for pulsars with elliptical orbits where a three-dimensional harmonic sum might be necessary. However porting the harmonic sum to many-core architectures like GPUs is not straightforward. The main problem that must be overcome is the very unfavourable memory access pattern, which gets worse as the dimensionality of the harmonic sum increases. We present a set of algorithms for calculating the harmonic sum that are more suited to many-core architectures such as GPUs. We present an evaluation of the sensitivity of these different approaches, the performance and discuss GPU portability.
@@ -835,6 +835,9 @@ P O'Toole, Simon simon.otoole@mq.edu.au data central for Astronomers
     ABS: Data Central is the AAO's flagship virtual observatory service, providing a central repository for AAT and UK Schmidt observations, survey-team derived data products and documentation. The system brings together catalogues, imaging, spectra and data cubes from dozens of surveys, providing an intuitive interface to query, explore and cross-match data sets of national and international significance. We briefly introduce the current services data central offers to help astronomers familiarize themselves with the system, including: the cutout (access imaging data from some of the world's leading facilities to quickly explore sources of interest and produce publication quality images), query (extends the existing functionality of the TAP server and now makes the catalogues hosted at data central queryable via the web interface), schema (browsing the survey-team generated metadata), documentation and cloud services. Finally we'll present the timeline for future datasets and milestones for Data Central.
   ABS2 O'Toole, Simon How do you get the most out of your teams?
     ABS: How do you get the most out of your teams?
+ 
+P Paillassa, Maxime maxime.paillassa@u-bordeaux.fr Identifying contaminants in astronomical images using convolutional neural networks
+    ABS: In this work, we propose to use convolutional neural networks to detect contaminants in astronomical images. Each contaminant is treated in a one vs all fashion. Once trained, our networks are able to detect various contaminants such as cosmic rays, hot and bad pixels defaults, saturated pixels, diffraction spikes, nebulosities, persistence effects, satellite trails, residual fringe patterns, or tracking errors and defocus in images, encompassing a broad range of ambient conditions, PSF sampling, detectors, optics and stellar density. The convolutional neural network is performing semantic segmentation: it can output a probability map, assigning to each pixel its probability to belong to the contaminant or the background class, except for tracking errors where another convolutional neural network can assign to a whole focal plane the probability that it is affected by tracking error. Training and testing data have been gathered from real data originating from various modern CCD and near-IR cameras or simulated.
  
 X Parra, Jose jose.parra@alma.cl 
     ABS: 
