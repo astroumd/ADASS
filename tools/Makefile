@@ -58,7 +58,16 @@ proceedings:
 
 date:
 	@echo RegDate
-	@./counter.py 0 |sort | uniq -c | sort -k 2
+	@./counter.py 0 | ./date.awk  | grep -v / | sort | uniq -c | sort -n -k 2
+
+
+yapp1=registration.ps/vps
+yapp2=registration.gif/gif
+
+date1:
+	@echo RegDate
+	@./counter.py 0 | ./date.awk   | grep -v / | awk '{print $1}' | tabhist - 1 120 360 bins='360-120' gauss=f residual=f cumul=t maxcount=400 xlab="days in 2018" ylab="ADASS registrations" headline="`date`" yapp=$(yapp1)
+
 
 diet:
 	@echo Diet
