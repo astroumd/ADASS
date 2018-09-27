@@ -1,9 +1,9 @@
-176 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 173 entries
+178 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 175 entries
 9 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 6 entries
-241 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 225 entries
+243 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 227 entries
  
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
     ABS: Detecting pulsars in time-domain radio astronomy using Fourier transform based techniques is a convenient and computationally efficient way to extract the faint single pulses from the noise in which they sit. However this technique, called periodicity searching, has some pitfalls. One of these is that the power contained in pulsar signal is spread into multiple harmonics in calculated power spectra. The incoherent harmonic sum algorithm is one way to rectify this. The algorithm sums the power that is spread across multiple harmonics back into a single fourier bin. This increases signal-to-noise ratio of detected pulsars and allows us to detect weaker pulsars as a result. Harmonic summing also forms part of search techniques used for detecting accelerated pulsars where a two-dimensional harmonic sum is required. Or in more complex cases such as for pulsars with elliptical orbits where a three-dimensional harmonic sum might be necessary. However porting the harmonic sum to many-core architectures like GPUs is not straightforward. The main problem that must be overcome is the very unfavourable memory access pattern, which gets worse as the dimensionality of the harmonic sum increases. We present a set of algorithms for calculating the harmonic sum that are more suited to many-core architectures such as GPUs. We present an evaluation of the sensitivity of these different approaches, the performance and discuss GPU portability.
@@ -692,6 +692,9 @@ P Lutz, Katharina katharina.lutz@astro.unistra.fr Getting ready for the fourth A
 P Ma, Xiang max@ihep.ac.cn Insight-HXMT Timing Analysis of New Black Hole Candidate MAXI J1820+070
     ABS: We present the Insight-HXMT timing analysis of the new black hole candidate MAXI J1820+070 discovered in March 2018.We find that the source  exhibits state transitions from LHS to HIMS and eventually to SIMS.  Low frequency quasi-periodic oscillations(QPO) is found in the hard state and intermediate states and its centroid frequency increase with time while Q and RMS do not show evolution. With the large effective area of Insight-HXMT at high energy band, we are able to present the energy dependence of the QPO amplitude and centroid frequency up to 200 keV which supplies more constraints on the region of QPO.
  
+P Major, Brian major.brian@gmail.com 
+    ABS: 
+ 
 O Marquez, Maria Jose mariajose.marquez@eumetsat.int Galaxy Cataloguing Expert System (GCES): Use Cases
     ABS: Title: Galaxy Cataloguing Expert System (GCES): Use Cases
 Lead author: María José Márquez
@@ -950,6 +953,9 @@ different themes: Sun-Earth (STORMS: https://stormsweb.irap.omp.eu/, CLIMSO-DB: 
 SAMP (Simple Application Messaging Protocol) is also used to send spectra on the tools developed by OVGSO.
 The goal of the OVGSO is to share common tools for different thematics in astrophysics for a better use of the astrophysical data. This need has revealed to be crucial with the wealth of high-spatial/
 spectral resolution spectra for the past 15 years, with new generation of ground/space-based observatory. Dealing with a large quantity of data leads to optimized tools and a better and common access to the many databases.
+ 
+P Santos, Rafael rafael.santos@inpe.br A hybrid neural network approach to estimate galaxy redshifts from multi-band photometric survey.
+    ABS: TBD
  
 P Schaaff, Andre andre.schaaff@astro.unistra.fr Chatting with the astronomical data services.
     ABS: In our everyday life, we use increasingly the voice to interact with assistants for heterogeneous requests (weather, booking, shopping, etc.). We present our experiments to apply the Natural Language Processing to the querying of astronomical data services. It is of course easy to prototype something. But is it realistic to propose it as a new way of interaction in a near future, as an alternative to the traditional forms exposing parameter fields, check boxes, etc.? 

@@ -1,9 +1,9 @@
-176 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 173 entries
+178 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 175 entries
 9 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 6 entries
-241 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 225 entries
+243 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 227 entries
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
 O Albert, Kinga albert@mps.mpg.de Performance analysis of the SO/PHI software framework for on-board data reduction
@@ -106,6 +106,7 @@ P Louys, Mireille mireille.louys@unistra.fr The IVOA provenance Data model
 P Lundquist, Michael mlundquist@email.arizona.edu Searching for Optical Counterparts to Gravitational Wave Events with the Catalina Sky Survey
 P Lutz, Katharina katharina.lutz@astro.unistra.fr Getting ready for the fourth Asterics DADI virtual observatory school
 P Ma, Xiang max@ihep.ac.cn Insight-HXMT Timing Analysis of New Black Hole Candidate MAXI J1820+070
+P Major, Brian major.brian@gmail.com 
 O Marquez, Maria Jose mariajose.marquez@eumetsat.int Galaxy Cataloguing Expert System (GCES): Use Cases
 O Martin, Thomas thomas.martin.1@ulaval.ca Putting more intelligence into the reduction and analysis of SITELLE data.
 O Martinez, Beatriz beatriz.martinez@esa.int Data-driven Space Science at ESA Science Data Centre
@@ -155,6 +156,7 @@ P Rubtsov, Evgenii ev.rubtcov@physics.msu.ru Stellar atmospheric parameters from
 O Rusholme, Benjamin rusholme@caltech.edu The Zwicky Transient Facility Data System
 O Salgado, Jesus Jesus.Salgado@sciops.esa.int Gaia DR2 and the Virtual Observatory: VO in operations new era
 P Sanguillon, Michele Michele.Sanguillon@umontpellier.fr An overview of the OVGSO data centre
+P Santos, Rafael rafael.santos@inpe.br A hybrid neural network approach to estimate galaxy redshifts from multi-band photometric survey.
 P Schaaff, Andre andre.schaaff@astro.unistra.fr Chatting with the astronomical data services.
 O Sealey, Katrina katrina.sealey@aao.gov.au Bringing together the Australian sky - coordination and interoperability challenges of the All-Sky Virtual Observatory
 O Shawhan, Peter pshawhan@umd.edu BoF: Data analysis challenges for multi-messenger astrophysics

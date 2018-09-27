@@ -123,6 +123,7 @@ Lundquist, Michael
 Lutz, Katharina
 Ma, Xiang
 Mader, Jeff
+Major, Brian
 Marquez, Maria Jose
 Martin, Thomas
 Martinez, Beatriz
@@ -180,6 +181,7 @@ Rubtsov, Evgenii
 Rusholme, Benjamin
 Salgado, Jesus
 Sanguillon, Michele
+Santos, Rafael
 Savalle, Renaud
 Schaaff, Andre
 Sealey, Katrina

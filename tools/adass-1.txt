@@ -123,6 +123,7 @@ mlundquist@email.arizona.edu
 katharina.lutz@astro.unistra.fr
 max@ihep.ac.cn
 jeff.mader@gmail.com
+major.brian@gmail.com
 mariajose.marquez@eumetsat.int
 thomas.martin.1@ulaval.ca
 beatriz.martinez@esa.int
@@ -180,6 +181,7 @@ ev.rubtcov@physics.msu.ru
 rusholme@caltech.edu
 Jesus.Salgado@sciops.esa.int
 Michele.Sanguillon@umontpellier.fr
+rafael.santos@inpe.br
 renaud.savalle@obspm.fr
 andre.schaaff@astro.unistra.fr
 katrina.sealey@aao.gov.au
