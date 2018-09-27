@@ -1,3 +1,4 @@
+Accomazzi, Alberto
 Adámek, Karel
 Afrin Badhan, Mahmuda
 Albert, Kinga
@@ -29,6 +30,7 @@ Busko, Ivo
 Cai, Hongbo
 Cano, Juan Luis
 Cardiel, Nicolás
+Ceballos, M.Teresa
 Chen, Wei
 Chilingarian, Igor
 Comrie, Angus
@@ -193,6 +195,7 @@ Shipman, Russell
 Shirasaki, Yuji
 Shortridge, Keith
 Sihlangu, Isaac
+Smale, Alan
 Smith, Arfon
 Smith, Jeffrey
 Snyder, Gregory

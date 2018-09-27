@@ -1,3 +1,4 @@
+aaccomazzi@gmail.com
 karel.adamek@oerc.ox.ac.uk
 afrin20m@astro.umd.edu
 albert@mps.mpg.de
@@ -29,6 +30,7 @@ busko@stsci.edu
 chb@bao.ac.cn
 juanlu001@gmail.com
 cardiel@ucm.es
+ceballos@ifca.unican.es
 chenwei@ihep.ac.cn
 igor.chilingarian@cfa.harvard.edu
 accomrie@gmail.com
@@ -193,7 +195,8 @@ russ@sron.nl
 yuji.shirasaki@nao.ac.jp
 keith@knaveandvarlet.com.au
 isihlangu@ska.ac.za
-hmalik@stsci.edu
+alan.smale@nasa.gov
+arfon@stsci.edu
 jeffrey.smith@nasa.gov
 gsnyder@stsci.edu
 songxy@ihep.ac.cn
