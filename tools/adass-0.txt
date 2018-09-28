@@ -8,8 +8,10 @@ Allen, Alice
 Allen, Mark
 Alonso, Anna
 Alshehri, Marwan
+Annyas, Jasper
 Ansdell, Megan
 Araya, Mauricio
+Arnaud, Keith
 Arviset, Christophe
 Asercion, Joseph
 Atemkeng Teufack, Marcellin
@@ -86,6 +88,7 @@ Hague, Peter
 Han, Jun
 Hargis, Jonathan
 Harvey, Adam
+Hernandez, Fabio
 Holman, Matthew
 Ibarra, Aitor
 Ibsen, Jorge
@@ -217,6 +220,7 @@ Swade, Daryl
 Takata, Tadafumi
 Tao, Yihan
 Tavagnacco, Daniele
+Taylor, Mark
 Teuben, Peter
 Thomas, Brian
 Timmes, Frank
@@ -227,6 +231,7 @@ Vermaas, Nico
 Vitello, Fabio
 Wang, Rui
 Warner, Elizabeth
+Wicenec, Andreas
 Winter, Eric
 Wise, Michael
 Woods, Paul

@@ -8,8 +8,10 @@ aallen@ascl.net
 mark.allen@astro.unistra.fr
 anna.alonso@dataiku.com
 malshehr@terpmail.umd.edu
+annyas@astron.nl
 ansdell@berkeley.edu
 mauricio.araya@usm.cl
+keith.a.arnaud@nasa.gov
 Christophe.Arviset@esa.int
 joseph.a.asercion@nasa.gov
 m.atemkeng@gmail.com
@@ -86,6 +88,7 @@ prh44@cam.ac.uk
 hanjun@nao.cas.cn
 jhargis@stsci.edu
 aharvey1@umbc.edu
+fabio@in2p3.fr
 mholman@cfa.harvard.edu
 aitor.ibarra@sciops.esa.int
 jorge.ibsen@alma.cl
@@ -217,6 +220,7 @@ swade@stsci.edu
 tadafumi.takata@nao.ac.jp
 y.tao@nao.cas.cn
 daniele.tavagnacco@inaf.it
+m.b.taylor@bristol.ac.uk
 teuben@astro.umd.edu
 brian.a.thomas@nasa.gov
 fxt44@mac.com
@@ -227,6 +231,7 @@ vermaas@astron.nl
 fabio.vitello@inaf.it
 wangrui@nao.cas.cn
 warnerem@astro.umd.edu
+andreas.wicenec@uwa.edu.au
 ewinter@stsci.edu
 wise@astron.nl
 paul.woods@nature.com

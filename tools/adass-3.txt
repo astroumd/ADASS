@@ -1,9 +1,9 @@
-187 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 184 entries
+189 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 185 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-259 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 243 entries
+265 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 248 entries
  
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
     ABS: Detecting pulsars in time-domain radio astronomy using Fourier transform based techniques is a convenient and computationally efficient way to extract the faint single pulses from the noise in which they sit. However this technique, called periodicity searching, has some pitfalls. One of these is that the power contained in pulsar signal is spread into multiple harmonics in calculated power spectra. The incoherent harmonic sum algorithm is one way to rectify this. The algorithm sums the power that is spread across multiple harmonics back into a single fourier bin. This increases signal-to-noise ratio of detected pulsars and allows us to detect weaker pulsars as a result. Harmonic summing also forms part of search techniques used for detecting accelerated pulsars where a two-dimensional harmonic sum is required. Or in more complex cases such as for pulsars with elliptical orbits where a three-dimensional harmonic sum might be necessary. However porting the harmonic sum to many-core architectures like GPUs is not straightforward. The main problem that must be overcome is the very unfavourable memory access pattern, which gets worse as the dimensionality of the harmonic sum increases. We present a set of algorithms for calculating the harmonic sum that are more suited to many-core architectures such as GPUs. We present an evaluation of the sensitivity of these different approaches, the performance and discuss GPU portability.
@@ -201,35 +201,8 @@ Most astronomy image files are currently packaged using the FITS standard, howev
 
 The schema is similar to that of HDFITS, but extensions have been added to support a number of features required for efficient visualization of large data sets. We will discuss these extensions and provide details on performance improvements with commonly used access patterns. We will also describe real-world performance when used with our prototype visualization system.
  
-O Coulais, Alain alain.coulais@obspm.fr GDL - GNU Data Language 1.0
-    ABS: On behalf of the GDL team, we will be glad to use the occasion of ADASS 
-2018 to announce the 1.0 release of GDL - GNU Data Language. GDL is the 
-free and open-source drop-in replacement for IDL - Interactive Data 
-Language. The 1.0 release, coming out 15 years after Marc Schellens has 
-first made GDL public, marks several milestones attesting to the 
-maturity of the project. Among these - as compared with versions 
-presented at the previous editions of ADASS - there are updates in the 
-plotting functionalities, major advancements in the Windows version of 
-GDL, rewritten support for IDL save files, multi-threaded performance 
-improvements and additions targeting compatibility with newer versions 
-of IDL (including new data types).
-
-GDL 1.0 is also the first major release following the move of GDL 
-development from SourceForge (thank you for the last 15 years of 
-hospitality!) to Github. This relocation was an occasion for a major 
-effort targeting developer-workflow-oriented automation which helps us 
-reduce entry barriers for new contributions, ensure increasing code 
-coverage with automatic tests, facilitate maintenance and user support 
-as well as ensure result reproducibility and traceability. Several of 
-the lessons learn, insights gained and remaining challenges related 
-with the development of the continuous integration process for the 
-project will be reported.
-
-Finally, the presentation will summarize current availability of 
-packaged versions of GDL, compatibility with popular IDL-written 
-astronomy-related software, potential directions for the upcoming 
-releases, and the key areas where GDL could benefit from further user 
-feedback and new contributions.
+P Coulais, Alain alain.coulais@obspm.fr 
+    ABS: 
  
 O Crawford, Steven scrawford@stsci.edu Triumphs and Challenges of the Astropy Project: Open Development of a Python Library for Astronomy
     ABS: The Astropy Project is a community composed of individuals and institutes that are interested in building an open source framework in Python for astronomy.  Using collaborative development tools and following an open development philosophy, the project provides an ecosystem of inter-operable packages.   We describe the project infrastructure designed to facilitate collaboration on the development of open source software and provide an update of the most recent releases.   The project has had a number of successes and challenges while being one of the largest collaboratively developed software package in astronomy.  We discuss the aspects of the project that contributed to its success while also highlighting some of the challenges to the project and future developments.
@@ -1133,6 +1106,9 @@ Recently the VisIVO development has been exploited for the experimentation of cu
  
 P Wang, Rui wangrui@nao.cas.cn Analysis of Stellar Spectra from LAMOST DR5 with Generative Spectrum Networks
     ABS: We derived the fundamental stellar atmospheric parameters (Teff, log g, [Fe/H] and [α/Fe]) of low-resolution spectroscopy from LAMOST DR5 with Generative Spectrum Networks(GSN), which follows the same scheme as a normal ANN with stellar parameters as the inputs and spectrum as outputs. After training on PHOENIX theoretical spectra, the GSN model performed effectively on producing synthetic spectra. Combining with Bayes framework,  application in analysis of LAMOST observed spectra become efficient on the Spark platform. Also, we examined and validated the results by comparing with reference parameters of high-resolution surveys and asteroseismic results. Our method is credible with a precision of ~130K for Teff, ~0.15 dex for log g, ~0.13 dex for [Fe/H] and ~0.10 dex for [α/Fe].
+ 
+P Wicenec, Andreas andreas.wicenec@uwa.edu.au The Murchison Widefield Array's VO compliant archive
+    ABS: The Murchison Widefield Array is a SKA pre-cursor operated on the site of the planned SKA1-LOW. It  has been operational since more than 4 years and during that time it has collected around 25 PB of data. During 2018 we have been working on a separately funded project to implement a completely new access system to the MWA archive, which also includes an on-the-fly calibration pipeline and is based on IVOA standards. As part of the implementation we have also implemented a new VOSpace server system in Python, which has been released as an open source contribution to the community. In this paper we are presenting an overview of the new MWA archive system, including the web interface, authentication/authorisation, data processing, staging and delivery.
  
 X Wise, Michael wise@astron.nl Establishing the SKA Regional Centre Network: Mesh Management and Culture Change
     ABS: The Square Kilometre Array (SKA) is an ambitious project to construct the world’s most powerful radio telescope and enable transformational scientific discoveries across a wide range of topics in physics and astronomy. With two telescopes sites located in the deserts of South African and West Australia, an operational headquarters based in the UK, and 12 different member countries contributing to the design and construction, the SKA is truly a global endeavor. Once operational, the SKA is expected to produce an archive of science data products with an impressive growth rate on the order of 700 petabytes per year. Hosting the resulting SKA archive and subsequent science extraction by users will require a global research infrastructure providing additional capacity in networking, storage, computing, and support. 

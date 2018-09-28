@@ -1,9 +1,9 @@
-187 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 184 entries
+189 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 185 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-259 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 243 entries
+265 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 248 entries
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
 O Albert, Kinga albert@mps.mpg.de Performance analysis of the SO/PHI software framework for on-board data reduction
@@ -39,7 +39,7 @@ P Ceballos, M.Teresa ceballos@ifca.unican.es Jitter and readout sampling frequen
 X Chen, Wei chenwei@ihep.ac.cn An automatic data collection and analysis software for GRB studies and its result
 O Chilingarian, Igor igor.chilingarian@cfa.harvard.edu Binospec@MMT: a database-driven model of operations, from planning of observations to data reduction and archiving
 O Comrie, Angus accomrie@gmail.com An HDF5 Schema for SKA Scale Image Cube Visualization
-O Coulais, Alain alain.coulais@obspm.fr GDL - GNU Data Language 1.0
+P Coulais, Alain alain.coulais@obspm.fr 
 O Crawford, Steven scrawford@stsci.edu Triumphs and Challenges of the Astropy Project: Open Development of a Python Library for Astronomy
 O Cupani, Guido guido.cupani@inaf.it Astrocook: your spectral analysis recipe book, now with a GUI
 O DAI, CONG daicong2014@163.com A method to detect radio frequency interference based on convolutional neural networks
@@ -185,6 +185,7 @@ O Tollerud, Erik etollerud@stsci.edu BoF: Open Source/Development Software Proje
 O Tomasi, Maurizio maurizio.tomasi@unimi.it Towards new solutions for scientific computing: the case of Julia
 O Vitello, Fabio fabio.vitello@inaf.it VisIVO Visual Analytics Tool an EOSC Science Demonstrator for data discovery
 P Wang, Rui wangrui@nao.cas.cn Analysis of Stellar Spectra from LAMOST DR5 with Generative Spectrum Networks
+P Wicenec, Andreas andreas.wicenec@uwa.edu.au The Murchison Widefield Array's VO compliant archive
 X Wise, Michael wise@astron.nl Establishing the SKA Regional Centre Network: Mesh Management and Culture Change
 P Woods, Paul paul.woods@nature.com 
 P Xiao, Jian xiaojian@tju.edu.cn Research on Automatic Recognition of Radio Frequency Interference Based on Deep Learning
