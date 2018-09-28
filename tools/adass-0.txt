@@ -13,10 +13,14 @@ Araya, Mauricio
 Arviset, Christophe
 Asercion, Joseph
 Atemkeng Teufack, Marcellin
+Baines, Deborah
+Ballester, Pascal
 Baumann, Matthieu
+Becciani, Ugo
 Berriman, Bruce
 Blanco-Cuaresma, Sergi
 Boch, Thomas
+Boisson, Catherine
 Bolton, Adam
 Bonnarel, François
 Borne, Kirk
@@ -118,6 +122,7 @@ Lim, Pey Lian
 Lin, Ganghua
 Liska, Dave
 Lo, Kenny
+Lo, Tak
 Loose, Marcel
 Lorente, Nuria
 Louys, Mireille
@@ -158,6 +163,7 @@ Oloketuyi, Jacob
 O'Mullane, William
 O'Toole, Simon
 Paillassa, Maxime
+Pallot, Dave
 Parra, Jose
 Pascual, Sergio
 Paxson, Charles
@@ -182,15 +188,18 @@ Romelli, Erik
 Rots, Arnold
 Rubtsov, Evgenii
 Rusholme, Benjamin
+Ryan, P. Wesley
 Salgado, Jesus
 Sanguillon, Michele
 Santos, Rafael
 Savalle, Renaud
 Schaaff, Andre
 Sealey, Katrina
+Servillat, Mathieu
 Sharp, Nigel
 Shawhan, Peter
 Shen, Robert
+Shin, Min-Su
 Shipman, Russell
 Shirasaki, Yuji
 Shortridge, Keith
@@ -203,7 +212,9 @@ Song, Xinying
 Spolaor, Max
 Stevens, Abigail
 Stoehr, Felix
+Streicher, Ole
 Swade, Daryl
+Takata, Tadafumi
 Tao, Yihan
 Tavagnacco, Daniele
 Teuben, Peter
@@ -218,6 +229,7 @@ Wang, Rui
 Warner, Elizabeth
 Winter, Eric
 Wise, Michael
+Woods, Paul
 Wu, Xiuqin
 Wu, Zhenyu
 Xiao, Jian

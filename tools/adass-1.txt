@@ -13,10 +13,14 @@ mauricio.araya@usm.cl
 Christophe.Arviset@esa.int
 joseph.a.asercion@nasa.gov
 m.atemkeng@gmail.com
+dbaines@sciops.esa.int
+pballest@eso.org
 matthieu.baumann@astro.unistra.fr
+ugo.becciani@inaf.it
 gbb@ipac.caltech.edu
 sblancocuaresma@cfa.harvard.edu
 thomas.boch@astro.unistra.fr
+catherine.boisson@obspm.fr
 bolton@noao.edu
 francois.bonnarel@astro.unistra.fr
 borne_kirk@bah.com
@@ -118,6 +122,7 @@ lim@stsci.edu
 lgh@bao.ac.cn
 dliska@stsci.edu
 kennylo@slac.stanford.edu
+tlo@ipac.caltech.edu
 loose@astron.nl
 Nuria.Lorente@aao.gov.au
 mireille.louys@unistra.fr
@@ -158,6 +163,7 @@ jacob.oloketuyi@ynao.ac.cn
 womullan@lsst.org
 simon.otoole@mq.edu.au
 maxime.paillassa@u-bordeaux.fr
+dave.pallot@uwa.edu.au
 jose.parra@alma.cl
 sergiopr@fis.ucm.es
 cpaxson@cfa.harvard.edu
@@ -182,15 +188,18 @@ erik.romelli@inaf.it
 arots@cfa.harvard.edu
 ev.rubtcov@physics.msu.ru
 rusholme@caltech.edu
+wes@ascl.net
 Jesus.Salgado@sciops.esa.int
 Michele.Sanguillon@umontpellier.fr
 rafael.santos@inpe.br
 renaud.savalle@obspm.fr
 andre.schaaff@astro.unistra.fr
 katrina.sealey@aao.gov.au
+mathieu.servillat@obspm.fr
 nsharp@nsf.gov
 pshawhan@umd.edu
 robert.shen@astronomyaustralia.org.au
+msshin@kasi.re.kr
 russ@sron.nl
 yuji.shirasaki@nao.ac.jp
 keith@knaveandvarlet.com.au
@@ -203,7 +212,9 @@ songxy@ihep.ac.cn
 max.spolaor@tmctechnologies.com
 abigailstev@gmail.com
 felix.stoehr@gmx.de
+ole@aip.de
 swade@stsci.edu
+tadafumi.takata@nao.ac.jp
 y.tao@nao.cas.cn
 daniele.tavagnacco@inaf.it
 teuben@astro.umd.edu
@@ -218,6 +229,7 @@ wangrui@nao.cas.cn
 warnerem@astro.umd.edu
 ewinter@stsci.edu
 wise@astron.nl
+paul.woods@nature.com
 xiuqin@ipac.caltech.edu
 zywu@nao.cas.cn
 xiaojian@tju.edu.cn

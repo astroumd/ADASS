@@ -1,9 +1,9 @@
-179 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 176 entries
+187 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 184 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-247 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 231 entries
+259 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 243 entries
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
 O Albert, Kinga albert@mps.mpg.de Performance analysis of the SO/PHI software framework for on-board data reduction
@@ -17,9 +17,12 @@ P Araya, Mauricio mauricio.araya@usm.cl Cherenkov Shower Detection Combining Pro
 X Arviset, Christophe Christophe.Arviset@esa.int ESA Science Archives and ESASky
 O Asercion, Joseph joseph.a.asercion@nasa.gov Utilizing Conda for Fermi Data Analysis Software Releases
 P Atemkeng Teufack, Marcellin m.atemkeng@gmail.com Baseline-dependent dimensional reduction techniques for radio interferometric big data compression
+P Baines, Deborah dbaines@sciops.esa.int DEAVI: Dynamic Evolution Added Value Interface
 P Baumann, Matthieu matthieu.baumann@astro.unistra.fr New Python developments to access CDS services
+P Becciani, Ugo ugo.becciani@inaf.it VisIVO Visual Analytics Tool an EOSC Science Demonstrator for data discovery
 O Berriman, Bruce gbb@ipac.caltech.edu Breathing New Life Into An Old Pipeline: Precision Radial Velocity Spectra of TESS Exoplanet Candidates
 P Boch, Thomas thomas.boch@astro.unistra.fr Creating and managing very large HiPS: the PanSTARRS case
+P Boisson, Catherine catherine.boisson@obspm.fr Multi-instrument and reproducible gamma-ray analysis
 O Bolton, Adam bolton@noao.edu Towards a National Center for Optical and Infrared Astronomy: Opportunities and Challenges in Science, Software, and Data
 O Bonnarel, François francois.bonnarel@astro.unistra.fr ProvTAP: A TAP service for providing IVOA provenance metadata
 X Borne, Kirk borne_kirk@bah.com Massive Data Exploration in Astronomy: What Does Cognitive Have To Do With It?
@@ -117,7 +120,7 @@ O Micol, Alberto amicol@eso.org The new science portal and the programmatic and 
 P Million, Chase chase@millionconcepts.com tbd
 P Mink, Jessica jmink@cfa.harvard.edu Finding Your Place in the Cosmos with WCSTools
   ABS2 Mink, Jessica Data Formats BoF
-X Molinaro, Marco marco.molinaro@inaf.it 
+P Molinaro, Marco marco.molinaro@inaf.it # Starting up a Data Model for Exoplanetary Data
 O Momcheva, Ivelina imomcheva@stsci.edu Hubble in the Cloud: A Prototype of a Science Platform at STScI
   ABS2 Momcheva, Ivelina 
 O Morii, Mikio morii@ism.ac.jp Image reconstruction method for an X-ray telescope with an angular resolution booster
@@ -154,13 +157,16 @@ O Romelli, Erik erik.romelli@inaf.it Euclidizing external tools: an example from
 X Rots, Arnold arots@cfa.harvard.edu Data Citation
 P Rubtsov, Evgenii ev.rubtcov@physics.msu.ru Stellar atmospheric parameters from full spectrum fitting of intermediate and high-resolution spectra against PHOENIX/BT-Settl synthetic stellar atmospheres
 O Rusholme, Benjamin rusholme@caltech.edu The Zwicky Transient Facility Data System
+P Ryan, P. Wesley wes@ascl.net Schroedinger’s code: Source code availability and transparency in astrophysics
 O Salgado, Jesus Jesus.Salgado@sciops.esa.int Gaia DR2 and the Virtual Observatory: VO in operations new era
 P Sanguillon, Michele Michele.Sanguillon@umontpellier.fr An overview of the OVGSO data centre
 P Santos, Rafael rafael.santos@inpe.br A hybrid neural network approach to estimate galaxy redshifts from multi-band photometric survey.
 P Schaaff, Andre andre.schaaff@astro.unistra.fr Chatting with the astronomical data services.
 O Sealey, Katrina katrina.sealey@aao.gov.au Bringing together the Australian sky - coordination and interoperability challenges of the All-Sky Virtual Observatory
+P Servillat, Mathieu mathieu.servillat@obspm.fr The IVOA Provenance Data Model
 O Shawhan, Peter pshawhan@umd.edu BoF: Data analysis challenges for multi-messenger astrophysics
 O Shen, Robert robert.shen@astronomyaustralia.org.au ASVO MWA project: lower technical barrier to access MWA data
+P Shin, Min-Su msshin@kasi.re.kr Applications of the in-memory database Redis in processing transient event alerts
 P Shipman, Russell russ@sron.nl Pipeline Processing of Stratospheric Terahertz Observatory (STO-2) Galactic Plane Survey
 P Shirasaki, Yuji yuji.shirasaki@nao.ac.jp VO service in Japan : Registry service based on Apache Solr and SIA v2 service for Japanese Facilities
 P Sihlangu, Isaac isihlangu@ska.ac.za MeerKAT Radio Frequency Interefence characterization using Machine Learning
@@ -169,6 +175,7 @@ O Snyder, Gregory gsnyder@stsci.edu Mock Datasets and Galaxy Merger Statistics f
 X Song, Xinying songxy@ihep.ac.cn Development on Data Analysis Software on GECAM
 O Stevens, Abigail abigailstev@gmail.com Stingray: Open-source spectral-timing software
 X Stoehr, Felix felix.stoehr@gmx.de Astronomical archives: Serving up the Universe
+P Streicher, Ole ole@aip.de DOI in Astronomy
 O Swade, Daryl swade@stsci.edu The TESS Science Data Archive
 O Tao, Yihan y.tao@nao.cas.cn Spectral Classification of Galaxies using Deep Neural Networks and Self-taught Learning
 O Tavagnacco, Daniele daniele.tavagnacco@inaf.it Performance-related aspects in the Big Data Astronomy Era: architects in software optimization
@@ -179,6 +186,7 @@ O Tomasi, Maurizio maurizio.tomasi@unimi.it Towards new solutions for scientific
 O Vitello, Fabio fabio.vitello@inaf.it VisIVO Visual Analytics Tool an EOSC Science Demonstrator for data discovery
 P Wang, Rui wangrui@nao.cas.cn Analysis of Stellar Spectra from LAMOST DR5 with Generative Spectrum Networks
 X Wise, Michael wise@astron.nl Establishing the SKA Regional Centre Network: Mesh Management and Culture Change
+P Woods, Paul paul.woods@nature.com 
 P Xiao, Jian xiaojian@tju.edu.cn Research on Automatic Recognition of Radio Frequency Interference Based on Deep Learning
 P Xu, Yang yxu@nao.cas.cn An algorithm of selection of meteor candidates in GWAC system
 P Yunfei, Xu xuyf@nao.cas.cn 
