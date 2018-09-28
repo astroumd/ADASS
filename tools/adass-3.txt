@@ -1,9 +1,9 @@
-189 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 185 entries
+191 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 187 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-265 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 248 entries
+268 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 251 entries
  
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
     ABS: Detecting pulsars in time-domain radio astronomy using Fourier transform based techniques is a convenient and computationally efficient way to extract the faint single pulses from the noise in which they sit. However this technique, called periodicity searching, has some pitfalls. One of these is that the power contained in pulsar signal is spread into multiple harmonics in calculated power spectra. The incoherent harmonic sum algorithm is one way to rectify this. The algorithm sums the power that is spread across multiple harmonics back into a single fourier bin. This increases signal-to-noise ratio of detected pulsars and allows us to detect weaker pulsars as a result. Harmonic summing also forms part of search techniques used for detecting accelerated pulsars where a two-dimensional harmonic sum is required. Or in more complex cases such as for pulsars with elliptical orbits where a three-dimensional harmonic sum might be necessary. However porting the harmonic sum to many-core architectures like GPUs is not straightforward. The main problem that must be overcome is the very unfavourable memory access pattern, which gets worse as the dimensionality of the harmonic sum increases. We present a set of algorithms for calculating the harmonic sum that are more suited to many-core architectures such as GPUs. We present an evaluation of the sensitivity of these different approaches, the performance and discuss GPU portability.
@@ -201,8 +201,35 @@ Most astronomy image files are currently packaged using the FITS standard, howev
 
 The schema is similar to that of HDFITS, but extensions have been added to support a number of features required for efficient visualization of large data sets. We will discuss these extensions and provide details on performance improvements with commonly used access patterns. We will also describe real-world performance when used with our prototype visualization system.
  
-P Coulais, Alain alain.coulais@obspm.fr 
-    ABS: 
+O Coulais, Alain alain.coulais@obspm.fr GDL - GNU Data Language 1.0
+    ABS: On behalf of the GDL team, we will be glad to use the occasion of ADASS 
+2018 to announce the 1.0 release of GDL - GNU Data Language. GDL is the 
+free and open-source drop-in replacement for IDL - Interactive Data 
+Language. The 1.0 release, coming out 15 years after Marc Schellens has 
+first made GDL public, marks several milestones attesting to the 
+maturity of the project. Among these - as compared with versions 
+presented at the previous editions of ADASS - there are updates in the 
+plotting functionalities, major advancements in the Windows version of 
+GDL, rewritten support for IDL save files, multi-threaded performance 
+improvements and additions targeting compatibility with newer versions 
+of IDL (including new data types).
+
+GDL 1.0 is also the first major release following the move of GDL 
+development from SourceForge (thank you for the last 15 years of 
+hospitality!) to Github. This relocation was an occasion for a major 
+effort targeting developer-workflow-oriented automation which helps us 
+reduce entry barriers for new contributions, ensure increasing code 
+coverage with automatic tests, facilitate maintenance and user support 
+as well as ensure result reproducibility and traceability. Several of 
+the lessons learn, insights gained and remaining challenges related 
+with the development of the continuous integration process for the 
+project will be reported.
+
+Finally, the presentation will summarize current availability of 
+packaged versions of GDL, compatibility with popular IDL-written 
+astronomy-related software, potential directions for the upcoming 
+releases, and the key areas where GDL could benefit from further user 
+feedback and new contributions.
  
 O Crawford, Steven scrawford@stsci.edu Triumphs and Challenges of the Astropy Project: Open Development of a Python Library for Astronomy
     ABS: The Astropy Project is a community composed of individuals and institutes that are interested in building an open source framework in Python for astronomy.  Using collaborative development tools and following an open development philosophy, the project provides an ecosystem of inter-operable packages.   We describe the project infrastructure designed to facilitate collaboration on the development of open source software and provide an update of the most recent releases.   The project has had a number of successes and challenges while being one of the largest collaboratively developed software package in astronomy.  We discuss the aspects of the project that contributed to its success while also highlighting some of the challenges to the project and future developments.
@@ -477,6 +504,23 @@ BaSC is freely available at https://www.github.com/petehague/BASC
  
 P Han, Jun hanjun@nao.cas.cn The conceptual design of amateur public observatory software framework
     ABS: As the great demand of public observatory, the amateur has built lots of observatories. They usually carry out astronomy observation in remote field stations after traveling great distances. It is not only wasting lots of time, but also not safe. As a result, we designed a hardware integration system last year to support remote observation, and the printed circuit board platform is in making.  Based on this platform, we propose a conceptual design of amateur public observatory software framework as the observation control system. It could not only satisfy multiple observation modes' requirement, but also is easy to operate and more intelligent. It will be a huge boost to astronomy education and citizen science.
+ 
+P He, Helen hhe@cfa.harvard.edu Pixel mask Filtering of CXC Datamodel
+    ABS: Datamodel(DM),  a  Chandra X-ray Center (CXC) data analysis package, 
+has capabilities to display data in list, differ, sort, group, copy,
+merge.  to manipulate data in filter, bin, contour, coordinate,  extract, etc.
+
+The on-fly filtering is a widely used application to data file in
+range or shapes region syntax, and a pixel masking is an extension of
+the DM filtering on the conventional region.  
+The pixel mask is a 2D binary image, marked in  0 (excluded) and 1+ (allowed ) arbitrary shapes, and complements the conventional analytic 
+ shapes of circle, rectangle, polynomial, etc.
+ 
+Analogous to the region filtering, the pixel masking is integrated to perform the functions of include,  exclude,
+mask-and-shape intersect,  mask-and-mask union and consolidation. The
+filtered mask array is stored in a data block, referenced by the
+filtered region string in a data subspace of resulting file. 
+We will highlight those features of the pixel mask filtering.
  
 X Holman, Matthew mholman@cfa.harvard.edu The Minor Planet Center Data Processing System
     ABS: The Minor Planet Center (MPC) is the international clearing house for
@@ -1041,6 +1085,24 @@ P Streicher, Ole ole@aip.de DOI in Astronomy
     ABS: The use of DOI for astronomical data sets is becoming part of good scientific practice. Although a fairly small set of metadata, almost all aspects of findability are covered. The advantage is clearly, that this is no astronomy special but a widely accepted means catering to the quest of interoperability across disciplines, albeit on a basic level. DOI also move the onus of responsibility for proper data sets from the individual scientist to the institutions. Even the IVOA starts to look for ways to incorporate DOI for datasets into their registry and other services.
 Still much has to be done: the agreement on curation procedures and what would be
 considered as a data set to stam DOI on. At AIP we provide DOI for a range of datasets, and th poster will provide some insight in the curation procedures and decisions about what we consider a data set.
+ 
+P Sutrisno, Raymond rasutrisno@uh.edu Photometric Redshift Estimation: An Active Learning Approach
+    ABS: Abstract : A long-lasting problem in astronomy is the accurate
+estimation of galaxy distances based solely on the information
+contained in photometric filters. Due to observational selection
+effects, the spectroscopic (source) sample lacks coverage through-
+out the feature space (e.g. colors and magnitudes) compared to
+the photometric (target) sample; this results in a clear mismatch
+in terms of photometric measurement distributions. We propose
+a solution to this problem based on active learning, a machine
+learning technique where a sampling strategy enables us to
+select the most informative instances to build a predictive model;
+specifically, we use active learning following a Query by Committee
+approach. We show that by making wisely selected queries in the
+target domain we are able to increase our predictive performance
+significantly. We show how a relatively small number of queries
+(spectroscopic follow-up measurements) suffices to significantly
+improve the performance of photometric redshift estimators.
  
 O Swade, Daryl swade@stsci.edu The TESS Science Data Archive
     ABS: The Transiting Exoplanet Survey Satellite (TESS) is a survey mission designed to discover exoplanets around the nearest and brightest stars.  TESS is a NASA Astrophysics Explorer mission that was launched on April 18, 2018.  The Mikulski Archive for Space Telescopes (MAST) at the Space Telescope Science Institute serves as the archive for TESS science data.

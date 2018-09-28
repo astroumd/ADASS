@@ -88,10 +88,12 @@ prh44@cam.ac.uk
 hanjun@nao.cas.cn
 jhargis@stsci.edu
 aharvey1@umbc.edu
+hhe@cfa.harvard.edu
 fabio@in2p3.fr
 mholman@cfa.harvard.edu
 aitor.ibarra@sciops.esa.int
 jorge.ibsen@alma.cl
+jegugih@astro.umd.edu
 shiro@ism.ac.jp
 h.iwasaki@rikkyo.ac.jp
 tess.jaffe@nasa.gov
@@ -216,6 +218,7 @@ max.spolaor@tmctechnologies.com
 abigailstev@gmail.com
 felix.stoehr@gmx.de
 ole@aip.de
+rasutrisno@uh.edu
 swade@stsci.edu
 tadafumi.takata@nao.ac.jp
 y.tao@nao.cas.cn

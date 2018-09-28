@@ -1,9 +1,9 @@
-189 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 185 entries
+191 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 187 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-265 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 248 entries
+268 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 251 entries
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
 O Albert, Kinga albert@mps.mpg.de Performance analysis of the SO/PHI software framework for on-board data reduction
@@ -39,7 +39,7 @@ P Ceballos, M.Teresa ceballos@ifca.unican.es Jitter and readout sampling frequen
 X Chen, Wei chenwei@ihep.ac.cn An automatic data collection and analysis software for GRB studies and its result
 O Chilingarian, Igor igor.chilingarian@cfa.harvard.edu Binospec@MMT: a database-driven model of operations, from planning of observations to data reduction and archiving
 O Comrie, Angus accomrie@gmail.com An HDF5 Schema for SKA Scale Image Cube Visualization
-P Coulais, Alain alain.coulais@obspm.fr 
+O Coulais, Alain alain.coulais@obspm.fr GDL - GNU Data Language 1.0
 O Crawford, Steven scrawford@stsci.edu Triumphs and Challenges of the Astropy Project: Open Development of a Python Library for Astronomy
 O Cupani, Guido guido.cupani@inaf.it Astrocook: your spectral analysis recipe book, now with a GUI
 O DAI, CONG daicong2014@163.com A method to detect radio frequency interference based on convolutional neural networks
@@ -74,6 +74,7 @@ P Gupta, Pramod psgupta@uw.edu Computational Astrophysics with Go
 X Gwyn, Stephen gwyn.cadc@gmail.com MegaPipe 2.0: 10000 square degrees of CFHT MegaCam imaging
 O Hague, Peter prh44@cam.ac.uk BaSC - A Bayesian path to improved source finding in radio astronomy
 P Han, Jun hanjun@nao.cas.cn The conceptual design of amateur public observatory software framework
+P He, Helen hhe@cfa.harvard.edu Pixel mask Filtering of CXC Datamodel
 X Holman, Matthew mholman@cfa.harvard.edu The Minor Planet Center Data Processing System
 P Ibarra, Aitor aitor.ibarra@sciops.esa.int Standardization of object visibility and planning information through VO protocols
 O Iwasaki, Hiroyoshi h.iwasaki@rikkyo.ac.jp A new implementation of deep neural network to spatio-spectral analysis in X-ray astronomy
@@ -176,6 +177,7 @@ X Song, Xinying songxy@ihep.ac.cn Development on Data Analysis Software on GECAM
 O Stevens, Abigail abigailstev@gmail.com Stingray: Open-source spectral-timing software
 X Stoehr, Felix felix.stoehr@gmx.de Astronomical archives: Serving up the Universe
 P Streicher, Ole ole@aip.de DOI in Astronomy
+P Sutrisno, Raymond rasutrisno@uh.edu Photometric Redshift Estimation: An Active Learning Approach
 O Swade, Daryl swade@stsci.edu The TESS Science Data Archive
 O Tao, Yihan y.tao@nao.cas.cn Spectral Classification of Galaxies using Deep Neural Networks and Self-taught Learning
 O Tavagnacco, Daniele daniele.tavagnacco@inaf.it Performance-related aspects in the Big Data Astronomy Era: architects in software optimization
