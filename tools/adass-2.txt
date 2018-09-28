@@ -1,9 +1,9 @@
-191 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 187 entries
+192 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 188 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-268 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 251 entries
+269 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 252 entries
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
 O Albert, Kinga albert@mps.mpg.de Performance analysis of the SO/PHI software framework for on-board data reduction
@@ -87,6 +87,7 @@ P Kaleida, Catherine ckaleida@stsci.edu JWST Data Management Subsystem Operation
 P Kaplan, Kyle kfkaplan@email.arizona.edu The algorithms behind the HPF and NEID pipeline
 P Karim, Ramsey rkarim@astro.umd.edu Alpha-X: An Alpha Shape-based Hierarchical Clustering Algorithm
 P Kawasaki, Wataru wataru.kawasaki@nao.ac.jp Vissage: viewing polarisation data from ALMA
+P Kelley, Michael msk@astro.umd.edu ZChecker: Finding Cometary Outbursts with the Zwicky Transient Facility
 O Kent, Brian bkent@nrao.edu 3D Data Visualization in Astrophysics
 O Kepley, Amanda akepley@nrao.edu Auto-multithresh: A General Purpose Automated Masking Algorithm for Clean
 P Kong, Xiao kongx@nao.cas.cn The construction of a new stellar classification template library for the LAMOST 1D Pipeline based on LAMOST DR5
