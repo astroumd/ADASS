@@ -5,6 +5,7 @@ albert@mps.mpg.de
 fabien.alesina@unige.ch
 alexov@stsci.edu
 aallen@ascl.net
+ceallen@cfa.harvard.edu
 mark.allen@astro.unistra.fr
 anna.alonso@dataiku.com
 malshehr@terpmail.umd.edu
@@ -177,6 +178,7 @@ jegpeek@stsci.edu
 jose.perea@sciops.esa.int
 fernando.perez@esa.int
 abbie.petulante@gmail.com
+tim@mmto.org
 francois-xavier.pineau@astro.unistra.fr
 pizzo@astron.nl
 raymond.plante@nist.gov
@@ -231,6 +233,7 @@ fxt44@mac.com
 ignacio.toledo@alma.cl
 etollerud@stsci.edu
 maurizio.tomasi@unimi.it
+storres@ctio.noao.edu
 vermaas@astron.nl
 fabio.vitello@inaf.it
 wangrui@nao.cas.cn

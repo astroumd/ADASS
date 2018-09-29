@@ -1,9 +1,9 @@
-192 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 188 entries
+194 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 190 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-269 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 252 entries
+272 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 255 entries
  
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
     ABS: Detecting pulsars in time-domain radio astronomy using Fourier transform based techniques is a convenient and computationally efficient way to extract the faint single pulses from the noise in which they sit. However this technique, called periodicity searching, has some pitfalls. One of these is that the power contained in pulsar signal is spread into multiple harmonics in calculated power spectra. The incoherent harmonic sum algorithm is one way to rectify this. The algorithm sums the power that is spread across multiple harmonics back into a single fourier bin. This increases signal-to-noise ratio of detected pulsars and allows us to detect weaker pulsars as a result. Harmonic summing also forms part of search techniques used for detecting accelerated pulsars where a two-dimensional harmonic sum is required. Or in more complex cases such as for pulsars with elliptical orbits where a three-dimensional harmonic sum might be necessary. However porting the harmonic sum to many-core architectures like GPUs is not straightforward. The main problem that must be overcome is the very unfavourable memory access pattern, which gets worse as the dimensionality of the harmonic sum increases. We present a set of algorithms for calculating the harmonic sum that are more suited to many-core architectures such as GPUs. We present an evaluation of the sensitivity of these different approaches, the performance and discuss GPU portability.
@@ -34,6 +34,15 @@ O Allen, Alice aallen@ascl.net Receiving Credit for Research Software
     ABS: Though computational methods are widely used in many disciplines, those who author these methods have not always received credit for their work. This presentation will cover recent changes in astronomy, and indeed, in many other disciplines, that include new journals, policy changes for existing journals, community resources, changes to infrastructure, and availability of new workflows that make recognizing the contributions of software authors easier. This talk will include steps coders can take to increase the probability of having their software cited correctly and steps researchers can take to improve their articles by including citations for the computational methods that enabled their research.
   ABS2 Allen, Alice Unconference session: I want to talk about...
     ABS: Unconference session: I want to talk about...
+ 
+P Allen, Christopher ceallen@cfa.harvard.edu Optimization of Aperture Photometry in the Chandra Source Catalog
+    ABS: As part of the creation of the Chandra Source Catalog, the Aperture Photometry systems characterize source photon counts, count rates, energy flux, and photon flux for over 300,000 sources.  These sources are characterized per observation and across blockings of similar observations, leading to approximately X unique characterizations. As development progressed and our test sets grew both in both complexity and size, runtime issues were identified - scenarios where the system was too resource-intensive or had projected processing times far outside of the project timeframe.  These issues lead to a continual reevaluation of our implementation of the tool, all the while keeping the underlying scientific algorithms intact. Herein we will discuss the algorithm, the challenges we encountered scaling it up for production, and the optimizations we added as a result.
+ 
+These design decisions cover a broad scope, from the mundane of restructuring nested loops to minimize file I/O, to the intricate of modifying our statistical sampling methods and replacing our hypermesh-based fitting with a Markov chain Monte Carlo sampling that was then converted into a probability distribution. 
+ 
+Analysis tools used to identify code hotspots will be reviewed, as well as the coding tools we used to refactor some computationally expensive sections of the tool. In exploring these decisions in detail, the pros and cons of both the chosen solution and alternative options considered but not chosen will be discussed.
+ 
+The tool’s high-level design will also be analyzed, elaborating on how we were able in a single tool to perform analysis on the broad variety of sources the catalog encounters - from point sources to broad extended emissions, and from the faintest detections to brightest.
  
 P Allen, Mark mark.allen@astro.unistra.fr Toward common solutions for data access, discovery and interoperability
     ABS: The ASTERICS project has supported a program of work to make enablethe data from large astronomy infrastructures (ESFRI) and pathfinder projects to become available for discovery and usage by the whole astronomical community, interoperable in the Virtual Observatory framework, and accessible with a set of common tools.  We highlight the successes and lessons learned.
@@ -1159,6 +1168,16 @@ O Tollerud, Erik etollerud@stsci.edu BoF: Open Source/Development Software Proje
  
 O Tomasi, Maurizio maurizio.tomasi@unimi.it Towards new solutions for scientific computing: the case of Julia
     ABS: This year marks the consolidation of Julia (https://julialang.org/), a programming language designed for scientific computing, as the last version before 1.0 has just been released (0.7). Among its main features, expressiveness and high execution speeds are the most prominent: the performance of Julia code is similar to statically compiled languages, yet Julia provides a nice interactive shell and fully supports Jupyter; moreover, it can transparently call external codes written in C, Fortran, and even Python without the need of wrappers. The usage of Julia in the astronomical community is growing, and a GitHub organization named JuliaAstro takes care of coordinating the development of packages. In this talk, we will provide an overview of Julia and JuliaAstro. We will also provide a real-life example by discussing the implementation of a Julia-only simulation pipeline for a large-scale CMB experiment.
+ 
+P Torres, Simón storres@ctio.noao.edu An on-site data reduction pipeline for the Goodman Spectrograph
+    ABS: The Goodman Spectroscopic Pipeline (GSP) is reaching some maturity and
+behaving in a stable manner. Though its development continues, we have
+started a parallel effort to develop a real-time version of the GSP,
+which aims at obtaining fully reduced data within seconds after the spectrum
+has been obtained at the telescope.  Most of the required structure, algorithms and
+processes already exist with the offline version of the GSP. The real-time or online
+version differs in its requirements for flow control, calibration files, image combination, reprocessing, observing logging assistance, etc.
+Here we present results obtained with the offline version of GSP with various instrument setups, and outline the route for implementation of the real time, online version.
  
 O Vitello, Fabio fabio.vitello@inaf.it VisIVO Visual Analytics Tool an EOSC Science Demonstrator for data discovery
     ABS: VisIVO is an integrated suite of tools and services for data discovery that include collaborative portals, mobile applications, visual analytics tool and a number of key components such as workflow applications, analysis and data mining functionalities.

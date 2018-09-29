@@ -5,6 +5,7 @@ Albert, Kinga
 ALESINA, Fabien
 Alexov, Anastasia
 Allen, Alice
+Allen, Christopher
 Allen, Mark
 Alonso, Anna
 Alshehri, Marwan
@@ -177,6 +178,7 @@ Peek, Joshua
 Perea-Calderon, Jose Vicente
 Perez, Fernando
 Petulante, Abigail
+Pickering, Timothy
 Pineau, Francois-Xavier
 Pizzo, Roberto
 Plante, Raymond
@@ -231,6 +233,7 @@ Timmes, Frank
 Toledo, Ignacio
 Tollerud, Erik
 Tomasi, Maurizio
+Torres, Simón
 Vermaas, Nico
 Vitello, Fabio
 Wang, Rui
