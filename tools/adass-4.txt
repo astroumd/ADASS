@@ -1,18 +1,19 @@
-192 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 188 entries
+197 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 192 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-269 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 252 entries
-ALESINA, Fabien  ASTRO
-Allen, Mark  ASTRO
+278 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 260 entries
 Alonso, Anna  COMMERCIAL
-Arviset, Christophe  ASTRO
-Gill, Ranpal  ASTRO
+ALESINA, Fabien  ASTRO
 Good, John  FOCUS
+Momcheva, Ivelina  ASTRO
 Joliet, Emmanuel  FOCUS
 Kumar, Praveen  ASTRO
 Mechev, Alexandar  FOCUS
-Momcheva, Ivelina  ASTRO
+Allen, Mark  ASTRO
+Arviset, Christophe  ASTRO
+Gill, Ranpal  ASTRO
+Vahi, Karan  FOCUS
 Raddick, Michael  FOCUS
 Raddick, Michael  ASTRO

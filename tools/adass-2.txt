@@ -1,16 +1,17 @@
-192 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 188 entries
+197 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 192 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-269 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 252 entries
+278 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 260 entries
+O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
 O Albert, Kinga albert@mps.mpg.de Performance analysis of the SO/PHI software framework for on-board data reduction
-O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Alexov, Anastasia alexov@stsci.edu Hit the Ground Running: Data Management for JWST
 O Allen, Alice aallen@ascl.net Receiving Credit for Research Software
   ABS2 Allen, Alice Unconference session: I want to talk about...
+P Allen, Christopher ceallen@cfa.harvard.edu Optimization of Aperture Photometry in the Chandra Source Catalog
 P Allen, Mark mark.allen@astro.unistra.fr Toward common solutions for data access, discovery and interoperability
 O Ansdell, Megan ansdell@berkeley.edu Automatic Classification of TESS Planet Candidates using Deep Learning
 P Araya, Mauricio mauricio.araya@usm.cl Cherenkov Shower Detection Combining Probability Distributions from Convolutional Neural Networks.
@@ -46,7 +47,7 @@ O DAI, CONG daicong2014@163.com A method to detect radio frequency interference 
 O Dempsey, James james.dempsey@csiro.au Serving large scale survey data for ASKAP with SIA2 and SODA
 O Dencheva, Nadia dencheva@stsci.edu GWCS - A General Approach to  Astronomical World Coordinates
 X Derriere, Sébastien sebastien.derriere@astro.unistra.fr 
-O Deshpande, Shubhankar shubhankardeshpande@hotmail.com GMRT Archival Utility for Data Analysis
+O Deshpande, Shubhankar shubhand@cs.cmu.edu GMRT Archival Utility for Data Analysis
 O Diaz, Rosa rdiaz@stsci.edu Adding Science Validation to the  JWST Calibration Pipeline.
 O Donaldson, Tom tdonaldson@stsci.edu Astropy and the Virtual Observatory
 P Dowler, Patrick pdowler.cadc@gmail.com Archive-2.0: Metadata and Data Synchronisation between MAST, CADC, and ESAC
@@ -96,6 +97,7 @@ P Kumar, Praveen pkumar6743@gmail.com (2+1) dimensional cosmological models in f
 X Kuulkers, Erik erik.kuulkers@esa.int Coordinating observations among ground and space-based telescopes in the multi-messenger era
 O Kyprianou, Mark kyp@stsci.edu Lessons Learned from the behemoth JWST Data Management effort
 P Labrie, Kathleen klabrie@gemini.edu DRAGONS - Data Reduction for Astronomy from Gemini Observatory North and South
+X Lacy, Mark mlacy@nrao.edu The VLA Sky Survey - operations, data processing and archiving
 O Lam, Cheuk Yin c.y.lam@ljmu.ac.uk Data-Driven Pixelisation with Voronoi Tessellation
 O Landais, Gilles gilles.landais@astro.unistra.fr Quality assurance in the ingestion of data into the CDS VizieR catalogue and data services
 O Lemson, Gerard glemson1@jhu.edu FileDB, a pattern for querying cosmological simulations
@@ -134,10 +136,10 @@ X Nebot, Ada ada.nebot@astro.unistra.fr Data challenges of the VO in Time Domain
 P Nie, Jianyin niejy@ihep.ac.cn 
 O Nieto, Sara sara.nieto@sciops.esa.int SCIENCE EXPLOITATION IN A BIG DATA ARCHIVE: THE EUCLID SCIENTIFIC ARCHIVE SYSTEM
 O Nikolic, Bojan b.nikolic@mrao.cam.ac.uk Acceleration of Non-Linear Minimisation with PyTorch
-P Obi, Ikechukwu Anthony tonykassidy_z@yahoo.com The impact of Virtual Observatory Tools in Astronomy Research  in Nigeria
-P Oloketuyi, Jacob jacob.oloketuyi@ynao.ac.cn The Analysis of Periodic Variation of Sunspot Groups and the X-ray Flare Classes
 P O'Toole, Simon simon.otoole@mq.edu.au data central for Astronomers
   ABS2 O'Toole, Simon How do you get the most out of your teams?
+P Obi, Ikechukwu Anthony tonykassidy_z@yahoo.com The impact of Virtual Observatory Tools in Astronomy Research  in Nigeria
+P Oloketuyi, Jacob jacob.oloketuyi@ynao.ac.cn The Analysis of Periodic Variation of Sunspot Groups and the X-ray Flare Classes
 P Paillassa, Maxime maxime.paillassa@u-bordeaux.fr Identifying contaminants in astronomical images using convolutional neural networks
 X Parra, Jose jose.parra@alma.cl 
 X Pascual, Sergio sergiopr@fis.ucm.es Runing GTC data reduction pipelines in Jupyter
@@ -186,6 +188,8 @@ P Teuben, Peter teuben@astro.umd.edu QAC: Quick Array Combinations with CASA
 O Toledo, Ignacio ignacio.toledo@alma.cl Data Science =! Software Engineering. Exploring a workflow for ALMA operations.
 O Tollerud, Erik etollerud@stsci.edu BoF: Open Source/Development Software Projects and Large Organizations/Missions: Recommendations and Challenges
 O Tomasi, Maurizio maurizio.tomasi@unimi.it Towards new solutions for scientific computing: the case of Julia
+P Torres, Simón storres@ctio.noao.edu An on-site data reduction pipeline for the Goodman Spectrograph
+X Vahi, Karan vahi@isi.edu Workflows Management using Pegasus
 O Vitello, Fabio fabio.vitello@inaf.it VisIVO Visual Analytics Tool an EOSC Science Demonstrator for data discovery
 P Wang, Rui wangrui@nao.cas.cn Analysis of Stellar Spectra from LAMOST DR5 with Generative Spectrum Networks
 P Wicenec, Andreas andreas.wicenec@uwa.edu.au The Murchison Widefield Array's VO compliant archive

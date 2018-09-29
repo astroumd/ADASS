@@ -1,20 +1,9 @@
-192 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 188 entries
+197 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 192 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-269 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 252 entries
- 
-O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
-    ABS: Detecting pulsars in time-domain radio astronomy using Fourier transform based techniques is a convenient and computationally efficient way to extract the faint single pulses from the noise in which they sit. However this technique, called periodicity searching, has some pitfalls. One of these is that the power contained in pulsar signal is spread into multiple harmonics in calculated power spectra. The incoherent harmonic sum algorithm is one way to rectify this. The algorithm sums the power that is spread across multiple harmonics back into a single fourier bin. This increases signal-to-noise ratio of detected pulsars and allows us to detect weaker pulsars as a result. Harmonic summing also forms part of search techniques used for detecting accelerated pulsars where a two-dimensional harmonic sum is required. Or in more complex cases such as for pulsars with elliptical orbits where a three-dimensional harmonic sum might be necessary. However porting the harmonic sum to many-core architectures like GPUs is not straightforward. The main problem that must be overcome is the very unfavourable memory access pattern, which gets worse as the dimensionality of the harmonic sum increases. We present a set of algorithms for calculating the harmonic sum that are more suited to many-core architectures such as GPUs. We present an evaluation of the sensitivity of these different approaches, the performance and discuss GPU portability.
- 
-P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
-    ABS: The first habitable zone (HZ) exoplanets to have their atmospheres characterized will likely be tidally-locked planets orbiting nearby M dwarfs. Future transit spectroscopy of such planets is part of the community’s plan in assessing their habitability. 3D climate modeling has shown tidally-locked HZ terrestrial planets, at the inner HZ of M dwarfs, may possess significantly enhanced water vapor content in the lower atmosphere compared to the 24 hour analog. For model M dwarfs with T  3000K in particular, such inner HZ planets have been shown to retain the moist atmosphere for low Earth-like instellation levels. This is promising for both habitability as well as our ability to spectrally detect this with the upcoming James Webb Space Telescope. However, while strong vertical mixing is expected to loft the water vapor high enough into the atmosphere, M dwarfs are typically high XUV environment. To assess whether the water vapor destruction continuously driven by such stellar UV activity levels would affect detectability, we run 1-D photochemical models of these atmospheres under varying stellar UV activity. To remain in the moist greenhouse regime as established in Kopparapu et al. 2017, we take the 3D model simulated abundances and temperature profiles for a N2-H2O dominated planet around a 3300K M dwarf. We also explore additional chemical complexity by introducing new species to our atmosphere. We find that as long as the atmosphere is well-mixed at 1 mbar and higher pressures, UV activity has no impact on our H2O detectability. We also find that even the highest UV scenario does not produce spectrally significant O3 for JWST.
- 
-O Albert, Kinga albert@mps.mpg.de Performance analysis of the SO/PHI software framework for on-board data reduction
-    ABS: The Polarimetric and Helioseismic Imager (PHI) is the first solar spectropolarimeter that goes to deep space. It will be launched on-board the Solar Orbiter (SO) spacecraft, to orbit the Sun in highly elliptical orbits. SO/PHI has stringent requirements on its science data accuracy, while it is subjected to highly dynamic environments by the spacecraft. The orbits, however, severely limit the amount of telemetry, making the download of numerous full datasets and additional calibration data unfeasible. In addition, they also increase the command-response times of the instrument.
-To overcome these limitations, SO/PHI implements autonomous on-board instrument calibration, and autonomous on-board science data reduction. The algorithms are implemented within a system of software framework and dedicated hardware implementations in reconfigurable FPGA-s. The system is designed to overcome the resource and computational power limitations of on-board computing, do secure metadata logging and warn ground support of possible errors in the data processing flow.
-In this contribution we do an in-depth performance analysis of the on-board data processing system. We test multiple data pipelines on realistic data in a step by step analysis, and tune the pipeline parameters to achieve optimal results. We finally analyse the accuracy of the resulting scientific data products calculated by the instrument.
+278 x 36 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 260 entries
  
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
     ABS: The Data Analysis Center for Exoplanets (DACE) is a web platform based at the University of Geneva (CH) dedicated to exoplanets data visualization, exchange and analysis.
@@ -27,6 +16,17 @@ The virtual reality is used for displaying 3D plots of synthetic planetary popul
 
 The used technologies are webVR, external GPUs called eGPUs in order to increase laptop performances, HTC vive pro headset and google cardboards.
  
+O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
+    ABS: Detecting pulsars in time-domain radio astronomy using Fourier transform based techniques is a convenient and computationally efficient way to extract the faint single pulses from the noise in which they sit. However this technique, called periodicity searching, has some pitfalls. One of these is that the power contained in pulsar signal is spread into multiple harmonics in calculated power spectra. The incoherent harmonic sum algorithm is one way to rectify this. The algorithm sums the power that is spread across multiple harmonics back into a single fourier bin. This increases signal-to-noise ratio of detected pulsars and allows us to detect weaker pulsars as a result. Harmonic summing also forms part of search techniques used for detecting accelerated pulsars where a two-dimensional harmonic sum is required. Or in more complex cases such as for pulsars with elliptical orbits where a three-dimensional harmonic sum might be necessary. However porting the harmonic sum to many-core architectures like GPUs is not straightforward. The main problem that must be overcome is the very unfavourable memory access pattern, which gets worse as the dimensionality of the harmonic sum increases. We present a set of algorithms for calculating the harmonic sum that are more suited to many-core architectures such as GPUs. We present an evaluation of the sensitivity of these different approaches, the performance and discuss GPU portability.
+ 
+P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
+    ABS: The first habitable zone (HZ) exoplanets to have their atmospheres characterized will likely be tidally-locked planets orbiting nearby M dwarfs. Future transit spectroscopy of such planets is part of the community’s plan in assessing their habitability. 3D climate modeling has shown tidally-locked HZ terrestrial planets, at the inner HZ of M dwarfs, may possess significantly enhanced water vapor content in the lower atmosphere compared to the 24 hour analog. For model M dwarfs with T  3000K in particular, such inner HZ planets have been shown to retain the moist atmosphere for low Earth-like instellation levels. This is promising for both habitability as well as our ability to spectrally detect this with the upcoming James Webb Space Telescope. However, while strong vertical mixing is expected to loft the water vapor high enough into the atmosphere, M dwarfs are typically high XUV environment. To assess whether the water vapor destruction continuously driven by such stellar UV activity levels would affect detectability, we run 1-D photochemical models of these atmospheres under varying stellar UV activity. To remain in the moist greenhouse regime as established in Kopparapu et al. 2017, we take the 3D model simulated abundances and temperature profiles for a N2-H2O dominated planet around a 3300K M dwarf. We also explore additional chemical complexity by introducing new species to our atmosphere. We find that as long as the atmosphere is well-mixed at 1 mbar and higher pressures, UV activity has no impact on our H2O detectability. We also find that even the highest UV scenario does not produce spectrally significant O3 for JWST.
+ 
+O Albert, Kinga albert@mps.mpg.de Performance analysis of the SO/PHI software framework for on-board data reduction
+    ABS: The Polarimetric and Helioseismic Imager (PHI) is the first solar spectropolarimeter that goes to deep space. It will be launched on-board the Solar Orbiter (SO) spacecraft, to orbit the Sun in highly elliptical orbits. SO/PHI has stringent requirements on its science data accuracy, while it is subjected to highly dynamic environments by the spacecraft. The orbits, however, severely limit the amount of telemetry, making the download of numerous full datasets and additional calibration data unfeasible. In addition, they also increase the command-response times of the instrument.
+To overcome these limitations, SO/PHI implements autonomous on-board instrument calibration, and autonomous on-board science data reduction. The algorithms are implemented within a system of software framework and dedicated hardware implementations in reconfigurable FPGA-s. The system is designed to overcome the resource and computational power limitations of on-board computing, do secure metadata logging and warn ground support of possible errors in the data processing flow.
+In this contribution we do an in-depth performance analysis of the on-board data processing system. We test multiple data pipelines on realistic data in a step by step analysis, and tune the pipeline parameters to achieve optimal results. We finally analyse the accuracy of the resulting scientific data products calculated by the instrument.
+ 
 O Alexov, Anastasia alexov@stsci.edu Hit the Ground Running: Data Management for JWST
     ABS: As the launch of James Webb Space Telescope (JWST) approaches a team of engineers and scientist is hard at work developing the Data Management Subsystem (DMS) for JWST with its cadre of complex imaging and spectral instruments.  DMS will perform receipt of science and engineering telemetry data; will perform reformatting, quality checking, calibration, data processing; will archive the data; will have tools for retrieving the data;  will have the capacities for reprocessing the data; will have external/public calibration tools; will provide user notification, search, and access tools for JWST science and engineering data;  will distribute data to the end user; provide extensive user analysis/visualization tools; and, will provide support for contributed data products from the community. We will give an overview of the software components, the hardware they run on, the programming languages/systems used, the complexity of the tested end to end science data flow, the current functionality of the system and what's to come for the JWST Data Management Subsystem in preparation for launch.
  
@@ -34,6 +34,15 @@ O Allen, Alice aallen@ascl.net Receiving Credit for Research Software
     ABS: Though computational methods are widely used in many disciplines, those who author these methods have not always received credit for their work. This presentation will cover recent changes in astronomy, and indeed, in many other disciplines, that include new journals, policy changes for existing journals, community resources, changes to infrastructure, and availability of new workflows that make recognizing the contributions of software authors easier. This talk will include steps coders can take to increase the probability of having their software cited correctly and steps researchers can take to improve their articles by including citations for the computational methods that enabled their research.
   ABS2 Allen, Alice Unconference session: I want to talk about...
     ABS: Unconference session: I want to talk about...
+ 
+P Allen, Christopher ceallen@cfa.harvard.edu Optimization of Aperture Photometry in the Chandra Source Catalog
+    ABS: As part of the creation of the Chandra Source Catalog, the Aperture Photometry systems characterize source photon counts, count rates, energy flux, and photon flux for over 300,000 sources.  These sources are characterized per observation and across blockings of similar observations, leading to approximately X unique characterizations. As development progressed and our test sets grew both in both complexity and size, runtime issues were identified - scenarios where the system was too resource-intensive or had projected processing times far outside of the project timeframe.  These issues lead to a continual reevaluation of our implementation of the tool, all the while keeping the underlying scientific algorithms intact. Herein we will discuss the algorithm, the challenges we encountered scaling it up for production, and the optimizations we added as a result.
+ 
+These design decisions cover a broad scope, from the mundane of restructuring nested loops to minimize file I/O, to the intricate of modifying our statistical sampling methods and replacing our hypermesh-based fitting with a Markov chain Monte Carlo sampling that was then converted into a probability distribution. 
+ 
+Analysis tools used to identify code hotspots will be reviewed, as well as the coding tools we used to refactor some computationally expensive sections of the tool. In exploring these decisions in detail, the pros and cons of both the chosen solution and alternative options considered but not chosen will be discussed.
+ 
+The tool’s high-level design will also be analyzed, elaborating on how we were able in a single tool to perform analysis on the broad variety of sources the catalog encounters - from point sources to broad extended emissions, and from the faintest detections to brightest.
  
 P Allen, Mark mark.allen@astro.unistra.fr Toward common solutions for data access, discovery and interoperability
     ABS: The ASTERICS project has supported a program of work to make enablethe data from large astronomy infrastructures (ESFRI) and pathfinder projects to become available for discovery and usage by the whole astronomical community, interoperable in the Virtual Observatory framework, and accessible with a set of common tools.  We highlight the successes and lessons learned.
@@ -260,7 +269,7 @@ adding new models and coordinate systems.
 X Derriere, Sébastien sebastien.derriere@astro.unistra.fr 
     ABS: 
  
-O Deshpande, Shubhankar shubhankardeshpande@hotmail.com GMRT Archival Utility for Data Analysis
+O Deshpande, Shubhankar shubhand@cs.cmu.edu GMRT Archival Utility for Data Analysis
     ABS: The GMRT Online Archive houses over 80 terabytes of interferometric observations obtained with
 the GMRT since since the observatory began operating as a facility in 2002. The utility of this vast
 data archive, likely the largest of any Indian telescope, can be significantly enhanced if first look
@@ -661,6 +670,9 @@ The project makes good use of other open source projects.  The data interface, A
 
 DRAGONS is used at the observatory for nighttime quality assessment.  The same software will be used for quicklook reduction of target of opportunity and LSST follow-up observations, and as the tool the researchers can use to prepare their Gemini data for analysis.
  
+X Lacy, Mark mlacy@nrao.edu The VLA Sky Survey - operations, data processing and archiving
+    ABS: The VLA Sky Survey (VLASS) is an ambitious project to image the entire sky visible to the VLA in three epochs. The Survey isl being carried out at a frequency of 2-4GHz in full linear polarization (Stokes I,Q,U) and a resolution of 2.5, making it the highest angular resolution all-sky radio survey ever attempted.  VLASS will collect 0.5PB of raw data, and 0.3PB of Basic Data Products (calibration tables, images and catalogs) will be created and archived at NRAO. There are also opportunities for external groups to create higher level Extended Data Products. In this poster, we present a summary of the scheduling, operations, data processing and archiving of the survey, as well as some early results from the first set of observations, covering half the sky.
+ 
 O Lam, Cheuk Yin c.y.lam@ljmu.ac.uk Data-Driven Pixelisation with Voronoi Tessellation
     ABS: In modern Astrophysics, Voronoi Tessellation is a rarely used as a
 pixelisation scheme. While it exists, it is almost exclusively used in
@@ -871,6 +883,11 @@ implementation. The software engineering effort needed to achieve this
 speed is modest, and readability and maintainability are largely
 unaffected.
  
+P O'Toole, Simon simon.otoole@mq.edu.au data central for Astronomers
+    ABS: Data Central is the AAO's flagship virtual observatory service, providing a central repository for AAT and UK Schmidt observations, survey-team derived data products and documentation. The system brings together catalogues, imaging, spectra and data cubes from dozens of surveys, providing an intuitive interface to query, explore and cross-match data sets of national and international significance. We briefly introduce the current services data central offers to help astronomers familiarize themselves with the system, including: the cutout (access imaging data from some of the world's leading facilities to quickly explore sources of interest and produce publication quality images), query (extends the existing functionality of the TAP server and now makes the catalogues hosted at data central queryable via the web interface), schema (browsing the survey-team generated metadata), documentation and cloud services. Finally we'll present the timeline for future datasets and milestones for Data Central.
+  ABS2 O'Toole, Simon How do you get the most out of your teams?
+    ABS: How do you get the most out of your teams?
+ 
 P Obi, Ikechukwu Anthony tonykassidy_z@yahoo.com The impact of Virtual Observatory Tools in Astronomy Research  in Nigeria
     ABS: Astronomy development in Nigeria has, over the years, been hampered by lack of adequate astronomical facilities and access to data due to poor internet connectivity.
 In this paper, we discuss how recent introduction of the Virtual Obervatory tools in schools and universities has brought a fast-growing interest in astronomy amongst students as well as boosting the level of astronomy research being carried out in
@@ -878,11 +895,6 @@ In this paper, we discuss how recent introduction of the Virtual Obervatory tool
  
 P Oloketuyi, Jacob jacob.oloketuyi@ynao.ac.cn The Analysis of Periodic Variation of Sunspot Groups and the X-ray Flare Classes
     ABS: The present solar cycle 24 has been thought to be unusually quiet in many respects. Both sunspot group numbers and flare numbers show a very low level of occurrence compared to the previous cycles. This study investigated the variations and relationship exhibited between the sunspot group numbers and the solar x-ray flares classes (B, C, M and X) in the solar cycles 23 and 24. The Observations of sunspot groups and the solar x-ray flares are archived in the National Oceanic and Atmospheric Administration (NOAA) website. The study was conducted using the continuous wavelet transforms, and the cross-correlation methods. Firstly, we found that the total daily solar flare produced is asynchronous and in antiphase with the sunspot group numbers while it is positively correlated with the sunspot group numbers on cross-correlation analysis. Periodicities of short and intermediate variations were also observed with sunspot group numbers having a significant periodicity around 400 days. The phase asynchrony between the sunspot group numbers and the total flares which is a result of the drop in B and C flares during solar maximum could be attributed to overwhelming of M and X flares produced by magnetic flux system from the active region/sunspot groups.
- 
-P O'Toole, Simon simon.otoole@mq.edu.au data central for Astronomers
-    ABS: Data Central is the AAO's flagship virtual observatory service, providing a central repository for AAT and UK Schmidt observations, survey-team derived data products and documentation. The system brings together catalogues, imaging, spectra and data cubes from dozens of surveys, providing an intuitive interface to query, explore and cross-match data sets of national and international significance. We briefly introduce the current services data central offers to help astronomers familiarize themselves with the system, including: the cutout (access imaging data from some of the world's leading facilities to quickly explore sources of interest and produce publication quality images), query (extends the existing functionality of the TAP server and now makes the catalogues hosted at data central queryable via the web interface), schema (browsing the survey-team generated metadata), documentation and cloud services. Finally we'll present the timeline for future datasets and milestones for Data Central.
-  ABS2 O'Toole, Simon How do you get the most out of your teams?
-    ABS: How do you get the most out of your teams?
  
 P Paillassa, Maxime maxime.paillassa@u-bordeaux.fr Identifying contaminants in astronomical images using convolutional neural networks
     ABS: In this work, we propose to use convolutional neural networks to detect contaminants in astronomical images. Each contaminant is treated in a one vs all fashion. Once trained, our networks are able to detect various contaminants such as cosmic rays, hot and bad pixels defaults, saturated pixels, diffraction spikes, nebulosities, persistence effects, satellite trails, residual fringe patterns, or tracking errors and defocus in images, encompassing a broad range of ambient conditions, PSF sampling, detectors, optics and stellar density. The convolutional neural network is performing semantic segmentation: it can output a probability map, assigning to each pixel its probability to belong to the contaminant or the background class, except for tracking errors where another convolutional neural network can assign to a whole focal plane the probability that it is affected by tracking error. Training and testing data have been gathered from real data originating from various modern CCD and near-IR cameras or simulated.
@@ -1159,6 +1171,51 @@ O Tollerud, Erik etollerud@stsci.edu BoF: Open Source/Development Software Proje
  
 O Tomasi, Maurizio maurizio.tomasi@unimi.it Towards new solutions for scientific computing: the case of Julia
     ABS: This year marks the consolidation of Julia (https://julialang.org/), a programming language designed for scientific computing, as the last version before 1.0 has just been released (0.7). Among its main features, expressiveness and high execution speeds are the most prominent: the performance of Julia code is similar to statically compiled languages, yet Julia provides a nice interactive shell and fully supports Jupyter; moreover, it can transparently call external codes written in C, Fortran, and even Python without the need of wrappers. The usage of Julia in the astronomical community is growing, and a GitHub organization named JuliaAstro takes care of coordinating the development of packages. In this talk, we will provide an overview of Julia and JuliaAstro. We will also provide a real-life example by discussing the implementation of a Julia-only simulation pipeline for a large-scale CMB experiment.
+ 
+P Torres, Simón storres@ctio.noao.edu An on-site data reduction pipeline for the Goodman Spectrograph
+    ABS: The Goodman Spectroscopic Pipeline (GSP) is reaching some maturity and
+behaving in a stable manner. Though its development continues, we have
+started a parallel effort to develop a real-time version of the GSP,
+which aims at obtaining fully reduced data within seconds after the spectrum
+has been obtained at the telescope.  Most of the required structure, algorithms and
+processes already exist with the offline version of the GSP. The real-time or online
+version differs in its requirements for flow control, calibration files, image combination, reprocessing, observing logging assistance, etc.
+Here we present results obtained with the offline version of GSP with various instrument setups, and outline the route for implementation of the real time, online version.
+ 
+X Vahi, Karan vahi@isi.edu Workflows Management using Pegasus
+    ABS: Workflows are a key technology for enabling complex scientific applications. They capture the interdependencies between processing steps in data analysis and simulation pipelines, as well as the mechanisms to execute those steps reliably and efficiently in a distributed computing environment. They also enable scientists to capture complex processes to promote method sharing and reuse and provide provenance information necessary for the verification of scientific results and scientific reproducibility. Application containers such as Docker and Singularity are increasingly becoming a preferred way for bundling user application code with complex dependencies, to be used during workflow execution. The use of application containers ensures the user scientific code is executed in a homogenous environment tailored for application, even when executing on nodes with widely varying architecture, operation systems and system libraries. This demo will focus on how to model scientific analysis as a workflow and execute them on distributed resources using the Pegasus Workflow Management System
+(http://pegasus.isi.edu).
+
+Pegasus is being used in a number of scientific domains doing production grade science. In
+2016 the LIGO gravitational wave experiment used Pegasus to analyze instrumental data
+and confirm the first ever detection of a gravitational wave. The Southern California
+Earthquake Center (SCEC) based at USC, uses a Pegasus managed workflow infrastructure
+called Cybershake to generate hazard maps for the Southern California region. In March
+2017, SCEC conducted a CyberShake study on DOE systems ORNL Titan and NCSA
+BlueWaters to generate the latest maps for the Southern California region. Overall, the study
+required 450,000 node-hours of computation across the two systems. Pegasus is also being
+used in astronomy, bioinformatics, civil engineering, climate modeling, earthquake science,
+molecular dynamics and other complex analyses.
+
+Pegasus allows users to design workflows at a high-level of abstraction, that is independent
+of the resources available to execute them and the location of data and executables. It
+compiles these abstract workflows to executable workflows that can be deployed onto
+distributed and high-performance computing resources such as DOE LCFs like NERSC,
+XSEDE, local clusters, and clouds. During the compilation process, Pegasus WMS does
+data discovery, locating input data files and executables. Data transfer tasks are
+automatically added to the executable workflow. They are responsible for staging in the input
+files to the cluster, and for transferring the generated output files back to a user-specified
+location. In addition to the data transfers tasks, data cleanup (cleanup data that is no longer
+required) and data registration tasks (catalog the output files) are be added to the pipeline.
+For managing user’s data, Pegasus interfaces with a wide variety of backend storage
+systems (with different protocols). It also has variety of reliability mechanisms in-built ranging
+from automatic job retries, workflow-checkpointing to data reuse. Pegasus also performs
+performance optimization as needed. Pegasus provides both a suite of command line tools
+and a web-based dashboard for users to monitor and debug their computations. Over the
+years, Pegasus has also been integrated into higher level domain specific and workflow
+composition tools such as Portals, HUBzero and Wings. We also recently have added
+support for Jupyter notebooks, that allows users to compose and monitor workflows in a
+Jupyter notebook.
  
 O Vitello, Fabio fabio.vitello@inaf.it VisIVO Visual Analytics Tool an EOSC Science Demonstrator for data discovery
     ABS: VisIVO is an integrated suite of tools and services for data discovery that include collaborative portals, mobile applications, visual analytics tool and a number of key components such as workflow applications, analysis and data mining functionalities.
