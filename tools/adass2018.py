@@ -168,16 +168,22 @@ class adass(object):
                 else:
                     print(key,'-',title1)
 
-    def report_4(self, full = False):
+    def report_4(self, full = False, name=None):
         """ report emails only"""
 
         keys = self.x3.keys()
         keys.sort()
+        if name != None:  full = True
         for key in keys:
             r = self.x3[key]
             email = r[14+self.off].value
             if full:
-                print('"%s" <%s>' % (key,email))
+                msg = '"%s" <%s>' % (key,email)
+                if name == None:
+                    print(msg)
+                else:
+                    if msg.upper().find(name.upper()) > 0:
+                        print(msg)
             else:
                 print(email)
 
