@@ -70,7 +70,7 @@ class adass(object):
     def print_col(self, col):
         """ print a given columns. expert mode
         """
-        keys = self.x3.keys()
+        keys = list(self.x3.keys())
         keys.sort()
         for key in keys:
             r = self.x3[key]
@@ -79,17 +79,15 @@ class adass(object):
     def report_0(self):
         """ print just the 'Lastname, Firstname' key
         """
-        keys = self.x3.keys()
+        keys = list(self.x3.keys())
         keys.sort()
         for key in keys:
-            k = key.encode('utf-8')
-            print(k)
+            print(key)
 
     def report_1(self, abstract=False):
-        keys = self.x1.keys()
+        keys = list(self.x1.keys())
         keys.sort()
         for key in keys:
-            k = key.encode('utf-8')            
             present   = self.x1[key][22].value
             title1    = self.x1[key][23].value
             abstract1 = self.x1[key][24].value
@@ -100,27 +98,27 @@ class adass(object):
             if abstract: print(" ")
             if present == 'Talk/Focus Demo':
                 if focus_demo == '1' and demo_booth == '1':
-                    print("F+B",k,email,title1)
+                    print("F+B",key,email,title1)
                 elif focus_demo == '1':
-                    print("F",k,email,title1)            
+                    print("F",key,email,title1)            
                 elif demo_booth == '1':
-                    print("B",k,email,title1)                        
+                    print("B",key,email,title1)                        
                 else:
-                    print("O",k,email,title1)
+                    print("O",key,email,title1)
             elif present == 'Poster':
-                print("P",k,email,title1.encode('utf-8'))
+                print("P",key,email,title1)
             else:
-                print("X",k,email,title1)
-            if abstract: print("    ABS:",abstract1.encode('utf-8') )
+                print("X",key,email,title1)
+            if abstract: print("    ABS:",abstract1)
             if key in self.x2:
                 present2  = self.x2[key][22].value
                 title2    = self.x2[key][23].value
                 abstract2 = self.x2[key][23].value
-                print("  ABS2",k,title2.encode('utf-8') )
-                if abstract: print("    ABS:",abstract2.encode('utf-8') )
+                print("  ABS2",key,title2)
+                if abstract: print("    ABS:",abstract2)
 
     def report_2(self,x1,x2,x3):
-        keys = self.x1.keys()
+        keys = list(self.x1.keys())
         keys.sort()
         for key in keys:
             present = x1[key][22+self.off].value
@@ -171,7 +169,7 @@ class adass(object):
     def report_4(self, full = False, name=None):
         """ report emails only"""
 
-        keys = self.x3.keys()
+        keys = list(self.x3.keys())
         keys.sort()
         if name != None:  full = True
         for key in keys:
