@@ -3,6 +3,7 @@
 
 from __future__ import print_function
 
+import sys
 import xlrd
 import adass2018 as adass
 
@@ -22,4 +23,7 @@ def open_file(path):
  
 if __name__ == "__main__":
     a = adass.adass('reg')
-    a.report_4(False)
+    if len(sys.argv) > 1:
+        a.report_4(True,sys.argv[1])
+    else:
+        a.report_4(False)
