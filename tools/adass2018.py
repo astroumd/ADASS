@@ -1,5 +1,6 @@
 #! /usr/bin/env python
-
+#
+#   ADASS 2018 sample processing of the 3 XLS spreadsheets
 
 from __future__ import print_function
 
