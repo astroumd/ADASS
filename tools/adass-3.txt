@@ -1,9 +1,9 @@
-197 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 192 entries
+204 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 198 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-278 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 260 entries
+288 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 269 entries
  
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
     ABS: The Data Analysis Center for Exoplanets (DACE) is a web platform based at the University of Geneva (CH) dedicated to exoplanets data visualization, exchange and analysis.
@@ -210,35 +210,8 @@ Most astronomy image files are currently packaged using the FITS standard, howev
 
 The schema is similar to that of HDFITS, but extensions have been added to support a number of features required for efficient visualization of large data sets. We will discuss these extensions and provide details on performance improvements with commonly used access patterns. We will also describe real-world performance when used with our prototype visualization system.
  
-O Coulais, Alain alain.coulais@obspm.fr GDL - GNU Data Language 1.0
-    ABS: On behalf of the GDL team, we will be glad to use the occasion of ADASS 
-2018 to announce the 1.0 release of GDL - GNU Data Language. GDL is the 
-free and open-source drop-in replacement for IDL - Interactive Data 
-Language. The 1.0 release, coming out 15 years after Marc Schellens has 
-first made GDL public, marks several milestones attesting to the 
-maturity of the project. Among these - as compared with versions 
-presented at the previous editions of ADASS - there are updates in the 
-plotting functionalities, major advancements in the Windows version of 
-GDL, rewritten support for IDL save files, multi-threaded performance 
-improvements and additions targeting compatibility with newer versions 
-of IDL (including new data types).
-
-GDL 1.0 is also the first major release following the move of GDL 
-development from SourceForge (thank you for the last 15 years of 
-hospitality!) to Github. This relocation was an occasion for a major 
-effort targeting developer-workflow-oriented automation which helps us 
-reduce entry barriers for new contributions, ensure increasing code 
-coverage with automatic tests, facilitate maintenance and user support 
-as well as ensure result reproducibility and traceability. Several of 
-the lessons learn, insights gained and remaining challenges related 
-with the development of the continuous integration process for the 
-project will be reported.
-
-Finally, the presentation will summarize current availability of 
-packaged versions of GDL, compatibility with popular IDL-written 
-astronomy-related software, potential directions for the upcoming 
-releases, and the key areas where GDL could benefit from further user 
-feedback and new contributions.
+P Coulais, Alain alain.coulais@obspm.fr 
+    ABS: 
  
 O Crawford, Steven scrawford@stsci.edu Triumphs and Challenges of the Astropy Project: Open Development of a Python Library for Astronomy
     ABS: The Astropy Project is a community composed of individuals and institutes that are interested in building an open source framework in Python for astronomy.  Using collaborative development tools and following an open development philosophy, the project provides an ecosystem of inter-operable packages.   We describe the project infrastructure designed to facilitate collaboration on the development of open source software and provide an update of the most recent releases.   The project has had a number of successes and challenges while being one of the largest collaboratively developed software package in astronomy.  We discuss the aspects of the project that contributed to its success while also highlighting some of the challenges to the project and future developments.
@@ -269,26 +242,12 @@ adding new models and coordinate systems.
 X Derriere, Sébastien sebastien.derriere@astro.unistra.fr 
     ABS: 
  
-O Deshpande, Shubhankar shubhand@cs.cmu.edu GMRT Archival Utility for Data Analysis
-    ABS: The GMRT Online Archive houses over 80 terabytes of interferometric observations obtained with
-the GMRT since since the observatory began operating as a facility in 2002. The utility of this vast
-data archive, likely the largest of any Indian telescope, can be significantly enhanced if first look
-(and where possible, science ready) processed images can be made available to the user
-community. We have initiated a project to pipeline process GMRT images in the 150, 240, 325 and
-610 MHz bands. The SPAM pipeline developed by Huib Intema is being used for this purpose. A
-prototyping run has been successfully completed and the results are encouraging. The thousands
-of processed continuum images that we will produce will prove useful in studies of distant galaxy
-clusters, radio AGN, as well as nearby galaxies and star forming regions. Besides the scientific
-returns, a uniform data processing pipleine run on a large volume of data can be used in
-interesting ways. For example, we will be able to measure various performance characteristics of
-the GMRT telescope and their dependence on waveband, time of day, RFI environment,
-backend, galactic latitude etc. in a systematic way. Since the SPAM pipeline also carries out
-direction dependent modeling of ionospheric phase errors, we will also be able to measure
-differential ionospheric phase delays over thousands of sightlines over the entire solar cycle to
-better understand the properties of the earth's ionosphere. A variety of data products such as
-calibrated UVFITS data, sky images, Hierachical Progressive Survey (HiPS) images, PyBDSF catalogs,
-AIPS processing logs will be delivered to users via the GMRT online archive. Data products will be
-compatible with standard Virtual Observatory protocols.
+P Deshpande, Shubhankar shubhand@cs.cmu.edu GMRT Archive Processing Project
+    ABS: The GMRT Online Archive houses over 80 terabytes of interferometric observations obtained with the GMRT since the observatory began operating as a facility in 2002. The utility of this vast data archive, likely the largest of any Indian telescope, can be significantly enhanced if first look (and where possible, science ready) processed images can be made available to the user community. We have initiated a project to pipeline process GMRT images in the 150, 240, 325 and 610 MHz bands. The SPAM pipeline developed by Huib Intema is being used for this purpose. A prototyping run has been successfully completed and the results are encouraging. The thousands of processed continuum images that we will produce will prove useful in studies of distant galaxy clusters, radio AGN, as well as nearby galaxies and star-forming regions. Besides the scientific returns, a uniform data processing pipeline run on a large volume of data can be used in
+interesting ways. For example, we will be able to measure various performance characteristics of the GMRT telescope and their dependence on waveband, time of day, RFI environment,
+backend, galactic latitude etc. in a systematic way. Since the SPAM pipeline also carries out direction dependent modeling of ionospheric phase errors, we will also be able to measure
+differential ionospheric phase delays over thousands of sightlines over the entire solar cycle to better understand the properties of the earth's ionosphere. A variety of data products such as
+calibrated UVFITS data, sky images, Hierarchical Progressive Survey (HiPS) images, PyBDSF catalogs, AIPS processing logs will be delivered to users via the GMRT online archive. Data products will be compatible with standard Virtual Observatory protocols.
  
 O Diaz, Rosa rdiaz@stsci.edu Adding Science Validation to the  JWST Calibration Pipeline.
     ABS: The JWST Calibration Pipeline is a set of steps separated into three main stages; looking to provide the best calibration for all JWST instruments, observing modes, and a wide range of science cases. Careful scientific validation and verification are necessary to determine consistency and quality of the data produced by the calibration pipeline.  With this goal in mind, the scientist at STScI have supported validation testing for most of the major builds.  Our experience with HST and the realization of the effort it would take to consistently and reliably test after each build, even after launch, motivated us to think about streamlining the process.  We started building unit tests to verify that the calibration pipeline produced the expected results. However, the need for a more in-depth scientific validation of the wide range of science cases that will be observed by JWST requires a different strategy; one that not only validates the accuracy of the data but that also provides with reliable metrics for all science cases.  We are working on defining a more complete set of science validation tests cases and simulated data that can be integrated within an automated building and testing framework; allowing full science verification and validation of the calibration pipeline in short time scales as well as quality assurance of the calibration products. 
@@ -634,6 +593,9 @@ O Kent, Brian bkent@nrao.edu 3D Data Visualization in Astrophysics
 O Kepley, Amanda akepley@nrao.edu Auto-multithresh: A General Purpose Automated Masking Algorithm for Clean
     ABS: Generating images from radio interferometer data requires deconvolving the point spread function of the array from the initial image. This process is commonly done via the clean algorithm, which iteratively models the observed emission. Because this algorithm has many degrees of freedom, producing an optimal science image typically requires the scientist to manually mask regions of real emission while cleaning. This process is a major hurdle for the creation of the automated imaging pipelines necessary to process the high data rates produced by current and future interferometers like ALMA, the JVLA, and the ngVLA. In this talk, we present a general purpose masking algorithm called ‘auto-multithresh’ that automatically masks emission during the cleaning process. This algorithm was initially implemented within the tclean task in CASA 5.1. The tclean implementation significant performance improvements in CASA 5.3. The ‘auto-multithresh’ algorithm is in production as part of the ALMA Cycle 5 and 6 imaging pipelines. It has also been shown to work with data from telescopes like the VLA and ATCA. We describe how this algorithm works, provide a variety of examples demonstrating a success of the algorithm, and discuss the performance of the algorithm. Finally, we close with some future directions for producing science ready data products that build on this algorithm.
  
+X Kitaeff, Vyacheslav slava.kitaeff@uwa.edu.au DALiuGE/CASA based processing for the extragalactic HI observations with FAST.
+    ABS: We present a prototype for the spectral-line data reduction pipeline based on  the graph-based execution framework DALiuGE, and the CASA single-dish spectral-line package. The pipeline has been designed for the drift-scan mode of FAST multi-beam telescope targeting extra-galactic HI observations.
+ 
 P Kong, Xiao kongx@nao.cas.cn The construction of a new stellar classification template library for the LAMOST 1D Pipeline based on LAMOST DR5
     ABS: With the ability of capturing four thousands spectra in one exposure, the Large Sky Area Multi-Object Fiber Spectroscopic Telescope (LAMOST) is a special quasi-meridian reflecting Schmidt telescope located in Xinglong Station of national Astronomical Observatory, China.
 It released the fifth spectral data this year, containing 8,171,443 star, 153,090 galaxy, 51,133 QSO and 642,178 unknown type, all of which are classified by the LAMOST 1D pipeline.
@@ -653,6 +615,9 @@ Finally, the feasibility and accuracy of using this template for classification 
 O Kosack, Karl karl.kosack@cea.fr Data Processing Challenges for CTA
     ABS: The Cherenkov Telescope Array (CTA) Observatory will generate hundreds of petabytes of raw and simulated data during its operation---orders of magnitude more than any current gamma-ray instrument.  We present the current status of the design and prototyping efforts for a system to handle the large volume of raw data, to produce a nearly equal volume of simulated data needed to characterize the instrumental response, and to process it all to provide much more compact science
 data to users. This includes our efforts at a comprehensive architectural model, as well as the use of modern technologies for distributed data processing and storage, and for a python-driven analysis.
+ 
+P Kosugi, George george.kosugi@nao.ac.jp Qualification of Sparse Modeling Technique for radio interferometric imaging of ALMA
+    ABS: under preparation
  
 P Kumar, Praveen pkumar6743@gmail.com (2+1) dimensional cosmological models in f(R,T) gravity with Λ(R,T)
     ABS: We intend to study a new class of cosmological models in f(R, T) modiﬁed theories of gravity, hence deﬁne the cosmological constant Λ as a function of the trace of the stress energy-momentum-tensor T and the Ricci scalar R, and name such a model Λ(R,T) gravity where we have speciﬁed a certain form of Λ(R, T). Λ(R, T) is also deﬁned in the perfect ﬂuid and dust case. Some physical and geometric properties of the model are also discussed. We study behaviour of some cosmological quantities such as Hubble and deceleration parameters and also the redshift function. The model is innovative in the sense that it has been described in terms of both R and T and display a better understanding of the cosmological observations.
@@ -774,6 +739,10 @@ F Mechev, Alexandar apmechev@strw.leidenuniv.nl Building LOFAR As A Service: Pro
  
 P Mellado, Pablo mellado@iram.es Realtime telescope and data visualization using web technologies
     ABS: When performing onsite or remote observations in a telescope, it is very critical to have a good feedback about the current status of your ongoing observation. Nowadays the web technology have evolved to allow us to get data in realtime with the advantage of using just a web browser.
+
+In our telescope we found the need of updating our previous outdated monitoring system which is currently showing information about the status of the telescope, the last scans plots, a view of the current weather conditions, etc
+
+This poster shows how the data visualization has improved by using newer technologies like microservices, websockets and messaging, as well as the structure developed to integrate them succesfully in a reliable and more attractive way.
  
 P Michel, Laurent laurent.michel@astro.unistra.fr ALiX: An advanced search interface for AladinLite
     ABS: ALiX is a flexible catalog portal based on Aladin Lite. It it designed to use an interactive sky view as a primary selection tool. The ALiX view is constantly updated with data queried from the host database. It offers advanced functionalities allowing to mix local data with VO data. Users can draw areas of interest by hand and bookmark views.  ALiX has no dependency with any specific data source; it can be integrated in any existing portal.
@@ -1089,8 +1058,17 @@ O Smith, Jeffrey jeffrey.smith@nasa.gov Lilith: A Versatile Instrument and All-S
 O Snyder, Gregory gsnyder@stsci.edu Mock Datasets and Galaxy Merger Statistics from Cosmological Hydro Simulations
     ABS: I will describe efforts to blend cosmological simulations with surveys of distant galaxies. In particular, I will discuss our work to create and interpret millions of synthetic images derived from the Illustris project, a recent large hydrodynamic simulation effort. Recently, we showed that because galaxies assembled so rapidly, distant mergers are more common than the simplest arguments imply. Further, we improved image-based merger diagnostics by training many-dimensional ensemble learning classifiers using the simulated images and known merger events. By applying these results to data from the CANDELS multi-cycle treasury program, we measured a high galaxy merger rate in the early universe in broad agreement with theory, an important test of our cosmological understanding.
  
+X Solar, Martin msolar95@gmail.com 
+    ABS: 
+ 
+X Solar, Mauricio mauricio.solar@usm.cl 
+    ABS: 
+ 
 X Song, Xinying songxy@ihep.ac.cn Development on Data Analysis Software on GECAM
     ABS: Introduction on Development on Data Analysis Software on GECAM.
+ 
+P Stenborg, Travis mqastro@acm.org Contracts Tracking for Astronomical Infrastructure Projects in Jira
+    ABS: A custom Jira workflow has been developed at Astronomy Australia Limited (AAL) for contract status management. The Jira cloud-hosted system provides quick determination of contracts' statuses for AAL's program of astronomical infrastructure projects. Passive, overview-style contracts' statuses are available from the standard, browser-accessible Jira dashboard and more detailed information accessible via views. Additionally, a configurable level of active contract status updates are provided via integration of workflow transitions with user-specified watchers.
  
 O Stevens, Abigail abigailstev@gmail.com Stingray: Open-source spectral-timing software
     ABS: New ideas about how to analyze time-domain X-ray astronomy data have initiated the “spectral-timing revolution,” leading to a surge in developments of analysis techniques. Many individual tools and libraries exist, and some are even publicly available, but what has been lacking is a coherent set for a complete analysis. Stingray is a new community-developed, open-source software package in Python for spectral-timing analysis of astrophysical data. This software package merges existing efforts for a timing package in Python and provides the basis for developing spectral-timing analysis tools, while following the Astropy guidelines for modern open-source scientific programming. Stingray has a scripting interface, an affiliated GUI, and a well-documented API for power-users. The ultimate goal is to provide the community with a package that eases the learning curve for state-of-the-art spectral-timing techniques, with a correct statistical framework, to make maximal use of data from NuSTAR, NICER, and potentially STROBE-X and eXTP. Stingray is pip-installable via the Python Package Index, and we warmly welcome community involvement on GitHub and Slack. For more information, see the Stingray website: http://stingraysoftware.github.io/
@@ -1181,6 +1159,9 @@ has been obtained at the telescope.  Most of the required structure, algorithms 
 processes already exist with the offline version of the GSP. The real-time or online
 version differs in its requirements for flow control, calibration files, image combination, reprocessing, observing logging assistance, etc.
 Here we present results obtained with the offline version of GSP with various instrument setups, and outline the route for implementation of the real time, online version.
+ 
+P Tsutsumi, Takahiro ttsutsum@nrao.edu Development of auto-multithresh: automated masking for deconvolution in CASA
+    ABS: A general purpose automated masking algorithm for deconvolution was developed in order to support automated data processing in ever-increasing data volumes of the current and future radio interferometers as described by Kepley et al ,in this meeting. In this presentation, we describe some details of the implementation of the automated masking algorithm named “auto-multithresh” which was integrated into the refactored imaging task (tclean) in CASA.
  
 X Vahi, Karan vahi@isi.edu Workflows Management using Pegasus
     ABS: Workflows are a key technology for enabling complex scientific applications. They capture the interdependencies between processing steps in data analysis and simulation pipelines, as well as the mechanisms to execute those steps reliably and efficiently in a distributed computing environment. They also enable scientists to capture complex processes to promote method sharing and reuse and provide provenance information necessary for the verification of scientific results and scientific reproducibility. Application containers such as Docker and Singularity are increasingly becoming a preferred way for bundling user application code with complex dependencies, to be used during workflow execution. The use of application containers ensures the user scientific code is executed in a homogenous environment tailored for application, even when executing on nodes with widely varying architecture, operation systems and system libraries. This demo will focus on how to model scientific analysis as a workflow and execute them on distributed resources using the Pegasus Workflow Management System

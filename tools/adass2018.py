@@ -47,7 +47,10 @@ class adass(object):
         col_ln = row_values.index('Last Name')
         col_fn = row_values.index('First Name')
         if row_values[0] == 'Reg Status':
-            self.off = 1
+            if row_values[2] == 'Modified':
+                self.off = 2
+            else:
+                self.off = 1
         else:
             self.off = 0
         status = status and (row_values[0] == 'Reg Status')
@@ -66,18 +69,26 @@ class adass(object):
     def print_col(self, col):
         """ print a given columns. expert mode
         """
-        for key in self.x3.keys():
+        keys = self.x3.keys()
+        keys.sort()
+        for key in keys:
             r = self.x3[key]
             print(r[col+self.off].value)
 
     def report_0(self):
         """ print just the 'Lastname, Firstname' key
         """
-        for key in self.x3.keys():
-            print(key)
+        keys = self.x3.keys()
+        keys.sort()
+        for key in keys:
+            k = key.encode('utf-8')
+            print(k)
 
     def report_1(self, abstract=False):
-        for key in self.x1.keys():
+        keys = self.x1.keys()
+        keys.sort()
+        for key in keys:
+            k = key.encode('utf-8')            
             present   = self.x1[key][22].value
             title1    = self.x1[key][23].value
             abstract1 = self.x1[key][24].value
@@ -88,49 +99,80 @@ class adass(object):
             if abstract: print(" ")
             if present == 'Talk/Focus Demo':
                 if focus_demo == '1' and demo_booth == '1':
-                    print("F+B",key,email,title1)
+                    print("F+B",k,email,title1)
                 elif focus_demo == '1':
-                    print("F",key,email,title1)            
+                    print("F",k,email,title1)            
                 elif demo_booth == '1':
-                    print("B",key,email,title1)                        
+                    print("B",k,email,title1)                        
                 else:
-                    print("O",key,email,title1)
+                    print("O",k,email,title1)
             elif present == 'Poster':
-                print("P",key,email,title1)
+                print("P",k,email,title1.encode('utf-8'))
             else:
-                print("X",key,email,title1)
-            if abstract: print("    ABS:",abstract1)
+                print("X",k,email,title1)
+            if abstract: print("    ABS:",abstract1.encode('utf-8') )
             if key in self.x2:
                 present2  = self.x2[key][22].value
                 title2    = self.x2[key][23].value
                 abstract2 = self.x2[key][23].value
-                print("  ABS2",key,title2)
-                if abstract: print("    ABS:",abstract2)
+                print("  ABS2",k,title2.encode('utf-8') )
+                if abstract: print("    ABS:",abstract2.encode('utf-8') )
 
     def report_2(self,x1,x2,x3):
-        for key in x1.keys():
+        keys = self.x1.keys()
+        keys.sort()
+        for key in keys:
             present = x1[key][22+self.off].value
             r = x3[key]
             focus_demo = r[25+self.off].value
             demo_booth = r[26+self.off].value
             print(present,key,'f=%s' % focus_demo,'d=%s' % demo_booth)
 
-    def report_3(self,o1):
-        """ report a selection of speakers based on names
+    def report_3(self,o1, count=False):
+        """ report a selection of presenters based on list of names
         """
+        # prepare list of last names
+        lnames=[]
+        keys  =[]
+        for key in self.x1.keys():
+            lnames.append(key[:key.find(',')])
+            keys.append(key)
+        #print(lnames)
+        #print(keys)
+        #
         n=0
-        for key in o1:
-            if key in self.x1.keys():
+        for k in o1:
+            if k == '#': continue
+            found = False
+            if k in self.x1.keys():
+                # full match
+                found = True
+                key = k
+            else:
+                # try a partial match based on last name
+                if lnames.count(k) == 1: 
+                    key = keys[lnames.index(k)]
+                    found = True                    
+                else:
+                    # one last try, min. match if 'k' is in lnames[]
+                    # for names in lnames:
+                    print("# %s" % k)
+            if found:
                 n         = n + 1
                 present   = self.x1[key][22].value
                 title1    = self.x1[key][23].value
                 abstract1 = self.x1[key][24].value
-                print(n,key,present,title1)
+                if count:
+                    print(n,key,present,title1)
+                else:
+                    print(key,'-',title1)
 
     def report_4(self, full = False):
         """ report emails only"""
-        
-        for key in self.x3.keys():
+
+        keys = self.x3.keys()
+        keys.sort()
+        for key in keys:
             r = self.x3[key]
             email = r[14+self.off].value
             if full:
@@ -156,12 +198,14 @@ class adass(object):
  
 if __name__ == "__main__":
 
+    import io
+    
     debug = True
     a = adass('reg', debug)
     
     if len(sys.argv) == 2:
         f1 = sys.argv[1]
-        o1 = open(f1).readlines()
+        o1 = io.open(f1, encoding="utf-8").readlines()
         for i in range(len(o1)):
             o1[i] = o1[i].strip()
         a.report_3(o1)

@@ -1,9 +1,9 @@
-197 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 192 entries
+204 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 198 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-278 x 36 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 260 entries
+288 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 269 entries
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
@@ -40,14 +40,14 @@ P Ceballos, M.Teresa ceballos@ifca.unican.es Jitter and readout sampling frequen
 X Chen, Wei chenwei@ihep.ac.cn An automatic data collection and analysis software for GRB studies and its result
 O Chilingarian, Igor igor.chilingarian@cfa.harvard.edu Binospec@MMT: a database-driven model of operations, from planning of observations to data reduction and archiving
 O Comrie, Angus accomrie@gmail.com An HDF5 Schema for SKA Scale Image Cube Visualization
-O Coulais, Alain alain.coulais@obspm.fr GDL - GNU Data Language 1.0
+P Coulais, Alain alain.coulais@obspm.fr 
 O Crawford, Steven scrawford@stsci.edu Triumphs and Challenges of the Astropy Project: Open Development of a Python Library for Astronomy
 O Cupani, Guido guido.cupani@inaf.it Astrocook: your spectral analysis recipe book, now with a GUI
 O DAI, CONG daicong2014@163.com A method to detect radio frequency interference based on convolutional neural networks
 O Dempsey, James james.dempsey@csiro.au Serving large scale survey data for ASKAP with SIA2 and SODA
 O Dencheva, Nadia dencheva@stsci.edu GWCS - A General Approach to  Astronomical World Coordinates
 X Derriere, Sébastien sebastien.derriere@astro.unistra.fr 
-O Deshpande, Shubhankar shubhand@cs.cmu.edu GMRT Archival Utility for Data Analysis
+P Deshpande, Shubhankar shubhand@cs.cmu.edu GMRT Archive Processing Project
 O Diaz, Rosa rdiaz@stsci.edu Adding Science Validation to the  JWST Calibration Pipeline.
 O Donaldson, Tom tdonaldson@stsci.edu Astropy and the Virtual Observatory
 P Dowler, Patrick pdowler.cadc@gmail.com Archive-2.0: Metadata and Data Synchronisation between MAST, CADC, and ESAC
@@ -91,8 +91,10 @@ P Kawasaki, Wataru wataru.kawasaki@nao.ac.jp Vissage: viewing polarisation data 
 P Kelley, Michael msk@astro.umd.edu ZChecker: Finding Cometary Outbursts with the Zwicky Transient Facility
 O Kent, Brian bkent@nrao.edu 3D Data Visualization in Astrophysics
 O Kepley, Amanda akepley@nrao.edu Auto-multithresh: A General Purpose Automated Masking Algorithm for Clean
+X Kitaeff, Vyacheslav slava.kitaeff@uwa.edu.au DALiuGE/CASA based processing for the extragalactic HI observations with FAST.
 P Kong, Xiao kongx@nao.cas.cn The construction of a new stellar classification template library for the LAMOST 1D Pipeline based on LAMOST DR5
 O Kosack, Karl karl.kosack@cea.fr Data Processing Challenges for CTA
+P Kosugi, George george.kosugi@nao.ac.jp Qualification of Sparse Modeling Technique for radio interferometric imaging of ALMA
 P Kumar, Praveen pkumar6743@gmail.com (2+1) dimensional cosmological models in f(R,T) gravity with Λ(R,T)
 X Kuulkers, Erik erik.kuulkers@esa.int Coordinating observations among ground and space-based telescopes in the multi-messenger era
 O Kyprianou, Mark kyp@stsci.edu Lessons Learned from the behemoth JWST Data Management effort
@@ -176,7 +178,10 @@ P Shirasaki, Yuji yuji.shirasaki@nao.ac.jp VO service in Japan : Registry servic
 P Sihlangu, Isaac isihlangu@ska.ac.za MeerKAT Radio Frequency Interefence characterization using Machine Learning
 O Smith, Jeffrey jeffrey.smith@nasa.gov Lilith: A Versatile Instrument and All-Sky Simulator for use with Space-Based Astrophysics Observatories
 O Snyder, Gregory gsnyder@stsci.edu Mock Datasets and Galaxy Merger Statistics from Cosmological Hydro Simulations
+X Solar, Martin msolar95@gmail.com 
+X Solar, Mauricio mauricio.solar@usm.cl 
 X Song, Xinying songxy@ihep.ac.cn Development on Data Analysis Software on GECAM
+P Stenborg, Travis mqastro@acm.org Contracts Tracking for Astronomical Infrastructure Projects in Jira
 O Stevens, Abigail abigailstev@gmail.com Stingray: Open-source spectral-timing software
 X Stoehr, Felix felix.stoehr@gmx.de Astronomical archives: Serving up the Universe
 P Streicher, Ole ole@aip.de DOI in Astronomy
@@ -189,6 +194,7 @@ O Toledo, Ignacio ignacio.toledo@alma.cl Data Science =! Software Engineering. E
 O Tollerud, Erik etollerud@stsci.edu BoF: Open Source/Development Software Projects and Large Organizations/Missions: Recommendations and Challenges
 O Tomasi, Maurizio maurizio.tomasi@unimi.it Towards new solutions for scientific computing: the case of Julia
 P Torres, Simón storres@ctio.noao.edu An on-site data reduction pipeline for the Goodman Spectrograph
+P Tsutsumi, Takahiro ttsutsum@nrao.edu Development of auto-multithresh: automated masking for deconvolution in CASA
 X Vahi, Karan vahi@isi.edu Workflows Management using Pegasus
 O Vitello, Fabio fabio.vitello@inaf.it VisIVO Visual Analytics Tool an EOSC Science Demonstrator for data discovery
 P Wang, Rui wangrui@nao.cas.cn Analysis of Stellar Spectra from LAMOST DR5 with Generative Spectrum Networks

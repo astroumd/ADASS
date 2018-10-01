@@ -17,6 +17,7 @@ Arviset, Christophe
 Asercion, Joseph
 Atemkeng Teufack, Marcellin
 Baines, Deborah
+Bakker, Jorgo
 Ballester, Pascal
 Baumann, Matthieu
 Becciani, Ugo
@@ -26,6 +27,7 @@ Boch, Thomas
 Boisson, Catherine
 Bolton, Adam
 Bonnarel, François
+Booker, Joseph
 Borne, Kirk
 Bosch, James
 Boussejra, Malik Olivier
@@ -101,6 +103,7 @@ Ikeda, Shiro
 Iwasaki, Hiroyoshi
 Jaffe, Tess
 Jenness, Tim
+Jeschke, Eric
 Johnston, Kyle
 Joliet, Emmanuel
 Joncour, Isabelle
@@ -112,9 +115,11 @@ Kawasaki, Wataru
 Kelley, Michael
 Kent, Brian
 Kepley, Amanda
+Kitaeff, Vyacheslav
 Kong, Xiao
 Kornilov, Matwey
 Kosack, Karl
+Kosugi, George
 Kumar, Praveen
 Kuulkers, Erik
 Kyprianou, Mark
@@ -220,8 +225,11 @@ Smale, Alan
 Smith, Arfon
 Smith, Jeffrey
 Snyder, Gregory
+Solar, Martin
+Solar, Mauricio
 Song, Xinying
 Spolaor, Max
+Stenborg, Travis
 Stevens, Abigail
 Stoehr, Felix
 Streicher, Ole
@@ -238,6 +246,7 @@ Toledo, Ignacio
 Tollerud, Erik
 Tomasi, Maurizio
 Torres, Simón
+Tsutsumi, Takahiro
 Vahi, Karan
 Vermaas, Nico
 Vitello, Fabio

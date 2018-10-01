@@ -17,6 +17,7 @@ Christophe.Arviset@esa.int
 joseph.a.asercion@nasa.gov
 m.atemkeng@gmail.com
 dbaines@sciops.esa.int
+jbakker@sciops.esa.int
 pballest@eso.org
 matthieu.baumann@astro.unistra.fr
 ugo.becciani@inaf.it
@@ -26,6 +27,7 @@ thomas.boch@astro.unistra.fr
 catherine.boisson@obspm.fr
 bolton@noao.edu
 francois.bonnarel@astro.unistra.fr
+josephbooker@jhu.edu
 borne_kirk@bah.com
 jbosch@astro.princeton.edu
 malik@boussejra.com
@@ -101,6 +103,7 @@ shiro@ism.ac.jp
 h.iwasaki@rikkyo.ac.jp
 tess.jaffe@nasa.gov
 tjenness@lsst.org
+eric@naoj.org
 kyjohnst2000@my.fit.edu
 ejoliet@ipac.caltech.edu
 isabelle.joncour@univ-grenoble-alpes.fr
@@ -112,9 +115,11 @@ wataru.kawasaki@nao.ac.jp
 msk@astro.umd.edu
 bkent@nrao.edu
 akepley@nrao.edu
+slava.kitaeff@uwa.edu.au
 kongx@nao.cas.cn
 matwey@sai.msu.ru
 karl.kosack@cea.fr
+george.kosugi@nao.ac.jp
 pkumar6743@gmail.com
 erik.kuulkers@esa.int
 kyp@stsci.edu
@@ -220,8 +225,11 @@ alan.smale@nasa.gov
 arfon@stsci.edu
 jeffrey.smith@nasa.gov
 gsnyder@stsci.edu
+msolar95@gmail.com
+mauricio.solar@usm.cl
 songxy@ihep.ac.cn
 max.spolaor@tmctechnologies.com
+mqastro@acm.org
 abigailstev@gmail.com
 felix.stoehr@gmx.de
 ole@aip.de
@@ -238,6 +246,7 @@ ignacio.toledo@alma.cl
 etollerud@stsci.edu
 maurizio.tomasi@unimi.it
 storres@ctio.noao.edu
+ttsutsum@nrao.edu
 vahi@isi.edu
 vermaas@astron.nl
 fabio.vitello@inaf.it

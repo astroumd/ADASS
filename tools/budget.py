@@ -8,20 +8,20 @@
 
 from __future__ import print_function
 
-version = "26-sep-2017"
+version = "6-jul-2018"
 
 htax = 0.22  # hotel tax
 ctax = 0.03  # credit card tax
 
-np  = 300   # number of registration
-ns  =  50   # number of students in this registration
+np  = 350   # number of registration
+ns  =  25   # number of students in this registration
 nb  =  60   # number of poster boards (each can hold 2 per side)
 nt  = 100   # number of people for tutorial [not used anymore, see f_tutorial]
 nz  =   4   # number of power strips
 
 f_reception  = 0.85     # fraction of people going to reception
 f_banquet    = 0.60     # fraction of people going to banquet
-f_tutorial   = 0.333333333     # fraction of people going to tutorial
+f_tutorial   = 0.05     # fraction of people paying for tutorial
 f_attend3    = 0.90     # 90% expected attendance for the first 3 days
 f_attend1    = 0.75     # 75% expected attendance for the last half day
 f_early1     = 0.80     # 80% will register early (regular)
@@ -40,11 +40,11 @@ if False:
 
 # fees per person
 fpp1 = 35          # CVS fee per person
-fpp2 = 500         # registration fee per person (early)
+fpp2 = 550         # registration fee per person (early)
 fpp3 = fpp2 + 100  # registration fee per person (late)
 fpp4 = 200         # student fee (early)
 fpp5 = fpp4 +  50  # student fee (late)
-fpp6 = 30          # tutorial fee
+fpp6 = 50          # tutorial fee
 fpp7 = 75          # banquet fee
 
 # fixed fees (various of those are still hardcoded below)
@@ -52,7 +52,7 @@ fee1 = 3500        # CVS base fee
 
 sub2 = 0           # placeholder to share between functions
 
-cb1 = 70000        # sponsors contribution
+cb1 = 50000        # sponsors contribution
 
 
 # --- function: Income from registration 
@@ -88,7 +88,7 @@ def costs(np):
     # conference services
     cvs1 = fee1 + fpp1 * np
     cvs2 = sub2 * ctax
-    cvs3 = 2008.0
+    cvs3 = 2008.0              # hotel, lodging, per-diem
     cs1 = cvs1 + cvs2 + cvs3
     print("PJT-check",cs1)
 
@@ -100,14 +100,16 @@ def costs(np):
     mf12  = 2244.80
     mf13  = nz * 5 * 40 * (1+htax)
     mf13  = 0.0                            # we now do our own power strips
+    mf21  = 1788.82              # ivoa plenary
+    mf22  = 3204.15              # ivoa breakout
     mf1   = 3019.50 + 2244.80 + 976.00 + (nb*75 + 150 + 30)
-    mf1   = mf11 + mf12 + mf13 + (nb*75 + 150 + 30)
+    mf1 = mf11 + mf12 + mf13 + (nb*75 + 150 + 30) + mf21 + mf22
     # ok
     
     # catering
     c1 = np * f_reception * (47+6) * (1+htax) + (150+150)*(1+htax)
-    c2 = np * f_attend3   * 125    * 3    # 3 full days
-    c3 = np * f_attend1   * 105    * 1    # 1 half day (105 could become 65)
+    c2 = np * f_attend3   * 125    * 3     # 3 full days
+    c3 = np * f_attend1   * 105    * 1     # 1 half day (105 could become 65)
     #c3 = np * f_attend1   *  65    * 1    # 1 half day (105 could become 65)
     c4 = np * f_banquet   * (61+12) * (1+htax) + (150+150)*(1+htax)
     cc1 = c1 + c2 + c3 + c4
@@ -117,9 +119,9 @@ def costs(np):
     ps1 = np * 5  + 600
 
     # invited speakers
-    is1 = 11 * fpp2 + 5000     # also includes financial aid (5000)
+    is1 = 12 * fpp2 + 5000     # also includes financial aid (5000)
 
-    # additional expensese (the goodies)
+    # additional expenses (the swags, the goodies)
     ae1 = np * 12
 
     total1 = cs1 + mf1 + cc1 + ps1 + is1 + ae1
