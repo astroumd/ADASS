@@ -1,6 +1,8 @@
 #! /usr/bin/env python
 #
 #   ADASS 2018 sample processing of the 3 XLS spreadsheets
+#   1) you need python3
+#   2) you need xlrd (should come with python3)
 
 from __future__ import print_function
 
@@ -47,8 +49,9 @@ class adass(object):
         row_values = s0.row_values(2)
         col_ln = row_values.index('Last Name')
         col_fn = row_values.index('First Name')
-        if row_values[0] == 'Reg Status':
-            if row_values[2] == 'Modified':
+        # C&VS had a few revisions....
+        if row_values[0] == 'Reg Status':     # (added 
+            if row_values[2] == 'Modified':   # (added oct 1)
                 self.off = 2
             else:
                 self.off = 1
