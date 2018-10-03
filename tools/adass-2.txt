@@ -1,9 +1,9 @@
-204 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 198 entries
+203 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 199 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-288 x 37 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 269 entries
+293 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 268 entries
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
@@ -22,6 +22,7 @@ P Baines, Deborah dbaines@sciops.esa.int DEAVI: Dynamic Evolution Added Value In
 P Baumann, Matthieu matthieu.baumann@astro.unistra.fr New Python developments to access CDS services
 P Becciani, Ugo ugo.becciani@inaf.it VisIVO Visual Analytics Tool an EOSC Science Demonstrator for data discovery
 O Berriman, Bruce gbb@ipac.caltech.edu Breathing New Life Into An Old Pipeline: Precision Radial Velocity Spectra of TESS Exoplanet Candidates
+X Blanco-Cuaresma, Sergi sblancocuaresma@cfa.harvard.edu 
 P Boch, Thomas thomas.boch@astro.unistra.fr Creating and managing very large HiPS: the PanSTARRS case
 P Boisson, Catherine catherine.boisson@obspm.fr Multi-instrument and reproducible gamma-ray analysis
 O Bolton, Adam bolton@noao.edu Towards a National Center for Optical and Infrared Astronomy: Opportunities and Challenges in Science, Software, and Data
@@ -77,7 +78,6 @@ O Hague, Peter prh44@cam.ac.uk BaSC - A Bayesian path to improved source finding
 P Han, Jun hanjun@nao.cas.cn The conceptual design of amateur public observatory software framework
 P He, Helen hhe@cfa.harvard.edu Pixel mask Filtering of CXC Datamodel
 X Holman, Matthew mholman@cfa.harvard.edu The Minor Planet Center Data Processing System
-P Ibarra, Aitor aitor.ibarra@sciops.esa.int Standardization of object visibility and planning information through VO protocols
 O Iwasaki, Hiroyoshi h.iwasaki@rikkyo.ac.jp A new implementation of deep neural network to spatio-spectral analysis in X-ray astronomy
 P Jenness, Tim tjenness@lsst.org Abstracting the storage and retrieval of image data at the LSST
 P Johnston, Kyle kyjohnst2000@my.fit.edu Variable Star Classification Using Multi-View Metric Learning
@@ -101,17 +101,17 @@ O Kyprianou, Mark kyp@stsci.edu Lessons Learned from the behemoth JWST Data Mana
 P Labrie, Kathleen klabrie@gemini.edu DRAGONS - Data Reduction for Astronomy from Gemini Observatory North and South
 X Lacy, Mark mlacy@nrao.edu The VLA Sky Survey - operations, data processing and archiving
 O Lam, Cheuk Yin c.y.lam@ljmu.ac.uk Data-Driven Pixelisation with Voronoi Tessellation
+P Lammers, Jason jlammers0@gmail.com Optimizing Legacy Code for Current Use
 O Landais, Gilles gilles.landais@astro.unistra.fr Quality assurance in the ingestion of data into the CDS VizieR catalogue and data services
 O Lemson, Gerard glemson1@jhu.edu FileDB, a pattern for querying cosmological simulations
 O Li, Changhua lich@nao.cas.cn Design of KNN Star-QSO Classification Algorithm Based on Cloud Computing
-P Li, Jian lijian@bao.ac.cn An Visual Telescope Control Interface Based on Browser
-P Li, Yinbi ybli@bao.ac.cn The application of Bagging TopPush method to searching for carbon stars
 X Lieu, Maggie maggie.lieu@sciops.esa.int Deep learning of astronomical features with big data.
 P Lim, Pey Lian lim@stsci.edu stginga: Ginga Plugins for Data Analysis and Quality Assurance of HST and JWST Science Data
 P Lin, Ganghua lgh@bao.ac.cn The quality assurance of Chinese solar physics historical observation data archives
 O Loose, Marcel loose@astron.nl Agile and DevOps from the trenches at ASTRON
 X Lorente, Nuria Nuria.Lorente@aao.gov.au 
 P Louys, Mireille mireille.louys@unistra.fr The IVOA provenance Data model
+X Lu, Yuxi lucylulu12311@gmail.com 
 P Lundquist, Michael mlundquist@email.arizona.edu Searching for Optical Counterparts to Gravitational Wave Events with the Catalina Sky Survey
 P Lutz, Katharina katharina.lutz@astro.unistra.fr Getting ready for the fourth Asterics DADI virtual observatory school
 P Ma, Xiang max@ihep.ac.cn Insight-HXMT Timing Analysis of New Black Hole Candidate MAXI J1820+070
@@ -162,7 +162,6 @@ O Roby, Trey roby@ipac.caltech.edu New visualization Features in Firefly
 O Romelli, Erik erik.romelli@inaf.it Euclidizing external tools: an example from SDC-IT on how to handle software and humanware
 X Rots, Arnold arots@cfa.harvard.edu Data Citation
 P Rubtsov, Evgenii ev.rubtcov@physics.msu.ru Stellar atmospheric parameters from full spectrum fitting of intermediate and high-resolution spectra against PHOENIX/BT-Settl synthetic stellar atmospheres
-O Rusholme, Benjamin rusholme@caltech.edu The Zwicky Transient Facility Data System
 P Ryan, P. Wesley wes@ascl.net Schroedinger’s code: Source code availability and transparency in astrophysics
 O Salgado, Jesus Jesus.Salgado@sciops.esa.int Gaia DR2 and the Virtual Observatory: VO in operations new era
 P Sanguillon, Michele Michele.Sanguillon@umontpellier.fr An overview of the OVGSO data centre
@@ -185,10 +184,11 @@ P Stenborg, Travis mqastro@acm.org Contracts Tracking for Astronomical Infrastru
 O Stevens, Abigail abigailstev@gmail.com Stingray: Open-source spectral-timing software
 X Stoehr, Felix felix.stoehr@gmx.de Astronomical archives: Serving up the Universe
 P Streicher, Ole ole@aip.de DOI in Astronomy
-P Sutrisno, Raymond rasutrisno@uh.edu Photometric Redshift Estimation: An Active Learning Approach
+P Sutrisno, Raymond rasutrisno@uh.edu A Machine Learning Approach to Detect Dark Matter Under Extreme Class Imbalance Samples
 O Swade, Daryl swade@stsci.edu The TESS Science Data Archive
 O Tao, Yihan y.tao@nao.cas.cn Spectral Classification of Galaxies using Deep Neural Networks and Self-taught Learning
 O Tavagnacco, Daniele daniele.tavagnacco@inaf.it Performance-related aspects in the Big Data Astronomy Era: architects in software optimization
+P Taylor, Mark m.b.taylor@bristol.ac.uk TOPCAT and Gaia
 P Teuben, Peter teuben@astro.umd.edu QAC: Quick Array Combinations with CASA
 O Toledo, Ignacio ignacio.toledo@alma.cl Data Science =! Software Engineering. Exploring a workflow for ALMA operations.
 O Tollerud, Erik etollerud@stsci.edu BoF: Open Source/Development Software Projects and Large Organizations/Missions: Recommendations and Challenges
@@ -207,3 +207,4 @@ P Yunfei, Xu xuyf@nao.cas.cn
 X Zapart, Christopher chris.zapart@nao.ac.jp An introduction to FITSWebQL
 O Zecevic, Petar Petar.Zecevic@fer.hr AXS: Making end-user petascale analyses possible, scalable, and usable
 P Zhang, Yanxia zyx@bao.ac.cn Machine Learning for Quasar Candidate Selection
+P da Silva, Daniel dasilva@jhu.edu CCSDSPy - Convenient Decoding of Binary Spacecraft Telemetry

@@ -1,9 +1,9 @@
-204 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 198 entries
+203 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 199 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-288 x 37 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 269 entries
+293 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 268 entries
  
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
     ABS: The Data Analysis Center for Exoplanets (DACE) is a web platform based at the University of Geneva (CH) dedicated to exoplanets data visualization, exchange and analysis.
@@ -95,6 +95,9 @@ The pipeline is written in IDL, and was developed over time for internal use by 
 The service is on-schedule for deployment in December 2018.
 
 This project is a collaboration between NExScI, WMKO, KOA and CPS.
+ 
+X Blanco-Cuaresma, Sergi sblancocuaresma@cfa.harvard.edu 
+    ABS: 
  
 P Boch, Thomas thomas.boch@astro.unistra.fr Creating and managing very large HiPS: the PanSTARRS case
     ABS: HiPS (Hierarchical Progressive Surveys) is a proven Virtual Observatory standard which enables an efficient way to deliver easily potentially huge images collection and allows for fast visualisation, exploration and science applications. CDS has recently published the HiPS for PanSTARRS g and z-bands images, covering three quarter of the sky at a resolution of 250mas per pixel.
@@ -532,13 +535,6 @@ auspices of the International Astronomical Union (IAU). The MPC is
 100% funded by NASA as a functional sub-node of the Small Bodies Node
 (SBN) of the NASA Planetary Data System at U. Maryland.
  
-P Ibarra, Aitor aitor.ibarra@sciops.esa.int Standardization of object visibility and planning information through VO protocols
-    ABS: The era of Multi-messenger astronomy has definitively started with the recent detection of Gravitational waves and the IceCube high energy cosmic neutrino identification. In addition, there is a substantial and increasing demand from the astronomical community to observe simultaneously in different wavebands, something which could be considered as a sub-domain of Multi-messenger science
-
-To achieve Multi-messenger astronomy goals, the scientific community needs automatic services/tools to make the coordination of observations more efficient. Object visibility and planning information are two fundamental elements that a scientist needs to consult before being able to prepare an observation. Combining these elements from several observatories is at best a complex process and in practice this information is far from being available in a uniform way through the various observatories web pages. On the contrary, each observatory currently offers a different way to provide services related to visibility and planning.
-
-We propose the standardization of these services to allow scientists (clients) to make queries via URLs and receive results in JSON (JavaScript Object Notation) format following and extending existing VO (Virtual Observatory) Protocols.
- 
 O Iwasaki, Hiroyoshi h.iwasaki@rikkyo.ac.jp A new implementation of deep neural network to spatio-spectral analysis in X-ray astronomy
     ABS: Recent rapid developments in Deep Learning, which can implicitly capture structures in high-dimensional data, will lead to the opening of a new chapter of astronomical data analysis. As a new implementation of Deep Learning techniques in the fields of astronomy, we here report our application of Variational Auto-Encoder (VAE) using deep neural network to spatio-spectral analysis of the data from the Chandra X-ray Observatory, in the particular case of Tycho’s supernova remnant. Previous applications of Machine Learning techniques to the analysis of SNRs have been limited to principal component analysis (Warren et al. 2005; Sato & Hughes 2017) and clustering without dimensional reduction (Burkey et al. 2013). We have implemented an unsupervised learning method combining VAE and Gaussian Mixture Model (GMM), where the reduction of dimensions of the observed data is performed by VAE and clustering in the feature space is by GMM. We have found that some characteristic features such as the iron knots in the southeastern region can be automatically recognized through this method. Our implementation exploits a new potential of Deep Learning in astronomical research.
  
@@ -659,6 +655,9 @@ motion-limited data how it can simplify the survey properties of the
 3pi Steradian Survey from the Pan-STARRS 1, where the footprint area
 is imaged by the 60 CCDs at ~10^5 pointings over 3.5 years.
  
+P Lammers, Jason jlammers0@gmail.com Optimizing Legacy Code for Current Use
+    ABS: Blah
+ 
 O Landais, Gilles gilles.landais@astro.unistra.fr Quality assurance in the ingestion of data into the CDS VizieR catalogue and data services
     ABS: VizieR is a reference service provided by the CDS for astronomical catalogues and tables published in academic journals, and also for associated data. Quality assurance is a key factor that guides the operations, development and maintenance of the data ingestion procedures. 
 The catalogue ingestion pipeline involves a number of validation steps, which must be implemented with high efficiency to process the ~1200 catalogues per year from the major astronomy journals. These processes involve an integrated teams of software engineers, specialised data librarians (documentalists) and astronomers, and various levels of interaction with the original authors and data providers. Procedures for the ingestion of associated data have recently been improved with semi-automatic mapping of metadata into the IVOA ObsCore standard, with an interactive tool to help authors submit their data (images, spectra, time series etc.). 
@@ -673,12 +672,6 @@ Finally, the FileDB pattern easily translates to other domains such ocean circul
  
 O Li, Changhua lich@nao.cas.cn Design of KNN Star-QSO Classification Algorithm Based on Cloud Computing
     ABS: KNN classification algorithm is a mature and simple machine learning algorithm, which is widely used in astronomical spectral classification. However, with the increasing sample size, the traditional KNN algorithm can’t meet the requirements of performance. Based on the cloud computing environment of China Virtual Observatory, the KNN algorithm is optimized based on SPARK + HDFS architecture. Through Map/Reduce, the large samples are segmented and distributed on different SPARK computing nodes, and the obvious acceleration effect is achieved. By comparing with the python-ML general algorithm, KNN's computation time can be reduced by nearly 20 times in a large scale samples
- 
-P Li, Jian lijian@bao.ac.cn An Visual Telescope Control Interface Based on Browser
-    ABS: This work is to develop a new visual remote telescope control system, which is running on web browser. The advantage of this new system is that it not only has the function of muti-platform, also can be remote controlled by web browser. To ensure the real-time transmission of information, the WebSocket protocol is adopted in this system to transfer information between client and server. This ensures that the latest information can be obtained in time. Due to the universality of the design, this platform can be widely used in other similar telescopes.
- 
-P Li, Yinbi ybli@bao.ac.cn The application of Bagging TopPush method to searching for carbon stars
-    ABS: In this work, we apply the Bagging TopPush method to search for carbon stars from LAMOST DR4, and found 2651 carbon stars. We firstly constructed template spectra of carbon stars in previous literature, and clustered them into three groups. Then, we investigated the pre-processing method for each group template, which have higher recall. Finally, we set parameters of the Bagging TopPush method, and searched for carbon star spectra from LAMOST DR4.
  
 X Lieu, Maggie maggie.lieu@sciops.esa.int Deep learning of astronomical features with big data.
     ABS: In Astronomy, there is a tendency to build machine learning codes for very specific object detection in images. The classification of asteroids and non-asteroids should be no different than the classification of asteroids, stars, galaxies, cosmic rays, ghosts or any other artefact found in astronomical data. In computer science, it is not uncommon for machine learning to train on hundreds of thousands of object categories, so why are we not there yet? I will talk about image classification with deep learning and how we can make use of existing tools such as the ESA science archive, ESAsky and citizen science to help realise the full potential of object detection and image classification in Astronomy.
@@ -700,6 +693,9 @@ X Lorente, Nuria Nuria.Lorente@aao.gov.au
 P Louys, Mireille mireille.louys@unistra.fr The IVOA provenance Data model
     ABS: This Ivoa has proposed a standard for capturing the medata of provenance in the production and distribution of astronomical data . 
 we present the specification discussed for the virtual ovservatory and links to implementations .
+ 
+X Lu, Yuxi lucylulu12311@gmail.com 
+    ABS: 
  
 P Lundquist, Michael mlundquist@email.arizona.edu Searching for Optical Counterparts to Gravitational Wave Events with the Catalina Sky Survey
     ABS: On 17 August 2017, the era of multi-messenger, gravitational wave astronomy began with the discovery of the optical counterpart to the gravitational wave event GW170817.  In this poster, we outline our software and strategy for discovering optical counterparts to future gravitational wave events using data from the Catalina Sky Survey.
@@ -961,9 +957,6 @@ X Rots, Arnold arots@cfa.harvard.edu Data Citation
 P Rubtsov, Evgenii ev.rubtcov@physics.msu.ru Stellar atmospheric parameters from full spectrum fitting of intermediate and high-resolution spectra against PHOENIX/BT-Settl synthetic stellar atmospheres
     ABS: We present a new technique implemented in IDL for determination of the parameters of stellar atmospheres using PHOENIX and BT-Settl synthetic stellar spectra. The synthetic spectra provide good coverage in the Teff, logg, [Fe/H], [α/H] parameter space over a wide wavelength range and allow to fit observed spectra of a vast majority of stars. Our procedure also determines radial velocities and stellar rotation, and it takes into account flux calibration imperfections by fitting a polynomial continuum. Thanks to using pixel fitting, we can exclude certain spectral features, which are not present in the models, such as emission lines (chromospheric emission in late-type stars or discs around Be stars). We perform a non-linear chi2 minimization with the Levenberg-Marquardt method that is applied to the entire spectrum, with the exception of areas with peculiarities: emission lines, model shortcomings (incompleteness of the spectral line lists used for the atmospheric model calculation). We take into account systematic errors of the surface gravity estimates introduced by synthetic atmospheres by applying a correction computed from the comparison of our results with those obtained using asteroseismology. We present the comparative statistical analysis of optical spectral libraries ELODIE, INDO-US, MILES, UVES-POP, and a new near-infrared Las Campanas Stellar Library and discuss prospective applications of our technique.
  
-O Rusholme, Benjamin rusholme@caltech.edu The Zwicky Transient Facility Data System
-    ABS: The Zwicky Transient Facility (ZTF) is a new time-domain survey that entered operations in 2018. Building on the highly-successful legacy of the Palomar Transient Factory (PTF), ZTF uses a new camera with a 47 square degree field of view and fast readout electronics to survey more than an order of magnitude faster than PTF. This required a revamped data system to rapidly process the imaging data into a high-quality stream of machine-learning vetted transient alerts for follow up. ZTF is already producing half a million alerts per night which are being distributed to public brokers using Apache Kafka following the proposed LSST model
- 
 P Ryan, P. Wesley wes@ascl.net Schroedinger’s code: Source code availability and transparency in astrophysics
     ABS: Astronomers use software for their research, but how many of the codes they use are available as source code? We examined a sample of 166 papers from 2015 for clearly identified software use, then searched for source code for the software packages mentioned in these research papers. We categorized the software to indicate whether source code is available for download and whether there are restrictions to accessing it, and if source code was not available, whether some other form of the software, such as a binary, was. Over 40% of the source code for the software used in our sample was not available for download.
 
@@ -1081,23 +1074,8 @@ P Streicher, Ole ole@aip.de DOI in Astronomy
 Still much has to be done: the agreement on curation procedures and what would be
 considered as a data set to stam DOI on. At AIP we provide DOI for a range of datasets, and th poster will provide some insight in the curation procedures and decisions about what we consider a data set.
  
-P Sutrisno, Raymond rasutrisno@uh.edu Photometric Redshift Estimation: An Active Learning Approach
-    ABS: Abstract : A long-lasting problem in astronomy is the accurate
-estimation of galaxy distances based solely on the information
-contained in photometric filters. Due to observational selection
-effects, the spectroscopic (source) sample lacks coverage through-
-out the feature space (e.g. colors and magnitudes) compared to
-the photometric (target) sample; this results in a clear mismatch
-in terms of photometric measurement distributions. We propose
-a solution to this problem based on active learning, a machine
-learning technique where a sampling strategy enables us to
-select the most informative instances to build a predictive model;
-specifically, we use active learning following a Query by Committee
-approach. We show that by making wisely selected queries in the
-target domain we are able to increase our predictive performance
-significantly. We show how a relatively small number of queries
-(spectroscopic follow-up measurements) suffices to significantly
-improve the performance of photometric redshift estimators.
+P Sutrisno, Raymond rasutrisno@uh.edu A Machine Learning Approach to Detect Dark Matter Under Extreme Class Imbalance Samples
+    ABS: 
  
 O Swade, Daryl swade@stsci.edu The TESS Science Data Archive
     ABS: The Transiting Exoplanet Survey Satellite (TESS) is a survey mission designed to discover exoplanets around the nearest and brightest stars.  TESS is a NASA Astrophysics Explorer mission that was launched on April 18, 2018.  The Mikulski Archive for Space Telescopes (MAST) at the Space Telescope Science Institute serves as the archive for TESS science data.
@@ -1129,6 +1107,9 @@ efficiency, maintainability, and scalability requirements is a complex task that
 for the same requirements, which make tradeoffs inevitable.
 In this contribution we will present part of the activity done at the Italian Science Data Center for the ESA’s cosmological space mission Euclid which regards the software performance optimization.
 In particular, considering the programming languages selected for the development of the Euclid scientific pipelines, we will present some C++ and Python examples focusing on the main aspects of human contribution in the optimization of the code from the performance, memory efficiency and maintainability point of view.
+ 
+P Taylor, Mark m.b.taylor@bristol.ac.uk TOPCAT and Gaia
+    ABS: TOPCAT, and its command line counterpart STILTS, are powerful tools for working with large source catalogues.  ESA's Gaia mission, most recently with its second data release, is producing source catalogues of unprecedented quality for more than a billion sources.  We present here some examples of how TOPCAT and STILTS can be used for analysis of Gaia data.
  
 P Teuben, Peter teuben@astro.umd.edu QAC: Quick Array Combinations with CASA
     ABS: A simple python layer in CASA was developed to aid in writing scripts for array (single dish and interferometric) combination. Although initially developed for TP2VIS, running simulations and comparing with other array combination methods, and adding regressions became cumbersome, and QAC was developed. Both ALMA, ngVLA and CARMA simulations are already supported, but extending to more generic array are planned.
@@ -1250,3 +1231,8 @@ AXS is regularly used within the University of Washington's DIRAC Institute, ena
  
 P Zhang, Yanxia zyx@bao.ac.cn Machine Learning for Quasar Candidate Selection
     ABS: With the big data era of astronomy coming, machine learning becomes more popular in various astronomical aspects, for example, classification of celestial objects, physical parameter measurement, rare object detection and so on. Quasar candidate selection belongs to the classification problem. Based on a number of present photometric and spectroscopic sky survey projects, preselecting quasar candidates from galaxies and stars is a hot issue. It is easy to separate quasars and stars from galaxies by morphology while it is difficult to distinguish quasars from stars due to their similar morphology. Nevertheless, researchers have figured out various approaches on quasar candidate selection. We will introduce them in detail.
+ 
+P da Silva, Daniel dasilva@jhu.edu CCSDSPy - Convenient Decoding of Binary Spacecraft Telemetry
+    ABS: CCSDS is a low-level packet format used by many NASA and ESA missions for low-level telemetry, and often contains tightly packed bits to reduce downlink requirements. CCSDSPy is a python library to ease decoding of CCSDS data for satellite ground systems. The driving need of this library is to ease the management of difficult to decode telemetry containing fields that are not byte-aligned, odd-length, or otherwise annoying.
+
+Poster preview: https://docs.google.com/presentation/d/1Ab3DaM_UwP4rSL_lESZCZdHsQmwp-WEPFoek-wFdCW4/edit?usp=sharing

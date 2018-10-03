@@ -48,7 +48,6 @@ Coulais, Alain
 Crawford, Steven
 Cui, Chenzhou
 Cupani, Guido
-DABIN, Christophe
 DAI, CONG
 Dabin, Christophe
 Daly, Philip
@@ -94,9 +93,9 @@ Han, Jun
 Hargis, Jonathan
 Harvey, Adam
 He, Helen
+Heinl, Hendrik
 Hernandez, Fabio
 Holman, Matthew
-Ibarra, Aitor
 Ibsen, Jorge
 Ih, Jegug
 Ikeda, Shiro
@@ -116,6 +115,7 @@ Kelley, Michael
 Kent, Brian
 Kepley, Amanda
 Kitaeff, Vyacheslav
+Klazema, Auke
 Kong, Xiao
 Kornilov, Matwey
 Kosack, Karl
@@ -126,12 +126,11 @@ Kyprianou, Mark
 Labrie, Kathleen
 Lacy, Mark
 Lam, Cheuk Yin
+Lammers, Jason
 Landais, Gilles
 Lemson, Gerard
 Lewis, James
 Li, Changhua
-Li, Jian
-Li, Yinbi
 Lieu, Maggie
 Lim, Pey Lian
 Lin, Ganghua
@@ -142,6 +141,7 @@ Long, Min
 Loose, Marcel
 Lorente, Nuria
 Louys, Mireille
+Lu, Yuxi
 Lundquist, Michael
 Lutz, Katharina
 Ma, Xiang
@@ -172,7 +172,6 @@ Nebot, Ada
 Nie, Jianyin
 Nieto, Sara
 Nikolic, Bojan
-Nolta, Michael
 O'Mullane, William
 O'Toole, Simon
 Obi, Ikechukwu Anthony
@@ -204,7 +203,6 @@ Roby, Trey
 Romelli, Erik
 Rots, Arnold
 Rubtsov, Evgenii
-Rusholme, Benjamin
 Ryan, P. Wesley
 Salgado, Jesus
 Sanguillon, Michele
@@ -267,3 +265,4 @@ Yunfei, Xu
 Zapart, Christopher
 Zecevic, Petar
 Zhang, Yanxia
+da Silva, Daniel

@@ -48,9 +48,8 @@ alain.coulais@obspm.fr
 scrawford@stsci.edu
 ccz@bao.ac.cn
 guido.cupani@inaf.it
-Christophe.Dabin@cnes.fr
 daicong2014@163.com
-christophe.dabin@cnes.fr
+Christophe.Dabin@cnes.fr
 pndaly@email.arizona.edu
 james.dempsey@csiro.au
 dencheva@stsci.edu
@@ -94,9 +93,9 @@ hanjun@nao.cas.cn
 jhargis@stsci.edu
 aharvey1@umbc.edu
 hhe@cfa.harvard.edu
+heinl@ari.uni-heidelberg.de
 fabio@in2p3.fr
 mholman@cfa.harvard.edu
-aitor.ibarra@sciops.esa.int
 jorge.ibsen@alma.cl
 jegugih@astro.umd.edu
 shiro@ism.ac.jp
@@ -116,6 +115,7 @@ msk@astro.umd.edu
 bkent@nrao.edu
 akepley@nrao.edu
 slava.kitaeff@uwa.edu.au
+secretaryobservatory@astron.nl
 kongx@nao.cas.cn
 matwey@sai.msu.ru
 karl.kosack@cea.fr
@@ -126,12 +126,11 @@ kyp@stsci.edu
 klabrie@gemini.edu
 mlacy@nrao.edu
 c.y.lam@ljmu.ac.uk
+jlammers0@gmail.com
 gilles.landais@astro.unistra.fr
 glemson1@jhu.edu
 jrl@ast.cam.ac.uk
 lich@nao.cas.cn
-lijian@bao.ac.cn
-ybli@bao.ac.cn
 maggie.lieu@sciops.esa.int
 lim@stsci.edu
 lgh@bao.ac.cn
@@ -142,6 +141,7 @@ minlong@boisestate.edu
 loose@astron.nl
 Nuria.Lorente@aao.gov.au
 mireille.louys@unistra.fr
+lucylulu12311@gmail.com
 mlundquist@email.arizona.edu
 katharina.lutz@astro.unistra.fr
 max@ihep.ac.cn
@@ -172,7 +172,6 @@ ada.nebot@astro.unistra.fr
 niejy@ihep.ac.cn
 sara.nieto@sciops.esa.int
 b.nikolic@mrao.cam.ac.uk
-nolta@cita.utoronto.ca
 womullan@lsst.org
 simon.otoole@mq.edu.au
 tonykassidy_z@yahoo.com
@@ -204,7 +203,6 @@ roby@ipac.caltech.edu
 erik.romelli@inaf.it
 arots@cfa.harvard.edu
 ev.rubtcov@physics.msu.ru
-rusholme@caltech.edu
 wes@ascl.net
 Jesus.Salgado@sciops.esa.int
 Michele.Sanguillon@umontpellier.fr
@@ -267,3 +265,4 @@ xuyf@nao.cas.cn
 chris.zapart@nao.ac.jp
 Petar.Zecevic@fer.hr
 zyx@bao.ac.cn
+dasilva@jhu.edu
