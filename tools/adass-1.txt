@@ -32,6 +32,7 @@ borne_kirk@bah.com
 jbosch@astro.princeton.edu
 malik@boussejra.com
 cbrasseur@stsci.edu
+abrazier@astro.cornell.edu
 mbrown@keck.hawaii.edu
 nicolas.buchschacher@unige.ch
 julien.burnier@unige.ch
@@ -96,11 +97,13 @@ jhargis@stsci.edu
 aharvey1@umbc.edu
 hhe@cfa.harvard.edu
 heinl@ari.uni-heidelberg.de
+henry@stsci.edu
 fabio@in2p3.fr
 mholman@cfa.harvard.edu
 jorge.ibsen@alma.cl
 jegugih@astro.umd.edu
 shiro@ism.ac.jp
+jack.ireland@nasa.gov
 h.iwasaki@rikkyo.ac.jp
 tess.jaffe@nasa.gov
 tjenness@lsst.org

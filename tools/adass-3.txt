@@ -1,9 +1,9 @@
-205 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 201 entries
+206 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 202 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-295 x 37 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 270 entries
+298 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 273 entries
  
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
     ABS: The Data Analysis Center for Exoplanets (DACE) is a web platform based at the University of Geneva (CH) dedicated to exoplanets data visualization, exchange and analysis.
@@ -173,12 +173,12 @@ functions that could facilitate accomplishing the goals of ProvTAP users.
     T: 11) Quality Assurance of Science Data
    TO: 
  
-O Borne, Kirk borne_kirk@bah.com Massive Data Exploration in Astronomy: What Does Cognitive Have To Do With It?
+X Borne, Kirk borne_kirk@bah.com Massive Data Exploration in Astronomy: What Does Cognitive Have To Do With It?
     ABS: There has been a tendency for astronomers to avoid unsupervised data exploration, due to the characterization of this approach as a non-scientific fishing expedition. But, a cognitive approach to massive data exploration has the potential to amplify hypothesis formulation and question generation for greater astronomical discovery. The incorporation of contextual data from other wavelengths and other surveys provides the basis for seeing interestingness in the multi-dimensional properties of sources that might otherwise appear uninteresting in a single survey database. Some suggested methods for cognitive exploration will be presented, including computer vision algorithms that are used in robotics to see patterns in the the world, but these can be used to see emergent patterns in the multi-dimensional parameter space of astronomical data.
     T: 4) Data Science: Workflows Hardware Software Humanware
    TO: 
  
-O Bosch, James jbosch@astro.princeton.edu An Overview of the LSST Image Processing Pipelines
+X Bosch, James jbosch@astro.princeton.edu An Overview of the LSST Image Processing Pipelines
     ABS: In this talk, I'll walk through LSST's Data Release and Alert Production pipelines, highlighting how we produce various important datasets.  I'll also call attention to the algorithms where LSST will need to push the state of the art or operate qualitatively differently from previous surveys.
     T: 12) Algorithms
    TO: 
@@ -563,7 +563,7 @@ P Grishin, Kirill kirillg6@gmail.com Open-source web tools for spectroscopic and
     T: 3) Astrophysical Data Visualization from Line Plots to Augmented and Virtual Reality
    TO: 
  
-O Guerra Noguero, Rocio rguerra@sciops.esa.int DevOps: the perfect ally for Science Operations for a large and distributed astronomy project.
+X Guerra Noguero, Rocio rguerra@sciops.esa.int DevOps: the perfect ally for Science Operations for a large and distributed astronomy project.
     ABS: The Gaia Science Operations Centre (SOC) is an integral part of a large consortium responsible for Gaia data processing.
 Serving terabytes of processed data on a daily basis to other Processing Centres across Europe makes unique demands on the processes, procedures, as well as the team itself.
 In this talk I will show how we have embraced the DevOps principles to achieve our goals on performance, reliability and teamwork.
@@ -643,7 +643,7 @@ We will highlight those features of the pixel mask filtering.
     T: 12) Algorithms
    TO: 
  
-O Holman, Matthew mholman@cfa.harvard.edu The Minor Planet Center Data Processing System
+X Holman, Matthew mholman@cfa.harvard.edu The Minor Planet Center Data Processing System
     ABS: The Minor Planet Center (MPC) is the international clearing house for
 all ground-based and space-based astrometric and radar observations of
 asteroids, comets, trans-Neptunian objects, and outer satellites of the
@@ -685,6 +685,15 @@ auspices of the International Astronomical Union (IAU). The MPC is
 100% funded by NASA as a functional sub-node of the Small Bodies Node
 (SBN) of the NASA Planetary Data System at U. Maryland.
     T: 7) Software for Solar Systems Astronomy
+   TO: 
+ 
+P Ireland, Jack jack.ireland@nasa.gov The Helioviewer Project: Making Petabytes of Images Available to Everyone
+    ABS: Solar observatories are providing the world-wide community with a wealth of data, covering wide time ranges (e.g. the Solar and Heliospheric Observatory, SOHO has been observing for more than 20 years), multiple viewpoints (Solar TErrestrial RElations Observatory, STEREO), and returning large amounts of data (Solar Dynamics Observatory, SDO). In particular, the petabyte-scale volume of SDO data presents challenges; the data are available only from a few repositories, and full-disk, full-cadence data for reasonable durations of scientific interest are difficult to download, due to their size and the download rates available to most users. The variety and volume of available data poses three problems: accessing, browsing, and finding interesting data as efficiently as possible. 
+
+To address these challenges, we have developed the Helioviewer Project, a suite of services and clients based around archives of JPEG 2000 images.  The Helioviewer Project gives users everywhere the capability to interactively browse and visualize the behavior of the Sun and inner heliosphere from multiple instruments simultaneously, and to give access to the underlying science data.  The JPEG 2000 standard offers useful features that facilitate the dissemination and analysis of high-resolution image data and offers a solution to the challenge of efficiently browsing petabyte-scale image archives.  Images from 1991 to the present day are currently available.
+
+The current design of the Helioviewer Project, and use and functionality of its principal clients - JHelioviewer and helioviewer.org - will be discussed. Plans for including images and other data from other solar and heliospheric datasets will also be discussed, including the recently launched Parker Solar Probe and Solar Orbiter.
+    T: 3) Astrophysical Data Visualization from Line Plots to Augmented and Virtual Reality
    TO: 
  
 O Iwasaki, Hiroyoshi h.iwasaki@rikkyo.ac.jp A new implementation of deep neural network to spatio-spectral analysis in X-ray astronomy
@@ -806,7 +815,7 @@ P Kumar, Praveen pkumar6743@gmail.com (2+1) dimensional cosmological models in f
     T: 13) Other
    TO: General Relativity and Cosmology
  
-O Kuulkers, Erik erik.kuulkers@esa.int Coordinating observations among ground and space-based telescopes in the multi-messenger era
+X Kuulkers, Erik erik.kuulkers@esa.int Coordinating observations among ground and space-based telescopes in the multi-messenger era
     ABS: The emergence of time-domain multi-messenger (astro)physics asks for new and more efficient ways of interchanging information, as well as collaboration. Many space- and ground-based observatories have web pages dedicated to showing information about the complete observations and planned observation schedule. The aim would be to standardise the exchange of information about observational schedules and set-ups between facilities and in addition, to standardise the automation of visibility checking for multiple facilities. To reach this, we propose to use the VO protocols (ObsTAP-like) to write services to expose these data to potential client applications and to develop cross facilities visibility servers.
     T: 9) Multi-Messenger Astronomy
    TO: 
@@ -879,7 +888,7 @@ O Li, Changhua lich@nao.cas.cn Design of KNN Star-QSO Classification Algorithm B
     T: 1) Machine Learning in Astronomy
    TO: 
  
-O Lieu, Maggie maggie.lieu@sciops.esa.int Deep learning of astronomical features with big data.
+X Lieu, Maggie maggie.lieu@sciops.esa.int Deep learning of astronomical features with big data.
     ABS: In Astronomy, there is a tendency to build machine learning codes for very specific object detection in images. The classification of asteroids and non-asteroids should be no different than the classification of asteroids, stars, galaxies, cosmic rays, ghosts or any other artefact found in astronomical data. In computer science, it is not uncommon for machine learning to train on hundreds of thousands of object categories, so why are we not there yet? I will talk about image classification with deep learning and how we can make use of existing tools such as the ESA science archive, ESAsky and citizen science to help realise the full potential of object detection and image classification in Astronomy.
     T: 1) Machine Learning in Astronomy
    TO: 
@@ -1075,7 +1084,7 @@ SEPP puts the focus on the science community, to promote their contributions and
     T: 5) Science Platforms: Tools for Data Discovery and Analysis from Different Angles
    TO: 
  
-O Nebot, Ada ada.nebot@astro.unistra.fr Data challenges of the VO in Time Domain Astronomy
+X Nebot, Ada ada.nebot@astro.unistra.fr Data challenges of the VO in Time Domain Astronomy
     ABS: Surveys specifically designed to monitor the transient sky have opened the window for discovery and exploration through time domain. Source classification and transmission of the alerts for further follow-up as well as analysing possible periodicity in variable sources poses a challenge with the huge amounts of data synoptic missions are providing. We will review some of the challenges of Time Domain data and we will share some of the tools and services that are being built within the Virtual Observatory to discover, access, visualise and analyse Time Domain data, focusing in particular on Time Series.
     T: 8) Time Domain Astronomy
    TO: 
@@ -1140,9 +1149,11 @@ P Paillassa, Maxime maxime.paillassa@u-bordeaux.fr Identifying contaminants in a
     T: 1) Machine Learning in Astronomy
    TO: 
  
-X Parra, Jose jose.parra@alma.cl 
-    ABS: 
-    T: 
+P Parra, Jose jose.parra@alma.cl WAN OPTIMIZATION FOR ALMA DATA
+    ABS: Proof of Concept
+ 
+In the era of large observatories and huge data transmission through the networks, we did a proof of concept using Riverbed technology to address the ALMA data distribution challenge: limited bandwidth, far away locations and large amounts of data.  In the ALMA case from the Atacama desert in Chile to our regional centers in the northern hemisphere.  The PoC shows the percentage of reduction in network traffic, after applying de-duplication, tcp window optimization and virtual latency improvement on scienctific data.
+    T: 10) Databases and Archives: Challenges and Solutions in the Big Data Era
    TO: 
  
 X Pascual, Sergio sergiopr@fis.ucm.es Runing GTC data reduction pipelines in Jupyter
@@ -1172,7 +1183,7 @@ X Pineau, Francois-Xavier francois-xavier.pineau@astro.unistra.fr
     T: 
    TO: 
  
-O Plante, Raymond raymond.plante@nist.gov The BagIt Packaging Standard for Interoperability and Preservation
+X Plante, Raymond raymond.plante@nist.gov The BagIt Packaging Standard for Interoperability and Preservation
     ABS: BagIt is a simple, self-describing format for packaging related data files together which is gaining traction across many research data systems and research fields.  One of its great advantages is in how it allows a community to define and document a profile on that standard--that is, additional requirements on top of the BagIt standard that speaks to the needs of that community.  In this presentation, I will summarize the key features of the standard, highlight some important profiles that have been defined by communities, and talk about how this standard is being used as part of the NIST Public Data Repository.  I will compare and contrast the use of BagIt for enabling interoperability (e.g. for transfering data between two systems) and its use for preseravation.  I will then give an overview of the NIST BagIt profile for preservation as well as introduce a general-purpose MultiBag profile which addresses issues of evolving data and scaling to large datasets.
     T: 11) Quality Assurance of Science Data
    TO: 
@@ -1297,7 +1308,9 @@ spectral resolution spectra for the past 15 years, with new generation of ground
    TO: 
  
 P Santos, Rafael rafael.santos@inpe.br A hybrid neural network approach to estimate galaxy redshifts from multi-band photometric survey.
-    ABS: TBD
+    ABS: Machine learning methods have been used in cosmological studies to estimate variables that would be hard or costly to measure precisely, like, for example, estimating redshifts from photometric data. Previous work showed good results for estimating photometric redshifts using nonlinear regression based on an artificial neural network (Multilayer Perceptron). 
+One of the problems identified on the previous work is that a single network with multiple neurons on the hidden layer for the regression may not be able to yield the best results. 
+In this work we explore a hybrid neural network approach that uses a Self-Organizing Map to separate the original data into different groups, then applying the Multilayer Perceptron to each neuron on the Self-Organizing Map to obtain different regression models for each group. Preliminary results indicate that in some cases better results can be achieved, although the computational cost may be increased.
     T: 1) Machine Learning in Astronomy
    TO: 
  
@@ -1422,7 +1435,7 @@ O Stevens, Abigail abigailstev@gmail.com Stingray: Open-source spectral-timing s
     T: 8) Time Domain Astronomy
    TO: 
  
-O Stoehr, Felix felix.stoehr@gmx.de Astronomical archives: Serving up the Universe
+X Stoehr, Felix felix.stoehr@gmx.de Astronomical archives: Serving up the Universe
     ABS: This talk first briefly reviews some of the current context of storing and making astronomical data discoverable and available. We then discuss the challenges ahead and look at the future data-landscape when the next generation of large telescopes will be online, at the next frontier in science archives where also the content of the observations will be described, at the role machine-learning can play as well as at some general aspects of the user-experience for astronomers.
     T: 10) Databases and Archives: Challenges and Solutions in the Big Data Era
    TO: 
@@ -1586,7 +1599,7 @@ P Wicenec, Andreas andreas.wicenec@uwa.edu.au The Murchison Widefield Array's VO
     T: 10) Databases and Archives: Challenges and Solutions in the Big Data Era
    TO: 
  
-O Wise, Michael wise@astron.nl Establishing the SKA Regional Centre Network: Mesh Management and Culture Change
+X Wise, Michael wise@astron.nl Establishing the SKA Regional Centre Network: Mesh Management and Culture Change
     ABS: The Square Kilometre Array (SKA) is an ambitious project to construct the world’s most powerful radio telescope and enable transformational scientific discoveries across a wide range of topics in physics and astronomy. With two telescopes sites located in the deserts of South African and West Australia, an operational headquarters based in the UK, and 12 different member countries contributing to the design and construction, the SKA is truly a global endeavor. Once operational, the SKA is expected to produce an archive of science data products with an impressive growth rate on the order of 700 petabytes per year. Hosting the resulting SKA archive and subsequent science extraction by users will require a global research infrastructure providing additional capacity in networking, storage, computing, and support. 
 
 This research infrastructure is currently foreseen to take the form of a federated, global network of SKA Regional Centres (SRCs). These SRCs will be the primary interface for researchers in extracting scientific results from SKA data and, as such, are essential to the ultimate success of the telescope. The unprecedented scale of the expected SKA data stream, however, requires a fundamental change in the way radio astronomers approach extracting their science. Efforts are already underway in various countries around the world to define and deploy the seeds of what will grow into a community-provided research infrastructure that can deliver SKA science. In this talk, I will give an update on these initial efforts as well as the various technological, management, and sociological challenges associated with establishing the SKA Regional Centre network.
