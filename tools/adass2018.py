@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 #
 #   ADASS 2018 sample processing of the 3 XLS spreadsheets
-#   1) you need python3
+#   1) you need python3 (or expect UTF-8 issues)
 #   2) you need xlrd (should come with python3)
 
 from __future__ import print_function
@@ -10,10 +10,10 @@ import xlrd
 import sys
 
 
+# names of the 3 sheets we got from C&VS
 _p1 = 'ADASS 2018  Submitted Abstracts.xls'  
 _p2 = 'ADASS 2018  Submitted Abstracts(1).xls'
 _p3 = 'ADASS 2018  Total Registrant Re.xls'
-
 
 class adass(object):
     def __init__(self, dirname, debug=False):
@@ -64,11 +64,26 @@ class adass(object):
                 if s0.cell(row,0).value != 'New':
                     continue
             name = s0.cell(row,col_ln).value + ", " + s0.cell(row,col_fn).value
+            if name in s and debug:
+                print("Warning: duplicate entry for %s" % name)
             s[name] = s0.row(row)
 
         if debug:
             print("Accepted %d entries" % len(s))
         return (s,row_values)
+
+    def tab2list(self, filename):
+        """ filename with "names; Code"   - return the [names]
+        """
+        o1 = io.open(filename, encoding="utf-8").readlines()
+        for i in range(len(o1)):
+            s = o1[i]
+            isc = s.find(';')
+            if isc < 0:
+                o1[i] = s.strip()
+            else:
+                o1[i] = s[:isc].strip()
+        return o1
 
     def print_col(self, col):
         """ print a given columns. expert mode
@@ -87,32 +102,46 @@ class adass(object):
         for key in keys:
             print(key)
 
-    def report_1(self, abstract=False):
+    def report_1(self, abstract=False, cat = False):
         keys = list(self.x1.keys())
         keys.sort()
         for key in keys:
             present   = self.x1[key][22].value
             title1    = self.x1[key][23].value
             abstract1 = self.x1[key][24].value
+            theme1    = self.x1[key][20].value
+            theme1a   = self.x1[key][21].value
             r = self.x3[key]
             focus_demo = r[25+self.off].value
             demo_booth = r[26+self.off].value
             email      = r[14+self.off].value
+            theme = theme1[:theme1.find(')')]
+                
             if abstract: print(" ")
+            
             if present == 'Talk/Focus Demo':
                 if focus_demo == '1' and demo_booth == '1':
-                    print("F+B",key,email,title1)
+                    ptype = "F+B"
                 elif focus_demo == '1':
-                    print("F",key,email,title1)            
+                    ptype = "F"                    
                 elif demo_booth == '1':
-                    print("B",key,email,title1)                        
+                    ptype = "B"                    
                 else:
-                    print("O",key,email,title1)
+                    ptype = "O"                    
             elif present == 'Poster':
-                print("P",key,email,title1)
+                ptype = "P"
             else:
-                print("X",key,email,title1)
-            if abstract: print("    ABS:",abstract1)
+                ptype = "X"
+                
+            if cat:
+                print("%s    ; %s%s." % (key,ptype,theme))
+            else:
+                print(ptype,key,email,title1)
+
+            if abstract:
+                print("    ABS:",abstract1)
+                print("    T:",theme1)
+                print("   TO:",theme1a)
             if key in self.x2:
                 present2  = self.x2[key][22].value
                 title2    = self.x2[key][23].value
@@ -130,7 +159,7 @@ class adass(object):
             demo_booth = r[26+self.off].value
             print(present,key,'f=%s' % focus_demo,'d=%s' % demo_booth)
 
-    def report_3(self,o1, count=False):
+    def report_3(self,o1, invert=False, count=False):
         """ report a selection of presenters based on list of names
         """
         # prepare list of last names
@@ -151,7 +180,7 @@ class adass(object):
                 found = True
                 key = k
             else:
-                # try a partial match based on last name
+                # try a partial match based on just last name
                 if lnames.count(k) == 1: 
                     key = keys[lnames.index(k)]
                     found = True                    
@@ -212,10 +241,7 @@ if __name__ == "__main__":
     a = adass('reg', debug)
     
     if len(sys.argv) == 2:
-        f1 = sys.argv[1]
-        o1 = io.open(f1, encoding="utf-8").readlines()
-        for i in range(len(o1)):
-            o1[i] = o1[i].strip()
-        a.report_3(o1)
+        o1 = a.tab2list(sys.argv[1])
+        a.report_3(o1,False)
     else:
         a.report_1(False)
