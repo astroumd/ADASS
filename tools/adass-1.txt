@@ -197,6 +197,7 @@ pizzo@astron.nl
 raymond.plante@nist.gov
 kai.polsterer@h-its.org
 mpound@umd.edu
+reinhard.prix@aei.mpg.de
 eracero@sciops.esa.int
 jordan.raddick@gmail.com
 eramirez@quasarsr.com

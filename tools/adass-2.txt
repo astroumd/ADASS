@@ -1,9 +1,9 @@
-206 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Accepted 202 entries
+207 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+Accepted 203 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-298 x 37 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 273 entries
+299 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 274 entries
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
@@ -22,7 +22,7 @@ P Baines, Deborah dbaines@sciops.esa.int DEAVI: Dynamic Evolution Added Value In
 P Baumann, Matthieu matthieu.baumann@astro.unistra.fr New Python developments to access CDS services
 P Becciani, Ugo ugo.becciani@inaf.it VisIVO Visual Analytics Tool an EOSC Science Demonstrator for data discovery
 O Berriman, Bruce gbb@ipac.caltech.edu Breathing New Life Into An Old Pipeline: Precision Radial Velocity Spectra of TESS Exoplanet Candidates
-X Blanco-Cuaresma, Sergi sblancocuaresma@cfa.harvard.edu 
+P Blanco-Cuaresma, Sergi sblancocuaresma@cfa.harvard.edu Fundamentals of effective cloud management for the new NASA Astrophysics Data System
 P Boch, Thomas thomas.boch@astro.unistra.fr Creating and managing very large HiPS: the PanSTARRS case
 P Boisson, Catherine catherine.boisson@obspm.fr Multi-instrument and reproducible gamma-ray analysis
 O Bolton, Adam bolton@noao.edu Towards a National Center for Optical and Infrared Astronomy: Opportunities and Challenges in Science, Software, and Data
@@ -68,7 +68,7 @@ O Gilda, Sankalp s.gilda@ufl.edu Importance of Feature Selection in ML models
 X Gill, Ranpal rgill@lsst.org 
 O Gonzalez-Nuñez, Juan jgonzale@sciops.esa.int Driving Gaia Science from the ESA Archive: DR2 to DR3
 F Good, John jcg@ipac.caltech.edu Image Processing in Python With Montage
-P Goz, David david.goz@inaf.it 
+P Goz, David david.goz@inaf.it Astrophysical codes migration into Exascale Era
 O Gracia Abril, Gonzalo ggracia@sciops.esa.int Gaia DPAC Project Office: Coordinating the production of the largest star catalogue.
 O Graves, Sarah s.graves@eaobservatory.org Harnessing the power of archival data to increase  scientific output: the JCMT experience.
 P Grishin, Kirill kirillg6@gmail.com Open-source web tools for spectroscopic and imaging data visualization for the VOXAstro initiative
@@ -154,6 +154,7 @@ X Pineau, Francois-Xavier francois-xavier.pineau@astro.unistra.fr
 X Plante, Raymond raymond.plante@nist.gov The BagIt Packaging Standard for Interoperability and Preservation
 X Polsterer, Kai kai.polsterer@h-its.org 
   ABS2 Polsterer, Kai ﻿A Beginners Guide to Machine Learning in Astronomy
+P Prix, Reinhard reinhard.prix@aei.mpg.de Efficient FFT-based $\mathcal{F}$-statistic implementation for continuous-gravitational-wave searches
 O Racero, Elena eracero@sciops.esa.int ESASky: A New Window for Solar System Data Exploration
 F Raddick, Michael jordan.raddick@gmail.com SciServer: Collabroative data-driven science
 O Ramirez, Emanuel eramirez@quasarsr.com Analysis of Astronomical Data using VR: the Gaia catalogue in 3D
