@@ -72,6 +72,7 @@ Pierre.Fernique@astro.unistra.fr
 fitz@noao.edu
 ebf11@psu.edu
 carlos.gabriel@sciops.esa.int
+julio.gallegos@sciops.esa.int
 severin.gaudet@nrc-cnrc.gc.ca
 vincent.geers@stfc.ac.uk
 Giovanna.Giardino@esa.int
@@ -86,6 +87,7 @@ s.graves@eaobservatory.org
 kirillg6@gmail.com
 sgroom@ipac.caltech.edu
 rguerra@sciops.esa.int
+guidorzi@fe.infn.it
 psgupta@uw.edu
 gwyn.cadc@gmail.com
 prh44@cam.ac.uk
@@ -204,7 +206,7 @@ erik.romelli@inaf.it
 arots@cfa.harvard.edu
 ev.rubtcov@physics.msu.ru
 wes@ascl.net
-Jesus.Salgado@sciops.esa.int
+jesusjuansalgado@gmail.com
 Michele.Sanguillon@umontpellier.fr
 rafael.santos@inpe.br
 renaud.savalle@obspm.fr
