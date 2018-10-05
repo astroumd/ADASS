@@ -1,11 +1,11 @@
-211 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+212 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 207 entries
+Accepted 208 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-304 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+305 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 279 entries
+Accepted 280 entries
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
@@ -146,6 +146,7 @@ X Nebot, Ada ada.nebot@astro.unistra.fr Data challenges of the VO in Time Domain
 P Nie, Jianyin niejy@ihep.ac.cn 
 O Nieto, Sara sara.nieto@sciops.esa.int SCIENCE EXPLOITATION IN A BIG DATA ARCHIVE: THE EUCLID SCIENTIFIC ARCHIVE SYSTEM
 O Nikolic, Bojan b.nikolic@mrao.cam.ac.uk Acceleration of Non-Linear Minimisation with PyTorch
+P Nomaru, Junichi noumaru@naoj.org 
 P O'Toole, Simon simon.otoole@mq.edu.au data central for Astronomers
   ABS2 O'Toole, Simon How do you get the most out of your teams?
 P Obi, Ikechukwu Anthony tonykassidy_z@yahoo.com The impact of Virtual Observatory Tools in Astronomy Research  in Nigeria

@@ -1,11 +1,11 @@
-211 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+212 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 207 entries
+Accepted 208 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-304 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+305 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 279 entries
+Accepted 280 entries
  
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
     ABS: The Data Analysis Center for Exoplanets (DACE) is a web platform based at the University of Geneva (CH) dedicated to exoplanets data visualization, exchange and analysis.
@@ -1187,6 +1187,11 @@ speed is modest, and readability and maintainability are largely
 unaffected.
     T: 1) Machine Learning in Astronomy
    TO: 
+ 
+P Nomaru, Junichi noumaru@naoj.org 
+    ABS: 
+    T: 13) Other
+   TO: Observatory Operations Infrastructure
  
 P O'Toole, Simon simon.otoole@mq.edu.au data central for Astronomers
     ABS: Data Central is the AAO's flagship virtual observatory service, providing a central repository for AAT and UK Schmidt observations, survey-team derived data products and documentation. The system brings together catalogues, imaging, spectra and data cubes from dozens of surveys, providing an intuitive interface to query, explore and cross-match data sets of national and international significance. We briefly introduce the current services data central offers to help astronomers familiarize themselves with the system, including: the cutout (access imaging data from some of the world's leading facilities to quickly explore sources of interest and produce publication quality images), query (extends the existing functionality of the TAP server and now makes the catalogues hosted at data central queryable via the web interface), schema (browsing the survey-team generated metadata), documentation and cloud services. Finally we'll present the timeline for future datasets and milestones for Data Central.

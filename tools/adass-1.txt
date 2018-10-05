@@ -181,6 +181,7 @@ ada.nebot@astro.unistra.fr
 niejy@ihep.ac.cn
 sara.nieto@sciops.esa.int
 b.nikolic@mrao.cam.ac.uk
+noumaru@naoj.org
 womullan@lsst.org
 simon.otoole@mq.edu.au
 tonykassidy_z@yahoo.com
