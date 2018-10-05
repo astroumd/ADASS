@@ -1,11 +1,11 @@
-207 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+211 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 203 entries
+Accepted 207 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-299 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+304 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 274 entries
+Accepted 279 entries
  
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
     ABS: The Data Analysis Center for Exoplanets (DACE) is a web platform based at the University of Geneva (CH) dedicated to exoplanets data visualization, exchange and analysis.
@@ -144,9 +144,9 @@ In addition, a color HiPS, based on the two already available HiPS, has been mad
     T: 10) Databases and Archives: Challenges and Solutions in the Big Data Era
    TO: 
  
-P Boisson, Catherine catherine.boisson@obspm.fr Multi-instrument and reproducible gamma-ray analysis
-    ABS: 
-    T: 4) Data Science: Workflows Hardware Software Humanware
+P Boisson, Catherine catherine.boisson@obspm.fr Executable user documentation for software in prototyping phase
+    ABS: One key aspect of software development is feedback contributions from their users and beta-testers. This community is not always aware of the developments undertaken in the base-code, neither use the tools and practices followed by the developers to deal with issues related with a non-stable software in continuous evolution. The open-source Python package for gamma-ray astronomy, Gammapy, provides its beta-tester user community with versioned reproducible environments and executable documentation, based on Jupyter notebooks and virtual environments technologies from conda and Docker. We believe this set-up greatly improves the user experience for a software in prototyping phase, as well as communication with the user community.
+    T: 6) DevOps Practices in Astronomy Software
    TO: 
  
 O Bolton, Adam bolton@noao.edu Towards a National Center for Optical and Infrared Astronomy: Opportunities and Challenges in Science, Software, and Data
@@ -354,9 +354,35 @@ O Donaldson, Tom tdonaldson@stsci.edu Astropy and the Virtual Observatory
     T: 5) Science Platforms: Tools for Data Discovery and Analysis from Different Angles
    TO: 
  
+P Dower, Theresa dower@stsci.edu Automating Multimission Access: rolling out a flexible Virtual Observatory-based infrastructure
+    ABS: As a part of The Mikulski Archive for Space Telescopes' (MAST) mission to develop and support user-friendly and scientifically useful search tools and foster inter-archive communication and interoperable standards, we integrate International Virtual Observatory (IVOA) standards in our infrastructure. These standard practices allow us to provide layers of simple and complex interfaces supporting both direct scientific research and inter-archive pipeline coordination. Here we discuss an architecture based on Table Access Protocol (TAP) services for MAST holdings, how we are automating the deployment and maintenance of these services to provide more data coverage with modern research software including Astropy, and how we can update these pieces individually to continue meeting unique technological challenges.
+    T: 6) DevOps Practices in Astronomy Software
+   TO: 
+ 
 P Dowler, Patrick pdowler.cadc@gmail.com Archive-2.0: Metadata and Data Synchronisation between MAST, CADC, and ESAC
-    ABS: will add later
-    T: 
+    ABS: The Canadian Astronomy Data Centre (CADC) and the European Space Astronomy Centre (ESAC) maintain mirrors of and provide user access to the HST data collection. A new mirroring approach was needed to improve consistency and support future missions like JWST. The Common Archive Observation Model (CAOM) is used as the core model for all data holdings at the CADC and the Mikulski Archive for Space Telescopes (MAST) and was extended to support a metadata and data synchronization system that allows the partners to maintain a complete copy of the entire HST collection using metadata and files generated at MAST.
+
+The metadata synchronization process relies on a simple RESTful web service operated by the metadata source (MAST) and a metadata harvesting tool run by the mirror centres (CADC and ESAC). The harvesting tool normally operates in incremental mode (recent changes) to maintain an up-to-date copy of the metadata. Consistency of the metadata is insured through the use of a robust metadata checksum algorithm; a full validation mode can be used to check and fix cases where incremental harvest events or deleted observation events were missed (rare) or source and destination metadata checksums do not match.
+
+We have also developed a new file synchronization tool that leverages CAOM metadata to discover and retrieve files from the source (MAST) to the mirror sites.  Through the use a backend plugins, the CADC and ESAC have extended the file synchronization to interface with their respective site-specific storage systems.. Like the metadata harvesting tool, file synchronization normally operates in incremental mode: it uses local CAOM metadata to discover new or modified files and schedule downloads. A separate mode performs downloads. A validation mode performs a full comparison of files referenced in CAOM with those in the local storage system and (optionally) schedules downloads to fix any discrepancies.
+
+Apart from the common data collection, services and tools described above, partners are allowed to extend CAOM metadata with more information specifically intended to provide added value features. ESAC, for instance, introduced information about publications in their instance of the Archive.
+    T: 10) Databases and Archives: Challenges and Solutions in the Big Data Era
+   TO: 
+ 
+P Dreissigacker, Christoph christoph.dreissigacker@aei.mpg.de Deep-Learning Continuous Gravitational Waves
+    ABS: The search for continuous gravitational waves from unknown
+spinning neutron stars presents an open computational challenge: optimal
+fully-coherent matched filtering is computationally impossible, and
+empirical semi-coherent methods are the best current alternative known.
+There has been promising progress recently in applying Deep
+Convolutional Neural Networks as a detection method for binary
+black-hole coalescence signals (George&Huerta, Gabbard et al,
+Gebhard et al (2017)).
+Here we present results of our study on the feasibility and potential of
+using similar networks to search for continuous gravitational waves
+directly in the detector strain data.
+    T: 1) Machine Learning in Astronomy
    TO: 
  
 P Ebisawa, Ken ebisawa@isas.jaxa.jp CALET Gamma-ray Burst Monitor web-analysis system
@@ -389,6 +415,11 @@ P Eguchi, Satoshi satoshieguchi@fukuoka-u.ac.jp Prototype Implementation of a We
     ABS: A direct detection of gravitational waves is one of the most exciting frontiers for modern astronomy and astrophysics. Gravitational wave signals combined with classical electro-magnetic observations, known as multi-messenger astronomy, promise newer and deeper insights about the cosmic evolution of astrophysical objects such as neutron starts and black holes. To this end, we have been developing an original data processing pipeline for KAGRA, a Japanese gravitational wave telescope, for optimal detections of supernova events. As a part of our project, we have just released a web application named SuperNova Event Gravitational-wave-display in Fukuoka (SNEGRAF) in this autumn. SNEGRAF accepts the users' theoretical waveforms as a plain text file consisting of a time series of h+ and hx (the plus and cross mode of gravitational waves, respectively), then displays the input, a corresponding spectrogram, and power spectrum together with KAGRA sensitivity curve and the signal-to-noise ratio; we adopt Google Visualization API for the interactive visualization of the input waveforms. However, it is a time-consuming task to draw more than ~10^5 data points directly with JavaScript, although the number can be typical for a supernova hunt by assuming a typical duration of the event and sampling rate of the detectors; a combination of recursive decimations of the original in the server-side program and an appropriate selection of them depending on the time duration requested by the user in a web browser achieves an acceptable latency. In this poster, we present the current design, implementation and optimization algorithms of SNEGRAF, and its future perspectives.
     T: 8) Time Domain Astronomy
    TO: 
+ 
+P Eisenhamer, Jonathan eisenhamer@stsci.edu JWST Association Generation: Piecing It All Together
+    ABS: The basic unit of JWST data products is an exposure for each science instrument detector. Relationships between multiple exposures are captured in an association.  An association is a means of identifying a set of exposures that belong together and may be dependent upon one another. JWST associations are created by the Association Generator. Using a set of association rules, the Generator filters through an Association Pool, basically a list of exposures and related meta-data, to produce Associations. These associations are then used as input to the appropriate calibration pipelines.
+    T: 13) Other
+   TO: Pipeline processing/Data Management
  
 O Fan, Dongwei fandongwei@nao.cas.cn A simple survey for cross-matching method
     ABS: In order to find a practicable method to build an online cross-matching service, we test several index and search methods. Indexing methods includes the directly matching, HEALPix based matching and zones algorithm. Sorted list and several search trees are also be inspected, e.g., Binary Search Tree, Red-Black Tree, B-Tree. From this survey, we can see that HEALPix based Binary Search on sorted array is the fastest and simple way to cross-match in memory, and the environment is easy to be restored from hardisk. If there are two unsorted catalog on disk, a red-black balance tree with HEALPix indices would be a good choice. But when the catalog is too big to cache in memory, the memory-hardisk-swapping much slows down the efficiency. The key is keeping more points in the memory and do the Binary Search. Not only the speed to cross-match, how to efficiently exporting the rest data columns in catalogs are also be considered. A cross-match web service build on these method is released.
@@ -536,6 +567,11 @@ We will demonstrate how to use these Python binary extensions to perform image p
 The material presented here will be made freely available as a set of Jupyter notebooks posted on the Montage GitHub page.
 
 Montage is funded by the U. S. National Science Foundation (NSF)  under Grant Number ACI-1642453.
+    T: 3) Astrophysical Data Visualization from Line Plots to Augmented and Virtual Reality
+   TO: 
+ 
+P Gordon, Craig craig.a.gordon@nasa.gov The Present State of XSPEC and CFITSIO, Astronomical Analysis Packages Maintained by NASA's HEASARC.
+    ABS: We discuss the present state of XSPEC and CFITSIO, two of the more widely used packages in HEASOFT, the software suite maintained and distributed by the HEASARC at NASA/Goddard Space Flight Center. XSPEC is an interactive X-ray spectral fitting program that has been used in almost 10,000 refereed publications over the last three and a half decades, and underwent a full redesign in the 2000s to object-oriented C++.  We examine its modular design which allows for the expansion of such capabilities as new fitting statistics, plotting packages, and models (including those supplied by the end-user).  We also show how originally unanticipated features were incorporated into the design, such as parallel processing and an extension module providing full access to XSPEC from Python (PyXspec). CFITSIO is a C and Fortran library that is used in much astronomical software for performing fast operations on FITS files. It has recently undergone a transition in support from its original author to the HEASARC programming staff, and we discuss challenges this entails and also some of its recent enhancements.
     T: 3) Astrophysical Data Visualization from Line Plots to Augmented and Virtual Reality
    TO: 
  
@@ -1193,9 +1229,17 @@ P Paxson, Charles cpaxson@cfa.harvard.edu Transforming Science Code into Maintai
     T: 6) DevOps Practices in Astronomy Software
    TO: 
  
-X Perea-Calderon, Jose Vicente jose.perea@sciops.esa.int 
-    ABS: 
-    T: 
+P Perea-Calderon, Jose Vicente jose.perea@sciops.esa.int Reprocessing all the XMM-Newton scientific data: a challenge for the Pipeline Processing System
+    ABS: 2019 will mark the 20-year anniversary of the XMM-Newton Mission. 
+So far, the mission has successfully completed a total of around 14.000 pointing observations, and it is expected to continue for many more years, producing a huge number of high-quality science data products. 
+
+Data processing of those observations is carried out by the XMM-Newton Pipeline Processing System (PPS) and the products are delivered to the XMM-Newton Science Archive (XSA). During the two decades many changes have been implemented in the data processing software, partly following improvements to the calibration of the science instruments. Several re-processing campaigns have been undertaken along the mission in order to have an up-to-date and uniformly processed set of high-level science data products in the archive. A new re-processing exercise is to be carried out, as it has been more than six years since the last re-processing campaign in 2011.
+
+Unlike the daily mission operations where a a limited number of observations have to be processed by PPS, a whole mission re-processing is a real challenge. An individual XMM-Newton Pipeline job (of one observation) can take up to five hours of computer processing time, some of them even longer. To achieve the processing of thousands of observations in a reasonable period of time requires a special preparation including a deep analysis of the computing resources. An extreme optimization of the resources sharing becomes essential in our case.
+
+Besides the optimization of the computing infrastructure usage, a set of software tools had to be developed in order
+to cope with the management and monitoring of this enormous number of individual Pipeline jobs.
+    T: 4) Data Science: Workflows Hardware Software Humanware
    TO: 
  
 P Perez, Fernando fernando.perez@esa.int Centralisation and management of science operations procedures and test cases using SOCCI
@@ -1650,10 +1694,10 @@ This research infrastructure is currently foreseen to take the form of a federat
     T: 2) Management of Large Science Project
    TO: 
  
-P Woods, Paul paul.woods@nature.com 
-    ABS: 
+P Woods, Paul paul.woods@nature.com Software and data policies for Nature journals
+    ABS: I briefly summarise the current code and data availability policies that apply to Nature, Nature Astronomy, Nature Geoscience and other Nature journals.
     T: 13) Other
-   TO: 
+   TO: Policy
  
 P Xiao, Jian xiaojian@tju.edu.cn Research on Automatic Recognition of Radio Frequency Interference Based on Deep Learning
     ABS: Radio frequency interference (RFI) mitigation is a key phase in data pipeline of radio telescopes. Classical RFI mitigation methods depend on the RFI physical characteristics, often fail to recognize some complicated patterns or result in misrecognition. We developed a novel approach of RFI recognition and automatic flagging with an improved convolution neural network. The network was constructed based on U-net with much deeper network structure for more complicated patterns and more components to reduce recognition error caused by over-fitting. Compared to the most widely used classical method -- SumThreshold, our method has better performance on both precision and recall rate, it also outperformed the U-net, a traditional deep learning model, and KNN,a typical machine learning model.
@@ -1670,8 +1714,11 @@ X Yamaguchi, Masayuki masayuki.yamaguchi@nao.ac.jp
     T: 
    TO: 
  
-P Yunfei, Xu xuyf@nao.cas.cn 
-    ABS: 
+P Yunfei, Xu xuyf@nao.cas.cn aLigo/Virgo Gravitational Wave Electromagnetic Counterparts Host Galaxy Candidates Filtering Pipeline
+    ABS: An ongoing effort of the emergent field of multi-messenger astronomy is to discover electromagnetic (EM) counterparts of transient gravitational wave (GW) with EM follow-up observation. After each detection of the GW event, aLIGO -Virgo will distribute the GW source sky confidence distribution data to collaborators, with which astronomers can carry out follow-up observations at different wavelengths. However, based on the current observation accuracy, the 90% credible localization area of GW sources cover hundreds of square degrees. This makes the identification of EM counterpart challenging even with wide-field telescopes. 
+Due to the expected gravitational wave event source reside in or near a galaxy, so restricting follow-up observations to galaxies can significantly decrease the required number of pointing, the total integration time and the number of false positives found. Based on this idea, we set up a pipeline to query the GLADE catalogue based on the position error range and distance range of GW events published by aLIGO / Virgo, and sort the results according to their confidence of the locations, b band brightness, (metering) redshift to quickly screen out the galactic host candidates. The system realizes a series of automatic operations, such as analyzing GW alarm, extracting GW position data, querying catalog, filtering and sorting of host galaxy candidates, and notifying, etc. The whole process does not need manual intervention.
+By building the index of the GLADE catalog based on the HEALPix celestial sphere partitioning method, combining with the MOC query method based on the GW position data, the fast search of the host galaxy candidates was realized, one query and sort task’s time consumption is less than 10s.
+The overall pipeline is highly efficient and can perform a series of operations for data visualization, host galaxy candidates filtering, and observation list report within 5 minutes after receiving a GW event alert.
     T: 9) Multi-Messenger Astronomy
    TO: 
  

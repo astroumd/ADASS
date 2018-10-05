@@ -1,11 +1,11 @@
-207 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+211 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 203 entries
+Accepted 207 entries
 8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
 Accepted 5 entries
-299 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+304 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 274 entries
+Accepted 279 entries
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
@@ -26,7 +26,7 @@ P Becciani, Ugo ugo.becciani@inaf.it VisIVO Visual Analytics Tool an EOSC Scienc
 O Berriman, Bruce gbb@ipac.caltech.edu Breathing New Life Into An Old Pipeline: Precision Radial Velocity Spectra of TESS Exoplanet Candidates
 P Blanco-Cuaresma, Sergi sblancocuaresma@cfa.harvard.edu Fundamentals of effective cloud management for the new NASA Astrophysics Data System
 P Boch, Thomas thomas.boch@astro.unistra.fr Creating and managing very large HiPS: the PanSTARRS case
-P Boisson, Catherine catherine.boisson@obspm.fr Multi-instrument and reproducible gamma-ray analysis
+P Boisson, Catherine catherine.boisson@obspm.fr Executable user documentation for software in prototyping phase
 O Bolton, Adam bolton@noao.edu Towards a National Center for Optical and Infrared Astronomy: Opportunities and Challenges in Science, Software, and Data
 O Bonnarel, François francois.bonnarel@astro.unistra.fr ProvTAP: A TAP service for providing IVOA provenance metadata
 X Borne, Kirk borne_kirk@bah.com Massive Data Exploration in Astronomy: What Does Cognitive Have To Do With It?
@@ -53,9 +53,12 @@ X Derriere, Sébastien sebastien.derriere@astro.unistra.fr
 P Deshpande, Shubhankar shubhand@cs.cmu.edu GMRT Archive Processing Project
 O Diaz, Rosa rdiaz@stsci.edu Adding Science Validation to the  JWST Calibration Pipeline.
 O Donaldson, Tom tdonaldson@stsci.edu Astropy and the Virtual Observatory
+P Dower, Theresa dower@stsci.edu Automating Multimission Access: rolling out a flexible Virtual Observatory-based infrastructure
 P Dowler, Patrick pdowler.cadc@gmail.com Archive-2.0: Metadata and Data Synchronisation between MAST, CADC, and ESAC
+P Dreissigacker, Christoph christoph.dreissigacker@aei.mpg.de Deep-Learning Continuous Gravitational Waves
 P Ebisawa, Ken ebisawa@isas.jaxa.jp CALET Gamma-ray Burst Monitor web-analysis system
 P Eguchi, Satoshi satoshieguchi@fukuoka-u.ac.jp Prototype Implementation of a Web-Based Gravitational Wave Signal Analyzer: SNEGRAF
+P Eisenhamer, Jonathan eisenhamer@stsci.edu JWST Association Generation: Piecing It All Together
 O Fan, Dongwei fandongwei@nao.cas.cn A simple survey for cross-matching method
 P Feinstein, Carlos cfeinstein@fcaglp.unlp.edu.ar Extragalactic stellar photometry and the blending problem
 O Ferguson, Henry ferguson@stsci.edu Data Analysis Tools for JWST and Beyond
@@ -70,6 +73,7 @@ O Gilda, Sankalp s.gilda@ufl.edu Importance of Feature Selection in ML models
 X Gill, Ranpal rgill@lsst.org 
 O Gonzalez-Nuñez, Juan jgonzale@sciops.esa.int Driving Gaia Science from the ESA Archive: DR2 to DR3
 F Good, John jcg@ipac.caltech.edu Image Processing in Python With Montage
+P Gordon, Craig craig.a.gordon@nasa.gov The Present State of XSPEC and CFITSIO, Astronomical Analysis Packages Maintained by NASA's HEASARC.
 P Goz, David david.goz@inaf.it Astrophysical codes migration into Exascale Era
 O Gracia Abril, Gonzalo ggracia@sciops.esa.int Gaia DPAC Project Office: Coordinating the production of the largest star catalogue.
 O Graves, Sarah s.graves@eaobservatory.org Harnessing the power of archival data to increase  scientific output: the JCMT experience.
@@ -150,7 +154,7 @@ P Paillassa, Maxime maxime.paillassa@u-bordeaux.fr Identifying contaminants in a
 P Parra, Jose jose.parra@alma.cl WAN OPTIMIZATION FOR ALMA DATA
 X Pascual, Sergio sergiopr@fis.ucm.es Runing GTC data reduction pipelines in Jupyter
 P Paxson, Charles cpaxson@cfa.harvard.edu Transforming Science Code into Maintainable Software, Insights into the G-CLEF Exposure Time Calculator
-X Perea-Calderon, Jose Vicente jose.perea@sciops.esa.int 
+P Perea-Calderon, Jose Vicente jose.perea@sciops.esa.int Reprocessing all the XMM-Newton scientific data: a challenge for the Pipeline Processing System
 P Perez, Fernando fernando.perez@esa.int Centralisation and management of science operations procedures and test cases using SOCCI
 X Pineau, Francois-Xavier francois-xavier.pineau@astro.unistra.fr 
 X Plante, Raymond raymond.plante@nist.gov The BagIt Packaging Standard for Interoperability and Preservation
@@ -205,11 +209,11 @@ O Vitello, Fabio fabio.vitello@inaf.it VisIVO Visual Analytics Tool an EOSC Scie
 P Wang, Rui wangrui@nao.cas.cn Analysis of Stellar Spectra from LAMOST DR5 with Generative Spectrum Networks
 P Wicenec, Andreas andreas.wicenec@uwa.edu.au The Murchison Widefield Array's VO compliant archive
 X Wise, Michael wise@astron.nl Establishing the SKA Regional Centre Network: Mesh Management and Culture Change
-P Woods, Paul paul.woods@nature.com 
+P Woods, Paul paul.woods@nature.com Software and data policies for Nature journals
 P Xiao, Jian xiaojian@tju.edu.cn Research on Automatic Recognition of Radio Frequency Interference Based on Deep Learning
 P Xu, Yang yxu@nao.cas.cn An algorithm of selection of meteor candidates in GWAC system
 X Yamaguchi, Masayuki masayuki.yamaguchi@nao.ac.jp 
-P Yunfei, Xu xuyf@nao.cas.cn 
+P Yunfei, Xu xuyf@nao.cas.cn aLigo/Virgo Gravitational Wave Electromagnetic Counterparts Host Galaxy Candidates Filtering Pipeline
 X Zapart, Christopher chris.zapart@nao.ac.jp An introduction to FITSWebQL
 O Zecevic, Petar Petar.Zecevic@fer.hr AXS: Making end-user petascale analyses possible, scalable, and usable
 P Zhang, Yanxia zyx@bao.ac.cn Machine Learning for Quasar Candidate Selection

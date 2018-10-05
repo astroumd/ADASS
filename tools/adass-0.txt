@@ -59,13 +59,16 @@ Deshpande, Shubhankar
 Deul, Erik
 Diaz, Rosa
 Donaldson, Tom
+Dower, Theresa
 Dowler, Patrick
+Dreissigacker, Christoph
 DuPrie, Kimberly
 Dubois, Richard
 Durand, Daniel
 Ebisawa, Ken
 Eggenstein, Heinz-Bernd
 Eguchi, Satoshi
+Eisenhamer, Jonathan
 Fan, Dongwei
 Feinstein, Carlos
 Ferguson, Henry
@@ -81,6 +84,7 @@ Gilda, Sankalp
 Gill, Ranpal
 Gonzalez-Nuñez, Juan
 Good, John
+Gordon, Craig
 Goz, David
 Gracia Abril, Gonzalo
 Grange, Yan
@@ -198,6 +202,7 @@ Plante, Raymond
 Polsterer, Kai
 Pound, Marc
 Prix, Reinhard
+Raba, Ryan
 Racero, Elena
 Raddick, Michael
 Ramirez, Emanuel

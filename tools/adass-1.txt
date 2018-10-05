@@ -59,13 +59,16 @@ shubhand@cs.cmu.edu
 deul@strw.leidenuniv.nl
 rdiaz@stsci.edu
 tdonaldson@stsci.edu
+dower@stsci.edu
 pdowler.cadc@gmail.com
+christoph.dreissigacker@aei.mpg.de
 kduprie@stsci.edu
 dubois@stanford.edu
 daniel_durand@mac.com
 ebisawa@isas.jaxa.jp
 heinz-bernd.eggenstein@aei.mpg.de
 satoshieguchi@fukuoka-u.ac.jp
+eisenhamer@stsci.edu
 fandongwei@nao.cas.cn
 cfeinstein@fcaglp.unlp.edu.ar
 ferguson@stsci.edu
@@ -81,6 +84,7 @@ s.gilda@ufl.edu
 rgill@lsst.org
 jgonzale@sciops.esa.int
 jcg@ipac.caltech.edu
+craig.a.gordon@nasa.gov
 david.goz@inaf.it
 ggracia@sciops.esa.int
 grange@astron.nl
@@ -198,6 +202,7 @@ raymond.plante@nist.gov
 kai.polsterer@h-its.org
 mpound@umd.edu
 reinhard.prix@aei.mpg.de
+rraba@nrao.edu
 eracero@sciops.esa.int
 jordan.raddick@gmail.com
 eramirez@quasarsr.com
