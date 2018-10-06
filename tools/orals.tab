@@ -1,62 +1,66 @@
 # S1
-Varshney
-Kent
-Zapart
-Comrie
-Ramirez
+Varshney	; I3.1
+Kent		; I3.2
+Zapart		; O3.1
+Comrie		; O3.2
+Ramirez		; O3.3
 # S2
-Bosch
-Kepley
-Tavagnacco
+Bosch		; I12.1
+Kepley		; O12.1
+Tavagnacco      ; O12.2
+#                 LT 1-5
 # S3
-Dencheva
-Lam
-Plante
+Dencheva	; O12.3
+Lam		; O12.4
+Plante          ; I11.1
 # S4
-Diaz
-Landais
-Bonnarel
+Diaz		; O11.1
+Landais		; O11.2
+Bonnarel	; O11.3
+#                 LT 6-10
 # S5
-Stoehr
-Brasseur
-Zecevic
-Buchschacher
+Stoehr		; I10.1	
+Brasseur	; O10.1
+Zecevic		; O10.2
+Buchschacher	; O10.3
 # S6
-Holman
-Racero
-Raugh
+Holman		; I7.1
+Racero		; O7.1
+Raugh		; O7.2
+#                 LT 11-15
 # S7
-Lieu
-Ansdell
-Nikolic
+Lieu		; I1.1
+Ansdell		; O1.1
+Nikolic		; O1.2
 # S8
-Gilda
-DAI
-Kuulkers
+Gilda		; O1.3
+DAI		; O1.4
+Kuulkers	; I9.1
 # S9
-Martinez
-Sealey
-Gonzalez-Nuñez
-Graves
-Allen, Alice
+Martinez	; O10.4
+Sealey		; O10.5
+Gonzalez-Nuñez	; O10.6
+Graves		; O10.7
+Allen, Alice	; O13.1
 # S10
-Nebot
-Stevens
-Juric
+Nebot		; I8.1
+Stevens		; O8.1
+Juric 		; O8.2
+#                 LT 16-20
 # S11
-Borne
-Toledo
-Nakazato
+Borne		; I4.1
+Toledo		; O4.1
+Nakazato	; O4.2
 # S12
-Momcheva
-Fitzpatrick
-Donaldson
+Momcheva	; I5.1
+Fitzpatrick	; O5.1
+Donaldson	; O5.2
 # S13
-Guerra Noguero
-Loose
-Smith
-Boussejra
+Guerra Noguero	; I6.1
+Loose  		; O6.1
+Smith		; O5.3
+Boussejra	; O5.4
 # S14
-Wise
-Alexov
-Tomasi
+Wise		; I2.1
+Alexov		; O2.1
+Tomasi		; O4.5
