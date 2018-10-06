@@ -1,11 +1,11 @@
-213 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+214 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 209 entries
+Accepted 210 entries
 10 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 7 entries
-307 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+308 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 282 entries
+Accepted 283 entries
  
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
     ABS: The Data Analysis Center for Exoplanets (DACE) is a web platform based at the University of Geneva (CH) dedicated to exoplanets data visualization, exchange and analysis.
@@ -1600,6 +1600,11 @@ P Teuben, Peter teuben@astro.umd.edu QAC: Quick Array Combinations with CASA
     ABS: A simple python layer in CASA was developed to aid in writing scripts for array (single dish and interferometric) combination. Although initially developed for TP2VIS, running simulations and comparing with other array combination methods, and adding regressions became cumbersome, and QAC was developed. Both ALMA, ngVLA and CARMA simulations are already supported, but extending to more generic array are planned.
     T: 13) Other
    TO: TBD
+ 
+P Tian, Fan ftian4@jhu.edu Robust Registration of Astronomy Catalog
+    ABS: Due to a small number of reference sources, the astrometric calibration of images with a small field of view is often inferior to the internal accuracy. An important experiment with such challenges is the Hubble Space Telescope. A possible solution is to cross-calibrate overlapping fields instead of just relying on standard stars. Following Budavari and Lubow (2012), we use infinitesimal 3D rotations for fine-tuning the calibration but re-formalize the objective to be robust to large number of false candidates in the initial set of associations. Using Bayesian statistics, we accommodate bad data by explicitly modeling the quality which yields a formalism essentially identical to M-estimation in robust statistics. Our preliminary results show great potentials for these methods on simulated catalogs where the ground truth is known.
+    T: 12) Algorithms
+   TO: 
  
 O Toledo, Ignacio ignacio.toledo@alma.cl Data Science =! Software Engineering. Exploring a workflow for ALMA operations.
     ABS: In the last few years Data science has emerged as a discipline of its own to address problems where data is usually heterogeneous, complex and abundant. In a nutshell, data science allows to provide answers to situations where a hypothesis can be formulated and later can be either confirmed or rejected following standard scientific methodology using data as raw material. Data science has been called differently depending of the domain (business intelligence, operational management, astroinformatics) and it has been recently in the center of a hype related to artificial intelligence and machine learning. It has been quickly adopted by the digital industry as the tool to distill information of massive operational data sets.

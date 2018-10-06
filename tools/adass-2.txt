@@ -1,11 +1,11 @@
-213 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+214 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 209 entries
+Accepted 210 entries
 10 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 7 entries
-307 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+308 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 282 entries
+Accepted 283 entries
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
@@ -203,6 +203,7 @@ O Tao, Yihan y.tao@nao.cas.cn Spectral Classification of Galaxies using Deep Neu
 O Tavagnacco, Daniele daniele.tavagnacco@inaf.it Performance-related aspects in the Big Data Astronomy Era: architects in software optimization
 P Taylor, Mark m.b.taylor@bristol.ac.uk TOPCAT and Gaia
 P Teuben, Peter teuben@astro.umd.edu QAC: Quick Array Combinations with CASA
+P Tian, Fan ftian4@jhu.edu Robust Registration of Astronomy Catalog
 O Toledo, Ignacio ignacio.toledo@alma.cl Data Science =! Software Engineering. Exploring a workflow for ALMA operations.
 O Tollerud, Erik etollerud@stsci.edu BoF: Open Source/Development Software Projects and Large Organizations/Missions: Recommendations and Challenges
 O Tomasi, Maurizio maurizio.tomasi@unimi.it Towards new solutions for scientific computing: the case of Julia
