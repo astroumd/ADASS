@@ -10,9 +10,9 @@ import xlrd
 import sys
 
 
-# names of the 3 sheets we got from C&VS
+# names of the 3 sheets we got from C&VS (notice the 31 character limit of the basename)
 _p1 = 'ADASS 2018  Submitted Abstracts.xls'  
-_p2 = 'ADASS 2018  Submitted Abstracts(1).xls'
+_p2 = 'ADASS 2018  2nd Submitted Abstr.xls'
 _p3 = 'ADASS 2018  Total Registrant Re.xls'
 
 class adass(object):
