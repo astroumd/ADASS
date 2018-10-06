@@ -1,11 +1,11 @@
-212 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+213 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 208 entries
-8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
-Accepted 5 entries
-305 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 209 entries
+10 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
+Accepted 7 entries
+307 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 280 entries
+Accepted 282 entries
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
@@ -85,7 +85,9 @@ O Hague, Peter prh44@cam.ac.uk BaSC - A Bayesian path to improved source finding
 P Han, Jun hanjun@nao.cas.cn The conceptual design of amateur public observatory software framework
 P He, Helen hhe@cfa.harvard.edu Pixel mask Filtering of CXC Datamodel
 X Holman, Matthew mholman@cfa.harvard.edu The Minor Planet Center Data Processing System
+P Irby, Bryan bryan.k.irby@nasa.gov HEASOFT: A FITS Data Processing and Analysis Software Suite
 P Ireland, Jack jack.ireland@nasa.gov The Helioviewer Project: Making Petabytes of Images Available to Everyone
+  ABS2 Ireland, Jack The SunPy Ecosystem
 O Iwasaki, Hiroyoshi h.iwasaki@rikkyo.ac.jp A new implementation of deep neural network to spatio-spectral analysis in X-ray astronomy
 P Jenness, Tim tjenness@lsst.org Abstracting the storage and retrieval of image data at the LSST
 P Johnston, Kyle kyjohnst2000@my.fit.edu Variable Star Classification Using Multi-View Metric Learning
@@ -153,6 +155,7 @@ P Obi, Ikechukwu Anthony tonykassidy_z@yahoo.com The impact of Virtual Observato
 P Oloketuyi, Jacob jacob.oloketuyi@ynao.ac.cn The Analysis of Periodic Variation of Sunspot Groups and the X-ray Flare Classes
 P Paillassa, Maxime maxime.paillassa@u-bordeaux.fr Identifying contaminants in astronomical images using convolutional neural networks
 P Parra, Jose jose.parra@alma.cl WAN OPTIMIZATION FOR ALMA DATA
+  ABS2 Parra, Jose Decreasing the size of the ALMA testing archive
 X Pascual, Sergio sergiopr@fis.ucm.es Runing GTC data reduction pipelines in Jupyter
 P Paxson, Charles cpaxson@cfa.harvard.edu Transforming Science Code into Maintainable Software, Insights into the G-CLEF Exposure Time Calculator
 P Perea-Calderon, Jose Vicente jose.perea@sciops.esa.int Reprocessing all the XMM-Newton scientific data: a challenge for the Pipeline Processing System

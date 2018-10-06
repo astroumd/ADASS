@@ -65,6 +65,7 @@ christoph.dreissigacker@aei.mpg.de
 kduprie@stsci.edu
 dubois@stanford.edu
 daniel_durand@mac.com
+rick@ipac.caltech.edu
 ebisawa@isas.jaxa.jp
 heinz-bernd.eggenstein@aei.mpg.de
 satoshieguchi@fukuoka-u.ac.jp
@@ -107,6 +108,7 @@ mholman@cfa.harvard.edu
 jorge.ibsen@alma.cl
 jegugih@astro.umd.edu
 shiro@ism.ac.jp
+bryan.k.irby@nasa.gov
 jack.ireland@nasa.gov
 h.iwasaki@rikkyo.ac.jp
 tess.jaffe@nasa.gov

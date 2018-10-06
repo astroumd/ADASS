@@ -1,11 +1,11 @@
-212 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+213 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 208 entries
-8 x 29 in reg/ADASS 2018  Submitted Abstracts(1).xls
-Accepted 5 entries
-305 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 209 entries
+10 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
+Accepted 7 entries
+307 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 280 entries
+Accepted 282 entries
  
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
     ABS: The Data Analysis Center for Exoplanets (DACE) is a web platform based at the University of Geneva (CH) dedicated to exoplanets data visualization, exchange and analysis.
@@ -572,7 +572,7 @@ Montage is funded by the U. S. National Science Foundation (NSF)  under Grant Nu
  
 P Gordon, Craig craig.a.gordon@nasa.gov The Present State of XSPEC and CFITSIO, Astronomical Analysis Packages Maintained by NASA's HEASARC.
     ABS: We discuss the present state of XSPEC and CFITSIO, two of the more widely used packages in HEASOFT, the software suite maintained and distributed by the HEASARC at NASA/Goddard Space Flight Center. XSPEC is an interactive X-ray spectral fitting program that has been used in almost 10,000 refereed publications over the last three and a half decades, and underwent a full redesign in the 2000s to object-oriented C++.  We examine its modular design which allows for the expansion of such capabilities as new fitting statistics, plotting packages, and models (including those supplied by the end-user).  We also show how originally unanticipated features were incorporated into the design, such as parallel processing and an extension module providing full access to XSPEC from Python (PyXspec). CFITSIO is a C and Fortran library that is used in much astronomical software for performing fast operations on FITS files. It has recently undergone a transition in support from its original author to the HEASARC programming staff, and we discuss challenges this entails and also some of its recent enhancements.
-    T: 3) Astrophysical Data Visualization from Line Plots to Augmented and Virtual Reality
+    T: 5) Science Platforms: Tools for Data Discovery and Analysis from Different Angles
    TO: 
  
 P Goz, David david.goz@inaf.it Astrophysical codes migration into Exascale Era
@@ -750,6 +750,11 @@ auspices of the International Astronomical Union (IAU). The MPC is
     T: 7) Software for Solar Systems Astronomy
    TO: 
  
+P Irby, Bryan bryan.k.irby@nasa.gov HEASOFT: A FITS Data Processing and Analysis Software Suite
+    ABS: For over 20 years, HEASOFT has provided an ever-growing suite of utilities for processing and analyzing data in the FITS (Flexible Image Transport System) format, dedicated to missions supported by the HEASARC (High Energy Astrophysics Science Archive Research Center) at NASA's Goddard Space Flight Center, but supplying numerous generic processing and analysis utilities to the scientific community as well.  HEASoft currently contains nearly 4M lines of code in over 1000 individual tasks, supports 15 high energy missions, and is used by thousands of individuals or institutions.  With the number of users and partner missions increasing every year, we continue to focus on portability, modularity, and exploring new modes of distribution.
+    T: 5) Science Platforms: Tools for Data Discovery and Analysis from Different Angles
+   TO: 
+ 
 P Ireland, Jack jack.ireland@nasa.gov The Helioviewer Project: Making Petabytes of Images Available to Everyone
     ABS: Solar observatories are providing the world-wide community with a wealth of data, covering wide time ranges (e.g. the Solar and Heliospheric Observatory, SOHO has been observing for more than 20 years), multiple viewpoints (Solar TErrestrial RElations Observatory, STEREO), and returning large amounts of data (Solar Dynamics Observatory, SDO). In particular, the petabyte-scale volume of SDO data presents challenges; the data are available only from a few repositories, and full-disk, full-cadence data for reasonable durations of scientific interest are difficult to download, due to their size and the download rates available to most users. The variety and volume of available data poses three problems: accessing, browsing, and finding interesting data as efficiently as possible. 
 
@@ -758,6 +763,8 @@ To address these challenges, we have developed the Helioviewer Project, a suite 
 The current design of the Helioviewer Project, and use and functionality of its principal clients - JHelioviewer and helioviewer.org - will be discussed. Plans for including images and other data from other solar and heliospheric datasets will also be discussed, including the recently launched Parker Solar Probe and Solar Orbiter.
     T: 3) Astrophysical Data Visualization from Line Plots to Augmented and Virtual Reality
    TO: 
+  ABS2 Ireland, Jack The SunPy Ecosystem
+    ABS: The SunPy Ecosystem
  
 O Iwasaki, Hiroyoshi h.iwasaki@rikkyo.ac.jp A new implementation of deep neural network to spatio-spectral analysis in X-ray astronomy
     ABS: Recent rapid developments in Deep Learning, which can implicitly capture structures in high-dimensional data, will lead to the opening of a new chapter of astronomical data analysis. As a new implementation of Deep Learning techniques in the fields of astronomy, we here report our application of Variational Auto-Encoder (VAE) using deep neural network to spatio-spectral analysis of the data from the Chandra X-ray Observatory, in the particular case of Tycho’s supernova remnant. Previous applications of Machine Learning techniques to the analysis of SNRs have been limited to principal component analysis (Warren et al. 2005; Sato & Hughes 2017) and clustering without dimensional reduction (Burkey et al. 2013). We have implemented an unsupervised learning method combining VAE and Gaussian Mixture Model (GMM), where the reduction of dimensions of the observed data is performed by VAE and clustering in the feature space is by GMM. We have found that some characteristic features such as the iron knots in the southeastern region can be automatically recognized through this method. Our implementation exploits a new potential of Deep Learning in astronomical research.
@@ -1223,6 +1230,8 @@ P Parra, Jose jose.parra@alma.cl WAN OPTIMIZATION FOR ALMA DATA
 In the era of large observatories and huge data transmission through the networks, we did a proof of concept using Riverbed technology to address the ALMA data distribution challenge: limited bandwidth, far away locations and large amounts of data.  In the ALMA case from the Atacama desert in Chile to our regional centers in the northern hemisphere.  The PoC shows the percentage of reduction in network traffic, after applying de-duplication, tcp window optimization and virtual latency improvement on scienctific data.
     T: 10) Databases and Archives: Challenges and Solutions in the Big Data Era
    TO: 
+  ABS2 Parra, Jose Decreasing the size of the ALMA testing archive
+    ABS: Decreasing the size of the ALMA testing archive
  
 X Pascual, Sergio sergiopr@fis.ucm.es Runing GTC data reduction pipelines in Jupyter
     ABS: The data reduction pipelines for the GTC (Gran Telescopio Canarias) instruments EMIR and MEGARA are based on the same framework (numina, https://zenodo.org/record/1341361). The pipeline can be run either automatically at the telescope or using a command line interface. We have added support to run the pipeline inside a Jupyter notebook, with the python interpreter. The new classes in numina provide persistent storage of reductions and querying capabilities, to retrieve older reductions

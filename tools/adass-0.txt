@@ -65,6 +65,7 @@ Dreissigacker, Christoph
 DuPrie, Kimberly
 Dubois, Richard
 Durand, Daniel
+Ebert, Rick
 Ebisawa, Ken
 Eggenstein, Heinz-Bernd
 Eguchi, Satoshi
@@ -107,6 +108,7 @@ Holman, Matthew
 Ibsen, Jorge
 Ih, Jegug
 Ikeda, Shiro
+Irby, Bryan
 Ireland, Jack
 Iwasaki, Hiroyoshi
 Jaffe, Tess
