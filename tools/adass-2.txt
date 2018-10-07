@@ -1,11 +1,11 @@
-214 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+215 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 210 entries
+Accepted 211 entries
 10 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 7 entries
-308 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+309 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 283 entries
+Accepted 284 entries
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
@@ -26,7 +26,7 @@ P Becciani, Ugo ugo.becciani@inaf.it VisIVO Visual Analytics Tool an EOSC Scienc
 O Berriman, Bruce gbb@ipac.caltech.edu Breathing New Life Into An Old Pipeline: Precision Radial Velocity Spectra of TESS Exoplanet Candidates
 P Blanco-Cuaresma, Sergi sblancocuaresma@cfa.harvard.edu Fundamentals of effective cloud management for the new NASA Astrophysics Data System
 P Boch, Thomas thomas.boch@astro.unistra.fr Creating and managing very large HiPS: the PanSTARRS case
-P Boisson, Catherine catherine.boisson@obspm.fr Executable user documentation for software in prototyping phase
+P Boisson, Catherine catherine.boisson@obspm.fr Executable user documentation for in-development software
 O Bolton, Adam bolton@noao.edu Towards a National Center for Optical and Infrared Astronomy: Opportunities and Challenges in Science, Software, and Data
 O Bonnarel, François francois.bonnarel@astro.unistra.fr ProvTAP: A TAP service for providing IVOA provenance metadata
 X Borne, Kirk borne_kirk@bah.com Massive Data Exploration in Astronomy: What Does Cognitive Have To Do With It?
@@ -108,6 +108,7 @@ P Kosugi, George george.kosugi@nao.ac.jp Qualification of Sparse Modeling Techni
 P Kumar, Praveen pkumar6743@gmail.com (2+1) dimensional cosmological models in f(R,T) gravity with Λ(R,T)
 X Kuulkers, Erik erik.kuulkers@esa.int Coordinating observations among ground and space-based telescopes in the multi-messenger era
 O Kyprianou, Mark kyp@stsci.edu Lessons Learned from the behemoth JWST Data Management effort
+P LANDONI, MARCO marco.landoni@inaf.it Application of Google Cloud Platform in Astrophysics
 P Labrie, Kathleen klabrie@gemini.edu DRAGONS - Data Reduction for Astronomy from Gemini Observatory North and South
 X Lacy, Mark mlacy@nrao.edu The VLA Sky Survey - operations, data processing and archiving
 O Lam, Cheuk Yin c.y.lam@ljmu.ac.uk Data-Driven Pixelisation with Voronoi Tessellation
@@ -120,7 +121,7 @@ P Lim, Pey Lian lim@stsci.edu stginga: Ginga Plugins for Data Analysis and Quali
 P Lin, Ganghua lgh@bao.ac.cn The quality assurance of Chinese solar physics historical observation data archives
 O Loose, Marcel loose@astron.nl Agile and DevOps from the trenches at ASTRON
 X Lorente, Nuria Nuria.Lorente@aao.gov.au 
-P Louys, Mireille mireille.louys@unistra.fr The IVOA provenance Data model
+P Louys, Mireille mireille.louys@unistra.fr A TripleStore implementation of the IVOA Provenance Data model
 X Lu, Yuxi lucylulu12311@gmail.com 
 P Lundquist, Michael mlundquist@email.arizona.edu Searching for Optical Counterparts to Gravitational Wave Events with the Catalina Sky Survey
 P Lutz, Katharina katharina.lutz@astro.unistra.fr Getting ready for the fourth Asterics DADI virtual observatory school
@@ -217,7 +218,7 @@ X Wise, Michael wise@astron.nl Establishing the SKA Regional Centre Network: Mes
 P Woods, Paul paul.woods@nature.com Software and data policies for Nature journals
 P Xiao, Jian xiaojian@tju.edu.cn Research on Automatic Recognition of Radio Frequency Interference Based on Deep Learning
 P Xu, Yang yxu@nao.cas.cn An algorithm of selection of meteor candidates in GWAC system
-X Yamaguchi, Masayuki masayuki.yamaguchi@nao.ac.jp 
+P Yamaguchi, Masayuki masayuki.yamaguchi@nao.ac.jp Super-resolution Imaging of the Protoplanetary Disk HD 142527 using Sparse Modeling
 P Yunfei, Xu xuyf@nao.cas.cn aLigo/Virgo Gravitational Wave Electromagnetic Counterparts Host Galaxy Candidates Filtering Pipeline
 X Zapart, Christopher chris.zapart@nao.ac.jp An introduction to FITSWebQL
 O Zecevic, Petar Petar.Zecevic@fer.hr AXS: Making end-user petascale analyses possible, scalable, and usable

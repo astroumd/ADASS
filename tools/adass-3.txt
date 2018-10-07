@@ -1,11 +1,11 @@
-214 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+215 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 210 entries
+Accepted 211 entries
 10 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 7 entries
-308 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+309 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 283 entries
+Accepted 284 entries
  
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
     ABS: The Data Analysis Center for Exoplanets (DACE) is a web platform based at the University of Geneva (CH) dedicated to exoplanets data visualization, exchange and analysis.
@@ -144,8 +144,8 @@ In addition, a color HiPS, based on the two already available HiPS, has been mad
     T: 10) Databases and Archives: Challenges and Solutions in the Big Data Era
    TO: 
  
-P Boisson, Catherine catherine.boisson@obspm.fr Executable user documentation for software in prototyping phase
-    ABS: One key aspect of software development is feedback contributions from their users and beta-testers. This community is not always aware of the developments undertaken in the base-code, neither use the tools and practices followed by the developers to deal with issues related with a non-stable software in continuous evolution. The open-source Python package for gamma-ray astronomy, Gammapy, provides its beta-tester user community with versioned reproducible environments and executable documentation, based on Jupyter notebooks and virtual environments technologies from conda and Docker. We believe this set-up greatly improves the user experience for a software in prototyping phase, as well as communication with the user community.
+P Boisson, Catherine catherine.boisson@obspm.fr Executable user documentation for in-development software
+    ABS: One key aspect of software development is feedback from users and beta-testers. This community is not always aware of the developments undertaken in the base-code, neither use the tools and practices followed by the developers to deal with issues related with a non-stable software in continuous evolution. The open-source Python package for gamma-ray astronomy, Gammapy, provides its beta-tester user community with versioned reproducible environments and executable documentation, based on Jupyter notebooks and virtual environment  technologies from conda and Docker. We believe this set-up greatly improves the user experience for a software in prototyping phase, as well as communication with the user community. We will present such a setup where code and tutorial are versioned coupled.
     T: 6) DevOps Practices in Astronomy Software
    TO: 
  
@@ -876,7 +876,7 @@ data to users. This includes our efforts at a comprehensive architectural model,
    TO: 
  
 P Kosugi, George george.kosugi@nao.ac.jp Qualification of Sparse Modeling Technique for radio interferometric imaging of ALMA
-    ABS: under preparation
+    ABS: Sparse modeling is widely used in image processing, signal processing, and machine learning recently. Thanks to the research and progress in statistical mathematics along with the evolution of computational power, the technique is supposed to be applicable to the radio interferometric imaging for the data obtained by ALMA (Atacama Large Millimeter-submillimeter Array). We've developed a new imaging tool based on the sparse modeling approach and experimentally implemented on CASA (Common Astronomy Software Application) which is an official reduction software for the ALMA data. The poster presentation gives supplemental information to the oral talk in session 11 by Nakazato et al. The new imaging technique with sparse modeling is a computationally intense process even for the latest CPUs. In the poster, several ideas and practices to reduce the calculation time will be presented. The comparison to CLEAN imaging by using artificial data (simulated data) will also be presented.
     T: 12) Algorithms
    TO: 
  
@@ -893,6 +893,13 @@ X Kuulkers, Erik erik.kuulkers@esa.int Coordinating observations among ground an
 O Kyprianou, Mark kyp@stsci.edu Lessons Learned from the behemoth JWST Data Management effort
     ABS: As with any large project, there are always lessons to be learned for future endeavors that can be applied and/or considered for similar endeavors.  The development of the Data Management Subsystem (DMS) for the James Webb Space Telescope (JWST) provides such an opportunity to take advantage of experiences and events that can be applied to other missions. The DMS software and hardware tool set is extensive; it involves more than 100 staff including developers, scientists and systems engineers.  It receives science and engineering telemetry data from the spacecraft, performs quality checking, calibration, data (re-)processing; archives the data; provides user notification, search, and access tools for JWST science and engineering data;  distributes data to the end user; provides extensive user analysis/visualization tools.  We will discuss the evolution of DMS and its interaction within the Science and Operations Center (S&OC) covering keys to our success and also those that did not work out so well.
     T: 2) Management of Large Science Project
+   TO: 
+ 
+P LANDONI, MARCO marco.landoni@inaf.it Application of Google Cloud Platform in Astrophysics
+    ABS: The availability of new Cloud Platform offered by Google motivated us to propose nine Proof of Concepts (PoC) aiming to demonstrated and test the capabilities of the platform in the context of scientifically-driven tasks and requirements.
+In this poster, we review the status of our initiative by illustrating 3 out of 9 successfully closed PoC that we implemented on Google Cloud Platform.
+In particular, we illustrate a cloud architecture for deployment of scientific software as microservice coupling Google Compute Engine with Docker and Pub/Sub to dispatch heavily parallel simulations. We detail also en experiment for HPC based simulation and workflow executions of data reduction pipelines (for the TNG-GIANO-B spectrograph) deployed on GCP. We compare and contrast our experience with on-site facilities comparing advantages and disadvantages both in terms of total cost of ownership and reached performances.
+    T: 6) DevOps Practices in Astronomy Software
    TO: 
  
 P Labrie, Kathleen klabrie@gemini.edu DRAGONS - Data Reduction for Astronomy from Gemini Observatory North and South
@@ -985,9 +992,10 @@ X Lorente, Nuria Nuria.Lorente@aao.gov.au
     T: 
    TO: 
  
-P Louys, Mireille mireille.louys@unistra.fr The IVOA provenance Data model
-    ABS: This Ivoa has proposed a standard for capturing the medata of provenance in the production and distribution of astronomical data . 
-we present the specification discussed for the virtual ovservatory and links to implementations .
+P Louys, Mireille mireille.louys@unistra.fr A TripleStore implementation of the IVOA Provenance Data model
+    ABS: The IVOA  has proposed a standard for capturing the provenance metadata in the production and distribution of astronomical data.
+We present an implementation in a tripple store for the provenance information recorded for a collection of astronomical images. 
+The ontology applied is derived from PROV-O  from the W3C and from the IVOA Provenance data model. SPARQL queries  based on the Data model concepts allow to select datasets based on a wide range of provenance properties and have proven to be efficient in the tripple store representation. The data model of the SIMBAD CDS data base  has also been tested, and has proven to scale very efficiently in the tripplestore strategy as well.
     T: 11) Quality Assurance of Science Data
    TO: 
  
@@ -1728,10 +1736,10 @@ P Xu, Yang yxu@nao.cas.cn An algorithm of selection of meteor candidates in GWAC
     T: 12) Algorithms
    TO: 
  
-X Yamaguchi, Masayuki masayuki.yamaguchi@nao.ac.jp 
-    ABS: 
-    T: 
-   TO: 
+P Yamaguchi, Masayuki masayuki.yamaguchi@nao.ac.jp Super-resolution Imaging of the Protoplanetary Disk HD 142527 using Sparse Modeling
+    ABS: The imaging of protoplanetary disks on scales of down to a few Astronomical Unit (AU) using ALMA (Atacama Large Millimeter/submillimeter Array) can reveal that disks have a wealth of structure such as rings, gaps, and spiral waves, whose origins may be related to the action of forming planets themselves. For image reconstruction with radio interferometer including ALMA,  in recent years, a new imaging technique has been developed based on the sparse modeling approach. The technique directly solves an underdetermined problem resulting from obtaining an image from observed data and leads to a super-resolution image in which structure finer than the standard beam size (diffraction limit) can be reproduced. Previous work shows that the technique achieves better performance than traditional CLEAN techniques using simulated observational data with VLBI (Very Long Baseline Interferometry), although it has been applied to neither ALMA-like connected interferometers nor real observational data yet. In this work, for the first time, we evaluate the performance of the sparse modeling technique with ALMA data as compared with traditional CLEAN techniques in mainly aimed at spatially resolving the detailed structure of the protoplanetary disk. Here, we apply two observational data of the protoplanetary disk of HD 142527, which are independently observed with ALMA in the almost same observation frequency and being different from about three times of array configuration (i.e.,  three times different spatial resolution). We find that sparse modeling image of the low-resolution data reconstructs a sharp arm-liked structure consistent with the CLEAN image of the three times higher-resolution data, although the CLEAN image of the low-resolution data has many noisy compact artifacts at this resolution. The results demonstrate that sparse modeling is an attractive method for the protoplanetary disk observed by ALMA to obtain a high-fidelity super-resolution image.
+    T: 13) Other
+   TO: Synthesis Imaging for Radio Interferometry
  
 P Yunfei, Xu xuyf@nao.cas.cn aLigo/Virgo Gravitational Wave Electromagnetic Counterparts Host Galaxy Candidates Filtering Pipeline
     ABS: An ongoing effort of the emergent field of multi-messenger astronomy is to discover electromagnetic (EM) counterparts of transient gravitational wave (GW) with EM follow-up observation. After each detection of the GW event, aLIGO -Virgo will distribute the GW source sky confidence distribution data to collaborators, with which astronomers can carry out follow-up observations at different wavelengths. However, based on the current observation accuracy, the 90% credible localization area of GW sources cover hundreds of square degrees. This makes the identification of EM counterpart challenging even with wide-field telescopes. 
