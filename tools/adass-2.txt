@@ -112,7 +112,7 @@ P LANDONI, MARCO marco.landoni@inaf.it Application of Google Cloud Platform in A
 P Labrie, Kathleen klabrie@gemini.edu DRAGONS - Data Reduction for Astronomy from Gemini Observatory North and South
 X Lacy, Mark mlacy@nrao.edu The VLA Sky Survey - operations, data processing and archiving
 O Lam, Cheuk Yin c.y.lam@ljmu.ac.uk Data-Driven Pixelisation with Voronoi Tessellation
-P Lammers, Jason jlammers0@gmail.com Optimizing Legacy Code for Current Use
+P Lammers, Jason jlammers0@gmail.com Optimization Strategies for running Legacy Codes
 O Landais, Gilles gilles.landais@astro.unistra.fr Quality assurance in the ingestion of data into the CDS VizieR catalogue and data services
 O Lemson, Gerard glemson1@jhu.edu FileDB, a pattern for querying cosmological simulations
 O Li, Changhua lich@nao.cas.cn Design of KNN Star-QSO Classification Algorithm Based on Cloud Computing
