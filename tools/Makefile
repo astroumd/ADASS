@@ -21,11 +21,11 @@ dinner:
 	@./counter.py 23 |sort | uniq -c | sort -nr
 
 tutorial:
-	@echo Tutorial
+	@echo Tutorial max 220
 	@./counter.py 22 |sort | uniq -c | sort -nr
 
 abstract:
-	@echo Abstract
+	@echo Abstract - max 226
 	@./counter.py 28 |sort | uniq -c | sort -nr
 
 abstract2:
@@ -33,7 +33,7 @@ abstract2:
 	@./counter.py 29 demo financial companion
 
 focus:
-	@echo Focus DemoTalk
+	@echo Focus DemoTalk - max 7
 	@./counter.py 25 |sort | uniq -c
 
 comm:
@@ -66,7 +66,8 @@ yapp2=registration.gif/gif
 
 date1:
 	@echo RegDate
-	@./counter.py 0 | ./date.awk   | grep -v / | awk '{print $1}' | tabhist - 1 120 360 bins='360-120' gauss=f residual=f cumul=t maxcount=400 xlab="days in 2018" ylab="ADASS registrations" headline="`date`" yapp=$(yapp1)
+	@./counter.py 0  |  ./date.awk   | grep -v / | awk '{print $1}' | sort -n > registration.dat
+	tabhist registration.dat 1 120 360 bins='360-120' gauss=f residual=f cumul=t maxcount=400 xlab="days in 2018" ylab="ADASS registrations" headline="`date`" yapp=$(yapp1)
 
 
 diet:
@@ -109,3 +110,6 @@ gitco:
 # get new/old names
 diff:
 	git diff adass-0.txt
+
+www:
+	git clone https://github.com/astroumd/adass2018.git www
