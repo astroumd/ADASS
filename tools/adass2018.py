@@ -80,24 +80,35 @@ class adass(object):
 
     def tab2list(self, filename, use_code=False):
         """ filename with "NAMES; Code"   - return the [names]
-            if <NAMES> is <FNAME LNAME>, it adds them as <LNAME, FNAME>
+            if <NAMES> is <FNAME LNAME>, it adds them as <LNAME,FNAME>
         """
         o1 = io.open(filename, encoding="utf-8").readlines()
-        o2 = []
-        o3 = []
+        o2 = []  # names
+        o3 = []  # codes, should be required by now (I,O,B,F,T,P)
+        o4 = []  # times, if appropriate (for I,O,B,F,T)
         nz = 0
         for i in range(len(o1)):
-            s = o1[i].strip() 
-            if s=='#': continue      # skip comment lines
-            if len(s) == 0: continue;   # skip blank lines
-            isc = s.find(';')
-            if isc < 0:
-                name = s.strip()
+            s  = o1[i].strip() 
+            w  = s.split(';')
+            nw = len(w)
+            if nw == 0:    continue     # skip blank lines
+            if w[0] =='#': continue     # skip comment lines
+            if nw == 1:
                 nz = nz + 1
+                name = w[0].strip()
                 code = 'Z%d' % nz
+                time = 'N/A'
+            elif nw == 2:
+                name = w[0].strip()
+                code = w[1].strip()
+                time = 'TBD'
+            elif nw == 3:
+                name = w[0].strip()
+                code = w[1].strip()
+                time = w[2].strip()
             else:
-                name = s[:isc].strip()
-                code = s[isc+1:].strip()
+                continue;
+
             ic = name.find(',')
             if ic < 0:
                 names = name.split()
@@ -105,8 +116,9 @@ class adass(object):
                     name = names[1] + ', ' + names[0]
             o2.append(name)
             o3.append(code)
+            o4.append(time)
         if use_code:
-            return (o2,o3)
+            return (o2,o3,o4)
         return o2
 
     def print_col(self, col):
@@ -269,7 +281,7 @@ class adass(object):
                 else:
                     print(key,'-',title1)
 
-    def report_3a(self,o1,o2, count=False, dirname='www/abstracts'):
+    def report_3a(self,o1,o2,o3, count=False, dirname='www/abstracts'):
         """ report a selection of presenters based on list of names
         """
         # prepare list of last names
@@ -282,7 +294,7 @@ class adass(object):
         #print(keys)
         #
         n=0
-        for (k,c) in zip(o1,o2):
+        for (k,c,t) in zip(o1,o2,o3):
             if k == '#': continue
             found = False
             if k in self.x1.keys():
@@ -311,6 +323,8 @@ class adass(object):
                     fp.write(_header1)
                     msg = '<b>%s: %s</b>\n' % (c, key)   ; fp.write(msg)
                     msg = '<br>\n'                       ; fp.write(msg)                    
+                    msg = '<b>Time: %s</b>\n' % t        ; fp.write(msg)
+                    msg = '<br>\n'                       ; fp.write(msg)                                        
                     msg = '<i>%s</i>\n' % title1         ; fp.write(msg)
                     msg = '<br>\n'                       ; fp.write(msg)                                        
                     msg = '%s\n' % abstract1             ; fp.write(msg)

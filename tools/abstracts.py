@@ -12,10 +12,11 @@ if __name__ == "__main__":
     a = adass.adass('reg', debug)
     
     if len(sys.argv) == 2:
-        (o1,o2) = a.tab2list(sys.argv[1],True)
+        (o1,o2,o3) = a.tab2list(sys.argv[1],True)
         print(o1)
         print(o2)
-        print(len(o1),len(o2))
-        a.report_3a(o1,o2)
+        print(o3)
+        print(len(o1),len(o2),len(o3))
+        a.report_3a(o1,o2,o3)
     else:
         a.report_1(True)
