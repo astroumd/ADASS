@@ -1,11 +1,11 @@
-217 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+218 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 213 entries
+Accepted 214 entries
 9 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 6 entries
-311 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+312 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 286 entries
+Accepted 287 entries
  
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
     ABS: The Data Analysis Center for Exoplanets (DACE) is a web platform based at the University of Geneva (CH) dedicated to exoplanets data visualization, exchange and analysis.
@@ -50,7 +50,7 @@ O Allen, Alice aallen@ascl.net Receiving Credit for Research Software
     ABS: Unconference session: I want to talk about...
  
 P Allen, Christopher ceallen@cfa.harvard.edu Optimization of Aperture Photometry in the Chandra Source Catalog
-    ABS: As part of the creation of the Chandra Source Catalog, the Aperture Photometry systems characterize source photon counts, count rates, energy flux, and photon flux for over 300,000 sources.  These sources are characterized per observation and across blockings of similar observations, leading to approximately X unique characterizations. As development progressed and our test sets grew both in both complexity and size, runtime issues were identified - scenarios where the system was too resource-intensive or had projected processing times far outside of the project timeframe.  These issues lead to a continual reevaluation of our implementation of the tool, all the while keeping the underlying scientific algorithms intact. Herein we will discuss the algorithm, the challenges we encountered scaling it up for production, and the optimizations we added as a result.
+    ABS: As part of the creation of the Chandra Source Catalog, the Aperture Photometry systems characterize source photon counts, count rates, energy flux, and photon flux for over 300,000 sources.  These sources are characterized per observation and across blockings of similar observations, leading to approximately three million unique characterizations. As development progressed and our test sets grew both in both complexity and size, runtime issues were identified - scenarios where the system was too resource-intensive or had projected processing times far outside of the project timeframe.  These issues lead to a continual reevaluation of our implementation of the tool, all the while keeping the underlying scientific algorithms intact. Herein we will discuss the algorithm, the challenges we encountered scaling it up for production, and the optimizations we added as a result.
  
 These design decisions cover a broad scope, from the mundane of restructuring nested loops to minimize file I/O, to the intricate of modifying our statistical sampling methods and replacing our hypermesh-based fitting with a Markov chain Monte Carlo sampling that was then converted into a probability distribution. 
  
@@ -305,6 +305,14 @@ O Cupani, Guido guido.cupani@inaf.it Astrocook: your spectral analysis recipe bo
 O DAI, CONG daicong2014@163.com A method to detect radio frequency interference based on convolutional neural networks
     ABS: Along with the rapid development of telecommunication, radio frequency interference (RFI) generated from diverse human produced sources like electronic equipment, cell phones, GPS and so on can contaminate the weak radio band data. Therefore, RFI is an important challenge for radio astronomy. RFI detection can be regarded a special task of image segmentation. As for RFI signals, they appears in the form of point, vertical or horizontal lines. However, most existing convolution neural networks (CNNs) perform classification tasks, where the output is the single classification label of an image. The U-Net enables classification of each pixel within the image, which is suitable and competitive for image segmentation. Thus, in this paper, we implement the U-Net of 14 layers with framework of Keras to detect RFI signals. The U-Net can perform the classification task of clean signal and RFI. Also, the U-Net is a kind of extended CNN with symmetric architecture, which consists of a contracting path to capture context information and extract features and an expanding path to get precise localization. It extracts the features of RFI for learning RFI distribution pattern and then calculates the probability value of RFI for each pixel. Then we set a threshold to get the results flagged by RFI. We train the parameter of the U-Net with “Tianlai” data(A radio telescope-array, the observing time is from 20:15:45 to 24:18:45 on 27th of September 2016, the frequency is from 744MHz to 756MHz and the number of baseline is 18528). The experimental results show that, compared with the traditional RFI flagging method, this approach performs better with satisfying accuracy and takes into account the relationship between different baselines, which contributes to correctly and effectively flag RFI.
     T: 1) Machine Learning in Astronomy
+   TO: 
+ 
+P Delgado, Arancha mdelgado@ast.cam.ac.uk Gaia Photometric Science Alerts Data Flow
+    ABS: Since the Gaia Photometric Science Alerts project started operations in 2014 with the goal of highlighting transient events detected by the Gaia mission, more than 6000 transients have been discovered or their existence confirmed.
+Gaia data is transmitted daily from the spacecraft, and received and processed by the Gaia Photometric Science Alerts System at the Institute of Astronomy (Cambridge, UK) to extract the transient events candidates. After data processing and filtering, the candidates are eyeballed using a web application where related information for every alert is displayed to assist in deciding whether the candidate should be announced and made publicly available in different formats and methods to the wider astronomical community. 
+For supporting astronomers to improve their interactions with each other, and to prioritise and optimise the follow-up of the alerts, the Gaia Marshall web application provides contextual data to the transients. The Marshall acts as a meeting point to exchange information, and improve classifications.
+In this poster we present an outline of the Gaia alerts data flow, from the alert candidates extraction to the follow-up.
+    T: 5) Science Platforms: Tools for Data Discovery and Analysis from Different Angles
    TO: 
  
 O Dempsey, James james.dempsey@csiro.au Serving large scale survey data for ASKAP with SIA2 and SODA
@@ -1021,8 +1029,12 @@ P Ma, Xiang max@ihep.ac.cn Insight-HXMT Timing Analysis of New Black Hole Candid
     T: 8) Time Domain Astronomy
    TO: 
  
-P Major, Brian major.brian@gmail.com 
-    ABS: 
+P Major, Brian major.brian@gmail.com Arcade: A User Focussed, Visual Compute Environment in CANFAR
+    ABS: For a number of years CANFAR (Canadian Advanced Network for Astronomy Research) has offered virtual machines (VMs) as a way to do both interactive computing and batch processing in the cloud.  A VM is a general and flexible base offering that can suit nearly any given astronomy compute project, but demands of users a thorough understanding of the intricacies of software installation and maintenance, and requires significant effort to achieve initial benefits.  Arcade is an effort by the Canadian Astronomy Data Centre (CADC) to offer the CANFAR community an astronomy-focussed, easier-to-use, and more intuitive science platform.
+
+Arcade is composed of a number of pre-built, specialized application bundles ('game consoles') that appear in a graphical desktop environment.  They run independently of each other in the cloud, allowing Arcade to optimize console execution to their particular resource requirements.  Consoles have user-specific access to a shared file system and other CANFAR cloud services, outfitting users with a variety of computing, analysis and storage tools.
+
+At the CADC we see a lot of potential in Arcade and will be planning its evolution based on a number of key questions.  How can scalability be best achieved?  How can we reduce the burden of software and infrastructure maintenance for users and operators?  Can we allow users to customize their Arcade experience?  How can consoles be launched in batch processing?  How can we best leverage open source technology and development from other projects?  We shall discuss the core concepts of Arcade and explore its potential in respect to these questions and from feedback from the astronomy computing community.
     T: 5) Science Platforms: Tools for Data Discovery and Analysis from Different Angles
    TO: 
  
@@ -1083,8 +1095,8 @@ In this first release, processed data from the LPO are supported. Future plans i
     T: 10) Databases and Archives: Challenges and Solutions in the Big Data Era
    TO: 
  
-P Million, Chase chase@millionconcepts.com Evaluating New Methods for Flare Detection in GALEX Light Curves
-    ABS: tbd
+P Million, Chase chase@millionconcepts.com Evaluating Methods for Flare Detection in GALEX Light Curves
+    ABS: The gPhoton flare catalog (GFCat) project will produce light curves and measurement statistics for thousands of stellar flares serendipitously observed by the Galaxy Evolution Explorer (GALEX) mission, with energies between log10(27) and log10(32) ergs in two ultraviolet bandpasses. This will require an automated search for flares in millions of light curves with time resolution 1 minute. A variety of methodologies have been used for the detection and measurement of stellar flares, many requiring substantial human intervention, and there is no clear consensus approach. We evaluate the performance of a variety of “autonomous” flare detection and measurement algorithms using injection and recovery testing from simulated GALEX light curves.
     T: 8) Time Domain Astronomy
    TO: 
  
@@ -1536,10 +1548,18 @@ O Snyder, Gregory gsnyder@stsci.edu Mock Datasets and Galaxy Merger Statistics f
     T: 1) Machine Learning in Astronomy
    TO: 
  
-X Solar, Martin msolar95@gmail.com 
-    ABS: 
-    T: 
-   TO: 
+P Solar, Martin msolar95@gmail.com Azimuthal variation of oxygen abundance in galactic stellar discs of the EAGLE simulations
+    ABS: Context: The spatial distribution of oxygen abundance in galactic stellar discs is decisive to understand how efficiently metals that are synthesized in massive stars can be redistribute across the galaxy and this provide information about disc assembly, star formation processes and chemical evolution.
+
+Aims: We study the azimuthal variations of the metallicity gradients (slopes and zero points) and confronted with the gradients obtained by performing azimuthal averages.
+
+Methods: To get dispersions of metallicity gradients in the galactic stellar discs, there is necessary to divide the galactic plane in 6 sub-regions. To these 6 sub-regions the metallicity gradient is obtained, which is important to get the median and standard deviation of the slope and the zero point, this will be the transcendental variables. The data analysis es based on the EAGLE simulations.
+
+Results: We get 3 groups of galaxies, separated by his standard deviation of the slope of the metallicity gradient; those with low, medium and high dispersion. From low to high standard deviation of the slope, the galaxies show a tendence to be more massive, with more number of particles and a higher value of the radius at half mass (all for young stellar populations).
+
+Conclusions: We find that there is a dispersion in the metallicity profiles depending on the direction chose to estimate them. The preliminary analysis of the dispersions suggest that there is a dependen on morphology: well-defined discs have less dispersion. They also have larger sSFR, hence, thery are more actively forming stars. There is no clear correlation with the total stellar mass (including the bulge). Next steps will be focused on improving this analysis and comparing with available observations.
+    T: 13) Other
+   TO: Simulation: Data analysis
  
 X Solar, Mauricio mauricio.solar@usm.cl 
     ABS: 
@@ -1675,7 +1695,7 @@ Here we present results obtained with the offline version of GSP with various in
 P Tsutsumi, Takahiro ttsutsum@nrao.edu Development of auto-multithresh: an automated masking algorithm for deconvolution in CASA
     ABS: A general purpose automated masking algorithm for deconvolution was developed in order to support automated data processing in ever-increasing data volumes of the current and future radio interferometers as described by Kepley et al. in this meeting. In this presentation, we describe some technical details of the implementation of the automated masking algorithm named “auto-multithresh” which was integrated into the refactored imaging task (tclean) in CASA.
 We also discuss our approach that we took for the development, which loosely follows the iterative model, so that the implementation is refined progressively
-for its functionality and performance based on testing and updated requirements through out prototyping in Python to the final production in C++.
+for its functionality and performance based on testing and updated requirements throughout prototyping in Python to the final production in C++.
     T: 12) Algorithms
    TO: 
  

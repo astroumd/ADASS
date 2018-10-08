@@ -52,6 +52,7 @@ guido.cupani@inaf.it
 daicong2014@163.com
 Christophe.Dabin@cnes.fr
 pndaly@email.arizona.edu
+mdelgado@ast.cam.ac.uk
 james.dempsey@csiro.au
 dencheva@stsci.edu
 sebastien.derriere@astro.unistra.fr

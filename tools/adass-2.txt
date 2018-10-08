@@ -1,11 +1,11 @@
-217 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+218 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 213 entries
+Accepted 214 entries
 9 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 6 entries
-311 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+312 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 286 entries
+Accepted 287 entries
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
@@ -47,6 +47,7 @@ P Coulais, Alain alain.coulais@obspm.fr
 O Crawford, Steven scrawford@stsci.edu Triumphs and Challenges of the Astropy Project: Open Development of a Python Library for Astronomy
 O Cupani, Guido guido.cupani@inaf.it Astrocook: your spectral analysis recipe book, now with a GUI
 O DAI, CONG daicong2014@163.com A method to detect radio frequency interference based on convolutional neural networks
+P Delgado, Arancha mdelgado@ast.cam.ac.uk Gaia Photometric Science Alerts Data Flow
 O Dempsey, James james.dempsey@csiro.au Serving large scale survey data for ASKAP with SIA2 and SODA
 O Dencheva, Nadia dencheva@stsci.edu GWCS - A General Approach to  Astronomical World Coordinates
 X Derriere, Sébastien sebastien.derriere@astro.unistra.fr 
@@ -126,7 +127,7 @@ X Lu, Yuxi lucylulu12311@gmail.com
 P Lundquist, Michael mlundquist@email.arizona.edu Searching for Optical Counterparts to Gravitational Wave Events with the Catalina Sky Survey
 P Lutz, Katharina katharina.lutz@astro.unistra.fr Getting ready for the fourth Asterics DADI virtual observatory school
 P Ma, Xiang max@ihep.ac.cn Insight-HXMT Timing Analysis of New Black Hole Candidate MAXI J1820+070
-P Major, Brian major.brian@gmail.com 
+P Major, Brian major.brian@gmail.com Arcade: A User Focussed, Visual Compute Environment in CANFAR
 O Marquez, Maria Jose mariajose.marquez@eumetsat.int Galaxy Cataloguing Expert System (GCES): Use Cases
 O Martin, Thomas thomas.martin.1@ulaval.ca Putting more intelligence into the reduction and analysis of SITELLE data.
 O Martinez, Beatriz beatriz.martinez@esa.int Data-driven Space Science at ESA Science Data Centre
@@ -134,7 +135,7 @@ F Mechev, Alexandar apmechev@strw.leidenuniv.nl Building LOFAR As A Service: Pro
 P Mellado, Pablo mellado@iram.es Realtime telescope and data visualization using web technologies
 P Michel, Laurent laurent.michel@astro.unistra.fr ALiX: An advanced search interface for AladinLite
 O Micol, Alberto amicol@eso.org The new science portal and the programmatic and VO interfaces of the ESO science archive
-P Million, Chase chase@millionconcepts.com Evaluating New Methods for Flare Detection in GALEX Light Curves
+P Million, Chase chase@millionconcepts.com Evaluating Methods for Flare Detection in GALEX Light Curves
 P Mink, Jessica jmink@cfa.harvard.edu Finding Your Place in the Cosmos with WCSTools
   ABS2 Mink, Jessica Data Formats BoF
 P Molinaro, Marco marco.molinaro@inaf.it # Starting up a Data Model for Exoplanetary Data
@@ -191,7 +192,7 @@ P Shirasaki, Yuji yuji.shirasaki@nao.ac.jp VO service in Japan : Registry servic
 P Sihlangu, Isaac isihlangu@ska.ac.za MeerKAT Radio Frequency Interefence characterization using Machine Learning
 O Smith, Jeffrey jeffrey.smith@nasa.gov Lilith: A Versatile Instrument and All-Sky Simulator for use with Space-Based Astrophysics Observatories
 O Snyder, Gregory gsnyder@stsci.edu Mock Datasets and Galaxy Merger Statistics from Cosmological Hydro Simulations
-X Solar, Martin msolar95@gmail.com 
+P Solar, Martin msolar95@gmail.com Azimuthal variation of oxygen abundance in galactic stellar discs of the EAGLE simulations
 X Solar, Mauricio mauricio.solar@usm.cl 
 X Song, Xinying songxy@ihep.ac.cn Development on Data Analysis Software on GECAM
 P Stenborg, Travis mqastro@acm.org Contracts Tracking for Astronomical Infrastructure Projects in Jira
