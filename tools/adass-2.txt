@@ -1,11 +1,11 @@
-215 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+217 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 211 entries
-10 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
-Accepted 7 entries
-309 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 213 entries
+9 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
+Accepted 6 entries
+311 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 284 entries
+Accepted 286 entries
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
@@ -146,7 +146,7 @@ X Nafria, Amritpal Singh dukynafria@gmail.com How, when and where life will begi
 O Nakazato, Takeshi takeshi.nakazato@nao.ac.jp New Synthesis Imaging Tool for ALMA based on the Sparse Modeling
 O Navarro, Vicente vicente.navarro@esa.int ESAC Science Exploitation and Preservation Platform Reference Architecture
 X Nebot, Ada ada.nebot@astro.unistra.fr Data challenges of the VO in Time Domain Astronomy
-P Nie, Jianyin niejy@ihep.ac.cn 
+P Nie, Jianyin niejy@ihep.ac.cn HXMT Archive and Data Process System
 O Nieto, Sara sara.nieto@sciops.esa.int SCIENCE EXPLOITATION IN A BIG DATA ARCHIVE: THE EUCLID SCIENTIFIC ARCHIVE SYSTEM
 O Nikolic, Bojan b.nikolic@mrao.cam.ac.uk Acceleration of Non-Linear Minimisation with PyTorch
 P Nomaru, Junichi noumaru@naoj.org 
@@ -156,12 +156,12 @@ P Obi, Ikechukwu Anthony tonykassidy_z@yahoo.com The impact of Virtual Observato
 P Oloketuyi, Jacob jacob.oloketuyi@ynao.ac.cn The Analysis of Periodic Variation of Sunspot Groups and the X-ray Flare Classes
 P Paillassa, Maxime maxime.paillassa@u-bordeaux.fr Identifying contaminants in astronomical images using convolutional neural networks
 P Parra, Jose jose.parra@alma.cl WAN OPTIMIZATION FOR ALMA DATA
-  ABS2 Parra, Jose Decreasing the size of the ALMA testing archive
 X Pascual, Sergio sergiopr@fis.ucm.es Runing GTC data reduction pipelines in Jupyter
+P Patterson, Gerald Wes.patterson@jhuapl.edu Anticipated Data Products from the Europa Imaging System (EIS) on Europa Clipper
 P Paxson, Charles cpaxson@cfa.harvard.edu Transforming Science Code into Maintainable Software, Insights into the G-CLEF Exposure Time Calculator
 P Perea-Calderon, Jose Vicente jose.perea@sciops.esa.int Reprocessing all the XMM-Newton scientific data: a challenge for the Pipeline Processing System
 P Perez, Fernando fernando.perez@esa.int Centralisation and management of science operations procedures and test cases using SOCCI
-X Pineau, Francois-Xavier francois-xavier.pineau@astro.unistra.fr 
+P Pineau, Francois-Xavier francois-xavier.pineau@astro.unistra.fr The CDS HEALPix library
 X Plante, Raymond raymond.plante@nist.gov The BagIt Packaging Standard for Interoperability and Preservation
 X Polsterer, Kai kai.polsterer@h-its.org 
   ABS2 Polsterer, Kai ﻿A Beginners Guide to Machine Learning in Astronomy
@@ -195,6 +195,7 @@ X Solar, Martin msolar95@gmail.com
 X Solar, Mauricio mauricio.solar@usm.cl 
 X Song, Xinying songxy@ihep.ac.cn Development on Data Analysis Software on GECAM
 P Stenborg, Travis mqastro@acm.org Contracts Tracking for Astronomical Infrastructure Projects in Jira
+P Stephens, Tom thomas.stephens@nasa.gov Running the Fermi Science Tools on Windows
 O Stevens, Abigail abigailstev@gmail.com Stingray: Open-source spectral-timing software
 X Stoehr, Felix felix.stoehr@gmx.de Astronomical archives: Serving up the Universe
 P Streicher, Ole ole@aip.de DOI in Astronomy
@@ -209,7 +210,7 @@ O Toledo, Ignacio ignacio.toledo@alma.cl Data Science =! Software Engineering. E
 O Tollerud, Erik etollerud@stsci.edu BoF: Open Source/Development Software Projects and Large Organizations/Missions: Recommendations and Challenges
 O Tomasi, Maurizio maurizio.tomasi@unimi.it Towards new solutions for scientific computing: the case of Julia
 P Torres, Simón storres@ctio.noao.edu An on-site data reduction pipeline for the Goodman Spectrograph
-P Tsutsumi, Takahiro ttsutsum@nrao.edu Development of auto-multithresh: automated masking for deconvolution in CASA
+P Tsutsumi, Takahiro ttsutsum@nrao.edu Development of auto-multithresh: an automated masking algorithm for deconvolution in CASA
 X Vahi, Karan vahi@isi.edu Workflows Management using Pegasus
 O Vitello, Fabio fabio.vitello@inaf.it VisIVO Visual Analytics Tool an EOSC Science Demonstrator for data discovery
 P Wang, Rui wangrui@nao.cas.cn Analysis of Stellar Spectra from LAMOST DR5 with Generative Spectrum Networks

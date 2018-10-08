@@ -194,6 +194,7 @@ maxime.paillassa@u-bordeaux.fr
 dave.pallot@uwa.edu.au
 jose.parra@alma.cl
 sergiopr@fis.ucm.es
+Wes.patterson@jhuapl.edu
 cpaxson@cfa.harvard.edu
 jegpeek@stsci.edu
 jose.perea@sciops.esa.int
@@ -243,6 +244,7 @@ mauricio.solar@usm.cl
 songxy@ihep.ac.cn
 max.spolaor@tmctechnologies.com
 mqastro@acm.org
+thomas.stephens@nasa.gov
 abigailstev@gmail.com
 felix.stoehr@gmx.de
 ole@aip.de
