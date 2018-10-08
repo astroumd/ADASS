@@ -1,23 +1,27 @@
 # S1
-Varshney		; I3.1
+Varshney		; I3.1		; Mon 08.40 - 09.00
 Kent			; I3.2		; Mon 09.00 - 09.30
-Zapart		; O3.1
-Comrie		; O3.2
-Ramirez		; O3.3
+Zapart		; O3.1	  		; Mon 09.30 - 09.45
+Comrie		; O3.2 			; Mon 09.45 - 10.00
+Ramirez		; O3.3			; Mon 10.00 - 10.15
+#
+TBD             ; F1                    ; Mon 10.45 - 11.15
 # S2
 Bosch			; I12.1		; Mon 11.15 - 11.45
-Kepley		; O12.1
-Tavagnacco      ; O12.2
-#                 LT 1-5
+Kepley		; O12.1	  		; Mon 11.45 - 12.00
+Tavagnacco      ; O12.2			; Mon 12.00 - 12.15
+TBD		; LT1			; Mon 12.15 - 12.30
 # S3
-Dencheva	; O12.3
-Lam		; O12.4
+Dencheva	; O12.3			; Mon 14.00 - 14.15
+Lam		; O12.4			; Mon 14.15 - 14.30
 Plante			; I11.1		; Mon 14.30 - 15.00
 # S4
-Diaz		; O11.1
-Landais		; O11.2
-Bonnarel	; O11.3
-#                 LT 6-10
+Diaz		; O11.1			; Mon 16.00 - 16.15
+Landais		; O11.2			; Mon 16.15 - 16.30
+Bonnarel	; O11.3			; Mon 16.30 - 16.45
+TBD		; LT2			; Mon 16.45 - 17.00
+#
+# B1,2,3,4
 # S5
 Stoehr			; I10.1		; Tue 09.00 - 09.30
 Brasseur	; O10.1
@@ -29,7 +33,7 @@ Racero		; O7.1
 Raugh		; O7.2
 #                 LT 11-15
 # S7
-Lieu			; I1.1		; Tue 14.00 - 14.3
+Lieu			; I1.1		; Tue 14.00 - 14.30
 Ansdell		; O1.1
 Nikolic		; O1.2
 # S8
