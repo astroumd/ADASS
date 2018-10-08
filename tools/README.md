@@ -49,3 +49,10 @@ Tn   = tutorial (4)                       T1...4
 
 ## Layout of contributions
 
+## Using this software
+
+1) make a symlink of 'reg' to the directory where the XLS files are (i use dropbox). Also "make reg" in Makefile
+
+2) make a symlink (or git clone) from 'www' to where you keep the website. Also "make www" in Makefile
+
+3) now look at the makefile how the various targets produce various tables
