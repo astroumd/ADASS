@@ -1,11 +1,11 @@
-218 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+220 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 214 entries
+Accepted 216 entries
 9 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 6 entries
-312 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+313 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 287 entries
+Accepted 288 entries
  
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
     ABS: The Data Analysis Center for Exoplanets (DACE) is a web platform based at the University of Geneva (CH) dedicated to exoplanets data visualization, exchange and analysis.
@@ -601,6 +601,13 @@ The DPAC Project Office, together with the sub group leaders in DPAC, is respons
     T: 2) Management of Large Science Project
    TO: 
  
+P Grange, Yan grange@astron.nl The Dutch contribution to the ESRC
+    ABS: In current-day radio astronomy, large interferometric arrays play an important role. The data rates coming out such instruments makes it a challenge to distribute data to and process data by end-users, especially those who are not closely involved in the telescope array itself. 
+With the advent of the SKA, processing on local compute systems is becoming impractical and the allocation of compute resources, as well as the support for users to process their data need to be a common effort. To do this, the processing of the data will be done at local Science Data Centres, the SKA Regional Centres (SRC).  
+In our contribution, we present the work that is being done by ASTRON, as a main Dutch partner in the federated European Science Data Centre (ESRC). ASTRON operates two SKA pathfinder instruments (LOFAR and APERTIF), bringing in experience with large-scale processing of current-day telescopes.
+    T: 5) Science Platforms: Tools for Data Discovery and Analysis from Different Angles
+   TO: 
+ 
 O Graves, Sarah s.graves@eaobservatory.org Harnessing the power of archival data to increase  scientific output: the JCMT experience.
     ABS: EAO, operators of the James Clerk Maxwell Telescope (JCMT) recently
 reanalysed more than five years of publications using our data,
@@ -1009,9 +1016,9 @@ The ontology applied is derived from PROV-O  from the W3C and from the IVOA Prov
     T: 11) Quality Assurance of Science Data
    TO: 
  
-X Lu, Yuxi lucylulu12311@gmail.com 
-    ABS: 
-    T: 
+P Lu, Yuxi lucylulu12311@gmail.com Modeling Narrow Rings with a Single Chain of Gravitating Particles
+    ABS: Narrow rings have been discovered around Saturn, Uranus and the other gas giants. These structures are hundreds of thousands of km across yet only a few km wide. The most well-known radial confinement theory involves Shepherd moons in which each ring is bracketed by a pair of small satellites. Saturn’s F ring and the Uranian Epsilon ring have exactly such moonlet pairs. In other cases, two body resonances seem to be responsible for sculpting ring edges. However, for the vast majority of rings, neither of these machinists is active. We are investigating the possibility of three-body resonances inducing stability in narrow rings using a N-body code, hnbody. We modified the code to simulate narrow rings using a chain of particles by including the gravity from only the nearest neighboring particles. We study the strengths and limitations of this code by measuring the precession rate for rings modeled with different numbers of particles and/or nearest neighbors. We have developed graphic tools in Python to directly visualize the chain of particles using polar. The FFT is particularly useful for finding weak resonances caused by a distance satellite or the more exotic three-body resonances.
+    T: 12) Algorithms
    TO: 
  
 P Lundquist, Michael mlundquist@email.arizona.edu Searching for Optical Counterparts to Gravitational Wave Events with the Catalina Sky Survey
@@ -1217,8 +1224,16 @@ unaffected.
     T: 1) Machine Learning in Astronomy
    TO: 
  
-P Nomaru, Junichi noumaru@naoj.org 
-    ABS: 
+P Nomaru, Junichi noumaru@naoj.org Subaru Telescope Network 5 or STN5 - The new computer and network system at Subaru Telescope
+    ABS: Subaru Telescope has recently completed the procurement and installation of the 5th contract of the computing environment called Subaru Telescope Network 5 or STN5.  The original commitment to incorporate telescope sub-systems not managed by contract vendor was a high priority with STN5. We were successful with the procurement of sufficient computing resources supporting the Hilo base and the summit facilities, to move analysis machines, virtual machines and instrument control machines called OBCP’s that have been re-developed to virtual machines.  
+
+As in past contracts the core network environment has been migrated to a 10 Gbps Cisco core switch. This guarantees the highest available bandwidth to critical observation systems, such as Gen2, PFS, SCExAO, Hyper Suprime-Cam, and Summit Virtual Environment. This also allows future upgrades of upstream network switches throughout the dome structure supporting instruments.  
+
+The analysis environment and has been enhanced and the virtual machine environment has been increased at both the Hilo base and the summit facilities. The latter allows for organizational VM’s developed by other divisions to be migrated to managed environment.
+
+In 2018, Subaru Telescope Archive System or STARS, which is a part of STN5, has been developing a FITS correction system, at the request of HSC Team, for modification of FITS keywords calculated by post-observation reduction clusters. Example keywords are for seeing and transparency.  Users can download either FITS originals with ASCII corrections or the updated FITS corrected file.
+
+The future goal of STN5 is to allow for Computer & Data Management Division to be relieved of system and network administration during the 1st year of the contract. Gather necessary resources, manpower, and knowledge, to administer the current contract system.
     T: 13) Other
    TO: Observatory Operations Infrastructure
  
@@ -1418,6 +1433,11 @@ P Rubtsov, Evgenii ev.rubtcov@physics.msu.ru Stellar atmospheric parameters from
     T: 5) Science Platforms: Tools for Data Discovery and Analysis from Different Angles
    TO: 
  
+P Rutkowski, Kristin kristin.l.rutkowski@nasa.gov Science Data Pipeline of NICER
+    ABS: NICER (Neutron star Interior Composition ExploreR Mission) data flow from the mission aboard ISS, through the science processing pipeline, and to the High Energy Astrophysics Archive.  This poster will describe the different steps in the pipeline, detailing how the data are converted to required formats, the different flows of data, and how the status of the data is tracked throughout the entire cycle.  We use a combination of Python, Perl, and shell scripts, along with a relational database, to move the data through the pipeline.  The HEASOFT software package is used to process the data.  The data are moved to long term storage at the HEASARC, where interested parties may retrieve them for further study.
+    T: 13) Other
+   TO: Science Data Pipeline
+ 
 P Ryan, P. Wesley wes@ascl.net Schroedinger’s code: Source code availability and transparency in astrophysics
     ABS: Astronomers use software for their research, but how many of the codes they use are available as source code? We examined a sample of 166 papers from 2015 for clearly identified software use, then searched for source code for the software packages mentioned in these research papers. We categorized the software to indicate whether source code is available for download and whether there are restrictions to accessing it, and if source code was not available, whether some other form of the software, such as a binary, was. Over 40% of the source code for the software used in our sample was not available for download.
 
@@ -1468,7 +1488,9 @@ The Australian astronomical user community is driving multi-node and multi-wavel
    TO: 
  
 P Servillat, Mathieu mathieu.servillat@obspm.fr The IVOA Provenance Data Model
-    ABS: The IVOA Provenance Data Model
+    ABS: I will present the Provenance data model proposed as a standard to the IVOA. The objective is to describe how provenance information can be modeled, stored and exchanged within the astronomical community in a standardized way.
+We follow the definition of provenance as proposed by the W3C, i.e. that ``provenance is information about entities, activities, and people involved in producing a piece of data or thing, which can be used to form assessments about its quality, reliability or trustworthiness.''
+Such provenance information in astronomy is important to enable any scientist to trace back the origin of a dataset (e.g. an image, spectrum, catalog or single points in a spectral energy distribution diagram or a light curve), a document (e.g. an article, a technical note) or a device (e.g. a camera, a telescope), learn about the people and organizations involved in a project and assess the quality as well as the usefulness of the dataset, document or device for her own scientific work.
     T: 11) Quality Assurance of Science Data
    TO: 
  
@@ -1561,9 +1583,9 @@ Conclusions: We find that there is a dispersion in the metallicity profiles depe
     T: 13) Other
    TO: Simulation: Data analysis
  
-X Solar, Mauricio mauricio.solar@usm.cl 
-    ABS: 
-    T: 
+P Solar, Mauricio mauricio.solar@usm.cl Tensor Clusters for extracting and summarizing components in spectral cubes
+    ABS: As it is already known, modern observatories like the Atacama Large Millimeter/ sub- millimeter Array (ALMA) and the Very Long Baseline Array (VLBA) generate large- scale data. This problem of data size that has been extensively studied in recent times but there is another equally relevant problem, the data cubes also exhibit unprecedented complexity and dimensionality. These complex sources can be modeled using tensor algebraic methods. In this representation the cube has two physical axes (Right ascension(Ra)/Declination(Dec)), and a third axis (Wavelet, Time, Intensity), a representation in a tensor of order 3. This representation leads to a concise description of cubes of astronomical data. Over this representation was applied​ a tensor-cluster approach to find the morphology of components expected in these complex data cubes. To achieve this goal the TensorFit library with strong GPU support to handle spectral cubes in a tensor mode was used.
+    T: 12) Algorithms
    TO: 
  
 X Song, Xinying songxy@ihep.ac.cn Development on Data Analysis Software on GECAM

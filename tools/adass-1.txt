@@ -220,6 +220,7 @@ roby@ipac.caltech.edu
 erik.romelli@inaf.it
 arots@cfa.harvard.edu
 ev.rubtcov@physics.msu.ru
+kristin.l.rutkowski@nasa.gov
 wes@ascl.net
 jesusjuansalgado@gmail.com
 Michele.Sanguillon@umontpellier.fr

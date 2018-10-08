@@ -1,11 +1,11 @@
-218 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+220 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 214 entries
+Accepted 216 entries
 9 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 6 entries
-312 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+313 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 287 entries
+Accepted 288 entries
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
@@ -77,6 +77,7 @@ F Good, John jcg@ipac.caltech.edu Image Processing in Python With Montage
 P Gordon, Craig craig.a.gordon@nasa.gov The Present State of XSPEC and CFITSIO, Astronomical Analysis Packages Maintained by NASA's HEASARC.
 P Goz, David david.goz@inaf.it Astrophysical codes migration into Exascale Era
 O Gracia Abril, Gonzalo ggracia@sciops.esa.int Gaia DPAC Project Office: Coordinating the production of the largest star catalogue.
+P Grange, Yan grange@astron.nl The Dutch contribution to the ESRC
 O Graves, Sarah s.graves@eaobservatory.org Harnessing the power of archival data to increase  scientific output: the JCMT experience.
 P Grishin, Kirill kirillg6@gmail.com Open-source web tools for spectroscopic and imaging data visualization for the VOXAstro initiative
 X Guerra Noguero, Rocio rguerra@sciops.esa.int DevOps: the perfect ally for Science Operations for a large and distributed astronomy project.
@@ -123,7 +124,7 @@ P Lin, Ganghua lgh@bao.ac.cn The quality assurance of Chinese solar physics hist
 O Loose, Marcel loose@astron.nl Agile and DevOps from the trenches at ASTRON
 X Lorente, Nuria Nuria.Lorente@aao.gov.au 
 P Louys, Mireille mireille.louys@unistra.fr A TripleStore implementation of the IVOA Provenance Data model
-X Lu, Yuxi lucylulu12311@gmail.com 
+P Lu, Yuxi lucylulu12311@gmail.com Modeling Narrow Rings with a Single Chain of Gravitating Particles
 P Lundquist, Michael mlundquist@email.arizona.edu Searching for Optical Counterparts to Gravitational Wave Events with the Catalina Sky Survey
 P Lutz, Katharina katharina.lutz@astro.unistra.fr Getting ready for the fourth Asterics DADI virtual observatory school
 P Ma, Xiang max@ihep.ac.cn Insight-HXMT Timing Analysis of New Black Hole Candidate MAXI J1820+070
@@ -150,7 +151,7 @@ X Nebot, Ada ada.nebot@astro.unistra.fr Data challenges of the VO in Time Domain
 P Nie, Jianyin niejy@ihep.ac.cn HXMT Archive and Data Process System
 O Nieto, Sara sara.nieto@sciops.esa.int SCIENCE EXPLOITATION IN A BIG DATA ARCHIVE: THE EUCLID SCIENTIFIC ARCHIVE SYSTEM
 O Nikolic, Bojan b.nikolic@mrao.cam.ac.uk Acceleration of Non-Linear Minimisation with PyTorch
-P Nomaru, Junichi noumaru@naoj.org 
+P Nomaru, Junichi noumaru@naoj.org Subaru Telescope Network 5 or STN5 - The new computer and network system at Subaru Telescope
 P O'Toole, Simon simon.otoole@mq.edu.au data central for Astronomers
   ABS2 O'Toole, Simon How do you get the most out of your teams?
 P Obi, Ikechukwu Anthony tonykassidy_z@yahoo.com The impact of Virtual Observatory Tools in Astronomy Research  in Nigeria
@@ -177,6 +178,7 @@ O Roby, Trey roby@ipac.caltech.edu New visualization Features in Firefly
 O Romelli, Erik erik.romelli@inaf.it Euclidizing external tools: an example from SDC-IT on how to handle software and humanware
 X Rots, Arnold arots@cfa.harvard.edu Data Citation
 P Rubtsov, Evgenii ev.rubtcov@physics.msu.ru Stellar atmospheric parameters from full spectrum fitting of intermediate and high-resolution spectra against PHOENIX/BT-Settl synthetic stellar atmospheres
+P Rutkowski, Kristin kristin.l.rutkowski@nasa.gov Science Data Pipeline of NICER
 P Ryan, P. Wesley wes@ascl.net Schroedinger’s code: Source code availability and transparency in astrophysics
 P Salgado, Jesus jesusjuansalgado@gmail.com Gaia DR2 and the Virtual Observatory: VO in operations new era
 P Sanguillon, Michele Michele.Sanguillon@umontpellier.fr An overview of the OVGSO data centre
@@ -193,7 +195,7 @@ P Sihlangu, Isaac isihlangu@ska.ac.za MeerKAT Radio Frequency Interefence charac
 O Smith, Jeffrey jeffrey.smith@nasa.gov Lilith: A Versatile Instrument and All-Sky Simulator for use with Space-Based Astrophysics Observatories
 O Snyder, Gregory gsnyder@stsci.edu Mock Datasets and Galaxy Merger Statistics from Cosmological Hydro Simulations
 P Solar, Martin msolar95@gmail.com Azimuthal variation of oxygen abundance in galactic stellar discs of the EAGLE simulations
-X Solar, Mauricio mauricio.solar@usm.cl 
+P Solar, Mauricio mauricio.solar@usm.cl Tensor Clusters for extracting and summarizing components in spectral cubes
 X Song, Xinying songxy@ihep.ac.cn Development on Data Analysis Software on GECAM
 P Stenborg, Travis mqastro@acm.org Contracts Tracking for Astronomical Infrastructure Projects in Jira
 P Stephens, Tom thomas.stephens@nasa.gov Running the Fermi Science Tools on Windows
