@@ -16,6 +16,7 @@ keith.a.arnaud@nasa.gov
 Christophe.Arviset@esa.int
 joseph.a.asercion@nasa.gov
 m.atemkeng@gmail.com
+baffa@arcetri.inaf.it
 dbaines@sciops.esa.int
 jbakker@sciops.esa.int
 pballest@eso.org
@@ -47,6 +48,7 @@ accomrie@gmail.com
 michael.f.corcoran@nasa.gov
 alain.coulais@obspm.fr
 scrawford@stsci.edu
+mdittmar@cfa.harvard.edu
 ccz@bao.ac.cn
 guido.cupani@inaf.it
 daicong2014@163.com
@@ -143,6 +145,7 @@ mlacy@nrao.edu
 c.y.lam@ljmu.ac.uk
 jlammers0@gmail.com
 gilles.landais@astro.unistra.fr
+olaurino@cfa.harvard.edu
 glemson1@jhu.edu
 jrl@ast.cam.ac.uk
 lich@nao.cas.cn
@@ -207,6 +210,7 @@ tim@mmto.org
 francois-xavier.pineau@astro.unistra.fr
 pizzo@astron.nl
 raymond.plante@nist.gov
+emil.polisensky@nrl.navy.mil
 kai.polsterer@h-its.org
 mpound@umd.edu
 reinhard.prix@aei.mpg.de

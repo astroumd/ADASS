@@ -1,11 +1,11 @@
-222 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+224 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 218 entries
+Accepted 220 entries
 9 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 6 entries
-315 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+319 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 290 entries
+Accepted 294 entries
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
@@ -118,6 +118,7 @@ X Lacy, Mark mlacy@nrao.edu The VLA Sky Survey - operations, data processing and
 O Lam, Cheuk Yin c.y.lam@ljmu.ac.uk Data-Driven Pixelisation with Voronoi Tessellation
 P Lammers, Jason jlammers0@gmail.com Optimization Strategies for running Legacy Codes
 O Landais, Gilles gilles.landais@astro.unistra.fr Quality assurance in the ingestion of data into the CDS VizieR catalogue and data services
+P Laurino, Omar olaurino@cfa.harvard.edu Mapping Data Models to VOTable
 O Lemson, Gerard glemson1@jhu.edu FileDB, a pattern for querying cosmological simulations
 O Li, Changhua lich@nao.cas.cn Design of KNN Star-QSO Classification Algorithm Based on Cloud Computing
 X Lieu, Maggie maggie.lieu@sciops.esa.int Deep learning of astronomical features with big data.
@@ -167,6 +168,7 @@ P Perea-Calderon, Jose Vicente jose.perea@sciops.esa.int Reprocessing all the XM
 P Perez, Fernando fernando.perez@esa.int Centralisation and management of science operations procedures and test cases using SOCCI
 P Pineau, Francois-Xavier francois-xavier.pineau@astro.unistra.fr The CDS HEALPix library
 X Plante, Raymond raymond.plante@nist.gov The BagIt Packaging Standard for Interoperability and Preservation
+P Polisensky, Emil emil.polisensky@nrl.navy.mil The VLITE Database Pipeline
 X Polsterer, Kai kai.polsterer@h-its.org 
   ABS2 Polsterer, Kai ﻿A Beginners Guide to Machine Learning in Astronomy
 P Prix, Reinhard reinhard.prix@aei.mpg.de Efficient FFT-based $\mathcal{F}$-statistic implementation for continuous-gravitational-wave searches

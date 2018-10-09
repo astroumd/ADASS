@@ -16,6 +16,7 @@ Arnaud, Keith
 Arviset, Christophe
 Asercion, Joseph
 Atemkeng Teufack, Marcellin
+Baffa, Carlo
 Baines, Deborah
 Bakker, Jorgo
 Ballester, Pascal
@@ -47,6 +48,7 @@ Comrie, Angus
 Corcoran, Michael
 Coulais, Alain
 Crawford, Steven
+Cresitello-Dittmar, Mark
 Cui, Chenzhou
 Cupani, Guido
 DAI, CONG
@@ -143,6 +145,7 @@ Lacy, Mark
 Lam, Cheuk Yin
 Lammers, Jason
 Landais, Gilles
+Laurino, Omar
 Lemson, Gerard
 Lewis, James
 Li, Changhua
@@ -207,6 +210,7 @@ Pickering, Timothy
 Pineau, Francois-Xavier
 Pizzo, Roberto
 Plante, Raymond
+Polisensky, Emil
 Polsterer, Kai
 Pound, Marc
 Prix, Reinhard

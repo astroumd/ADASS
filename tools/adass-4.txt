@@ -1,11 +1,11 @@
-222 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+224 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 218 entries
+Accepted 220 entries
 9 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 6 entries
-315 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+319 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 290 entries
+Accepted 294 entries
 ALESINA, Fabien  ASTRO
 Allen, Mark  ASTRO
 Alonso, Anna  COMMERCIAL
