@@ -1,11 +1,11 @@
-221 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+222 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 217 entries
+Accepted 218 entries
 9 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 6 entries
-314 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+315 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 289 entries
+Accepted 290 entries
  
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
     ABS: The Data Analysis Center for Exoplanets (DACE) is a web platform based at the University of Geneva (CH) dedicated to exoplanets data visualization, exchange and analysis.
@@ -428,6 +428,11 @@ P Eisenhamer, Jonathan eisenhamer@stsci.edu JWST Association Generation: Piecing
     ABS: The basic unit of JWST data products is an exposure for each science instrument detector. Relationships between multiple exposures are captured in an association.  An association is a means of identifying a set of exposures that belong together and may be dependent upon one another. JWST associations are created by the Association Generator. Using a set of association rules, the Generator filters through an Association Pool, basically a list of exposures and related meta-data, to produce Associations. These associations are then used as input to the appropriate calibration pipelines.
     T: 13) Other
    TO: Pipeline processing/Data Management
+ 
+P Emonts, Bjorn bjornemonts@gmail.com CASA, the Common Astronomy Software Applications for Radio Astronomy
+    ABS: CASA, the Common Astronomy Software Applications package, is the primary data-reduction and -analysis software for the Atacama Large Millimeter/submillimeter Array (ALMA) and the Karl G. Jansky Very Large Array (VLA), and is frequently used also for other radio telescopes. The package can process both interferometric and single dish data, and one of its core functionalities is to support the ALMA and VLA pipelines. The CASA infrastructure consists of a set of C++ tools bundled together under an iPython interface as data reduction and analysis tasks, which are easy to use by the astronomical community. The National Radio Astronomy Observatory (NRAO) guides an international team of developers and scientists from various institutions, who maintain and continuously improve the CASA software. This poster will give you an overview of the current status of the CASA software, and upcoming changes that the CASA team plans for the near future.
+    T: 5) Science Platforms: Tools for Data Discovery and Analysis from Different Angles
+   TO: 
  
 O Fan, Dongwei fandongwei@nao.cas.cn A simple survey for cross-matching method
     ABS: In order to find a practicable method to build an online cross-matching service, we test several index and search methods. Indexing methods includes the directly matching, HEALPix based matching and zones algorithm. Sorted list and several search trees are also be inspected, e.g., Binary Search Tree, Red-Black Tree, B-Tree. From this survey, we can see that HEALPix based Binary Search on sorted array is the fastest and simple way to cross-match in memory, and the environment is easy to be restored from hardisk. If there are two unsorted catalog on disk, a red-black balance tree with HEALPix indices would be a good choice. But when the catalog is too big to cache in memory, the memory-hardisk-swapping much slows down the efficiency. The key is keeping more points in the memory and do the Binary Search. Not only the speed to cross-match, how to efficiently exporting the rest data columns in catalogs are also be considered. A cross-match web service build on these method is released.

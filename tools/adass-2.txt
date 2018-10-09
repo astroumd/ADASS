@@ -1,11 +1,11 @@
-221 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+222 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 217 entries
+Accepted 218 entries
 9 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 6 entries
-314 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+315 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 289 entries
+Accepted 290 entries
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
@@ -60,6 +60,7 @@ P Dreissigacker, Christoph christoph.dreissigacker@aei.mpg.de Deep-Learning Cont
 P Ebisawa, Ken ebisawa@isas.jaxa.jp CALET Gamma-ray Burst Monitor web-analysis system
 P Eguchi, Satoshi satoshieguchi@fukuoka-u.ac.jp Prototype Implementation of a Web-Based Gravitational Wave Signal Analyzer: SNEGRAF
 P Eisenhamer, Jonathan eisenhamer@stsci.edu JWST Association Generation: Piecing It All Together
+P Emonts, Bjorn bjornemonts@gmail.com CASA, the Common Astronomy Software Applications for Radio Astronomy
 O Fan, Dongwei fandongwei@nao.cas.cn A simple survey for cross-matching method
 P Feinstein, Carlos cfeinstein@fcaglp.unlp.edu.ar Extragalactic stellar photometry and the blending problem
 O Ferguson, Henry ferguson@stsci.edu Data Analysis Tools for JWST and Beyond
