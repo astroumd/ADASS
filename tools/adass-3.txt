@@ -1,11 +1,11 @@
-220 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+221 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 216 entries
+Accepted 217 entries
 9 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 6 entries
-313 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+314 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 288 entries
+Accepted 289 entries
  
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
     ABS: The Data Analysis Center for Exoplanets (DACE) is a web platform based at the University of Geneva (CH) dedicated to exoplanets data visualization, exchange and analysis.
@@ -837,6 +837,13 @@ P Karim, Ramsey rkarim@astro.umd.edu Alpha-X: An Alpha Shape-based Hierarchical 
 
 One feature we are developing is the representation of point-cloud substructures as $\alpha$ values in tree representations which capture the hierarchical lineage of structure at different values of $\alpha$. With this approach, alpha shapes could be used in an alternate hierarchical cluster detection method that characterizes clusters and their complementary gaps over a range of length scales and naturally yields defined boundaries for these cluster and gap shapes. Similar approaches using this method have been successfully implemented outside of astronomy, in fields such as molecular biology, pattern recognition, and digital shape sampling (Varshney, Brooks, and Wright 1994; Edelsbrunner 2010). Our project will continue to develop and validate this methodology, comparing it to extant methods used within our field to verify that it offers novel and significant analysis products before moving into specific scientific applications.
     T: 12) Algorithms
+   TO: 
+ 
+P Kaufman, Zeke zkaufman@cfa.harvard.edu CIAO: A Look Under the Hood of Chandra's X-Ray Imaging and Analysis Software Configuration Management- Past, Present, and Future.
+    ABS: Abstract.       The CIAO (Chandra Interactive Analysis of Observations) software suite is approaching two decades of service**1 and CIAO remains the primary analysis package from the Chandra X-Ray Observatory. Despite the package's maturity, CIAO continues to undergo active development from a diverse group of developers using a multiple programming languages and build architectures. Keeping up with the ever evolving capabilities in hardware, software, version control systems and paradigm shifts in software development methodologies presents a challenge to both developers and configuration management teams. This paper provides an overview of how the CIAO software suite has evolved over the years with a particular emphasis on configuration management of the system. This paper examines CIAO's integration with various off the shelf software as well as CIAO's packaging and distribution system and how these have evolved. We will conclude with an outlook on the future direction of CIAO infrastructure including possible integration with modern package management systems such as Conda, plans for continuous integration, and use of tools such as pip for extending capabilities in CIAO.
+
+**1  CIAO version 1.0 was released October 1999
+    T: 4) Data Science: Workflows Hardware Software Humanware
    TO: 
  
 P Kawasaki, Wataru wataru.kawasaki@nao.ac.jp Vissage: viewing polarisation data from ALMA

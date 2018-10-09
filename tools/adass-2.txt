@@ -1,11 +1,11 @@
-220 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+221 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 216 entries
+Accepted 217 entries
 9 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 6 entries
-313 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+314 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 288 entries
+Accepted 289 entries
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
@@ -99,6 +99,7 @@ O Juric, Mario mjuric@astro.washington.edu The ZTF Alert Stream: Lessons from th
 P Kaleida, Catherine ckaleida@stsci.edu JWST Data Management Subsystem Operations:  Preparing to Receive, Process, and Archive JWST Data
 P Kaplan, Kyle kfkaplan@email.arizona.edu The algorithms behind the HPF and NEID pipeline
 P Karim, Ramsey rkarim@astro.umd.edu Alpha-X: An Alpha Shape-based Hierarchical Clustering Algorithm
+P Kaufman, Zeke zkaufman@cfa.harvard.edu CIAO: A Look Under the Hood of Chandra's X-Ray Imaging and Analysis Software Configuration Management- Past, Present, and Future.
 P Kawasaki, Wataru wataru.kawasaki@nao.ac.jp Vissage: viewing polarisation data from ALMA
 P Kelley, Michael msk@astro.umd.edu ZChecker: Finding Cometary Outbursts with the Zwicky Transient Facility
 O Kent, Brian bkent@nrao.edu 3D Data Visualization in Astrophysics

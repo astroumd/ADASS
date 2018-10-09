@@ -122,6 +122,7 @@ mjuric@astro.washington.edu
 ckaleida@stsci.edu
 kfkaplan@email.arizona.edu
 rkarim@astro.umd.edu
+zkaufman@cfa.harvard.edu
 wataru.kawasaki@nao.ac.jp
 msk@astro.umd.edu
 bkent@nrao.edu
