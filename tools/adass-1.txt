@@ -205,6 +205,7 @@ cpaxson@cfa.harvard.edu
 jegpeek@stsci.edu
 jose.perea@sciops.esa.int
 fernando.perez@esa.int
+laperez5@asu.edu
 abbie.petulante@gmail.com
 tim@mmto.org
 francois-xavier.pineau@astro.unistra.fr
