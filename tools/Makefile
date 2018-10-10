@@ -25,7 +25,7 @@ tutorial:
 	@./counter.py 22 |sort | uniq -c | sort -nr
 
 abstract:
-	@echo Abstract - max 226
+	@echo Abstract - max 237
 	@./counter.py 28 |sort | uniq -c | sort -nr
 
 abstract2:
