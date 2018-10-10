@@ -172,7 +172,11 @@ class adass(object):
             if cat:
                 print("%s    ; %s%s." % (key,ptype,theme))
             else:
-                print(ptype,key,email,title1)
+                if True:
+                    print(ptype,key,email,title1)
+                else:
+                    print(ptype,key,email)
+                    print("  TITLE:",title1)
 
             if abstract:
                 print("    ABS:",abstract1)
