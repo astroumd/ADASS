@@ -1,8 +1,8 @@
 224 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
 Accepted 220 entries
-9 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
-Accepted 6 entries
+8 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
+Accepted 5 entries
 319 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
 Accepted 294 entries
@@ -89,8 +89,7 @@ P Han, Jun hanjun@nao.cas.cn The conceptual design of amateur public observatory
 P He, Helen hhe@cfa.harvard.edu Pixel mask Filtering of CXC Datamodel
 X Holman, Matthew mholman@cfa.harvard.edu The Minor Planet Center Data Processing System
 P Irby, Bryan bryan.k.irby@nasa.gov HEASOFT: A FITS Data Processing and Analysis Software Suite
-P Ireland, Jack jack.ireland@nasa.gov The Helioviewer Project: Making Petabytes of Images Available to Everyone
-  ABS2 Ireland, Jack The SunPy Ecosystem
+P Ireland, Jack jack.ireland@nasa.gov The SunPy Ecosystem
 O Iwasaki, Hiroyoshi h.iwasaki@rikkyo.ac.jp A new implementation of deep neural network to spatio-spectral analysis in X-ray astronomy
 P Jenness, Tim tjenness@lsst.org Abstracting the storage and retrieval of image data at the LSST
 P Johnston, Kyle kyjohnst2000@my.fit.edu Variable Star Classification Using Multi-View Metric Learning

@@ -1,8 +1,8 @@
 224 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
 Accepted 220 entries
-9 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
-Accepted 6 entries
+8 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
+Accepted 5 entries
 319 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
 Accepted 294 entries
@@ -775,16 +775,14 @@ P Irby, Bryan bryan.k.irby@nasa.gov HEASOFT: A FITS Data Processing and Analysis
     T: 5) Science Platforms: Tools for Data Discovery and Analysis from Different Angles
    TO: 
  
-P Ireland, Jack jack.ireland@nasa.gov The Helioviewer Project: Making Petabytes of Images Available to Everyone
-    ABS: Solar observatories are providing the world-wide community with a wealth of data, covering wide time ranges (e.g. the Solar and Heliospheric Observatory, SOHO has been observing for more than 20 years), multiple viewpoints (Solar TErrestrial RElations Observatory, STEREO), and returning large amounts of data (Solar Dynamics Observatory, SDO). In particular, the petabyte-scale volume of SDO data presents challenges; the data are available only from a few repositories, and full-disk, full-cadence data for reasonable durations of scientific interest are difficult to download, due to their size and the download rates available to most users. The variety and volume of available data poses three problems: accessing, browsing, and finding interesting data as efficiently as possible. 
+P Ireland, Jack jack.ireland@nasa.gov The SunPy Ecosystem
+    ABS: We discuss the development of SunPy and the ecosystem of related Python packages that provide specialized functionality to the heliophysics community. SunPy is a community-developed, free and open-source software package for solar physics. It aims to provide a comprehensive data-analysis environment that allows researchers within the field of solar physics to perform common tasks simply.  
 
-To address these challenges, we have developed the Helioviewer Project, a suite of services and clients based around archives of JPEG 2000 images.  The Helioviewer Project gives users everywhere the capability to interactively browse and visualize the behavior of the Sun and inner heliosphere from multiple instruments simultaneously, and to give access to the underlying science data.  The JPEG 2000 standard offers useful features that facilitate the dissemination and analysis of high-resolution image data and offers a solution to the challenge of efficiently browsing petabyte-scale image archives.  Images from 1991 to the present day are currently available.
+SunPy has released 9 beta versions (0.x) and work is now ongoing on SunPy 1.0 whose purpose will be to provide a stable API.  SunPy 1.0 will provide the ability to search and download data from multiple locations including the Virtual Solar Observatory (VSO), Joint Science Operations Center (JSOC) and the Heliophysics Event Knowledgebase (HEK); offers TimeSeries and Map objects that enable the manipulation of time series and two-dimensional image data respectively; and enables transformations between solar and astronomical coordinate systems.  SunPy 1.0 will support Python 3.6+ only, and the SunPy 0.9.x series will provide bugfix support to existing functionality for Python 2.7.x until the scheduled end of Python 2 support at the end of 2019. SunPy is built using functionality from Astropy, pandas, matplotlib and other scientific packages commonly used in astronomy.
 
-The current design of the Helioviewer Project, and use and functionality of its principal clients - JHelioviewer and helioviewer.org - will be discussed. Plans for including images and other data from other solar and heliospheric datasets will also be discussed, including the recently launched Parker Solar Probe and Solar Orbiter.
-    T: 3) Astrophysical Data Visualization from Line Plots to Augmented and Virtual Reality
+SunPy is supported by the development of affiliated packages that provide additional functionality built on top of the core library. For example, IRISPy is an SunPy-affiliated package designed for reading, manipulating and visualizing data taken with the Interface Region Imaging Spectrometer (IRIS).  The package ndcube is a SunPy-affiliated package designed for handling n-dimensional datacubes described by a World Coordinate System translation, permitting powerful manipulation of multi-dimensional data. The package drms provides access to Michelson Doppler Imager (MDI), and Solar Dynamics Observatory (SDO) data.  Other packages in the SunPy ecosystem are fiasco, a Python interface to the Chianti atomic database and solarbextrapolation, a library for extrapolating 3D magnetic fields from line-of-sight magnetograms.  We discuss how SunPy can support an expanding heliophysical data-analysis environment.
+    T: 7) Software for Solar Systems Astronomy
    TO: 
-  ABS2 Ireland, Jack The SunPy Ecosystem
-    ABS: The SunPy Ecosystem
  
 O Iwasaki, Hiroyoshi h.iwasaki@rikkyo.ac.jp A new implementation of deep neural network to spatio-spectral analysis in X-ray astronomy
     ABS: Recent rapid developments in Deep Learning, which can implicitly capture structures in high-dimensional data, will lead to the opening of a new chapter of astronomical data analysis. As a new implementation of Deep Learning techniques in the fields of astronomy, we here report our application of Variational Auto-Encoder (VAE) using deep neural network to spatio-spectral analysis of the data from the Chandra X-ray Observatory, in the particular case of Tycho’s supernova remnant. Previous applications of Machine Learning techniques to the analysis of SNRs have been limited to principal component analysis (Warren et al. 2005; Sato & Hughes 2017) and clustering without dimensional reduction (Burkey et al. 2013). We have implemented an unsupervised learning method combining VAE and Gaussian Mixture Model (GMM), where the reduction of dimensions of the observed data is performed by VAE and clustering in the feature space is by GMM. We have found that some characteristic features such as the iron knots in the southeastern region can be automatically recognized through this method. Our implementation exploits a new potential of Deep Learning in astronomical research.
