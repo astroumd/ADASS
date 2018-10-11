@@ -183,7 +183,6 @@ fpouzols@eso.org
 morii@ism.ac.jp
 dmr@roe.ac.uk
 august.muench@aas.org
-dukynafria@gmail.com
 takeshi.nakazato@nao.ac.jp
 vicente.navarro@esa.int
 ada.nebot@astro.unistra.fr

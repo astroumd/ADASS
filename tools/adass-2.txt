@@ -1,11 +1,11 @@
-224 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+223 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 220 entries
+Accepted 219 entries
 8 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 5 entries
-320 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+319 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 295 entries
+Accepted 294 entries
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
@@ -146,7 +146,6 @@ O Momcheva, Ivelina imomcheva@stsci.edu Hubble in the Cloud: A Prototype of a Sc
   ABS2 Momcheva, Ivelina 
 O Morii, Mikio morii@ism.ac.jp Image reconstruction method for an X-ray telescope with an angular resolution booster
 O Muench, August august.muench@aas.org [BOF] Data Citation: from Archives to Science Platforms
-X Nafria, Amritpal Singh dukynafria@gmail.com How, when and where life will begin on another planet after Earth.
 O Nakazato, Takeshi takeshi.nakazato@nao.ac.jp New Synthesis Imaging Tool for ALMA based on the Sparse Modeling
 O Navarro, Vicente vicente.navarro@esa.int ESAC Science Exploitation and Preservation Platform Reference Architecture
 X Nebot, Ada ada.nebot@astro.unistra.fr Data challenges of the VO in Time Domain Astronomy
@@ -206,7 +205,7 @@ O Stevens, Abigail abigailstev@gmail.com Stingray: Open-source spectral-timing s
 X Stoehr, Felix felix.stoehr@gmx.de Astronomical archives: Serving up the Universe
 P Streicher, Ole ole@aip.de DOI in Astronomy
 P Sutrisno, Raymond rasutrisno@uh.edu A Machine Learning Approach to Detect Dark Matter Particles Under Extreme Class Imbalance and Large Datasets
-O Swade, Daryl swade@stsci.edu The TESS Science Data Archive
+P Swade, Daryl swade@stsci.edu The TESS Science Data Archive
 O Tao, Yihan y.tao@nao.cas.cn Spectral Classification of Galaxies using Deep Neural Networks and Self-taught Learning
 O Tavagnacco, Daniele daniele.tavagnacco@inaf.it Performance-related aspects in the Big Data Astronomy Era: architects in software optimization
 P Taylor, Mark m.b.taylor@bristol.ac.uk TOPCAT and Gaia

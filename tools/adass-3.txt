@@ -1,11 +1,11 @@
-224 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+223 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 220 entries
+Accepted 219 entries
 8 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 5 entries
-320 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+319 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 295 entries
+Accepted 294 entries
  
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
     ABS: The Data Analysis Center for Exoplanets (DACE) is a web platform based at the University of Geneva (CH) dedicated to exoplanets data visualization, exchange and analysis.
@@ -708,21 +708,11 @@ P Han, Jun hanjun@nao.cas.cn The conceptual design of amateur public observatory
    TO: 
  
 P He, Helen hhe@cfa.harvard.edu Pixel mask Filtering of CXC Datamodel
-    ABS: Datamodel(DM),  a  Chandra X-ray Center (CXC) data analysis package, 
-has capabilities to display data in list, differ, sort, group, copy,
-merge.  to manipulate data in filter, bin, contour, coordinate,  extract, etc.
-
-The on-fly filtering is a widely used application to data file in
-range or shapes region syntax, and a pixel masking is an extension of
-the DM filtering on the conventional region.  
-The pixel mask is a 2D binary image, marked in  0 (excluded) and 1+ (allowed ) arbitrary shapes, and complements the conventional analytic 
- shapes of circle, rectangle, polynomial, etc.
- 
-Analogous to the region filtering, the pixel masking is integrated to perform the functions of include,  exclude,
-mask-and-shape intersect,  mask-and-mask union and consolidation. The
-filtered mask array is stored in a data block, referenced by the
-filtered region string in a data subspace of resulting file. 
-We will highlight those features of the pixel mask filtering.
+    ABS: We present pixel mask filtering algorithm, a new attribute to Datamodel library. Datamodel, a Chandra X-Ray Center data analysis software (CIAO) package, facilitates a wide range of on-the-fly data manipulation capabilities such as copy, differ, binning and filtering. The pixel mask filtering of a 2-D binary image is integrated into the CIAO region filtering syntax and logic, and thus complements the 
+conventional analytic shapes filtering of circle, rectangle, polynomial. The integration allows for the standard operations on combining masks and analytic shapes such as include, exclude, intersect, and union. The mask is stored in a data block, 
+referenced by the region filter string in the resulting file's data subspace.
+We will highlight the features and usage of pixel mask filtering in
+the CIAO software, and discuss some divergent effects between mask filtering and region shape filtering.
     T: 12) Algorithms
    TO: 
  
@@ -1176,11 +1166,6 @@ The goal of this BoF is then to surface use cases, share implementation ideas, a
 Katz (2014): https://doi.org/10.5334/jors.be
     T: 5) Science Platforms: Tools for Data Discovery and Analysis from Different Angles
    TO: 
- 
-X Nafria, Amritpal Singh dukynafria@gmail.com How, when and where life will begin on another planet after Earth.
-    ABS: It has been centuries now since humankind looked up to the sky and wondered, is there any other life out there apart from our own? Ever since that question has been asked, it's been a mystery. Our solar system has Sun and eight planets. The Sun is a Red Giant Star and in distant future it will engulf Mercury, Venus and probably Earth. The size and luminosity of the Sun is continuously increasing from its birth. By rearranging given astronomical data, this paper explores that in distant future, due to increasing size and luminosity of the Sun characteristics of the terrestrial planets will shift from one planet to another that will bring life on one of the planet in our solar system after 1 duky’s Unit. 1 duky’s unit is the time from now to the time when Mercury would get engulfed in the Sun. It unlocks so many questions like why Earth has one Moon but Mars has two, how Venus became Earth’s evil twin, what is the roll of asteroid belt in our solar system, how life began on Earth, where was it before Earth and where it will be on another planet after Earth?
-    T: 13) Other
-   TO: Life in Universe.
  
 O Nakazato, Takeshi takeshi.nakazato@nao.ac.jp New Synthesis Imaging Tool for ALMA based on the Sparse Modeling
     ABS: A new imaging tool for radio interferometry has been developed based on the sparse modeling approach. It has been implemented as a Python module operating on Common Astronomy Software Applications (CASA) so that the tool is able to process the data taken by Atacama Large Millimeter/submillimeter Array (ALMA). In order to handle large data of ALMA, the Fast Fourier Transform has been implemented with gridding process. The concept of the sparse modeling for the image reconstruction has been realized with two regularization terms: L1 norm term for the sparsity and Total Squared Variation (TSV) term for the smoothness of the resulting image. Since it is important to adjust the size of the regularization terms appropriately, the cross-validation routine, which is a standard method in statistics, has been implemented. This imaging tool runs even on a standard laptop PC and processes ALMA data within a reasonable time. The interface of the tool is comprehensible to CASA users and the usage is so simple that it consists of mainly three steps to obtain the result: an initialization, a configuration, and a processing. Remarkable feature of the tool is that it produces the solution without human intervention. Furthermore, the solution is robust in the sense that it is less affected by the processing parameters. For the verification of the imaging tool, we have tested it with two extreme examples from ALMA Science Verification Data: the protoplanetary disk, HL Tau as a typical smooth and filled image, and the lensed galaxy, SDP.81 as a sparse image. In our presentation, these results will be presented with some performance information. The comparison between our results and those of traditional CLEAN method will also be provided. Finally, our future improvement and enhancement plan to make our tool competitive with CLEAN will be shown.
@@ -1647,7 +1632,7 @@ P Sutrisno, Raymond rasutrisno@uh.edu A Machine Learning Approach to Detect Dark
     T: 1) Machine Learning in Astronomy
    TO: 
  
-O Swade, Daryl swade@stsci.edu The TESS Science Data Archive
+P Swade, Daryl swade@stsci.edu The TESS Science Data Archive
     ABS: The Transiting Exoplanet Survey Satellite (TESS) is a survey mission designed to discover exoplanets around the nearest and brightest stars.  TESS is a NASA Astrophysics Explorer mission that was launched on April 18, 2018.  The Mikulski Archive for Space Telescopes (MAST) at the Space Telescope Science Institute serves as the archive for TESS science data.
 
 TESS will conduct large area surveys of bright stars and known M dwarfs within about 60 parsecs.  TESS will observe a single 24 degree by 96-degree sector of the sky for approximately 27 days before pointing to a new sector, surveying almost the entire sky over the two-year prime mission.
