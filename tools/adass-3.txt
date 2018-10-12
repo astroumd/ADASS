@@ -3,9 +3,11 @@ Warning: duplicate entry for Kosack, Karl
 Accepted 220 entries
 8 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 5 entries
-320 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+321 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 295 entries
+Accepted 296 entries
+109 x 5 in reg/IVOA Registration (Responses).xlsx
+IVOA Accepted 107 entries
  
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
     ABS: The Data Analysis Center for Exoplanets (DACE) is a web platform based at the University of Geneva (CH) dedicated to exoplanets data visualization, exchange and analysis.
@@ -1085,7 +1087,7 @@ As the project scaled up, the initial manual classifications of animal populatio
 These sources of error must be corrected for the successful identification of an animal’s surface temperature. As the primary goal of this project is the detection and classification of animals, it is important that they be distinguishable from the background and have thermal profiles indicative of their species. This requires the development of an image pre-processing pipeline, similar to the calibrations applied to astronomical instrumentation, so that the detection and classification algorithms are applied to data with the expected thermal profiles where the temperature recorded by the instrument matches that of the target source. Individually modelling the thermal profile of every animal is quite difficult yet a large quantity of data has been collected containing these thermal profiles (once pre-processed).
 
 We are developing a machine learning pipeline based heavily on the approaches in modern computer vision which are simultaneously being employed within current astronomical image-based approaches. Our approach to this task requires a large set of labelled training data of multiple species. Whilst we have collected a large quantity of data, it would take a long time to manually identify the sources of interest. To address this problem we are using citizen science through the Zooniverse web portal. Using a detection method based on thresholding the thermal data based on the land surface temperature conditions, we identify sources with higher than expected temperature. The Zooniverse site requests users to perform a set of tasks designed to remove false positives, identify missed sources and classify the detected animals. Upon the completion of the citizen science workloads, the training data can then be applied to a selection of computer vision machine learning algorithms to produce models for the detection and classification of animals from their thermal profiles.
-    T: 4) Data Science: Workflows Hardware Software Humanware
+    T: 1) Machine Learning in Astronomy
    TO: 
  
 F Mechev, Alexandar apmechev@strw.leidenuniv.nl Building LOFAR As A Service: Processing Petabytes with just a click

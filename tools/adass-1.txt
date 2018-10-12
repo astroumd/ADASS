@@ -74,6 +74,7 @@ heinz-bernd.eggenstein@aei.mpg.de
 satoshieguchi@fukuoka-u.ac.jp
 eisenhamer@stsci.edu
 bjornemonts@gmail.com
+janet@cfa.harvard.edu
 fandongwei@nao.cas.cn
 cfeinstein@fcaglp.unlp.edu.ar
 ferguson@stsci.edu
