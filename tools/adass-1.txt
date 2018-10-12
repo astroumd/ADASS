@@ -170,6 +170,7 @@ thomas.martin.1@ulaval.ca
 beatriz.martinez@esa.int
 patrick.masi-phelps@dataiku.com
 tom.mcglynn@nasa.gov
+P.R.McWhirter@ljmu.ac.uk
 apmechev@strw.leidenuniv.nl
 mellado@iram.es
 laurent.michel@astro.unistra.fr

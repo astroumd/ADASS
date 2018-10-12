@@ -1,11 +1,11 @@
-223 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+224 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 219 entries
+Accepted 220 entries
 8 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 5 entries
-319 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+320 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 294 entries
+Accepted 295 entries
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
@@ -134,6 +134,7 @@ P Major, Brian major.brian@gmail.com Arcade: A User Focussed, Visual Compute Env
 O Marquez, Maria Jose mariajose.marquez@eumetsat.int Galaxy Cataloguing Expert System (GCES): Use Cases
 O Martin, Thomas thomas.martin.1@ulaval.ca Putting more intelligence into the reduction and analysis of SITELLE data.
 O Martinez, Beatriz beatriz.martinez@esa.int Data-driven Space Science at ESA Science Data Centre
+P McWhirter, Paul Ross P.R.McWhirter@ljmu.ac.uk Saving endangered animals with Astro-Ecology
 F Mechev, Alexandar apmechev@strw.leidenuniv.nl Building LOFAR As A Service: Processing Petabytes with just a click
 P Mellado, Pablo mellado@iram.es Realtime telescope and data visualization using web technologies
 P Michel, Laurent laurent.michel@astro.unistra.fr ALiX: An advanced search interface for AladinLite
