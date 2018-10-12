@@ -89,10 +89,10 @@ class adass(object):
         nz = 0
         for i in range(len(o1)):
             s  = o1[i].strip() 
-            w  = s.split(';')
+            w  = s.split(';')  # Split returns a list.
             nw = len(w)
             if nw == 0:    continue     # skip blank lines
-            if w[0] =='#': continue     # skip comment lines
+            if w[0][0] =='#': continue  # skip comment lines
             if nw == 1:
                 nz = nz + 1
                 name = w[0].strip()
@@ -121,6 +121,26 @@ class adass(object):
             return (o2,o3,o4)
         return o2
 
+    # switch to makeprogram.py instead
+    #def tab2list2(self, filename):
+    #    o1 = io.open(filename, encoding="utf-8").readlines()
+    #    for i in range(len(o1)):
+    #        s  = o1[i].strip() 
+    #        w  = s.split(';')  # Split returns a list.
+    #        nw = len(w)
+    #        if nw == 0:    continue     # skip blank lines
+    #        if w[0][0] =='#': 
+    #           ws = w[0].split()
+    #           if w[1][0] == 'S': # starting a new session
+    #              session_num = w[1][1:]
+    #              newsession = True
+    #           continue # for now skip other comments
+    #
+    #        # trim the tabs
+    #        for w in range(len(w)):
+    #            w[i] = w[i].strip()
+            
+
     def print_col(self, col):
         """ print a given columns. expert mode
         """
@@ -137,6 +157,15 @@ class adass(object):
         keys.sort()
         for key in keys:
             print(key)
+
+    def report_0a(self):
+        """ print the 'Lastname,  Firstname        Institution'
+        """
+        keys = list(self.x3.keys())
+        keys.sort()
+        index = self.r3.index('Univ/Affiliation')
+        for key in keys:
+            print(key,self.x3[key][index].value)
 
     def report_1(self, abstract=False, cat = False):
         keys = list(self.x1.keys())
