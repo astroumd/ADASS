@@ -1,8 +1,8 @@
-225 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+219 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 221 entries
-9 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
-Accepted 6 entries
+Accepted 215 entries
+11 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
+Accepted 8 entries
 322 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
 Accepted 297 entries
@@ -46,14 +46,13 @@ P Ceballos, M.Teresa ceballos@ifca.unican.es Jitter and readout sampling frequen
 X Chen, Wei chenwei@ihep.ac.cn An automatic data collection and analysis software for GRB studies and its result
 O Chilingarian, Igor igor.chilingarian@cfa.harvard.edu Binospec@MMT: a database-driven model of operations, from planning of observations to data reduction and archiving
 O Comrie, Angus accomrie@gmail.com An HDF5 Schema for SKA Scale Image Cube Visualization
-P Coulais, Alain alain.coulais@obspm.fr 
+O Coulais, Alain alain.coulais@obspm.fr GDL - GNU Data Language 1.0
 O Crawford, Steven scrawford@stsci.edu Triumphs and Challenges of the Astropy Project: Open Development of a Python Library for Astronomy
 O Cupani, Guido guido.cupani@inaf.it Astrocook: your spectral analysis recipe book, now with a GUI
 O DAI, CONG daicong2014@163.com A method to detect radio frequency interference based on convolutional neural networks
 P Delgado, Arancha mdelgado@ast.cam.ac.uk Gaia Photometric Science Alerts Data Flow
 O Dempsey, James james.dempsey@csiro.au Serving large scale survey data for ASKAP with SIA2 and SODA
 O Dencheva, Nadia dencheva@stsci.edu GWCS - A General Approach to  Astronomical World Coordinates
-X Derriere, Sébastien sebastien.derriere@astro.unistra.fr 
 P Deshpande, Shubhankar shubhand@cs.cmu.edu GMRT Archive Processing Project
 O Diaz, Rosa rdiaz@stsci.edu Adding Science Validation to the  JWST Calibration Pipeline.
 O Donaldson, Tom tdonaldson@stsci.edu Astropy and the Virtual Observatory
@@ -127,7 +126,6 @@ X Lieu, Maggie maggie.lieu@sciops.esa.int Deep learning of astronomical features
 P Lim, Pey Lian lim@stsci.edu stginga: Ginga Plugins for Data Analysis and Quality Assurance of HST and JWST Science Data
 P Lin, Ganghua lgh@bao.ac.cn The quality assurance of Chinese solar physics historical observation data archives
 O Loose, Marcel loose@astron.nl Agile and DevOps from the trenches at ASTRON
-X Lorente, Nuria Nuria.Lorente@aao.gov.au 
 P Louys, Mireille mireille.louys@unistra.fr A TripleStore implementation of the IVOA Provenance Data model
 P Lu, Yuxi lucylulu12311@gmail.com Modeling Narrow Rings with a Single Chain of Gravitating Particles
 P Lundquist, Michael mlundquist@email.arizona.edu Searching for Optical Counterparts to Gravitational Wave Events with the Catalina Sky Survey
@@ -147,9 +145,7 @@ P Mink, Jessica jmink@cfa.harvard.edu Finding Your Place in the Cosmos with WCST
   ABS2 Mink, Jessica Data Formats BoF
 P Molinaro, Marco marco.molinaro@inaf.it # Starting up a Data Model for Exoplanetary Data
 O Momcheva, Ivelina imomcheva@stsci.edu Hubble in the Cloud: A Prototype of a Science Platform at STScI
-  ABS2 Momcheva, Ivelina 
 O Morii, Mikio morii@ism.ac.jp Image reconstruction method for an X-ray telescope with an angular resolution booster
-O Muench, August august.muench@aas.org [BOF] Data Citation: from Archives to Science Platforms
 O Nakazato, Takeshi takeshi.nakazato@nao.ac.jp New Synthesis Imaging Tool for ALMA based on the Sparse Modeling
 O Navarro, Vicente vicente.navarro@esa.int ESAC Science Exploitation and Preservation Platform Reference Architecture
 X Nebot, Ada ada.nebot@astro.unistra.fr Data challenges of the VO in Time Domain Astronomy
@@ -171,8 +167,6 @@ P Perez, Fernando fernando.perez@esa.int Centralisation and management of scienc
 P Pineau, Francois-Xavier francois-xavier.pineau@astro.unistra.fr The CDS HEALPix library
 X Plante, Raymond raymond.plante@nist.gov The BagIt Packaging Standard for Interoperability and Preservation
 P Polisensky, Emil emil.polisensky@nrl.navy.mil The VLITE Database Pipeline
-X Polsterer, Kai kai.polsterer@h-its.org 
-  ABS2 Polsterer, Kai ﻿A Beginners Guide to Machine Learning in Astronomy
 P Prix, Reinhard reinhard.prix@aei.mpg.de Efficient FFT-based $\mathcal{F}$-statistic implementation for continuous-gravitational-wave searches
 O Racero, Elena eracero@sciops.esa.int ESASky: A New Window for Solar System Data Exploration
 F Raddick, Michael jordan.raddick@gmail.com SciServer: Collabroative data-driven science
@@ -192,7 +186,6 @@ P Santos, Rafael rafael.santos@inpe.br A hybrid neural network approach to estim
 P Schaaff, Andre andre.schaaff@astro.unistra.fr Chatting with the astronomical data services.
 O Sealey, Katrina katrina.sealey@aao.gov.au Bringing together the Australian sky - coordination and interoperability challenges of the All-Sky Virtual Observatory
 P Servillat, Mathieu mathieu.servillat@obspm.fr The IVOA Provenance Data Model
-O Shawhan, Peter pshawhan@umd.edu BoF: Data analysis challenges for multi-messenger astrophysics
 O Shen, Robert robert.shen@astronomyaustralia.org.au ASVO MWA project: lower technical barrier to access MWA data
 P Shin, Min-Su msshin@kasi.re.kr Applications of the in-memory database Redis in processing transient event alerts
 P Shipman, Russell russ@sron.nl Pipeline Processing of Stratospheric Terahertz Observatory (STO-2) Galactic Plane Survey
@@ -216,7 +209,6 @@ P Taylor, Mark m.b.taylor@bristol.ac.uk TOPCAT and Gaia
 P Teuben, Peter teuben@astro.umd.edu QAC: Quick Array Combinations with CASA
 P Tian, Fan ftian4@jhu.edu Robust Registration of Astronomy Catalog
 O Toledo, Ignacio ignacio.toledo@alma.cl Data Science =! Software Engineering. Exploring a workflow for ALMA operations.
-O Tollerud, Erik etollerud@stsci.edu BoF: Open Source/Development Software Projects and Large Organizations/Missions: Recommendations and Challenges
 O Tomasi, Maurizio maurizio.tomasi@unimi.it Towards new solutions for scientific computing: the case of Julia
 P Torres, Simón storres@ctio.noao.edu An on-site data reduction pipeline for the Goodman Spectrograph
 P Tsutsumi, Takahiro ttsutsum@nrao.edu Development of auto-multithresh: an automated masking algorithm for deconvolution in CASA

@@ -1,8 +1,8 @@
-225 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+219 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 221 entries
-9 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
-Accepted 6 entries
+Accepted 215 entries
+11 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
+Accepted 8 entries
 322 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
 Accepted 297 entries
@@ -295,9 +295,36 @@ The schema is similar to that of HDFITS, but extensions have been added to suppo
     T: 3) Astrophysical Data Visualization from Line Plots to Augmented and Virtual Reality
    TO: 
  
-P Coulais, Alain alain.coulais@obspm.fr 
-    ABS: 
-    T: 13) Other
+O Coulais, Alain alain.coulais@obspm.fr GDL - GNU Data Language 1.0
+    ABS: On behalf of the GDL team, we will be glad to use the occasion of ADASS 
+2018 to announce the 1.0 release of GDL - GNU Data Language. GDL is the 
+free and open-source drop-in replacement for IDL - Interactive Data 
+Language. The 1.0 release, coming out 15 years after Marc Schellens has 
+first made GDL public, marks several milestones attesting to the 
+maturity of the project. Among these - as compared with versions 
+presented at the previous editions of ADASS - there are updates in the 
+plotting functionalities, major advancements in the Windows version of 
+GDL, rewritten support for IDL save files, multi-threaded performance 
+improvements and additions targeting compatibility with newer versions 
+of IDL (including new data types).
+
+GDL 1.0 is also the first major release following the move of GDL 
+development from SourceForge (thank you for the last 15 years of 
+hospitality!) to Github. This relocation was an occasion for a major 
+effort targeting developer-workflow-oriented automation which helps us 
+reduce entry barriers for new contributions, ensure increasing code 
+coverage with automatic tests, facilitate maintenance and user support 
+as well as ensure result reproducibility and traceability. Several of 
+the lessons learn, insights gained and remaining challenges related 
+with the development of the continuous integration process for the 
+project will be reported.
+
+Finally, the presentation will summarize current availability of 
+packaged versions of GDL, compatibility with popular IDL-written 
+astronomy-related software, potential directions for the upcoming 
+releases, and the key areas where GDL could benefit from further user 
+feedback and new contributions.
+    T: 6) DevOps Practices in Astronomy Software
    TO: 
  
 O Crawford, Steven scrawford@stsci.edu Triumphs and Challenges of the Astropy Project: Open Development of a Python Library for Astronomy
@@ -342,11 +369,6 @@ Advanced Scientific Data Format (ASDF).Alternatively the ASDF object can be enca
 The package is written in python and is based on astropy. It is easy to extend by 
 adding new models and coordinate systems.
     T: 12) Algorithms
-   TO: 
- 
-X Derriere, Sébastien sebastien.derriere@astro.unistra.fr 
-    ABS: 
-    T: 
    TO: 
  
 P Deshpande, Shubhankar shubhand@cs.cmu.edu GMRT Archive Processing Project
@@ -1017,11 +1039,6 @@ We stumbled and fell, but gained a lot of experience in how Agile development te
     T: 6) DevOps Practices in Astronomy Software
    TO: 
  
-X Lorente, Nuria Nuria.Lorente@aao.gov.au 
-    ABS: 
-    T: 
-   TO: 
- 
 P Louys, Mireille mireille.louys@unistra.fr A TripleStore implementation of the IVOA Provenance Data model
     ABS: The IVOA  has proposed a standard for capturing the provenance metadata in the production and distribution of astronomical data.
 We present an implementation in a tripple store for the provenance information recorded for a collection of astronomical images. 
@@ -1151,8 +1168,6 @@ O Momcheva, Ivelina imomcheva@stsci.edu Hubble in the Cloud: A Prototype of a Sc
     ABS: The availability of high-quality, highly-usable data analysis tools is of critical importance to all astronomers as is easy access to data from our archives. In this talk I will describe the approach to developing the prototype of a new cloud-based data management environment for astronomical data reduction and analysis at STScI. I will examine the decisions we made, I will demonstrate the prototype and I will discuss what new areas of scientific exploration and discovery are opened by this platform.
     T: 5) Science Platforms: Tools for Data Discovery and Analysis from Different Angles
    TO: 
-  ABS2 Momcheva, Ivelina 
-    ABS: 
  
 O Morii, Mikio morii@ism.ac.jp Image reconstruction method for an X-ray telescope with an angular resolution booster
     ABS: We propose an image reconstruction method for an X-ray telescope with
@@ -1173,17 +1188,6 @@ sources such as Cas A and Crab Nebula. Through the demonstration, the
 angular resolution booster with the image reconstruction method is
 shown to be feasible.
     T: 12) Algorithms
-   TO: 
- 
-O Muench, August august.muench@aas.org [BOF] Data Citation: from Archives to Science Platforms
-    ABS: As data editors of the AAS Journals we a) see steady growth in  authors using both high-level science and/or multi-purpose generic repositories for storing archival, publication related data & other materials, and b) anticipate an increase in policies that encourage/require authors to make such data persistently available at publication, and c) notice many hiccups in the workflows for data archiving with extant tools and d) are interested in how science platforms and archives plan to support the long term preservation and citation of data produced by their users.
-
-We propose a Birds of a Feather session to discuss these issues across the spectrum of services provided by data archives through the new science platforms. The specific questions this BoF might discuss include: how do the various science platforms and data repositories plan to create persistent, citable objects for data analyzed; how can data citation via a multi-purpose science platform expose and support the concept of transitive credit (Katz 2014) to ensure that the software used on a platform is properly attributed and/or cited; what are the use cases for data citation -- what things get save by whom and when -- regardless if that data were produced on a platform or housed in monolithic space mission database.
-
-The goal of this BoF is then to surface use cases, share implementation ideas, and move us towards policies that would better enable the citation and reuse of the data/software developed as part of the research process.
-
-Katz (2014): https://doi.org/10.5334/jors.be
-    T: 5) Science Platforms: Tools for Data Discovery and Analysis from Different Angles
    TO: 
  
 O Nakazato, Takeshi takeshi.nakazato@nao.ac.jp New Synthesis Imaging Tool for ALMA based on the Sparse Modeling
@@ -1348,13 +1352,6 @@ P Polisensky, Emil emil.polisensky@nrl.navy.mil The VLITE Database Pipeline
     T: 10) Databases and Archives: Challenges and Solutions in the Big Data Era
    TO: 
  
-X Polsterer, Kai kai.polsterer@h-its.org 
-    ABS: 
-    T: 
-   TO: 
-  ABS2 Polsterer, Kai ﻿A Beginners Guide to Machine Learning in Astronomy
-    ABS: ﻿A Beginners Guide to Machine Learning in Astronomy
- 
 P Prix, Reinhard reinhard.prix@aei.mpg.de Efficient FFT-based $\mathcal{F}$-statistic implementation for continuous-gravitational-wave searches
     ABS: We present a highly efficient implementation of the coherent
 $\mathcal{F}$-statistic for continuous gravitational waves, which
@@ -1517,11 +1514,6 @@ We follow the definition of provenance as proposed by the W3C, i.e. that ``prove
 Such provenance information in astronomy is important to enable any scientist to trace back the origin of a dataset (e.g. an image, spectrum, catalog or single points in a spectral energy distribution diagram or a light curve), a document (e.g. an article, a technical note) or a device (e.g. a camera, a telescope), learn about the people and organizations involved in a project and assess the quality as well as the usefulness of the dataset, document or device for her own scientific work.
     T: 11) Quality Assurance of Science Data
    TO: 
- 
-O Shawhan, Peter pshawhan@umd.edu BoF: Data analysis challenges for multi-messenger astrophysics
-    ABS: The recent multi-messenger observations of gravitational-wave and high-energy neutrino sources together with electromagnetic signatures have brought completely new ways for observing the Universe. These are promising a future where advancing physics and astronomy will be enabled by combining observations and data from all across the electromagnetic spectrum, gravitational-waves and neutrinos. We consider the challenges the field is facing in fully utilizing data for multi-messenger astrophysics. Such data come from heterogeneous detector networks and standards and their analysis is often time-critical to guide further observations. In this area, science capabilities depend on the interplay among observation, theory and computational/modeling work. Advances in data science and computing present additional opportunities and considerations in analyzing such data. We invite all ADASS participants in this Birds of a Feather session to engage in an informal discussion on the challenges and opportunities in data analysis for multi-messenger astrophysics.
-    T: 13) Other
-   TO: Birds-of-a-Feather session
  
 O Shen, Robert robert.shen@astronomyaustralia.org.au ASVO MWA project: lower technical barrier to access MWA data
     ABS: The Murchison Widefield Array (MWA) is a low-frequency radio telescope operating between 80 and 300 MHz. The MWA project aims to perform large surveys of the entire southern sky hemisphere and acquire deep observations on targeted regions. For the last five years, the MWA has generated more than 20Pb of raw data, but there has been no easy way for the astronomical community to access this data or for MWA researchers to share data among their collaborators. The ASVO MWA project builds on the previous pilot project and aims to address these issues by reducing the technical barriers for the community to discover, download and use both public and proprietary MWA data. Specifically, the ASVO MWA project has four service components: (1) Calibration component, which allows users to apply a system determined calibration solution to their selected  data products using an IVOA compliant UWS based pipeline; (2) Authentication component, which provides users with a single sign-on via EduGAIN by collaborating with Spherical Cow Group (SCG) on their existing Identify Management Project; (3) VOSpace component, which provides  an IVOA compatible VOSpace service and functionality to enable users to interact with their data in an IVOA compatible environment; (4) MWA web development component, which provides a modern web user experience by enhancing  the existing ASVO MWA pilot GUI and system management interfaces. 
@@ -1715,11 +1707,6 @@ In parallel, several enabling platforms or frameworks have appear in the ecosyst
 This talk aims to summarize the results of our exploration to apply data science workflows to resolve ALMA operations issues, identify suitable platforms that are already in use by the industry, share our experience in addressing specific ALMA operations data cases, and discuss the technical and sociological challenges we encountered along the way.​​
     T: 4) Data Science: Workflows Hardware Software Humanware
    TO: 
- 
-O Tollerud, Erik etollerud@stsci.edu BoF: Open Source/Development Software Projects and Large Organizations/Missions: Recommendations and Challenges
-    ABS: Independent open-develped projects have been growing rapidly in astronomy and related domains - e.g., projects like Astropy, Sunpy, or Scipy. Large astronomy organizations or missions regularly make use of the software products of these projects, and at least in some cases, contribute back. This has the obvious benefit of being able to do more for the scientific community with less effort per mission.  However, there are some challenges in this process - inflexible or agressive deadlines by funded organizations may conflict with the timelines of open source projects, science vs engineering cultural conflicts may make contribution more difficult, mismatch between the needs of the general community and a specific mission, etc.  This BoF session is aimed at discussing exactly these tensions (or others that are brought up in the discussion).  The goal is to draft a set of suggestions that interested parties can take to mission/institution leadership to help resolve these tensions, or at least be able to enter into them with eyes open.
-    T: 2) Management of Large Science Project
-   TO: Also, Open Source
  
 O Tomasi, Maurizio maurizio.tomasi@unimi.it Towards new solutions for scientific computing: the case of Julia
     ABS: This year marks the consolidation of Julia (https://julialang.org/), a programming language designed for scientific computing, as the last version before 1.0 has just been released (0.7). Among its main features, expressiveness and high execution speeds are the most prominent: the performance of Julia code is similar to statically compiled languages, yet Julia provides a nice interactive shell and fully supports Jupyter; moreover, it can transparently call external codes written in C, Fortran, and even Python without the need of wrappers. The usage of Julia in the astronomical community is growing, and a GitHub organization named JuliaAstro takes care of coordinating the development of packages. In this talk, we will provide an overview of Julia and JuliaAstro. We will also provide a real-life example by discussing the implementation of a Julia-only simulation pipeline for a large-scale CMB experiment.
