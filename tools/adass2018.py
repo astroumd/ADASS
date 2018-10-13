@@ -347,7 +347,7 @@ class adass(object):
                 else:
                     print(key,'-',title1)
 
-    def report_3a(self,o1,o2,o3, count=False, dirname='www/abstracts'):
+    def report_3a(self,o1,o2,o3, count=False, dirname='www/abstracts', index=True):
         """ report a selection of presenters based on list of names
             o1 = names
             o2 = codes
@@ -396,6 +396,9 @@ class adass(object):
                     msg = '%s\n' % abstract1             ; fp.write(msg)
                     fp.write(_footer1)
                     fp.close()
+                    if index:
+                        msg = '<A HREF=%s.html>%s </A> <b>%s</b> :  %s<br>' % (c,key,c,title1)
+                        print(msg)
                     
     def report_4(self, full = False, name=None):
         """ report emails only"""
