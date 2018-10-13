@@ -15,6 +15,7 @@ import io
 _p1 = 'ADASS 2018  Submitted Abstracts.xls'  
 _p2 = 'ADASS 2018  2nd Submitted Abstr.xls'
 _p3 = 'ADASS 2018  Total Registrant Re.xls'
+_p4 = 'IVOA Registration (Responses).xlsx'
 
 _header1 = '<html> <body>\n'
 _footer1 = '</body> </html>\n'
@@ -30,10 +31,12 @@ class adass(object):
         self.p1 = dirname + '/' + _p1
         self.p2 = dirname + '/' + _p2
         self.p3 = dirname + '/' + _p3
+        self.p4 = dirname + '/' + _p4        
         # sheets
         (self.x1,self.r1) = self.xopen(self.p1, debug)
         (self.x2,self.r2) = self.xopen(self.p2, debug)
         (self.x3,self.r3) = self.xopen(self.p3, debug)
+        (self.x4,self.r4) = self.yopen(self.p4, debug)
 
     def xopen(self, path, debug=False, status = True):
         """
@@ -76,6 +79,38 @@ class adass(object):
 
         if debug:
             print("Accepted %d entries" % len(s))
+        return (s,row_values)
+
+    def yopen(self, path, debug=False):
+        """
+        Return IVOA names
+        
+        path     file
+        debug    print more
+        
+        """
+
+        book = xlrd.open_workbook(path)
+        ns = book.nsheets
+        s0 = book.sheet_by_index(0)
+        if ns != 1:
+            print("Warning: %s has %d sheets" % (s0,ns))
+        nr = s0.nrows
+        nc = s0.ncols
+        if debug:
+            print("%d x %d in %s" % (nr,nc,path))
+        # find which columns store the first and last name, we key on that
+        row_values = s0.row_values(0)
+        col_name = 1
+        s={}
+        for row in range(2,nr):     # first 3 rows are administrative
+            name = s0.cell(row,col_name).value 
+            if name in s and debug:
+                print("Warning: duplicate entry for %s" % name)
+            s[name] = s0.row(row)
+
+        if debug:
+            print("IVOA Accepted %d entries" % len(s))
         return (s,row_values)
 
     def tab2list(self, filename, use_code=False):
@@ -353,6 +388,16 @@ class adass(object):
                         print(msg)
             else:
                 print(email)
+
+    def report_5(self):
+        """ report IVOA names"""
+
+        keys = list(self.x4.keys())
+        # keys.sort()
+        for key in keys:
+            r = self.x4[key]
+            name = r[1].value
+            print(name)
 
     def report_demo(self):
         """ report who wants demo table
