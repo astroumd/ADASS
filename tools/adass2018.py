@@ -390,11 +390,31 @@ class adass(object):
                     fp = open(fn,'w')
                     fp.write(_header1)
                     msg = '<b>%s: %s</b>\n' % (c, key)   ; fp.write(msg)
-                    msg = '<br>\n'                       ; fp.write(msg)                    
-                    msg = '<b>Time: %s</b>\n' % t        ; fp.write(msg)
-                    msg = '<br>\n'                       ; fp.write(msg)                                        
+                    msg = '<br>\n'                       ; fp.write(msg)
+                    if True:
+                        a1 = self.x1[key][9].value
+                        b1 = self.x1[key][10].value;
+                        if len(b1) > 0: b1 = '(' + b1 + ')'
+                        a2 = self.x1[key][11].value
+                        b2 = self.x1[key][11].value;
+                        if len(b2) > 0: b2 = '(' + b2 + ')'
+                        a3 = self.x1[key][13].value
+                        b3 = self.x1[key][14].value;
+                        if len(b3) > 0: b3 = '(' + b3 + ')'
+                        a4 = self.x1[key][15].value
+                        b4 = self.x1[key][16].value;
+                        if len(b4) > 0: b4 = '(' + b4 + ')'
+                        a5 = self.x1[key][17].value
+                        b5 = self.x1[key][18].value;
+                        if len(b5) > 0: b5 = '(' + b5 + ')'
+                        a6 = self.x1[key][19].value
+                        msg = '%s %s <br> %s %s <br>  %s %s<br>  %s %s<br>  %s %s<br>  %s' % (a1,b1,a2,b2,a3,b3,a4,b4,a5,b5,a6);  fp.write(msg)
+                        msg = '<br><br>\n'                       ; fp.write(msg)                                                                
+                    if c[0] != 'P':
+                        msg = '<b>Time: %s</b>\n' % t        ; fp.write(msg)
+                        msg = '<br>\n'                       ; fp.write(msg)                                        
                     msg = '<i>%s</i>\n' % title1         ; fp.write(msg)
-                    msg = '<br>\n'                       ; fp.write(msg)                                        
+                    msg = '<br><br>\n'                       ; fp.write(msg)                                        
                     msg = '%s\n' % abstract1             ; fp.write(msg)
                     fp.write(_footer1)
                     fp.close()
