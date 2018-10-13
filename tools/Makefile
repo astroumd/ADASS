@@ -113,3 +113,7 @@ diff:
 
 www:
 	git clone https://github.com/astroumd/adass2018.git www
+
+index:
+	cat orals.tab posters.tab  | grep -v ^\# | grep -v TBD |grep -v TDA | sort > all.tab
+	./abstracts.py all.tab  | grep HREF   > www/abstracts/index.html 
