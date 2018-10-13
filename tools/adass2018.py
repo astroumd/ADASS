@@ -120,7 +120,7 @@ class adass(object):
             print("IVOA Accepted %d entries" % len(s))
         return (s,row_values)
 
-    def expand_name(k):
+    def expand_name(self,k):
         """ for a given (nick)name "k" find the full name we use in the hash
         """
         if k == '#':                                    # comment
@@ -336,7 +336,7 @@ class adass(object):
         """
         n=0
         for k in o1:
-            key = expand_name(k)
+            key = self.expand_name(k)
             if key != None:
                 n         = n + 1
                 present   = self.x1[key][22].value
@@ -355,7 +355,7 @@ class adass(object):
         """
         n=0
         for (k,c,t) in zip(o1,o2,o3):
-            key = expand_name(k)
+            key = self.expand_name(k)
             if key != None:
                 n         = n + 1
                 present   = self.x1[key][22].value
