@@ -353,18 +353,6 @@ class adass(object):
             o2 = codes
             o3 = times
         """
-        def expand_name(k):
-            if k == '#':                  # comment
-                return None
-            if k in self.x1.keys():       # full match
-                return k
-            if self.lnames1.count(k) == 1:
-                return self.keys1[self.lnames1.index(k)]
-            # one last try, min. match if 'k' is in lnames[]
-            # for names in lnames:
-            print("# %s" % k)
-            return None
-        
         n=0
         for (k,c,t) in zip(o1,o2,o3):
             key = expand_name(k)
