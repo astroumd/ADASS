@@ -37,6 +37,13 @@ class adass(object):
         (self.x2,self.r2) = self.xopen(self.p2, debug)
         (self.x3,self.r3) = self.xopen(self.p3, debug)
         (self.x4,self.r4) = self.yopen(self.p4, debug)
+        # prepare some lists
+        self.lnames1=[]
+        self.keys1  =[]
+        for key in self.x1.keys():                       # loop over all "Lname, Fname"
+            self.lnames1.append(key[:key.find(',')])     # make a list of all "Lname"
+            self.keys1.append(key)                       # and list of "Lname, Fname"
+        
 
     def xopen(self, path, debug=False, status = True):
         """
@@ -113,6 +120,20 @@ class adass(object):
             print("IVOA Accepted %d entries" % len(s))
         return (s,row_values)
 
+    def expand_name(k):
+        """ for a given (nick)name "k" find the full name we use in the hash
+        """
+        if k == '#':                                    # comment
+            return None
+        if k in self.x1.keys():                         # full match
+            return k
+        if self.lnames1.count(k) == 1:                  # match via last name
+            return self.keys1[self.lnames1.index(k)]
+        # one last try, min. match if 'k' is in lnames[]
+        # for names in lnames:
+        print("# %s" % k)
+        return None
+        
     def tab2list(self, filename, use_code=False):
         """ filename with "NAMES; Code"   - return the [names]
             if <NAMES> is <FNAME LNAME>, it adds them as <LNAME,FNAME>
@@ -155,7 +176,7 @@ class adass(object):
         if use_code:
             return (o2,o3,o4)
         return o2
-
+    
     # switch to makeprogram.py instead
     #def tab2list2(self, filename):
     #    o1 = io.open(filename, encoding="utf-8").readlines()
@@ -313,33 +334,10 @@ class adass(object):
     def report_3(self,o1, invert=False, count=False):
         """ report a selection of presenters based on list of names
         """
-        # prepare list of last names
-        lnames=[]
-        keys  =[]
-        for key in self.x1.keys():
-            lnames.append(key[:key.find(',')])
-            keys.append(key)
-        #print(lnames)
-        #print(keys)
-        #
         n=0
         for k in o1:
-            if k == '#': continue
-            found = False
-            if k in self.x1.keys():
-                # full match
-                found = True
-                key = k
-            else:
-                # try a partial match based on just last name
-                if lnames.count(k) == 1: 
-                    key = keys[lnames.index(k)]
-                    found = True                    
-                else:
-                    # one last try, min. match if 'k' is in lnames[]
-                    # for names in lnames:
-                    print("# %s" % k)
-            if found:
+            key = expand_name(k)
+            if key != None:
                 n         = n + 1
                 present   = self.x1[key][22].value
                 title1    = self.x1[key][23].value
@@ -351,34 +349,26 @@ class adass(object):
 
     def report_3a(self,o1,o2,o3, count=False, dirname='www/abstracts'):
         """ report a selection of presenters based on list of names
+            o1 = names
+            o2 = codes
+            o3 = times
         """
-        # prepare list of last names
-        lnames=[]
-        keys  =[]
-        for key in self.x1.keys():
-            lnames.append(key[:key.find(',')])
-            keys.append(key)
-        #print(lnames)
-        #print(keys)
-        #
+        def expand_name(k):
+            if k == '#':                  # comment
+                return None
+            if k in self.x1.keys():       # full match
+                return k
+            if self.lnames1.count(k) == 1:
+                return self.keys1[self.lnames1.index(k)]
+            # one last try, min. match if 'k' is in lnames[]
+            # for names in lnames:
+            print("# %s" % k)
+            return None
+        
         n=0
         for (k,c,t) in zip(o1,o2,o3):
-            if k == '#': continue
-            found = False
-            if k in self.x1.keys():
-                # full match
-                found = True
-                key = k
-            else:
-                # try a partial match based on just last name
-                if lnames.count(k) == 1: 
-                    key = keys[lnames.index(k)]
-                    found = True                    
-                else:
-                    # one last try, min. match if 'k' is in lnames[]
-                    # for names in lnames:
-                    print("# %s" % k)
-            if found:
+            key = expand_name(k)
+            if key != None:
                 n         = n + 1
                 present   = self.x1[key][22].value
                 title1    = self.x1[key][23].value
