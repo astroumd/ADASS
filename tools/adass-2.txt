@@ -1,11 +1,11 @@
-224 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+225 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 220 entries
-8 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
-Accepted 5 entries
-321 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 221 entries
+9 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
+Accepted 6 entries
+322 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 296 entries
+Accepted 297 entries
 109 x 5 in reg/IVOA Registration (Responses).xlsx
 IVOA Accepted 107 entries
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
@@ -38,6 +38,7 @@ O Brasseur, Clara cbrasseur@stsci.edu AstroCut: A cutout service for TESS full-f
 P Brown, Matthew mbrown@keck.hawaii.edu Streamlining Pipeline Workflows: Using Python with an Object-Oriented Approach to Consolidate Aggregate Pipeline Processes
 O Buchschacher, Nicolas nicolas.buchschacher@unige.ch No-SQL databases: An efficient way to store and query heterogeneous astronomical data in DACE.
 O Burnier, Julien julien.burnier@unige.ch Development, tests and deployment of web application in DACE
+P Bushouse, Howard bushouse@stsci.edu The JWST Data Calibration Pipeline
 X Cai, Hongbo chb@bao.ac.cn 
 O Cano, Juan Luis juanlu001@gmail.com Full Stack Data Science: Using Python to download, clean, analyze and visualize Gaia data
 P Cardiel, Nicolás cardiel@ucm.es Rectification and wavelength calibration of EMIR spectroscopic data with Python
@@ -220,6 +221,7 @@ O Tomasi, Maurizio maurizio.tomasi@unimi.it Towards new solutions for scientific
 P Torres, Simón storres@ctio.noao.edu An on-site data reduction pipeline for the Goodman Spectrograph
 P Tsutsumi, Takahiro ttsutsum@nrao.edu Development of auto-multithresh: an automated masking algorithm for deconvolution in CASA
 X Vahi, Karan vahi@isi.edu Workflows Management using Pegasus
+  ABS2 Vahi, Karan Enabling Weak Gravitational Lensing Pipelines using Pegasus
 O Vitello, Fabio fabio.vitello@inaf.it VisIVO Visual Analytics Tool an EOSC Science Demonstrator for data discovery
 P Wang, Rui wangrui@nao.cas.cn Analysis of Stellar Spectra from LAMOST DR5 with Generative Spectrum Networks
 P Wicenec, Andreas andreas.wicenec@uwa.edu.au The Murchison Widefield Array's VO compliant archive

@@ -1,11 +1,11 @@
-224 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+225 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 220 entries
-8 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
-Accepted 5 entries
-321 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 221 entries
+9 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
+Accepted 6 entries
+322 x 37 in reg/ADASS 2018  Total Registrant Re.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 296 entries
+Accepted 297 entries
 109 x 5 in reg/IVOA Registration (Responses).xlsx
 IVOA Accepted 107 entries
  
@@ -232,6 +232,12 @@ To achieve this result, we migrated our Java application to the Maven software p
 Once all the tests are validated, a manual action on the GitLab interface can be done to deploy the application on the official web site and we ensure the compatibility of the new features with the production version.
 We are currently working to have a very complete set of tests on both back and front end in order to remove the manual part of production deployment and to have a fully automated integration of our applications.
     T: 6) DevOps Practices in Astronomy Software
+   TO: 
+ 
+P Bushouse, Howard bushouse@stsci.edu The JWST Data Calibration Pipeline
+    ABS: STScI is developing the software systems that will provide routine calibration of the science data received from the James Webb Space Telescope (JWST). The processing uses an environment provided by a Python module called stpipe that
+provides many common services to each calibration step, relieving step developers from having to implement such functionality. The stpipe module provides common configuration handling, parameter validation and persistence, and I/O management. Individual steps are written as Python classes that can be invoked individually from within Python or from the stpipe command line. Any set of step classes can be configured into a pipeline, with stpipe handling the flow of data between steps. The stpipe environment includes the use of standard data models. The data models, defined using yaml schema, provide a means of validating the correct format of the data files presented to the pipeline, as well as presenting an abstract interface to isolate the calibration steps from details of how the data are stored on disk.
+    T: 12) Algorithms
    TO: 
  
 X Cai, Hongbo chb@bao.ac.cn 
@@ -1775,6 +1781,8 @@ support for Jupyter notebooks, that allows users to compose and monitor workflow
 Jupyter notebook.
     T: 4) Data Science: Workflows Hardware Software Humanware
    TO: 
+  ABS2 Vahi, Karan Enabling Weak Gravitational Lensing Pipelines using Pegasus
+    ABS: Enabling Weak Gravitational Lensing Pipelines using Pegasus
  
 O Vitello, Fabio fabio.vitello@inaf.it VisIVO Visual Analytics Tool an EOSC Science Demonstrator for data discovery
     ABS: VisIVO is an integrated suite of tools and services for data discovery that include collaborative portals, mobile applications, visual analytics tool and a number of key components such as workflow applications, analysis and data mining functionalities.
@@ -1807,7 +1815,7 @@ This research infrastructure is currently foreseen to take the form of a federat
    TO: 
  
 P Woods, Paul paul.woods@nature.com Software and data policies for Nature journals
-    ABS: I briefly summarise the current code and data availability policies that apply to Nature, Nature Astronomy, Nature Geoscience and other Nature journals.
+    ABS: I briefly summarise the current code and data availability policies that apply to Nature, Nature Astronomy, Nature Geoscience and other Nature journals. Full policies can be found at: https://www.nature.com/authors/policies/availability.html
     T: 13) Other
    TO: Policy
  
