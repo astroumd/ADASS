@@ -331,7 +331,7 @@ class adass(object):
             demo_booth = r[26+self.off].value
             print(present,key,'f=%s' % focus_demo,'d=%s' % demo_booth)
 
-    def report_3(self,o1, invert=False, count=False):
+    def report_3(self,o1, count=False):
         """ report a selection of presenters based on list of names
         """
         n=0
@@ -429,6 +429,18 @@ class adass(object):
             name = r[1].value
             print(name)
 
+    def report_6(self,o1, col=0):
+        """ report a column
+        """
+        n=0
+        for k in o1:
+            if k in self.x3.keys():
+                txtcol= self.x3[k][col].value
+                msg = '%-33s %s' % (k,txtcol)
+                print(msg)
+            else:
+                print('#', k)
+                
     def report_demo(self):
         """ report who wants demo table
         """
@@ -446,14 +458,15 @@ class adass(object):
 
  
 if __name__ == "__main__":
-
-    import io
     
-    debug = True
-    a = adass('reg', debug)
+    a = adass('reg')
     
-    if len(sys.argv) == 2:
+    if len(sys.argv) == 3:                  # specific colum from registration
+        o1 = a.tab2list(sys.argv[1])
+        col = int(sys.argv[2])
+        a.report_6(o1,col)
+    elif len(sys.argv) == 2:                # titles 
         o1 = a.tab2list(sys.argv[1])
         a.report_3(o1,False)
-    else:
-        a.report_1(False)
+    else:                                   # all , one or two liner
+        a.report_1(False)                 
