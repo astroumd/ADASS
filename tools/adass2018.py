@@ -426,14 +426,15 @@ class adass(object):
             key = self.expand_name(k)
             if key != None:
                 n         = n + 1
+                email     = self.x1[key][6].value
                 present   = self.x1[key][22].value
                 title1    = self.x1[key][23].value
                 abstract1 = self.x1[key][24].value
                 if count:
                     print(n,key,present,title1)
                 else:
-                    msg = '\\section*{%s: %s}\n' % (c, key)   ; fp.write(msg)
-                    msg = '\\bigskip\n'                       ; fp.write(msg)
+                    msg = '\\subsection*{%s: %s}\n' % (c, title1); fp.write(msg)
+                    msg = '\\bigskip\n'                          ; fp.write(msg)
                     if True:
                         a1 = self.x1[key][9].value
                         b1 = self.x1[key][10].value;
@@ -458,7 +459,8 @@ class adass(object):
                     if c[0] != 'P':
                         msg = '{\\bf Time:} %s\\newline\n' % t        ; fp.write(latex(msg))
                         msg = '\\newline\n'                           ; fp.write(latex(msg))
-                    msg = '{\\it %s}\\newline\n' % title1             ; fp.write(latex(msg))
+                    # msg = '{\\it %s}\\newline\n' % title1             ; fp.write(latex(msg))
+                    msg = '{\\it %s}\\newline\n' % email              ; fp.write(latex(msg))                    
                     msg = '\\newline\\newline\n'                      ; fp.write(latex(msg))
                     msg = '%s\\newline\n\\newpage\n' % abstract1      ; fp.write(latex(msg))
         fp.write(_footer2)
