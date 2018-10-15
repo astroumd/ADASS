@@ -374,7 +374,7 @@ class adass(object):
                         b1 = self.x1[key][10].value;
                         if len(b1) > 0: b1 = '(' + b1 + ')'
                         a2 = self.x1[key][11].value
-                        b2 = self.x1[key][11].value;
+                        b2 = self.x1[key][12].value;
                         if len(b2) > 0: b2 = '(' + b2 + ')'
                         a3 = self.x1[key][13].value
                         b3 = self.x1[key][14].value;
