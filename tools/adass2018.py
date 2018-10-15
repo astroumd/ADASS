@@ -9,7 +9,7 @@ from __future__ import print_function
 import xlrd
 import sys
 import io
-
+import datetime
 
 # names of the 3 sheets we got from C&VS (notice the 31 character limit of the basename)
 _p1 = 'ADASS 2018  Submitted Abstracts.xls'  
@@ -20,8 +20,11 @@ _p4 = 'IVOA Registration (Responses).xlsx'
 _header1 = '<html> <body>\n'
 _footer1 = '</body> </html>\n'
 
+_header2 = """\\documentclass{report}\n
+              \\usepackage{a4wide}\n
+              \\begin{document}\n
+           """
 
-_header2 = '\\documentstyle{report}\n\\begin{document}\n'
 _footer2 = '\\end{document}\n'
 
 
@@ -411,15 +414,18 @@ class adass(object):
             o3 = times
         """
         def latex(text):
+            """ attempt to turn text into latex
+            """
             text = text.replace('_','\_')
             text = text.replace('&','\&')
             text = text.replace('#','\#')
-            text = text.replace('^','$^$')
+            text = text.replace('^','\^')
             
             return text
         fn = dirname + '/' + 'abstracts.tex'
         fp = open(fn,'w')
         fp.write(_header2)
+        fp.write('Generated %s\\newline\n\n' % datetime.datetime.now().isoformat())
         
         n=0
         for (k,c,t) in zip(o1,o2,o3):
