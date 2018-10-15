@@ -9,7 +9,7 @@ from __future__ import print_function
 import xlrd
 import sys
 import io
-
+import datetime
 
 # names of the 3 sheets we got from C&VS (notice the 31 character limit of the basename)
 _p1 = 'ADASS 2018  Submitted Abstracts.xls'  
@@ -19,6 +19,13 @@ _p4 = 'IVOA Registration (Responses).xlsx'
 
 _header1 = '<html> <body>\n'
 _footer1 = '</body> </html>\n'
+
+_header2 = """\\documentclass{report}\n
+              \\usepackage{a4wide}\n
+              \\begin{document}\n
+           """
+
+_footer2 = '\\end{document}\n'
 
 
 
@@ -402,6 +409,71 @@ class adass(object):
                     if index:
                         msg = '<A HREF=%s.html>%s </A> <b>%s</b> :  %s<br>' % (c,key,c,title1)
                         print(msg)
+                    
+    def report_3b(self,o1,o2,o3, count=False, dirname='www/abstracts'):
+        """ report a selection of presenters based on list of names - latex version of report_3a
+            o1 = names
+            o2 = codes
+            o3 = times
+        """
+        def latex(text):
+            """ attempt to turn text into latex
+            """
+            text = text.replace('_','\_')
+            text = text.replace('&','\&')
+            text = text.replace('#','\#')
+            text = text.replace('^','\^')
+            
+            return text
+        fn = dirname + '/' + 'abstracts.tex'
+        fp = open(fn,'w')
+        fp.write(_header2)
+        fp.write('Generated %s\\newline\n\n' % datetime.datetime.now().isoformat())
+        
+        n=0
+        for (k,c,t) in zip(o1,o2,o3):
+            key = self.expand_name(k)
+            if key != None:
+                n         = n + 1
+                email     = self.x1[key][6].value
+                present   = self.x1[key][22].value
+                title1    = self.x1[key][23].value
+                abstract1 = self.x1[key][24].value
+                if count:
+                    print(n,key,present,title1)
+                else:
+                    msg = '\\subsection*{%s: %s}\n' % (c, title1); fp.write(msg)
+                    msg = '\\bigskip\n'                          ; fp.write(msg)
+                    if True:
+                        a1 = self.x1[key][9].value
+                        b1 = self.x1[key][10].value;
+                        if len(b1) > 0: b1 = '(' + b1 + ')'
+                        a2 = self.x1[key][11].value
+                        b2 = self.x1[key][12].value;
+                        if len(b2) > 0: b2 = '(' + b2 + ')'
+                        a3 = self.x1[key][13].value
+                        b3 = self.x1[key][14].value;
+                        if len(b3) > 0: b3 = '(' + b3 + ')'
+                        a4 = self.x1[key][15].value
+                        b4 = self.x1[key][16].value;
+                        if len(b4) > 0: b4 = '(' + b4 + ')'
+                        a5 = self.x1[key][17].value
+                        b5 = self.x1[key][18].value;
+                        if len(b5) > 0: b5 = '(' + b5 + ')'
+                        a6 = self.x1[key][19].value
+                        msg = '%s %s \\newline %s %s \\newline  %s %s\\newline  %s %s\\newline %s %s\\newline  %s' % (a1,b1,a2,b2,a3,b3,a4,b4,a5,b5,a6);
+                        fp.write(latex(msg))
+                        msg = '\\newline\\newline\n'                       ;
+                        fp.write(latex(msg))                                                                
+                    if c[0] != 'P':
+                        msg = '{\\bf Time:} %s\\newline\n' % t        ; fp.write(latex(msg))
+                        msg = '\\newline\n'                           ; fp.write(latex(msg))
+                    # msg = '{\\it %s}\\newline\n' % title1             ; fp.write(latex(msg))
+                    msg = '{\\it %s}\\newline\n' % email              ; fp.write(latex(msg))                    
+                    msg = '\\newline\\newline\n'                      ; fp.write(latex(msg))
+                    msg = '%s\\newline\n\\newpage\n' % abstract1      ; fp.write(latex(msg))
+        fp.write(_footer2)
+        fp.close()
                     
     def report_4(self, full = False, name=None):
         """ report emails only"""
