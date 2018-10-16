@@ -34,7 +34,7 @@ class Program(object):
      
 
   def tohtml(self,days):
-    colors = {"C": "lightblue", "L": "yellow", "F":"#ddd", "I":"orange", "Q":"lightgreen"}
+    colors = {"C": "lightblue", "L": "yellow", "F":"#ddd", "I":"orange", "Q":"lightgreen", "B":"yellow"}
 
     head = '<!DOCTYPE html> <html lang="en">\n <head>\n <!-- Required meta tags --> \n <meta name="viewport" content="width=device-width, initial-scale=1, shrink-t o-fit=no">\n <title>ADASS XXVIII Program</title>\n <!-- Bootstrap CSS -->\n <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css" >\n <!-- Icon -->\n <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">\n <!-- Slicknav -->\n <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">\n <!-- Nivo Lightbox -->\n <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >\n <!-- Animate -->\n <link rel="stylesheet" type="text/css" href="assets/css/animate.css">\n <!-- Main Style -->\n <link rel="stylesheet" type="text/css" href="assets/css/main.css">\n <!-- Responsive Style -->\n <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">\n   <!-- Custom styles for this template -->\n <link href="css/modern-business.css" rel="stylesheet">\n </head> <body>'
 
