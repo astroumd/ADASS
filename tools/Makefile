@@ -97,7 +97,7 @@ count:
 #       or grab the 3 files from our LOC google drive folder "registration" and
 #       symlink with 'reg' since that's a hardcoded name here 
 reg:
-	ln -sf ~/Dropbox/adass2018 reg
+	rm reg; ln -sf ~/Dropbox/adass2018
 
 # commit
 gitci:
@@ -114,6 +114,19 @@ diff:
 www:
 	git clone https://github.com/astroumd/adass2018.git www
 
-index:
+# index1 should be last, so the abstracts.tex are alphabetical
+index:	 index2  index1
+	pdflatex www/abstracts/abstracts.tex
+
+index1:
 	cat orals.tab posters.tab  | grep -v ^\# | grep -v TBD |grep -v TDA | sort > all.tab
-	./abstracts.py all.tab  | grep HREF   > www/abstracts/index.html 
+	./abstracts.py all.tab  | grep HREF   > www/abstracts/index1.html
+
+index2:
+	@echo '# ' > all.tab
+	for s in 1 2 3 4 5 6 7 8 9 10 11 12 13; do\
+		(grep '; I'$$s'\.' orals.tab   >> all.tab;\
+		 grep '; O'$$s'\.' orals.tab   >> all.tab;\
+		 grep '; P'$$s'\.' posters.tab >> all.tab); done
+	grep '; F' orals.tab                   >> all.tab
+	./abstracts.py all.tab  | grep HREF   > www/abstracts/index2.html
