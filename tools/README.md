@@ -35,19 +35,44 @@ Where 1,2,3 can be zero, one, two or three selected
  
   Tutorial (independant, not via a form)
 
+## Emails
+
+Example to send mass mail:
+
+./mailer.py email2.txt test1 email2.tab EMAIL
+
+in this case the email2.tab just has one column. If you have more columns, you can do
+
+./mailer.py email3.txt test123 email3.tab EMAIL,NAME,TITLE
+
+Real example:
+
+./mailer.py email2.txt "ADASS deadlines today" adass-1.txt EMAIL
+
+
 ## Names
 
 We designate 
 
-Bn   = BoF (Birds of a Feather) (8?)      B1...B8
-Dn   = demo booth (6?)                    D1...
-Fn   = focus demo (4?)                    F1...
-Is   = invited talk (12/13)               Is  (by session number s=1..13)
+Bn   = BoF (Birds of a Feather) (8?)      B1...
+Dn   = demo booth (11)                    D1...
+Fn   = focus demo (5)                     F1...
+Is.c = invited talk (13)                  Is.c (by session number s=1..13)
 Os.c = oral contribtution (36?)           Os.c (s=session c=contribution)
 Ps.c = poster (???)                       Ps.c (s=session c=contribution)
 Tn   = tutorial (4)                       T1...4
 
 ## Layout of contributions
+
+## Adding abstracts after the fact
+
+Fact of life.... a pain. I kept a reg->reg_dropbox or reg->reg_final.
+If the official version in reg_dropbox was updated with an abstract, copy the row in
+registration (x3 in python) and the abstract (x1 in python) to their respective sheets
+in reg_final, which is the frozen version.
+
+In the end we used reg_dropbox for the list of people, and reg_final for the abstracts, just
+to have more control. That one you can also use for editing.
 
 ## Using this software
 
