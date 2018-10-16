@@ -423,8 +423,9 @@ class adass(object):
             text = text.replace('&','\&')
             text = text.replace('#','\#')
             text = text.replace('^','\^')
-            
+            text = text.replace('%','\%')            
             return text
+        
         fn = dirname + '/' + 'abstracts.tex'
         fp = open(fn,'w')
         fp.write(_header2)
