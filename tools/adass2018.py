@@ -48,10 +48,12 @@ class adass(object):
         self.lnames1=[]
         self.keys1  =[]
         self.titles = dict()
+        self.abstracts = dict()
         for key in self.x1.keys():                       # loop over all "Lname, Fname"
             ln = key[:key.find(',')]
             self.lnames1.append(ln)     # make a list of all "Lname"
             self.titles[ln] = self.x1[key][23].value # makeprogram needs hash of last name and title
+            self.abstracts[ln] = self.x1[key][24] # makeprogram needs hash of last name and abstract
             self.keys1.append(key)                       # and list of "Lname, Fname"
         
 
