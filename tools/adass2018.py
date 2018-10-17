@@ -10,6 +10,7 @@ import xlrd
 import sys
 import io
 import datetime
+from string import Template
 
 # names of the 3 sheets we got from C&VS (notice the 31 character limit of the basename)
 _p1 = 'ADASS 2018  Submitted Abstracts.xls'  
@@ -475,6 +476,60 @@ class adass(object):
                     msg = '%s\\newline\n\\newpage\n' % abstract1      ; fp.write(latex(msg))
         fp.write(_footer2)
         fp.close()
+                    
+    def report_3c(self,o1,o2,o3, template='template.tex', dirname='papers'):
+        """ write a template conferences proceedings contribution
+            o1 = names
+            o2 = codes
+            o3 = times
+        """
+        def latex(text):
+            """ attempt to turn text into latex
+            """
+            text = text.replace('_','\_')
+            text = text.replace('&','\&')
+            text = text.replace('#','\#')
+            text = text.replace('^','\^')
+            text = text.replace('%','\%')            
+            return text
+        def read_template(filename):
+            # with open(filename, 'r', encoding='utf-8') as template_file:
+            with open(filename, 'r') as template_file:
+                template_file_content = template_file.read()
+            return Template(template_file_content)
+
+        T_paper = read_template(template)
+ 
+        n=0
+        for (k,c,t) in zip(o1,o2,o3):
+            key = self.expand_name(k)
+            if key != None:
+                n         = n + 1
+                fname     = self.x1[key][3].value
+                lname     = self.x1[key][4].value
+                iname     = self.x1[key][5].value
+                email     = self.x1[key][6].value
+                title1    = latex(self.x1[key][23].value)
+                abstract1 = latex(self.x1[key][24].value)
+                kwargs = {}
+                kwargs['FNAME']    = fname
+                kwargs['LNAME']    = lname
+                kwargs['INAME']    = iname
+                kwargs['EMAIL']    = email
+                kwargs['TITLE']    = title1
+                kwargs['ABSTRACT'] = abstract1
+                kwargs['F1']       = '$^1$'
+                kwargs['F2']       = '$^2$'
+                kwargs['F3']       = '$^3$'
+                kwargs['LENA']     = str(len(abstract1))
+                kwargs['LENW']     = ""
+                
+                t1 = T_paper.substitute(**kwargs)
+                fn = dirname + '/' + c + '.tex'
+                print("Writing %s" % fn)
+                fp = open(fn,'w')
+                fp.write(t1)
+                fp.close()
                     
     def report_4(self, full = False, name=None):
         """ report emails only"""
