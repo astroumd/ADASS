@@ -1,5 +1,5 @@
-| last                   | first          |   institution                  |  session | code    | day         | start | end    | title |
-|  char                  | char           |   char                         |  char    | char    | char        | char  | char   | char  |
+| last                   | first          |   institution                  |  session | code    | day         | start | end    | title |    abstract  |
+|  char                  | char           |   char                         |  char    | char    | char        | char  | char   | char  |    char      |
  Check-in                   Tutorials                                          0         Q         Sunday        12.00   13.00
  1 &amp; 2                  Tutorials                                          0         T1        Sunday        13.00   15.00
  Break                      Coffee                                             0         C0        Sunday        15.00   15.30
@@ -22,7 +22,7 @@
  Dencheva                   Nadia           STScI                              3         O12.3     Monday        14.00   14.15
  Lam                        Cheuk Yin       Liverpool Telescope                3         O12.4     Monday        14.15   14.30
  Plante                     Ray             NIST                               3         I11.1     Monday        14.30   15.00
- Poster Session             Coffee Break/                                      0         C2        Monday        15.00   15.30
+ Poster Session             Coffee Break/                                      0         C2        Monday        15.00   16.00
  Raddick                    Michael         Johns Hopkins U.                   0         F2        Monday        15.30   16.00
  Diaz                       Rosa            STScI                              4         O11.1     Monday        16.00   16.15
  Landais                    Gilles          CDS/ObAS                           4         O11.2     Monday        16.15   16.30
@@ -36,17 +36,18 @@
  Brasseur                   Clara           STSci                              5         O10.1     Tuesday       09.30   09.45
  Zecevic                    Petar           Univ. of Zagreb                    5         O10.2     Tuesday       09.45   10.00
  Buchschacher               Nicolas         Univ. of Geneva                    5         O10.3     Tuesday       10.00   10.15
- Poster Session             Coffee Break/                                      0         C3        Tuesday       10.15   10.45
+ Poster Session             Coffee Break/                                      0         C3        Tuesday       10.15   11.15
  Joliet                     Emmanuel        IPAC/Caltech                       0         F3        Tuesday       10.45   11.15
  Holman                     Matthew         CfA                                6         I7.1      Tuesday       11.15   11.45
  Racero                     Elena           ESAC - Serco                       6         O7.1      Tuesday       11.45   12.00
  Raugh                      Anne            Univ. of Maryland                  6         O7.2      Tuesday       12.00   12.15
  Talks                      Lightning                                          0         LT3       Tuesday       12.15   12.30
- (Provided)                 Lunch                                              0         Q         Tuesday       12.30   14.00
+ Photo                      Conference                                         0         Q         Tuesday       12.30   12.45
+ (Provided)                 Lunch                                              0         Q         Tuesday       12.45   14.00
  Lieu                       Maggie          ESA                                7         I1.1      Tuesday       14.00   14.30
  Ansdell                    Megan           UC Berkeley                        7         O1.1      Tuesday       14.30   14.45
  Nikolic                    Bojan           Univ. of Cambridge                 7         O1.2      Tuesday       14.45   15.00
- Poster Session             Coffee Break/                                      0         C4        Tuesday       15.00   15.30
+ Poster Session             Coffee Break/                                      0         C4        Tuesday       15.00   16.00
  Good                       John            Caltech/IPAC-NExScI                0         F4        Tuesday       15.30   16.00
  Gilda                      Sankalp         Carnegie Mellon University         8         O1.3      Tuesday       16.00   16.15
  Dai                        Cong            Beijing Normal University          8         O1.4      Tuesday       16.15   16.30
@@ -59,7 +60,7 @@
  Gonzalez-Nuñez             Juan            European Space Agency              9         O10.6     Wednesday     09.30   09.45
  Graves                     Sarah           East Asian Observatory             9         O10.7     Wednesday     09.45   10.00
  Allen                      Alice           Astrophysics Source Code Libr      9         O13.1     Wednesday     10.00   10.15
- Poster Session             Coffee Break/                                      0         C4        Wednesday     10.15   10.45
+ Poster Session             Coffee Break/                                      0         C4        Wednesday     10.15   11.15
  Vahi                       Karen           Pegasus Team - USC/ISI             0         F5        Wednesday     10.45   11.15
  Prizewinner                Hackathon                                          10        H1        Wednesday     11.15   11.20
  Nebot                      Ada             CDS/ObAS                           10        I8.1      Wednesday     11.20   11.50
