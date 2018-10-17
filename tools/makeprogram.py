@@ -7,12 +7,12 @@ from html.entities import codepoint2name
 
 class Program(object):
 
-  def __init__(self,infile):
+  def __init__(self,infile,format):
     self._file = infile
-    #self._t = Table.read(infile,format='ipac',encoding='utf-8')
-    self._t = Table.read(infile,format='ipac')
+    self._t = Table.read(infile,format=format)
     self._df = self._t.to_pandas()
     self.a = None
+    self.abstracts = dict()
     codecs.register_error('html_replace', self.html_replace)
 
   def _getadass(self):
@@ -23,17 +23,30 @@ class Program(object):
     if self.a == None:
        self._getadass()
     titles = []
+    a1 = []
     for c in self._t["last"]:
        #print(c)
        z = self.a.titles.get(c,"TBD")
        titles.append(z)
-    self._t['title'] = titles
+       #zz = self.a.abstracts.get(c,"TBD")
+       #abstracts.append(zz)
+       if c in self.a.abstracts:
+           self.abstracts[c]  = self.a.abstracts[c]
+           a1.append(self.abstracts[c])
+       else:
+           a1.append("UGH1")
+         
 
-  def write(self,file):
-    self._t.write(file,overwrite=True,format='ipac')
+    self._t['title'] = titles
+    self._t['abstract'] = a1
+    self._df = self._t.to_pandas()
+
+  def write(self,file,format):
+    self._t.write(file,overwrite=True,format=format)
      
 
   def tohtml(self,days):
+    fp = codecs.open('program.html','w','utf-8')
     colors = {"C": "lightblue", "L": "yellow", "F":"#ddd", "I":"orange", "Q":"lightgreen", "B":"yellow"}
 
     head = '<!DOCTYPE html> <html lang="en">\n <head>\n <!-- Required meta tags --> \n <meta name="viewport" content="width=device-width, initial-scale=1, shrink-t o-fit=no">\n <title>ADASS XXVIII Program</title>\n <!-- Bootstrap CSS -->\n <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css" >\n <!-- Icon -->\n <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">\n <!-- Slicknav -->\n <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">\n <!-- Nivo Lightbox -->\n <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >\n <!-- Animate -->\n <link rel="stylesheet" type="text/css" href="assets/css/animate.css">\n <!-- Main Style -->\n <link rel="stylesheet" type="text/css" href="assets/css/main.css">\n <!-- Responsive Style -->\n <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">\n   <!-- Custom styles for this template -->\n <link href="css/modern-business.css" rel="stylesheet">\n </head> <body>'
@@ -44,7 +57,7 @@ class Program(object):
 
     tabstart='<div class="schedule-tab-content col-md-9 col-lg-9 col-xs-12 clearfix"> <div class="tab-content" id="myTabContent">'
 
-    print("%s\n%s\n%s\n" %(head,begin,tabstart))
+    fp.write(("%s\n%s\n%s\n" %(head,begin,tabstart)))
 
     for theday in days:
       xdf = self._df[(self._df['day']==theday)]
@@ -56,35 +69,54 @@ class Program(object):
       accordion_start='<div id="accordion">'
       accordion_end   ='</div><!-- accordion -->\n</div><!-- end %s -->' %(theday)
 
-      print(tabopen)
-      print(accordion_start)
+      #print(tabopen)
+      #print(accordion_start)
+      fp.write(tabopen)
+      fp.write(accordion_start)
       for row_index,row in xdf.iterrows():
+            key = row['last']
             talkid        = row['code']
-            speaker_first = self.encode_for_html(row['first']).decode('utf-8').replace("&amp;","&");
-            speaker_last  = self.encode_for_html(row['last']).decode('utf-8').replace("&amp;","&");
+            speaker_first = self.encode_for_html(row['first']).decode('utf-8').replace("&amp;","&")
+            speaker_last  = self.encode_for_html(row['last']).decode('utf-8').replace("&amp;","&")
+            speaker_first = row['first']
+            speaker_last  = key
             title         = row['title']
             time_start    = row['start']
             time_end      = row['end']
-            abstract      = row['last'] + ' Abstract here'
+            #abstract      = self.a.abstracts.get(key,"TBD")
+            if key in self.abstracts:
+                abstract      = self.abstracts[key].value
+            else:
+                abstract = "TBD"
+           
+            #if key in self.a.x1:
+            #    abstract      = self.a.x1[key][24].value
 
             if talkid[0] == "C" or talkid[0] == "L" or talkid[0] == "Q":
                 card = '<div class="card"> \n<div id="heading%s"> <div class="card-header" style="background-color:%s;">\n <table class="table table-borderless p-0 m-0"><tr><td><h5 align="left">%s&ndash;%s</h5></td><td> <h5 align="left">%s %s</h5></td></tr> </table> \n</div></div></div>\n\n' %(talkid,colors[talkid[0]],time_start,time_end,speaker_first,speaker_last)
 
+                fp.write(card)
             else:
                 c = colors.get(talkid[0],"#ffffff")
-                card = '<div class="card"> \n<div id="heading%s"> <div class="collapsed card-header" style="background-color:%s;" data-toggle="collapse" data-target="#collapse%s" aria-expanded="false" aria-controls="collapse%s">\n <table class="table table-borderless p-0 m-0"><tr><td><h5 class="text-left">%s&ndash;%s</h5></td><td> <h5 class="text-left">%s %s &nbsp; <i>%s</i></h5></td></tr> </table> \n</div> </div>\n\n <div id="collapse%s" class="collapse" aria-labelledby="heading%s" data-parent="#accordion"> <div class="card-body"> <p>%s</p> </div> </div></div>\n\n' %(talkid,c,talkid,talkid,time_start,time_end,speaker_first,speaker_last,title,talkid,talkid,abstract)
+                card1 = '<div class="card"> \n<div id="heading%s"> <div class="collapsed card-header" style="background-color:%s;" data-toggle="collapse" data-target="#collapse%s" aria-expanded="false" aria-controls="collapse%s">\n <table class="table table-borderless p-0 m-0"><tr><td><h5 class="text-left">%s&ndash;%s</h5></td><td> <h5 class="text-left">%s %s &nbsp; <i>%s</i></h5></td></tr> </table> \n</div> </div>\n\n <div id="collapse%s" class="collapse" aria-labelledby="heading%s" data-parent="#accordion"> <div class="card-body"><p>' %(talkid,c,talkid,talkid,time_start,time_end,speaker_first,speaker_last,title,talkid,talkid)
+#                card = '<div class="card"> \n<div id="heading%s"> <div class="collapsed card-header" style="background-color:%s;" data-toggle="collapse" data-target="#collapse%s" aria-expanded="false" aria-controls="collapse%s">\n <table class="table table-borderless p-0 m-0"><tr><td><h5 class="text-left">%s&ndash;%s</h5></td><td> <h5 class="text-left">%s %s &nbsp; <i>%s</i></h5></td></tr> </table> \n</div> </div>\n\n <div id="collapse%s" class="collapse" aria-labelledby="heading%s" data-parent="#accordion"> <div class="card-body"> <p>%s</p> </div> </div></div>\n\n' %(talkid,c,talkid,talkid,time_start,time_end,speaker_first,speaker_last,title,talkid,talkid,abstract)
+                card2="</p></div></div></div>\n\n"
 
-            print(card)
-      print(accordion_end)
+                fp.write(card1)
+                fp.write(abstract)
+                fp.write(card2)
+      fp.write(accordion_end)
 
-    print(end_sched)
-    print(end_html)
+    fp.write(end_sched)
+    fp.write(end_html)
+    fp.close()
 
   ###########################################################
   # utf-8 to html encoding
   # @See https://www.safaribooksonline.com/library/view/python-cookbook-2nd/0596007973/ch01s24.html
   def html_replace(self,exc):
       if isinstance(exc, (UnicodeEncodeError, UnicodeTranslateError)):
+          print(exc)
           s = [ u'&amp;%s;' % codepoint2name[ord(c)]
                 for c in exc.object[exc.start:exc.end] ]
           return ''.join(s), exc.end
@@ -99,9 +131,8 @@ class Program(object):
 if __name__ == "__main__":
     _days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday']
     
-    if True:
-        p = Program('orals2.ipac')
-        p.maketitle()
-        p.write('program.ipac')
-    p = Program('program.ipac')
+    p = Program('orals2.ipac','ipac')
+    p.maketitle()
+    p.write('program.vot','votable')
+    #p.write('program.ipac','ipac') Exception
     p.tohtml(_days)
