@@ -59,6 +59,7 @@ mdelgado@ast.cam.ac.uk
 james.dempsey@csiro.au
 dencheva@stsci.edu
 sebastien.derriere@astro.unistra.fr
+desai@ipac.caltech.edu
 shubhand@cs.cmu.edu
 deul@strw.leidenuniv.nl
 rdiaz@stsci.edu
@@ -68,10 +69,10 @@ pdowler.cadc@gmail.com
 christoph.dreissigacker@aei.mpg.de
 kduprie@stsci.edu
 dubois@stanford.edu
+gpdf@ipac.caltech.edu
 daniel_durand@mac.com
 rick@ipac.caltech.edu
 ebisawa@isas.jaxa.jp
-heinz-bernd.eggenstein@aei.mpg.de
 satoshieguchi@fukuoka-u.ac.jp
 eisenhamer@stsci.edu
 bjornemonts@gmail.com
@@ -83,6 +84,7 @@ Pierre.Fernique@astro.unistra.fr
 fitz@noao.edu
 ebf11@psu.edu
 carlos.gabriel@sciops.esa.int
+ktg25@cam.ac.uk
 julio.gallegos@sciops.esa.int
 severin.gaudet@nrc-cnrc.gc.ca
 vincent.geers@stfc.ac.uk
@@ -98,6 +100,7 @@ grange@astron.nl
 s.graves@eaobservatory.org
 kirillg6@gmail.com
 sgroom@ipac.caltech.edu
+51guedesdossantos@cua.edu
 rguerra@sciops.esa.int
 guidorzi@fe.infn.it
 psgupta@uw.edu
@@ -112,7 +115,6 @@ henry@stsci.edu
 fabio@in2p3.fr
 mholman@cfa.harvard.edu
 jorge.ibsen@alma.cl
-jegugih@astro.umd.edu
 shiro@ism.ac.jp
 bryan.k.irby@nasa.gov
 jack.ireland@nasa.gov
@@ -185,6 +187,7 @@ imomcheva@stsci.edu
 fpouzols@eso.org
 morii@ism.ac.jp
 dmr@roe.ac.uk
+motioflores@cua.edu
 august.muench@aas.org
 takeshi.nakazato@nao.ac.jp
 vicente.navarro@esa.int
@@ -236,7 +239,6 @@ Michele.Sanguillon@umontpellier.fr
 rafael.santos@inpe.br
 renaud.savalle@obspm.fr
 andre.schaaff@astro.unistra.fr
-katrina.sealey@aao.gov.au
 mathieu.servillat@obspm.fr
 nsharp@nsf.gov
 pshawhan@umd.edu
@@ -256,7 +258,6 @@ songxy@ihep.ac.cn
 max.spolaor@tmctechnologies.com
 mqastro@acm.org
 thomas.stephens@nasa.gov
-abigailstev@gmail.com
 felix.stoehr@gmx.de
 ole@aip.de
 rasutrisno@uh.edu
@@ -275,6 +276,7 @@ maurizio.tomasi@unimi.it
 storres@ctio.noao.edu
 ttsutsum@nrao.edu
 vahi@isi.edu
+bvan@slac.stanford.edu
 vermaas@astron.nl
 fabio.vitello@inaf.it
 wangrui@nao.cas.cn
@@ -288,7 +290,6 @@ zywu@nao.cas.cn
 xiaojian@tju.edu.cn
 yxu@nao.cas.cn
 masayuki.yamaguchi@nao.ac.jp
-yuce@tju.edu.cn
 yuxianchuan@163.com
 xuyf@nao.cas.cn
 chris.zapart@nao.ac.jp

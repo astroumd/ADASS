@@ -1,0 +1,56 @@
+% super simple template
+
+\documentclass[11pt,twoside]{article}
+
+\usepackage{asp2014}
+
+\aspSuppressVolSlug
+\resetcounters
+
+\bibliographystyle{asp2014}
+
+\markboth{${LNAME}, Author2, and Author3}{${TITLE}}
+
+\begin{document}
+
+\title{${TITLE}}
+
+\author{${FNAME}~${LNAME},${F1} Sample~Author2,${F2} and Sample~Author3${F3}
+\affil{${F1}${INAME}, Institution City, State/Province, Country; \email{${EMAIL}}}
+\affil{${F2}Institution Name, Institution City, State/Province, Country}
+\affil{${F3}Institution Name, Institution City, State/Province, Country}}
+
+
+\paperauthor{${FNAME}~${LNAME}}{${EMAIL}}{ORCID}{${INAME}}{Author1 Department}{City}{State/Province}{Postal Code}{Country}
+\paperauthor{Sample~Author2}{Author2Email@email.edu}{ORCID_Or_Blank}{Author2 Institution}{Author2 Department}{City}{State/Province}{Postal Code}{Country}
+\paperauthor{Sample~Author3}{Author3Email@email.edu}{ORCID_Or_Blank}{Author3 Institution}{Author3 Department}{City}{State/Province}{Postal Code}{Country}
+
+\begin{abstract}
+
+${ABSTRACT}
+  
+\end{abstract}
+
+\section{Introduction}
+
+Your abstract currently has ${LENA} characters. For more than 1000 it's probably too long. Just sayin'
+Since this paper was written by some python code, you better edit this rubbish away.
+
+
+\section{The Template}
+
+To use this template instead of the ADASS\_template, copy this file to your given paper, e.g. O3.1.tex, P5.2.tex, B4.tex, F3.tex, I.tex, place the
+paper type in the Makefile, review the Makefile, and hit ``make'' and hope for the best.  If that runs into trouble, check if your version of
+latex uses a different calling sequence.  Some instructions are in the Makefile.
+
+\section{Figures}
+
+This template has no figures.
+Look for the larger template and Makefile how to do this.
+
+\section{References}
+
+This template has no bibtex file. 
+Look for the larger template and Makefile how to do this.
+
+\end{document}
