@@ -73,7 +73,6 @@ Dubois-Felsmann, Gregory
 Durand, Daniel
 Ebert, Rick
 Ebisawa, Ken
-Eggenstein, Heinz-Bernd
 Eguchi, Satoshi
 Eisenhamer, Jonathan
 Emonts, Bjorn
@@ -85,6 +84,7 @@ Fernique, Pierre
 Fitzpatrick, Michael
 Ford, Eric
 Gabriel, Carlos
+Gale-Sides, Kingsley
 Gallegos, Julio
 Gaudet, Séverin
 Geers, Vincent
@@ -115,7 +115,6 @@ Henry, Ronald
 Hernandez, Fabio
 Holman, Matthew
 Ibsen, Jorge
-Ih, Jegug
 Ikeda, Shiro
 Irby, Bryan
 Ireland, Jack
@@ -141,7 +140,6 @@ Kong, Xiao
 Kornilov, Matwey
 Kosack, Karl
 Kosugi, George
-Kumar, Praveen
 Kuulkers, Erik
 Kyprianou, Mark
 LANDONI, MARCO
@@ -211,7 +209,6 @@ Paxson, Charles
 Peek, Joshua
 Perea-Calderon, Jose Vicente
 Perez, Fernando
-Perez, Lucia
 Petulante, Abigail
 Pickering, Timothy
 Pineau, Francois-Xavier
@@ -240,7 +237,6 @@ Sanguillon, Michele
 Santos, Rafael
 Savalle, Renaud
 Schaaff, Andre
-Sealey, Katrina
 Servillat, Mathieu
 Sharp, Nigel
 Shawhan, Peter
@@ -260,7 +256,6 @@ Song, Xinying
 Spolaor, Max
 Stenborg, Travis
 Stephens, Tom
-Stevens, Abigail
 Stoehr, Felix
 Streicher, Ole
 Sutrisno, Raymond
@@ -279,6 +274,7 @@ Tomasi, Maurizio
 Torres, Simón
 Tsutsumi, Takahiro
 Vahi, Karan
+Van Klaveren, Brian
 Vermaas, Nico
 Vitello, Fabio
 Wang, Rui
@@ -292,7 +288,6 @@ Wu, Zhenyu
 Xiao, Jian
 Xu, Yang
 Yamaguchi, Masayuki
-Yu, Ce
 Yu, Xianchuan
 Yunfei, Xu
 Zapart, Christopher
