@@ -17,7 +17,7 @@ countries:
 	@./counter.py 12 |sort | uniq -c | sort -nr
 
 dinner:
-	@echo Dinner
+	@echo Dinner max 150
 	@./counter.py 23 |sort | uniq -c | sort -nr
 
 tutorial:
@@ -114,13 +114,16 @@ diff:
 www:
 	git clone https://github.com/astroumd/adass2018.git www
 
-# index1 should be last, so the abstracts.tex are alphabetical
+# index1 should be last, so the abstracts.tex are alphabetical, and soon we can cycle inside of them
 index:	 index2  index1
 	pdflatex www/abstracts/abstracts.tex
+	cp abstracts.pdf www/abstracts
 
 index1:
 	cat orals.tab posters.tab  | grep -v ^\# | grep -v TBD |grep -v TDA | sort > all.tab
 	./abstracts.py all.tab  | grep HREF   > www/abstracts/index1.html
+	./paper_writer.py all.tab template.tex
+
 
 index2:
 	@echo '# ' > all.tab
@@ -130,3 +133,7 @@ index2:
 		 grep '; P'$$s'\.' posters.tab >> all.tab); done
 	grep '; F' orals.tab                   >> all.tab
 	./abstracts.py all.tab  | grep HREF   > www/abstracts/index2.html
+
+# for peter only
+sync:
+	rsync -av reg_final chara.astro.umd.edu:public_html/adass
