@@ -41,8 +41,13 @@ class Program(object):
     self._t['abstract'] = a1
     self._df = self._t.to_pandas()
 
-  def write(self,file,format):
-    self._t.write(file,overwrite=True,format=format)
+  def write(self,file,format,include_abstracts):
+    if include_abstracts:
+        self._t.write(file,overwrite=True,format=format)
+    else:
+        t = self._t.copy()
+        t.remove_column('abstract')
+        t.write(file,overwrite=True,format=format)
      
 
   def tohtml(self,days):
@@ -133,6 +138,7 @@ if __name__ == "__main__":
     
     p = Program('orals2.ipac','ipac')
     p.maketitle()
-    p.write('program.vot','votable')
+    p.write('program.vot',format='votable',include_abstracts=True)
+    p.write('program.ipac',format='ipac',include_abstracts=False)
     #p.write('program.ipac','ipac') Exception
     p.tohtml(_days)
