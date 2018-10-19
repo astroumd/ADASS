@@ -1,13 +1,3 @@
-219 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
-Warning: duplicate entry for Kosack, Karl
-Accepted 215 entries
-11 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
-Accepted 8 entries
-322 x 37 in reg/ADASS 2018  Total Registrant Re.xls
-Warning: duplicate entry for Kosack, Karl
-Accepted 297 entries
-109 x 5 in reg/IVOA Registration (Responses).xlsx
-IVOA Accepted 107 entries
 O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
@@ -74,7 +64,6 @@ P Gallegos, Julio julio.gallegos@sciops.esa.int Agile meets Requirements
 P Geers, Vincent vincent.geers@stfc.ac.uk MIRISim: the JWST-MIRI simulator
 P Giardino, Giovanna Giovanna.Giardino@esa.int Preparing for JWST: a detailed simulation of a MOS deep field with NIRSpec
 O Gilda, Sankalp s.gilda@ufl.edu Importance of Feature Selection in ML models
-X Gill, Ranpal rgill@lsst.org 
 O Gonzalez-Nuñez, Juan jgonzale@sciops.esa.int Driving Gaia Science from the ESA Archive: DR2 to DR3
 F Good, John jcg@ipac.caltech.edu Image Processing in Python With Montage
 P Gordon, Craig craig.a.gordon@nasa.gov The Present State of XSPEC and CFITSIO, Astronomical Analysis Packages Maintained by NASA's HEASARC.
@@ -83,6 +72,7 @@ O Gracia Abril, Gonzalo ggracia@sciops.esa.int Gaia DPAC Project Office: Coordin
 P Grange, Yan grange@astron.nl The Dutch contribution to the ESRC
 O Graves, Sarah s.graves@eaobservatory.org Harnessing the power of archival data to increase  scientific output: the JCMT experience.
 P Grishin, Kirill kirillg6@gmail.com Open-source web tools for spectroscopic and imaging data visualization for the VOXAstro initiative
+P Guedes dos Santos, Luiz Fernando 51guedesdossantos@cua.edu Analyzing WIND data using machine learning
 X Guerra Noguero, Rocio rguerra@sciops.esa.int DevOps: the perfect ally for Science Operations for a large and distributed astronomy project.
 P Gupta, Pramod psgupta@uw.edu Computational Astrophysics with Go
 X Gwyn, Stephen gwyn.cadc@gmail.com MegaPipe 2.0: 10000 square degrees of CFHT MegaCam imaging
@@ -110,7 +100,6 @@ X Kitaeff, Vyacheslav slava.kitaeff@uwa.edu.au DALiuGE/CASA based processing for
 P Kong, Xiao kongx@nao.cas.cn The construction of a new stellar classification template library for the LAMOST 1D Pipeline based on LAMOST DR5
 O Kosack, Karl karl.kosack@cea.fr Data Processing Challenges for CTA
 P Kosugi, George george.kosugi@nao.ac.jp Qualification of Sparse Modeling Technique for radio interferometric imaging of ALMA
-P Kumar, Praveen pkumar6743@gmail.com (2+1) dimensional cosmological models in f(R,T) gravity with Λ(R,T)
 X Kuulkers, Erik erik.kuulkers@esa.int Coordinating observations among ground and space-based telescopes in the multi-messenger era
 O Kyprianou, Mark kyp@stsci.edu Lessons Learned from the behemoth JWST Data Management effort
 P LANDONI, MARCO marco.landoni@inaf.it Application of Google Cloud Platform in Astrophysics
@@ -143,7 +132,7 @@ O Micol, Alberto amicol@eso.org The new science portal and the programmatic and 
 P Million, Chase chase@millionconcepts.com Evaluating Methods for Flare Detection in GALEX Light Curves
 P Mink, Jessica jmink@cfa.harvard.edu Finding Your Place in the Cosmos with WCSTools
   ABS2 Mink, Jessica Data Formats BoF
-P Molinaro, Marco marco.molinaro@inaf.it # Starting up a Data Model for Exoplanetary Data
+P Molinaro, Marco marco.molinaro@inaf.it Starting up a Data Model for Exoplanetary Data
 O Momcheva, Ivelina imomcheva@stsci.edu Hubble in the Cloud: A Prototype of a Science Platform at STScI
 O Morii, Mikio morii@ism.ac.jp Image reconstruction method for an X-ray telescope with an angular resolution booster
 O Nakazato, Takeshi takeshi.nakazato@nao.ac.jp New Synthesis Imaging Tool for ALMA based on the Sparse Modeling
@@ -153,7 +142,7 @@ P Nie, Jianyin niejy@ihep.ac.cn HXMT Archive and Data Process System
 O Nieto, Sara sara.nieto@sciops.esa.int SCIENCE EXPLOITATION IN A BIG DATA ARCHIVE: THE EUCLID SCIENTIFIC ARCHIVE SYSTEM
 O Nikolic, Bojan b.nikolic@mrao.cam.ac.uk Acceleration of Non-Linear Minimisation with PyTorch
 P Nomaru, Junichi noumaru@naoj.org Subaru Telescope Network 5 or STN5 - The new computer and network system at Subaru Telescope
-P O'Toole, Simon simon.otoole@mq.edu.au data central for Astronomers
+O O'Toole, Simon simon.otoole@mq.edu.au Bringing together the Australian sky - coordination and interoperability challenges of the All-Sky Virtual Observatory
   ABS2 O'Toole, Simon How do you get the most out of your teams?
 P Obi, Ikechukwu Anthony tonykassidy_z@yahoo.com The impact of Virtual Observatory Tools in Astronomy Research  in Nigeria
 P Oloketuyi, Jacob jacob.oloketuyi@ynao.ac.cn The Analysis of Periodic Variation of Sunspot Groups and the X-ray Flare Classes
@@ -184,7 +173,6 @@ P Salgado, Jesus jesusjuansalgado@gmail.com Gaia DR2 and the Virtual Observatory
 P Sanguillon, Michele Michele.Sanguillon@umontpellier.fr An overview of the OVGSO data centre
 P Santos, Rafael rafael.santos@inpe.br A hybrid neural network approach to estimate galaxy redshifts from multi-band photometric survey.
 P Schaaff, Andre andre.schaaff@astro.unistra.fr Chatting with the astronomical data services.
-O Sealey, Katrina katrina.sealey@aao.gov.au Bringing together the Australian sky - coordination and interoperability challenges of the All-Sky Virtual Observatory
 P Servillat, Mathieu mathieu.servillat@obspm.fr The IVOA Provenance Data Model
 O Shen, Robert robert.shen@astronomyaustralia.org.au ASVO MWA project: lower technical barrier to access MWA data
 P Shin, Min-Su msshin@kasi.re.kr Applications of the in-memory database Redis in processing transient event alerts
@@ -198,7 +186,6 @@ P Solar, Mauricio mauricio.solar@usm.cl Tensor Clusters for extracting and summa
 X Song, Xinying songxy@ihep.ac.cn Development on Data Analysis Software on GECAM
 P Stenborg, Travis mqastro@acm.org Contracts Tracking for Astronomical Infrastructure Projects in Jira
 P Stephens, Tom thomas.stephens@nasa.gov Running the Fermi Science Tools on Windows
-O Stevens, Abigail abigailstev@gmail.com Stingray: Open-source spectral-timing software
 X Stoehr, Felix felix.stoehr@gmx.de Astronomical archives: Serving up the Universe
 P Streicher, Ole ole@aip.de DOI in Astronomy
 P Sutrisno, Raymond rasutrisno@uh.edu A Machine Learning Approach to Detect Dark Matter Particles Under Extreme Class Imbalance and Large Datasets

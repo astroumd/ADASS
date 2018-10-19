@@ -140,7 +140,6 @@ kongx@nao.cas.cn
 matwey@sai.msu.ru
 karl.kosack@cea.fr
 george.kosugi@nao.ac.jp
-pkumar6743@gmail.com
 erik.kuulkers@esa.int
 kyp@stsci.edu
 marco.landoni@inaf.it
@@ -210,7 +209,6 @@ cpaxson@cfa.harvard.edu
 jegpeek@stsci.edu
 jose.perea@sciops.esa.int
 fernando.perez@esa.int
-laperez5@asu.edu
 abbie.petulante@gmail.com
 tim@mmto.org
 francois-xavier.pineau@astro.unistra.fr

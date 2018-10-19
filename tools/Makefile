@@ -17,7 +17,7 @@ countries:
 	@./counter.py 12 |sort | uniq -c | sort -nr
 
 dinner:
-	@echo Dinner
+	@echo Dinner max 150
 	@./counter.py 23 |sort | uniq -c | sort -nr
 
 tutorial:
@@ -114,14 +114,21 @@ diff:
 www:
 	git clone https://github.com/astroumd/adass2018.git www
 
-# index1 should be last, so the abstracts.tex are alphabetical
-index:	 index2  index1
-	pdflatex www/abstracts/abstracts.tex
+# index2 should be last, so the prev/next in the html files are thematical
+# Not we don't have the B and the T in here, only I,O,P and F.
+index:	 index1  index2
 
+
+# alphabetical
 index1:
 	cat orals.tab posters.tab  | grep -v ^\# | grep -v TBD |grep -v TDA | sort > all.tab
 	./abstracts.py all.tab  | grep HREF   > www/abstracts/index1.html
+	pdflatex abstracts.tex
+	cp abstracts.pdf abstracts.tex www/abstracts
+	./paper_writer.py all.tab template.tex
 
+
+# thematical
 index2:
 	@echo '# ' > all.tab
 	for s in 1 2 3 4 5 6 7 8 9 10 11 12 13; do\
@@ -130,3 +137,11 @@ index2:
 		 grep '; P'$$s'\.' posters.tab >> all.tab); done
 	grep '; F' orals.tab                   >> all.tab
 	./abstracts.py all.tab  | grep HREF   > www/abstracts/index2.html
+
+# for peter only
+sync:
+	rsync -av reg_final chara.astro.umd.edu:public_html/adass
+
+# if this list doesn't agree with the app.certain list of registrants... something is duplicated or missing, i.e. a db error.
+list0:
+	tr '[A-Z]' '[a-z]' < adass-0.txt | sort | awk '{print NR,$$0}' | less
