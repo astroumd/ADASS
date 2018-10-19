@@ -141,3 +141,7 @@ index2:
 # for peter only
 sync:
 	rsync -av reg_final chara.astro.umd.edu:public_html/adass
+
+# if this list doesn't agree with the app.certain list of registrants... something is duplicated or missing, i.e. a db error.
+list0:
+	tr '[A-Z]' '[a-z]' < adass-0.txt | sort | awk '{print NR,$$0}' | less
