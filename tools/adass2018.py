@@ -427,9 +427,9 @@ class adass(object):
                         msg = '<br><br>\n'                       ; fp.write(msg)                                                                
                     if c[0] != 'P':
                         msg = '<b>Time: %s</b>\n' % t        ; fp.write(msg)
-                        msg = '<br>\n'                       ; fp.write(msg)                                        
+                    msg = '<br>\n'                       ; fp.write(msg)                                        
                     msg = '<i>%s</i>\n' % title1         ; fp.write(msg)
-                    msg = '<br><br>\n'                       ; fp.write(msg)                                        
+                    msg = '<br><br>\n'                   ; fp.write(msg)                                        
                     msg = '%s\n' % abstract1             ; fp.write(msg)
                     fp.write(_footer1)
                     fp.close()
