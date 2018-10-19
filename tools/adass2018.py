@@ -366,11 +366,27 @@ class adass(object):
             o2 = codes
             o3 = times
         """
+        # first loop once to know the siblings
         n=0
+        co1 = []
+        co2 = []
+        co3 = []
         for (k,c,t) in zip(o1,o2,o3):
             key = self.expand_name(k)
             if key != None:
-                n         = n + 1
+                n = n + 1
+                co1.append(k)
+                co2.append(c)
+                co3.append(t)
+        print("Processed %d out of %d" % (n,len(o1)))
+
+        # now loop for real to create the html
+        for i in range(n):
+            k = co1[i]
+            c = co2[i]
+            t = co3[i]
+            key = self.expand_name(k)
+            if key != None:
                 present   = self.x1[key][22].value
                 title1    = self.x1[key][23].value
                 abstract1 = self.x1[key][24].value
@@ -380,6 +396,14 @@ class adass(object):
                     fn = dirname + '/' + c + '.html'
                     fp = open(fn,'w')
                     fp.write(_header1)
+                    if i > 0:
+                        msg = 'Prev: <A HREF=%s.html>%s</A> ' % (co2[i-1],co2[i-1])
+                        fp.write(msg)
+                    if i < n-1:
+                        msg = 'Next: <A HREF=%s.html>%s</A> ' % (co2[i+1],co2[i+1])
+                        fp.write(msg)
+                    fp.write("<br><br>\n")
+
                     msg = '<b>%s: %s</b>\n' % (c, key)   ; fp.write(msg)
                     msg = '<br>\n'                       ; fp.write(msg)
                     if True:
@@ -413,7 +437,7 @@ class adass(object):
                         msg = '<A HREF=%s.html>%s </A> <b>%s</b> :  %s<br>' % (c,key,c,title1)
                         print(msg)
                     
-    def report_3b(self,o1,o2,o3, count=False, dirname='www/abstracts'):
+    def report_3b(self,o1,o2,o3, count=False, dirname='.'):
         """ report a selection of presenters based on list of names - latex version of report_3a
             o1 = names
             o2 = codes
