@@ -114,17 +114,21 @@ diff:
 www:
 	git clone https://github.com/astroumd/adass2018.git www
 
-# index1 should be last, so the abstracts.tex are alphabetical, and soon we can cycle inside of them
-index:	 index2  index1
-	pdflatex www/abstracts/abstracts.tex
-	cp abstracts.pdf www/abstracts
+# index2 should be last, so the prev/next in the html files are thematical
+# Not we don't have the B and the T in here, only I,O,P and F.
+index:	 index1  index2
 
+
+# alphabetical
 index1:
 	cat orals.tab posters.tab  | grep -v ^\# | grep -v TBD |grep -v TDA | sort > all.tab
 	./abstracts.py all.tab  | grep HREF   > www/abstracts/index1.html
+	pdflatex abstracts.tex
+	cp abstracts.pdf abstracts.tex www/abstracts
 	./paper_writer.py all.tab template.tex
 
 
+# thematical
 index2:
 	@echo '# ' > all.tab
 	for s in 1 2 3 4 5 6 7 8 9 10 11 12 13; do\
