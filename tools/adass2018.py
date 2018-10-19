@@ -23,7 +23,17 @@ _footer1 = '</body> </html>\n'
 
 _header2 = """\\documentclass{report}\n
               \\usepackage{a4wide}\n
+              \\usepackage{graphicx}\n
               \\begin{document}\n
+              \\chapter*{ADASS XXVIII Abstract Book}              
+              \\includegraphics[width=\\textwidth]{www/images/ADASS2018_Banner.png}
+              Brought to you by a Makefile, calling python code that operated on a Excel spreadsheet.
+              \\newline\\newline
+              \\bigskip\\bigskip
+              \\begin{center}
+              \\includegraphics[width=0.3\\textwidth]{www/images/logo250.png}
+              \\end{center}
+              \\bigskip
            """
 
 _footer2 = '\\end{document}\n'
@@ -387,9 +397,11 @@ class adass(object):
             t = co3[i]
             key = self.expand_name(k)
             if key != None:
+                theme     = self.x1[key][20].value
                 present   = self.x1[key][22].value
                 title1    = self.x1[key][23].value
                 abstract1 = self.x1[key][24].value
+                theme1    = theme[theme.find(')')+1:]                
                 if count:
                     print(n,key,present,title1)
                 else:
@@ -424,13 +436,15 @@ class adass(object):
                         if len(b5) > 0: b5 = '(' + b5 + ')'
                         a6 = self.x1[key][19].value
                         msg = '%s %s <br> %s %s <br>  %s %s<br>  %s %s<br>  %s %s<br>  %s' % (a1,b1,a2,b2,a3,b3,a4,b4,a5,b5,a6);  fp.write(msg)
-                        msg = '<br><br>\n'                       ; fp.write(msg)                                                                
+                        msg = '<br><br>\n'                            ; fp.write(msg)                                                                
                     if c[0] != 'P':
-                        msg = '<b>Time: %s</b>\n' % t        ; fp.write(msg)
-                    msg = '<br>\n'                       ; fp.write(msg)                                        
-                    msg = '<i>%s</i>\n' % title1         ; fp.write(msg)
-                    msg = '<br><br>\n'                   ; fp.write(msg)                                        
-                    msg = '%s\n' % abstract1             ; fp.write(msg)
+                        msg = '<b>Time: %s</b>\n' % t                 ; fp.write(msg)
+                    msg = '<br>\n'                                    ; fp.write(msg)
+                    msg = '<b>Theme:</b> %s\n' % theme1               ; fp.write(msg)
+                    msg = '<br>\n'                                    ; fp.write(msg)                    
+                    msg = '<b>Title:</b> <i>%s</i>\n' % title1        ; fp.write(msg)
+                    msg = '<br><br>\n'                                ; fp.write(msg)                                        
+                    msg = '%s\n' % abstract1                          ; fp.write(msg)
                     fp.write(_footer1)
                     fp.close()
                     if index:
@@ -456,7 +470,7 @@ class adass(object):
         fn = dirname + '/' + 'abstracts.tex'
         fp = open(fn,'w')
         fp.write(_header2)
-        fp.write('Generated %s\\newline\n\n' % datetime.datetime.now().isoformat())
+        fp.write('Generated %s\\newpage\n\n' % datetime.datetime.now().isoformat())
         
         n=0
         for (k,c,t) in zip(o1,o2,o3):
@@ -464,14 +478,18 @@ class adass(object):
             if key != None:
                 n         = n + 1
                 email     = self.x1[key][6].value
+                theme     = self.x1[key][20].value
                 present   = self.x1[key][22].value
                 title1    = self.x1[key][23].value
                 abstract1 = self.x1[key][24].value
+                theme1    = theme[theme.find(')')+1:]
                 if count:
                     print(n,key,present,title1)
                 else:
                     msg = '\\subsection*{%s: %s}\n' % (c, title1); fp.write(msg)
-                    msg = '\\bigskip\n'                          ; fp.write(msg)
+                    msg = '{\\bf Theme:} %s\\newline\n' % theme1               ; fp.write(msg)
+                    
+                    msg = '{\\bf Author(s):}\\newline\n'                          ; fp.write(msg)
                     if True:
                         a1 = self.x1[key][9].value
                         b1 = self.x1[key][10].value;
@@ -497,7 +515,7 @@ class adass(object):
                         msg = '{\\bf Time:} %s\\newline\n' % t        ; fp.write(latex(msg))
                         msg = '\\newline\n'                           ; fp.write(latex(msg))
                     # msg = '{\\it %s}\\newline\n' % title1             ; fp.write(latex(msg))
-                    msg = '{\\it %s}\\newline\n' % email              ; fp.write(latex(msg))                    
+                    msg = '{\\bf Contact:} {\\it %s}\\newline\n' % email              ; fp.write(latex(msg))                    
                     msg = '\\newline\\newline\n'                      ; fp.write(latex(msg))
                     msg = '%s\\newline\n\\newpage\n' % abstract1      ; fp.write(latex(msg))
         fp.write(_footer2)
