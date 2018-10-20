@@ -10,6 +10,7 @@ import xlrd
 import sys
 import io
 import datetime
+import numpy as np
 from string import Template
 
 # names of the 3 sheets we got from C&VS (notice the 31 character limit of the basename)
@@ -141,6 +142,86 @@ class adass(object):
 
         if debug:
             print("IVOA Accepted %d entries" % len(s))
+        return (s,row_values)
+
+    def zopen(self, path, debug=False):
+        """
+        Return Doodle poll
+        
+        path     file
+        debug    print more
+        
+        """
+        def fun(mat, order=False):
+            """ return the lower diagonal of a square matrix
+            """
+            n = len(mat[0])
+            m = (n*(n-1))//2
+            c = np.zeros(m,dtype=int)
+            k = 0
+            msg = []
+            for i in range(n):
+                for j in range(i):
+                    c[k] = mat[i,j]
+                    k = k + 1
+                    if order:
+                        msg.append(" %d-%d" % (i+1,j+1))
+            if order:
+                return msg
+            return c
+        if debug:
+            print("Doodle %s" % path)
+        book = xlrd.open_workbook(path)
+        ns = book.nsheets
+        s0 = book.sheet_by_index(0)
+        if ns != 1:
+            print("Warning: %s has %d sheets" % (s0,ns))
+        nr = s0.nrows
+        nc = s0.ncols
+        if debug:
+            print("%d x %d in %s" % (nr,nc,path))
+        # find which columns store the first and last name, we key on that
+        row_values = s0.row_values(0)
+        col_name = 1
+        s={}
+        for row in range(4,nr):            # first 4 rows are administrative
+            name = s0.cell(row,0).value
+            if name != 'Count':            # last row is 'Count', discard it too
+                s[name] = s0.row(row)
+                # print(name,s[name])
+
+        nr1 = nr-5
+        nc1 = nc-1
+        nz1 = ((nc1-1)*nc1)//2
+        ok = np.zeros(nr1*nc1, dtype=int).reshape(nr1,nc1)
+        mat0 = np.zeros(nc1*nc1, dtype=int)
+        c = range(len(s))
+        csum = np.zeros(nz1, dtype=int)
+        csum = 0
+        for (i,name) in zip(range(len(s)), s.keys()):
+            for j in range(1,nc):
+                if s[name][j].value == "OK":
+                    ok[i,j-1] = 1
+                else:
+                    ok[i,j-1] = 0
+            mat = np.outer(ok[i],ok[i])
+            if type(csum) == type(int):
+                csum = fun(mat)
+            else:
+                csum = csum + fun(mat)
+            #print(i,ok[i],fun(mat),csum)
+            #print(i,ok[i],csum)
+        csumid = fun(mat,True)
+
+        for i in range(nz1):
+            print(i+1,csumid[i],csum[i])
+            
+        print(ok.sum(axis=0))
+        print(ok.sum(axis=1))
+        
+
+        if debug:
+            print("Accepted %d entries" % len(s))
         return (s,row_values)
 
     def expand_name(self,k):
