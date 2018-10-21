@@ -370,7 +370,7 @@ class adass(object):
                 else:
                     print(key,'-',title1)
 
-    def report_3a(self,o1,o2,o3, count=False, dirname='www/abstracts', index=True):
+    def report_3a(self,o1,o2,o3, count=False, dirname='www/abstracts', index=True, themes=0):
         """ report a selection of presenters based on list of names
             o1 = names
             o2 = codes
@@ -391,6 +391,8 @@ class adass(object):
         print("Processed %d out of %d" % (n,len(o1)))
 
         # now loop for real to create the html
+        old_theme1 = "N/A"
+        old_focus = 0
         for i in range(n):
             k = co1[i]
             c = co2[i]
@@ -401,7 +403,16 @@ class adass(object):
                 present   = self.x1[key][22].value
                 title1    = self.x1[key][23].value
                 abstract1 = self.x1[key][24].value
-                theme1    = theme[theme.find(')')+1:]                
+                theme1    = theme[theme.find(')')+1:]
+                if themes > 0:
+                    if c[0] == 'F':
+                        if old_focus == 0:
+                            print("<!-- HREF4theme --> <H2>Focus Demos</H2><br>\n")
+                            old_focus = 1
+                    elif theme1 != old_theme1:
+                        print("<!-- HREF4theme --> <H2>%s</H2><br>\n" % theme)
+                        old_theme1 = theme1
+                
                 if count:
                     print(n,key,present,title1)
                 else:
