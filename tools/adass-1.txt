@@ -45,6 +45,7 @@ cardiel@ucm.es
 ceballos@ifca.unican.es
 chenwei@ihep.ac.cn
 igor.chilingarian@cfa.harvard.edu
+selina.chu@jpl.nasa.gov
 accomrie@gmail.com
 michael.f.corcoran@nasa.gov
 alain.coulais@obspm.fr
@@ -82,7 +83,6 @@ cfeinstein@fcaglp.unlp.edu.ar
 ferguson@stsci.edu
 Pierre.Fernique@astro.unistra.fr
 fitz@noao.edu
-ebf11@psu.edu
 carlos.gabriel@sciops.esa.int
 ktg25@cam.ac.uk
 julio.gallegos@sciops.esa.int
