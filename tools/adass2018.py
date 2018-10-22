@@ -612,7 +612,10 @@ class adass(object):
                     # msg = '{\\it %s}\\newline\n' % title1             ; fp.write(latex(msg))
                     msg = '{\\bf Contact:} {\\it %s}\\newline\n' % email              ; fp.write(latex(msg))                    
                     msg = '\\newline\\newline\n'                      ; fp.write(latex(msg))
-                    msg = '%s\\newline\n\\newpage\n' % abstract1      ; fp.write(latex(msg))
+                    msg = '{\\bf Abstract:}\\newline\n'               ; fp.write(latex(msg))
+                    msg = '%s\\newline\n' % abstract1                 ; fp.write(latex(msg))
+                    msg = '{\\bf Notes:}\\newline\n'                  ; fp.write(latex(msg))
+                    msg = '{\\newpage\n'                              ; fp.write(latex(msg))                    
         fp.write(_footer2)
         fp.close()
                     
