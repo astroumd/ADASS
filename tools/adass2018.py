@@ -19,9 +19,6 @@ _p2 = 'ADASS 2018  2nd Submitted Abstr.xls'
 _p3 = 'ADASS 2018  Total Registrant Re.xls'
 _p4 = 'IVOA Registration (Responses).xlsx'
 
-_header1 = '<html> <body>\n'
-_footer1 = '</body> </html>\n'
-
 _header2 = """\\documentclass{report}\n
               \\usepackage{a4wide}\n
               \\usepackage{graphicx}\n
@@ -68,6 +65,21 @@ class adass(object):
             self.abstracts[ln] = self.x1[key][24] # makeprogram needs hash of last name and abstract
             self.keys1.append(key)                       # and list of "Lname, Fname"
         
+        self._htmlheader = None
+        self._htmlfooter = None
+
+
+    def getheader(self):
+        if self._htmlheader == None:
+           with open("header1.txt","r") as h:
+                self._htmlheader = h.read()
+        return self._htmlheader 
+
+    def getfooter(self):
+        if self._htmlfooter == None:
+           with open("footer1.txt","r") as h:
+                self._htmlfooter = h.read()
+        return self._htmlfooter
 
     def xopen(self, path, debug=False, status = True):
         """
@@ -459,7 +471,7 @@ class adass(object):
             o3 = times
         """
         # first loop once to know the siblings
-        n=m
+        n=0
         co1 = []
         co2 = []
         co3 = []
@@ -489,10 +501,10 @@ class adass(object):
                 if themes > 0:
                     if c[0] == 'F':
                         if old_focus == 0:
-                            print("<!-- HREF4theme --> <H2>Focus Demos</H2><br>\n")
+                            print("<!-- HREF4theme --> <h2>Focus Demos</h2><br>\n")
                             old_focus = 1
                     elif theme1 != old_theme1:
-                        print("<!-- HREF4theme --> <H2>%s</H2><br>\n" % theme)
+                        print("<!-- HREF4theme --> <h2>%s</h2><br>\n" % theme)
                         old_theme1 = theme1
                 
                 if count:
@@ -500,12 +512,12 @@ class adass(object):
                 else:
                     fn = dirname + '/' + c + '.html'
                     fp = open(fn,'w')
-                    fp.write(_header1)
+                    fp.write(self.getheader())
                     if i > 0:
-                        msg = 'Prev: <A HREF=%s.html>%s</A> ' % (co2[i-1],co2[i-1])
+                        msg = 'Prev: <a href="/abstracts/%s.html">%s</a> ' % (co2[i-1],co2[i-1])
                         fp.write(msg)
                     if i < n-1:
-                        msg = 'Next: <A HREF=%s.html>%s</A> ' % (co2[i+1],co2[i+1])
+                        msg = 'Next: <a href="/abstracts/%s.html">%s</a> ' % (co2[i+1],co2[i+1])
                         fp.write(msg)
                     fp.write("<br><br>\n")
 
@@ -536,9 +548,9 @@ class adass(object):
                     msg = '<b>Theme:</b> %s\n' % theme1               ; fp.write(msg)
                     msg = '<br>\n'                                    ; fp.write(msg)                    
                     msg = '<b>Title:</b> <i>%s</i>\n' % title1        ; fp.write(msg)
-                    msg = '<br><br>\n'                                ; fp.write(msg)                                        
-                    msg = '%s\n' % abstract1                          ; fp.write(msg)
-                    fp.write(_footer1)
+                    msg = '<br><p>\n'                                ; fp.write(msg)                                        
+                    msg = '%s</p>\n' % abstract1                          ; fp.write(msg)
+                    fp.write(self.getfooter())
                     fp.close()
                     if index:
                         msg = '<A HREF=%s.html>%s </A> <b>%s</b> :  %s<br>' % (c,key,c,title1)
