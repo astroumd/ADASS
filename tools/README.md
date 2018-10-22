@@ -81,3 +81,23 @@ to have more control. That one you can also use for editing.
 2) make a symlink (or git clone) from 'www' to where you keep the website. Also "make www" in Makefile
 
 3) now look at the makefile how the various targets produce various tables
+
+### Example
+
+This workflow worked on chara and algol:
+
+
+	git clone https://github.com/astroumd/adass
+	cd adass/tools
+	git clone https://github.com/astroumd/adass2018.git www
+	ln -s ~teuben/public_html/adass/reg_final reg
+	mkdir papers
+
+	astroload -v miniconda3 python
+	make
+	make index
+
+and no utf-8 errors.
+
+
+
