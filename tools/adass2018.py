@@ -10,6 +10,7 @@ import xlrd
 import sys
 import io
 import datetime
+import numpy as np
 from string import Template
 
 # names of the 3 sheets we got from C&VS (notice the 31 character limit of the basename)
@@ -23,7 +24,17 @@ _footer1 = '</body> </html>\n'
 
 _header2 = """\\documentclass{report}\n
               \\usepackage{a4wide}\n
+              \\usepackage{graphicx}\n
               \\begin{document}\n
+              \\chapter*{ADASS XXVIII Abstract Book}              
+              \\includegraphics[width=\\textwidth]{www/images/ADASS2018_Banner.png}
+              Brought to you by a Makefile, calling python code that operated on a Excel spreadsheet.
+              \\newline\\newline
+              \\bigskip\\bigskip
+              \\begin{center}
+              \\includegraphics[width=0.3\\textwidth]{www/images/logo250.png}
+              \\end{center}
+              \\bigskip
            """
 
 _footer2 = '\\end{document}\n'
@@ -131,6 +142,87 @@ class adass(object):
 
         if debug:
             print("IVOA Accepted %d entries" % len(s))
+        return (s,row_values)
+
+    def zopen(self, path, debug=False):
+        """
+        Return Doodle poll stats
+        
+        path     file
+        debug    print more
+        
+        """
+        def fun(mat, order=False):
+            """ return the lower diagonal of a square matrix
+            """
+            n = len(mat[0])
+            m = (n*(n-1))//2
+            c = np.zeros(m,dtype=int)
+            k = 0
+            msg = []
+            for i in range(n):
+                for j in range(i):
+                    c[k] = mat[i,j]
+                    k = k + 1
+                    if order:
+                        msg.append(" %d-%d" % (i+1,j+1))
+            if order:
+                return msg
+            return c
+        if debug:
+            print("Doodle %s" % path)
+        book = xlrd.open_workbook(path)
+        ns = book.nsheets
+        s0 = book.sheet_by_index(0)
+        if ns != 1:
+            print("Warning: %s has %d sheets" % (s0,ns))
+        nr = s0.nrows
+        nc = s0.ncols
+        if debug:
+            print("%d x %d in %s" % (nr,nc,path))
+        # find which columns store the first and last name, we key on that
+        row_values = s0.row_values(0)
+        col_name = 1
+        s={}
+        for row in range(4,nr):            # first 4 rows are administrative
+            name = s0.cell(row,0).value
+            if name != 'Count':            # last row is 'Count', discard it too
+                s[name] = s0.row(row)
+
+        nr1 = nr-5
+        nc1 = nc-1
+        nz1 = ((nc1-1)*nc1)//2
+        print("There are %d choices, %d people and %d cross choice counts" % (nc1,nr1,nz1))
+        ok = np.zeros(nr1*nc1, dtype=int).reshape(nr1,nc1)
+        mat0 = np.zeros(nc1*nc1, dtype=int)
+        c = range(len(s))
+        csum = np.zeros(nz1, dtype=int)
+        csum = 0
+        for (i,name) in zip(range(len(s)), s.keys()):
+            for j in range(1,nc):
+                if s[name][j].value == "OK":
+                    ok[i,j-1] = 1
+                else:
+                    ok[i,j-1] = 0
+            mat = np.outer(ok[i],ok[i])
+            if type(csum) == type(int):
+                csum = fun(mat)
+            else:
+                csum = csum + fun(mat)
+            #print(i,ok[i],fun(mat),csum)
+            #print(i,ok[i],csum)
+        csumid = fun(mat,True)
+
+        print('total choice counts: ',ok.sum(axis=0))
+        print('total people counts: ',ok.sum(axis=1))
+        print('total cross choice counts:')
+        for i in range(nz1):
+            print(i+1,csumid[i],csum[i])
+            
+        
+
+        if debug:
+            print("Accepted %d entries" % len(s))
         return (s,row_values)
 
     def expand_name(self,k):
@@ -360,7 +452,7 @@ class adass(object):
                 else:
                     print(key,'-',title1)
 
-    def report_3a(self,o1,o2,o3, count=False, dirname='www/abstracts', index=True):
+    def report_3a(self,o1,o2,o3, count=False, dirname='www/abstracts', index=True, themes=0):
         """ report a selection of presenters based on list of names
             o1 = names
             o2 = codes
@@ -381,15 +473,28 @@ class adass(object):
         print("Processed %d out of %d" % (n,len(o1)))
 
         # now loop for real to create the html
+        old_theme1 = "N/A"
+        old_focus = 0
         for i in range(n):
             k = co1[i]
             c = co2[i]
             t = co3[i]
             key = self.expand_name(k)
             if key != None:
+                theme     = self.x1[key][20].value
                 present   = self.x1[key][22].value
                 title1    = self.x1[key][23].value
                 abstract1 = self.x1[key][24].value
+                theme1    = theme[theme.find(')')+1:]
+                if themes > 0:
+                    if c[0] == 'F':
+                        if old_focus == 0:
+                            print("<!-- HREF4theme --> <H2>Focus Demos</H2><br>\n")
+                            old_focus = 1
+                    elif theme1 != old_theme1:
+                        print("<!-- HREF4theme --> <H2>%s</H2><br>\n" % theme)
+                        old_theme1 = theme1
+                
                 if count:
                     print(n,key,present,title1)
                 else:
@@ -424,19 +529,24 @@ class adass(object):
                         if len(b5) > 0: b5 = '(' + b5 + ')'
                         a6 = self.x1[key][19].value
                         msg = '%s %s <br> %s %s <br>  %s %s<br>  %s %s<br>  %s %s<br>  %s' % (a1,b1,a2,b2,a3,b3,a4,b4,a5,b5,a6);  fp.write(msg)
-                        msg = '<br><br>\n'                       ; fp.write(msg)                                                                
+                        msg = '<br><br>\n'                            ; fp.write(msg)                                                                
                     if c[0] != 'P':
-                        msg = '<b>Time: %s</b>\n' % t        ; fp.write(msg)
-                    msg = '<br>\n'                       ; fp.write(msg)                                        
-                    msg = '<i>%s</i>\n' % title1         ; fp.write(msg)
-                    msg = '<br><br>\n'                   ; fp.write(msg)                                        
-                    msg = '%s\n' % abstract1             ; fp.write(msg)
+                        msg = '<b>Time: %s</b>\n' % t                 ; fp.write(msg)
+                    msg = '<br>\n'                                    ; fp.write(msg)
+                    msg = '<b>Theme:</b> %s\n' % theme1               ; fp.write(msg)
+                    msg = '<br>\n'                                    ; fp.write(msg)                    
+                    msg = '<b>Title:</b> <i>%s</i>\n' % title1        ; fp.write(msg)
+                    msg = '<br><br>\n'                                ; fp.write(msg)                                        
+                    msg = '%s\n' % abstract1                          ; fp.write(msg)
                     fp.write(_footer1)
                     fp.close()
                     if index:
                         msg = '<A HREF=%s.html>%s </A> <b>%s</b> :  %s<br>' % (c,key,c,title1)
                         print(msg)
-                    
+        if index:
+            print("<!-- HREF4theme --> # Generated %s<br>\n" % datetime.datetime.now().isoformat())
+
+            
     def report_3b(self,o1,o2,o3, count=False, dirname='.'):
         """ report a selection of presenters based on list of names - latex version of report_3a
             o1 = names
@@ -456,7 +566,7 @@ class adass(object):
         fn = dirname + '/' + 'abstracts.tex'
         fp = open(fn,'w')
         fp.write(_header2)
-        fp.write('Generated %s\\newline\n\n' % datetime.datetime.now().isoformat())
+        fp.write('Generated %s\\newpage\n\n' % datetime.datetime.now().isoformat())
         
         n=0
         for (k,c,t) in zip(o1,o2,o3):
@@ -464,14 +574,17 @@ class adass(object):
             if key != None:
                 n         = n + 1
                 email     = self.x1[key][6].value
+                theme     = self.x1[key][20].value
                 present   = self.x1[key][22].value
                 title1    = self.x1[key][23].value
                 abstract1 = self.x1[key][24].value
+                theme1    = theme[theme.find(')')+1:]
                 if count:
                     print(n,key,present,title1)
                 else:
-                    msg = '\\subsection*{%s: %s}\n' % (c, title1); fp.write(msg)
-                    msg = '\\bigskip\n'                          ; fp.write(msg)
+                    msg = '\\subsection*{%s: %s}\n' % (c, title1)              ; fp.write(msg)
+                    msg = '{\\bf Theme:} %s\\newline\n' % theme1               ; fp.write(msg)
+                    msg = '{\\bf Author(s):}\\newline\n'                       ; fp.write(msg)
                     if True:
                         a1 = self.x1[key][9].value
                         b1 = self.x1[key][10].value;
@@ -497,7 +610,7 @@ class adass(object):
                         msg = '{\\bf Time:} %s\\newline\n' % t        ; fp.write(latex(msg))
                         msg = '\\newline\n'                           ; fp.write(latex(msg))
                     # msg = '{\\it %s}\\newline\n' % title1             ; fp.write(latex(msg))
-                    msg = '{\\it %s}\\newline\n' % email              ; fp.write(latex(msg))                    
+                    msg = '{\\bf Contact:} {\\it %s}\\newline\n' % email              ; fp.write(latex(msg))                    
                     msg = '\\newline\\newline\n'                      ; fp.write(latex(msg))
                     msg = '%s\\newline\n\\newpage\n' % abstract1      ; fp.write(latex(msg))
         fp.write(_footer2)
@@ -551,7 +664,7 @@ class adass(object):
                 kwargs['LENW']     = ""
                 
                 t1 = T_paper.substitute(**kwargs)
-                fn = dirname + '/' + c + '.tex'
+                fn = dirname + '/' + c.replace('.','-') + '.tex'          #   no, it should be P1-12.tex, not P1.12.tex
                 print("Writing %s" % fn)
                 fp = open(fn,'w')
                 fp.write(t1)
