@@ -367,7 +367,7 @@ class adass(object):
             o3 = times
         """
         # first loop once to know the siblings
-        n=0
+        n=m
         co1 = []
         co2 = []
         co3 = []
