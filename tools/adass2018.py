@@ -501,10 +501,10 @@ class adass(object):
                 if themes > 0:
                     if c[0] == 'F':
                         if old_focus == 0:
-                            print("<!-- HREF4theme --> <h2>Focus Demos</h2><br>\n")
+                            print("<!-- HREF4theme --> <br><a name='#Focus Demos'><h3 class='session-heading'>Focus Demos</h3><br>\n")
                             old_focus = 1
                     elif theme1 != old_theme1:
-                        print("<!-- HREF4theme --> <h2>%s</h2><br>\n" % theme)
+                        print("<!-- HREF4theme --> <br><a name='#%s'><h3 class='session-heading'>%s</h3><br>\n" % (theme1.strip(), theme1))
                         old_theme1 = theme1
                 
                 if count:
@@ -553,10 +553,10 @@ class adass(object):
                     fp.write(self.getfooter())
                     fp.close()
                     if index:
-                        msg = '<A HREF=%s.html>%s </A> <b>%s</b> :  %s<br>' % (c,key,c,title1)
+                        msg = '<a href="/abstracts/%s.html">%s </a> <b>%s</b> :  %s<br>' % (c,key,c,title1)
                         print(msg)
         if index:
-            print("<!-- HREF4theme --> # Generated %s<br>\n" % datetime.datetime.now().isoformat())
+            print("<!-- HREF4theme  Generated %s --><br>\n" % datetime.datetime.now().isoformat())
 
             
     def report_3b(self,o1,o2,o3, count=False, dirname='.'):
