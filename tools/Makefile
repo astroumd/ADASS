@@ -122,7 +122,9 @@ index:	 index1  index2
 # alphabetical
 index1:
 	cat orals.tab posters.tab  | grep -v ^\# | grep -v TBD |grep -v TDA | sort > all.tab
-	LANG=en_US.UTF-8 ./abstracts.py all.tab 0 | grep HREF   > www/abstracts/index1.html
+	LANG=en_US.UTF-8 ./abstracts.py all.tab 0 | grep -i HREF   > junk1.html
+	cat header1.txt junk1.html footer1.txt > www/abstracts/index1.html
+	/bin/rm -rf junk1.html
 	pdflatex abstracts.tex
 	cp abstracts.pdf abstracts.tex www/abstracts
 	./paper_writer.py all.tab template.tex
@@ -136,7 +138,9 @@ index2:
 		 grep '; O'$$s'\.' orals.tab   >> all.tab;\
 		 grep '; P'$$s'\.' posters.tab >> all.tab); done
 	grep '; F' orals.tab                   >> all.tab
-	LANG=en_US.UTF-8 ./abstracts.py all.tab 1 | grep HREF   > www/abstracts/index2.html
+	LANG=en_US.UTF-8 ./abstracts.py all.tab 1 | grep -i HREF >  junk2.html
+	cat header1.txt junk2.html footer1.txt > www/abstracts/index2.html
+	/bin/rm -rf junk2.html
 
 # for peter only
 sync:
