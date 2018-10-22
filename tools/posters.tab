@@ -19,6 +19,7 @@ Wang, Rui                         ; P1.17
 Xiao, Jian                        ; P1.18
 Zhang, Yanxia                     ; P1.19
 Guedes dos Santos, Luiz Fernando  ; P1.20
+Chu, Selina                       ; P1.21
 #
 Arviset, Christophe               ; P10.1
 Atemkeng Teufack, Marcellin       ; P10.2
@@ -73,18 +74,18 @@ Lutz, Katharina                   ; P13.8
 Michel, Laurent                   ; P13.9
 Molinaro, Marco                   ; P13.10
 Nomaru, Junichi                   ; P13.11
-Obi, Ikechukwu Anthony            ; P13.12
-Patterson, Gerald                 ; P13.13
-Pineau, Francois-Xavier           ; P13.14
-Rutkowski, Kristin                ; P13.15
-Ryan, P. Wesley                   ; P13.16
-Shipman, Russell                  ; P13.17
-Shirasaki, Yuji                   ; P13.18
-Solar, Martin                     ; P13.19
-Stephens, Tom                     ; P13.20
-Teuben, Peter                     ; P13.21
-Woods, Paul                       ; P13.22
-Yamaguchi, Masayuki               ; P13.23
+# Obi, Ikechukwu Anthony            ; P13.12   cannot come
+Patterson, Gerald                 ; P13.12
+Pineau, Francois-Xavier           ; P13.13
+Rutkowski, Kristin                ; P13.14
+Ryan, P. Wesley                   ; P13.15
+Shipman, Russell                  ; P13.16
+Shirasaki, Yuji                   ; P13.17
+Solar, Martin                     ; P13.18
+Stephens, Tom                     ; P13.19
+Teuben, Peter                     ; P13.20
+Woods, Paul                       ; P13.21
+Yamaguchi, Masayuki               ; P13.22
 #
 Allen, Mark                       ; P2.1
 Bolton, Adam                      ; P2.2
