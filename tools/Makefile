@@ -123,7 +123,7 @@ index:	 index1  index2
 index1:
 	cat orals.tab posters.tab  | grep -v ^\# | grep -v TBD |grep -v TDA | sort > all.tab
 	LANG=en_US.UTF-8 ./abstracts.py all.tab 0 | grep -i HREF   > junk1.html
-	cat header1.txt junk1.html footer1.txt > www/abstracts/index1.html
+	cat header1.txt junk1.html footer1.txt |sed 's/Abstracts/Abstracts Sorted Alphabetically by First Author/'> www/abstracts/index1.html
 	/bin/rm -rf junk1.html
 	pdflatex abstracts.tex
 	cp abstracts.pdf abstracts.tex www/abstracts
@@ -139,7 +139,7 @@ index2:
 		 grep '; P'$$s'\.' posters.tab >> all.tab); done
 	grep '; F' orals.tab                   >> all.tab
 	LANG=en_US.UTF-8 ./abstracts.py all.tab 1 | grep -i HREF >  junk2.html
-	cat header1.txt junk2.html footer1.txt > www/abstracts/index2.html
+	cat header1.txt junk2.html footer1.txt | sed 's/Abstracts/Abstracts Sorted By Theme/'> www/abstracts/index2.html
 	/bin/rm -rf junk2.html
 
 # for peter only
