@@ -146,7 +146,7 @@ class adass(object):
 
     def zopen(self, path, debug=False):
         """
-        Return Doodle poll
+        Return Doodle poll stats
         
         path     file
         debug    print more
@@ -188,11 +188,11 @@ class adass(object):
             name = s0.cell(row,0).value
             if name != 'Count':            # last row is 'Count', discard it too
                 s[name] = s0.row(row)
-                # print(name,s[name])
 
         nr1 = nr-5
         nc1 = nc-1
         nz1 = ((nc1-1)*nc1)//2
+        print("There are %d choices, %d people and %d cross choice counts" % (nc1,nr1,nz1))
         ok = np.zeros(nr1*nc1, dtype=int).reshape(nr1,nc1)
         mat0 = np.zeros(nc1*nc1, dtype=int)
         c = range(len(s))
@@ -213,11 +213,12 @@ class adass(object):
             #print(i,ok[i],csum)
         csumid = fun(mat,True)
 
+        print('total choice counts: ',ok.sum(axis=0))
+        print('total people counts: ',ok.sum(axis=1))
+        print('total cross choice counts:')
         for i in range(nz1):
             print(i+1,csumid[i],csum[i])
             
-        print(ok.sum(axis=0))
-        print(ok.sum(axis=1))
         
 
         if debug:
@@ -542,7 +543,10 @@ class adass(object):
                     if index:
                         msg = '<A HREF=%s.html>%s </A> <b>%s</b> :  %s<br>' % (c,key,c,title1)
                         print(msg)
-                    
+        if index:
+            print("<!-- HREF4theme --> # Generated %s<br>\n" % datetime.datetime.now().isoformat())
+
+            
     def report_3b(self,o1,o2,o3, count=False, dirname='.'):
         """ report a selection of presenters based on list of names - latex version of report_3a
             o1 = names
@@ -578,10 +582,9 @@ class adass(object):
                 if count:
                     print(n,key,present,title1)
                 else:
-                    msg = '\\subsection*{%s: %s}\n' % (c, title1); fp.write(msg)
+                    msg = '\\subsection*{%s: %s}\n' % (c, title1)              ; fp.write(msg)
                     msg = '{\\bf Theme:} %s\\newline\n' % theme1               ; fp.write(msg)
-                    
-                    msg = '{\\bf Author(s):}\\newline\n'                          ; fp.write(msg)
+                    msg = '{\\bf Author(s):}\\newline\n'                       ; fp.write(msg)
                     if True:
                         a1 = self.x1[key][9].value
                         b1 = self.x1[key][10].value;
@@ -661,7 +664,7 @@ class adass(object):
                 kwargs['LENW']     = ""
                 
                 t1 = T_paper.substitute(**kwargs)
-                fn = dirname + '/' + c + '.tex'
+                fn = dirname + '/' + c.replace('.','-') + '.tex'          #   no, it should be P1-12.tex, not P1.12.tex
                 print("Writing %s" % fn)
                 fp = open(fn,'w')
                 fp.write(t1)
