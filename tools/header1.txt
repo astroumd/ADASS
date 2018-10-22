@@ -21,15 +21,16 @@
 
     <body>
 
-        <!--#include virtual="/includes/nav.inc"-->
+        <!--#include virtual="/includes/nav_p.inc"-->
 
         <!-- Page Content -->
         <div class="container">
         <br>
         <div id="poster">
-        h2 style="padding-top: 80px; margin-top: -80px;">
+        <h2 style="padding-top: 80px; margin-top: -80px;">
         <ol class="breadcrumb">
         <li class="breadcrumb-item">
         Abstracts
         </li>    
         </ol>
+        </h2>
