@@ -59,7 +59,6 @@ P Feinstein, Carlos cfeinstein@fcaglp.unlp.edu.ar Extragalactic stellar photomet
 O Ferguson, Henry ferguson@stsci.edu Data Analysis Tools for JWST and Beyond
 P Fernique, Pierre Pierre.Fernique@astro.unistra.fr Time in Aladin
 O Fitzpatrick, Michael fitz@noao.edu The NOAO Data Lab: Design, Capabilities and Community Development
-O Ford, Eric ebf11@psu.edu Improving Exoplanet Detection through Machine Learning in Wavelength and Time Presenter
 P Gabriel, Carlos carlos.gabriel@sciops.esa.int The COSPAR Capacity Building Initiative: entering a new phase
 P Gallegos, Julio julio.gallegos@sciops.esa.int Agile meets Requirements
 P Geers, Vincent vincent.geers@stfc.ac.uk MIRISim: the JWST-MIRI simulator
