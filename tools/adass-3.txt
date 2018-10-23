@@ -285,6 +285,11 @@ O Chilingarian, Igor igor.chilingarian@cfa.harvard.edu Binospec@MMT: a database-
     T: 13) Other
    TO: observatory operations
  
+P Chu, Selina selina.chu@jpl.nasa.gov Automatic Detection of Microlensing Events in the Galactic Bulge using Machine Learning Techniques
+    ABS: The Wide Field Infrared Survey Telescope (WFIRST) is a NASA flagship mission scheduled to launch in mid-2020, with more than one year of its lifetime dedicated to microlensing survey. The aim is to discover thousands of exoplanets via their microlensing lightcurves, which will enable a Kepler-like statistical analysis of planets ~1-10 AU from their parent stars and revolutionize theories of planet formation.  The goal of our work is to create an automated system that has the ability to efficiently process and classify large-scale astronomical datasets that missions such as WFIRST will produce.  In this paper, we discuss our framework that utilizes feature selection and parameter optimization for classification models to automatically differentiate the different types of stellar variability and detect microlensing events. The use of feature selection enables us to learn which characteristics distinguish the different types of events and to classify high-dimensional data more efficiently. We demonstrate our proposed method on datasets acquired from UKIRT’s wide-field near-IR camera that surveys the galactic bulge. 
+    T: 1) Machine Learning in Astronomy
+   TO: 
+ 
 O Comrie, Angus accomrie@gmail.com An HDF5 Schema for SKA Scale Image Cube Visualization
     ABS: In this paper, we describe work that has been performed to create an HDF5 schema to support the efficient visualization of image data cubes that will result from SKA Phase 1 and precursor observations. The schema has been developed in parallel to a prototype client-server visualization system, intended to serve as a testbed for ideas that will be implemented in replacements for the existing CyberSKA and CASA viewers.
 
@@ -498,11 +503,6 @@ Lessons learned in building and operating a science platform, challenges to
 interoperability with emerging platforms, and scalability issues for Big Data
 science are also discussed.
     T: 5) Science Platforms: Tools for Data Discovery and Analysis from Different Angles
-   TO: 
- 
-O Ford, Eric ebf11@psu.edu Improving Exoplanet Detection through Machine Learning in Wavelength and Time Presenter
-    ABS: With improving precission and stability of high-resolution spectrographs for Doppler planet surveys, intrinsic stellar variability has become the key barrier to measuring the masses of temperate, rocky planets orbiting solar-type stars.  Our team is exploring the potential for machine learning to develop improved stellar activity indicators (e.g., Doppler-constrained principle components analysis in the wavelength domain) and to perform inference on spectroscopic time series (e.g., multi-variate Gaussian process regression in temporal domain).  I will report early results of applying this framework to synthetic spectroscopic time series from SOAP 2.0, describe recent progress and future plans.
-    T: 1) Machine Learning in Astronomy
    TO: 
  
 P Gabriel, Carlos carlos.gabriel@sciops.esa.int The COSPAR Capacity Building Initiative: entering a new phase

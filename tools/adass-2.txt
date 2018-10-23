@@ -35,6 +35,7 @@ P Cardiel, Nicolás cardiel@ucm.es Rectification and wavelength calibration of E
 P Ceballos, M.Teresa ceballos@ifca.unican.es Jitter and readout sampling frequency impact on the Athena/X-IFU performance
 X Chen, Wei chenwei@ihep.ac.cn An automatic data collection and analysis software for GRB studies and its result
 O Chilingarian, Igor igor.chilingarian@cfa.harvard.edu Binospec@MMT: a database-driven model of operations, from planning of observations to data reduction and archiving
+P Chu, Selina selina.chu@jpl.nasa.gov Automatic Detection of Microlensing Events in the Galactic Bulge using Machine Learning Techniques
 O Comrie, Angus accomrie@gmail.com An HDF5 Schema for SKA Scale Image Cube Visualization
 O Coulais, Alain alain.coulais@obspm.fr GDL - GNU Data Language 1.0
 O Crawford, Steven scrawford@stsci.edu Triumphs and Challenges of the Astropy Project: Open Development of a Python Library for Astronomy
@@ -58,7 +59,6 @@ P Feinstein, Carlos cfeinstein@fcaglp.unlp.edu.ar Extragalactic stellar photomet
 O Ferguson, Henry ferguson@stsci.edu Data Analysis Tools for JWST and Beyond
 P Fernique, Pierre Pierre.Fernique@astro.unistra.fr Time in Aladin
 O Fitzpatrick, Michael fitz@noao.edu The NOAO Data Lab: Design, Capabilities and Community Development
-O Ford, Eric ebf11@psu.edu Improving Exoplanet Detection through Machine Learning in Wavelength and Time Presenter
 P Gabriel, Carlos carlos.gabriel@sciops.esa.int The COSPAR Capacity Building Initiative: entering a new phase
 P Gallegos, Julio julio.gallegos@sciops.esa.int Agile meets Requirements
 P Geers, Vincent vincent.geers@stfc.ac.uk MIRISim: the JWST-MIRI simulator
