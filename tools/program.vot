@@ -361,7 +361,7 @@
       <TD>Monday</TD>
       <TD>16.00</TD>
       <TD>17.00</TD>
-      <TD>Quality Assurance of Science Data (continued)</TD>
+      <TD>Quality Assurance of Science Data continued)</TD>
       <TD>None</TD>
      </TR>
      <TR>
@@ -949,8 +949,8 @@
       <TD>Wednesday</TD>
       <TD>11.50</TD>
       <TD>12.05</TD>
-      <TD>Stingray: Open-source spectral-timing software</TD>
-      <TD>text:'New ideas about how to analyze time-domain X-ray astronomy data have initiated the “spectral-timing revolution,” leading to a surge in developments of analysis techniques. Many individual tools and libraries exist, and some are even publicly available, but what has been lacking is a coherent set for a complete analysis. Stingray is a new community-developed, open-source software package in Python for spectral-timing analysis of astrophysical data. This software package merges existing efforts for a timing package in Python and provides the basis for developing spectral-timing analysis tools, while following the Astropy guidelines for modern open-source scientific programming. Stingray has a scripting interface, an affiliated GUI, and a well-documented API for power-users. The ultimate goal is to provide the community with a package that eases the learning curve for state-of-the-art spectral-timing techniques, with a correct statistical framework, to make maximal use of data from NuSTAR, NICER, and potentially STROBE-X and eXTP. Stingray is pip-installable via the Python Package Index, and we warmly welcome community involvement on GitHub and Slack. For more information, see the Stingray website: http://stingraysoftware.github.io/'</TD>
+      <TD>TBD</TD>
+      <TD>TBD</TD>
      </TR>
      <TR>
       <TD>Juric</TD>
