@@ -198,7 +198,6 @@ b.nikolic@mrao.cam.ac.uk
 noumaru@naoj.org
 womullan@lsst.org
 simon.otoole@mq.edu.au
-tonykassidy_z@yahoo.com
 eduardo.ojero@esa.int
 jacob.oloketuyi@ynao.ac.cn
 maxime.paillassa@u-bordeaux.fr
