@@ -22,6 +22,7 @@ jbakker@sciops.esa.int
 pballest@eso.org
 matthieu.baumann@astro.unistra.fr
 ugo.becciani@inaf.it
+sbecker@ari.uni-heidelberg.de
 gbb@ipac.caltech.edu
 sblancocuaresma@cfa.harvard.edu
 thomas.boch@astro.unistra.fr
@@ -83,7 +84,6 @@ cfeinstein@fcaglp.unlp.edu.ar
 ferguson@stsci.edu
 Pierre.Fernique@astro.unistra.fr
 fitz@noao.edu
-ebf11@psu.edu
 carlos.gabriel@sciops.esa.int
 ktg25@cam.ac.uk
 julio.gallegos@sciops.esa.int
@@ -229,7 +229,6 @@ alexander.w.reustle@nasa.gov
 lrizzi@keck.hawaii.edu
 roby@ipac.caltech.edu
 erik.romelli@inaf.it
-arots@cfa.harvard.edu
 ev.rubtcov@physics.msu.ru
 kristin.l.rutkowski@nasa.gov
 wes@ascl.net
