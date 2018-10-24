@@ -1,6 +1,6 @@
 ALESINA, Fabien
 Accomazzi, Alberto
-Ad·mek, Karel
+Ad√°mek, Karel
 Afrin Badhan, Mahmuda
 Albert, Kinga
 Alexov, Anastasia
@@ -22,12 +22,13 @@ Bakker, Jorgo
 Ballester, Pascal
 Baumann, Matthieu
 Becciani, Ugo
+Becker, Stefan
 Berriman, Bruce
 Blanco-Cuaresma, Sergi
 Boch, Thomas
 Boisson, Catherine
 Bolton, Adam
-Bonnarel, FranÁois
+Bonnarel, Fran√ßois
 Booker, Joseph
 Borne, Kirk
 Bosch, James
@@ -41,7 +42,7 @@ Bushouse, Howard
 Busko, Ivo
 Cai, Hongbo
 Cano, Juan Luis
-Cardiel, Nicol·s
+Cardiel, Nicol√°s
 Ceballos, M.Teresa
 Chen, Wei
 Chilingarian, Igor
@@ -59,7 +60,7 @@ Daly, Philip
 Delgado, Arancha
 Dempsey, James
 Dencheva, Nadia
-Derriere, SÈbastien
+Derriere, S√©bastien
 Desai, Vandana
 Deshpande, Shubhankar
 Deul, Erik
@@ -83,16 +84,15 @@ Feinstein, Carlos
 Ferguson, Henry
 Fernique, Pierre
 Fitzpatrick, Michael
-Ford, Eric
 Gabriel, Carlos
 Gale-Sides, Kingsley
 Gallegos, Julio
-Gaudet, SÈverin
+Gaudet, S√©verin
 Geers, Vincent
 Giardino, Giovanna
 Gilda, Sankalp
 Gill, Ranpal
-Gonzalez-NuÒez, Juan
+Gonzalez-Nu√±ez, Juan
 Good, John
 Gordon, Craig
 Goz, David
@@ -229,7 +229,6 @@ Reustle, Alexander
 Rizzi, Luca
 Roby, Trey
 Romelli, Erik
-Rots, Arnold
 Rubtsov, Evgenii
 Rutkowski, Kristin
 Ryan, P. Wesley
@@ -272,7 +271,7 @@ Timmes, Frank
 Toledo, Ignacio
 Tollerud, Erik
 Tomasi, Maurizio
-Torres, SimÛn
+Torres, Sim√≥n
 Tsutsumi, Takahiro
 Vahi, Karan
 Van Klaveren, Brian
