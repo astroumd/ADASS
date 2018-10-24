@@ -35,9 +35,9 @@ Buchschacher	; O10.3			; Tue 10.00 - 10.15
 #
 Joliet          ; F3                    ; Tue 10.45 - 11.15
 # S6
-Holman			; I7.1		; Tue 11.15 - 11.45
-Racero		; O7.1	  		; Tue 11.45 - 12.00
-Raugh		; O7.2			; Tue 12.00 - 12.15
+Borne			; I4.1		; Tue 11.15 - 11.45
+Toledo		; O4.1	  		; Tue 11.45 - 12.00
+Nakazato	; O4.2			; Tue 12.00 - 12.15
 TBD		; LT3                   ; Tue 12.15 - 12.30
 # S7
 Lieu			; I1.1		; Tue 14.00 - 14.30
@@ -65,9 +65,9 @@ Nebot			; I8.1		; Wed 11.20 - 11.50
 Juric 		; O8.2                  ; Wed 12.05 - 12.20
 TBD             ; LT4                   ; Wed 12.20 - 12.35
 # S11
-Borne			; I4.1		; Wed 14.00 - 14.30
-Toledo		; O4.1	  		; Wed 14.30 - 14.45
-Nakazato	; O4.2			; Wed 14.45 - 15.00
+Holman			; I7.1		; Wed 14.00 - 14.30
+Racero		; O7.1	  		; Wed 14.30 - 14.45
+Raugh		; O7.2			; Wed 14.45 - 15.00
 # S12
 Momcheva		; I5.1		; Wed 16.00 - 16.30
 Fitzpatrick	; O5.1	  		; Wed 16.30 - 16.45
