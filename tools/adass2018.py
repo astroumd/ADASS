@@ -667,6 +667,7 @@ class adass(object):
                 abstract1 = latex(self.x1[key][24].value)
                 kwargs = {}
                 kwargs['FNAME']    = fname
+                kwargs['FNAMEI']   = fname[0]
                 kwargs['LNAME']    = lname
                 kwargs['INAME']    = iname
                 kwargs['EMAIL']    = email
