@@ -464,13 +464,15 @@ class adass(object):
                 else:
                     print(key,'-',title1)
 
-    def report_3a(self,o1,o2,o3, count=False, dirname='www/abstracts', index=True, themes=0):
+    def report_3a(self,o1,o2,o3, count=False, dirname='www/abstracts', index=True, themes=0, posters=False):
         """ report a selection of presenters based on list of names
             o1 = names
             o2 = codes
             o3 = times
         """
         # first loop once to know the siblings
+        if posters:
+           pfile = open("posters.list","w")
         n=0
         co1 = []
         co2 = []
@@ -550,11 +552,15 @@ class adass(object):
                     msg = '<b>Title:</b> <i>%s</i>\n' % title1        ; fp.write(msg)
                     msg = '<br><p>\n'                                ; fp.write(msg)                                        
                     msg = '%s</p>\n' % abstract1                          ; fp.write(msg)
+                    if c[0] == 'P' and posters:
+                       txt = "%s\t%s\t\t%s\n" % (c,key,title1)
+                       pfile.write(txt)
                     fp.write(self.getfooter())
                     fp.close()
                     if index:
                         msg = '<a href="/abstracts/%s.html">%s </a> <b>%s</b> :  %s<br>' % (c,key,c,title1)
                         print(msg)
+        if posters: pfile.close()
         if index:
             print("<!-- HREF4theme  Generated %s --><br>\n" % datetime.datetime.now().isoformat())
 
