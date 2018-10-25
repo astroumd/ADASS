@@ -86,8 +86,8 @@ class Program(object):
       for row_index,row in xdf.iterrows():
             key = row['last']
             talkid        = row['code']
-            speaker_first = self.encode_for_html(row['first']).decode('utf-8').replace("&amp;","&")
-            speaker_last  = self.encode_for_html(row['last']).decode('utf-8').replace("&amp;","&")
+            #speaker_first = self.encode_for_html(row['first']).decode('utf-8').replace("&amp;","&")
+            #speaker_last  = self.encode_for_html(row['last']).decode('utf-8').replace("&amp;","&")
             speaker_first = row['first']
             speaker_last  = key
             title         = row['title']
