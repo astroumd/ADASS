@@ -1,11 +1,11 @@
 | last                   | first          |   institution                  |  session | code    | day         | start | end    | title                                                                                                           |    abstract  |
 |  char                  | char           |   char                         |  char    | char    | char        | char  | char   | char                                                                                                            |    char      |
  Check-in                   Tutorials                                          0         Q         Sunday        12.00   13.00
- Derriere                   Sebastien          CDS                             0         T1        Sunday        13.00   15.00   All-sky astronomy with HiPS and MOCs 
- Young                      Michael            Indiana Univ.                   0         T1        Sunday        13.00   15.00   Creating Astronomical Web Applications From Scratch: Introduction to modern full-stack MEAN development 
+ Derriere                   Sebastien          CDS                             0         T1a       Sunday        13.00   15.00   All-sky astronomy with HiPS and MOCs 
+ Young                      Michael            Indiana Univ.                   0         T1b       Sunday        13.00   15.00   Creating Astronomical Web Applications From Scratch: Introduction to modern full-stack MEAN development 
  Break                                                                         0         C0        Sunday        15.00   15.30
- Heinl                      Hendrik            Heidelberg                      0         T2        Sunday        15.30   17.30   A comprehensive use case scenario of VO standards and protocols 
- Momcheva                   Ivelina            STScI                           0         T2        Sunday        15.30   17.30   Working with the Hubble Space Telescope Public Data on Amazon Web Services
+ Heinl                      Hendrik            Heidelberg                      0         T2a       Sunday        15.30   17.30   A comprehensive use case scenario of VO standards and protocols 
+ Momcheva                   Ivelina            STScI                           0         T2b       Sunday        15.30   17.30   Working with the Hubble Space Telescope Public Data on Amazon Web Services
  Demo Booth/Poster Setup   Registration &                                      0         Q         Sunday        16.00   18.00
  Reception                  Opening                                            0         Q         Sunday        18.00   20.00 
  Demo Booth/Poster Setup   Registration &                                      0         Q         Monday        08.00   08.30
