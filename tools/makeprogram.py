@@ -25,7 +25,7 @@ class Program(object):
     titles = []
     a1 = []
     for c,h,t in zip(self._t["last"],self._t['code'],self._t['title']):
-       if h == "H":
+       if h[0] == "H" or h[0] == "T":
            # save the title of the session 
            print("Saving %s"%t)
            titles.append(t)
@@ -57,7 +57,7 @@ class Program(object):
 
   def tohtml(self,days):
     fp = codecs.open('program.html','w','utf-8')
-    colors = {"C": "lightblue", "L": "yellow", "F":"#ddd", "I":"orange", "Q":"lightgreen", "B":"yellow", "H":"#e9f9f9"}
+    colors = {"C": "lightblue", "L": "yellow", "F":"#ddd", "I":"orange", "Q":"lightgreen", "B":"yellow", "H":"#e9f9f9", "T":"#ddd"}
 
     head = '<!DOCTYPE html> <html lang="en">\n <head>\n <!-- Required meta tags --> \n <meta name="viewport" content="width=device-width, initial-scale=1, shrink-t o-fit=no">\n <title>ADASS XXVIII Program</title>\n <!-- Bootstrap CSS -->\n <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css" >\n <!-- Icon -->\n <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">\n <!-- Slicknav -->\n <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">\n <!-- Nivo Lightbox -->\n <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >\n <!-- Animate -->\n <link rel="stylesheet" type="text/css" href="assets/css/animate.css">\n <!-- Main Style -->\n <link rel="stylesheet" type="text/css" href="assets/css/main.css">\n <!-- Responsive Style -->\n <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">\n   <!-- Custom styles for this template -->\n <link href="css/modern-business.css" rel="stylesheet">\n <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet"> </head> <body>'
 
@@ -117,7 +117,10 @@ class Program(object):
                 card2="</p></div></div></div>\n\n"
 
                 fp.write(card1)
-                fp.write(abstract)
+                if talkid[0] != "T":
+                    fp.write(abstract)
+                else:
+                    fp.write('See <a href="tutorials.html">Tutorials Page</a>')
                 fp.write(card2)
       fp.write(accordion_end)
 
