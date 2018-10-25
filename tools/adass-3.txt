@@ -1,10 +1,10 @@
-216 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+214 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 212 entries
+Accepted 210 entries
 11 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 8 entries
-329 x 37 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 296 entries
+331 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 295 entries
 109 x 5 in reg/IVOA Registration (Responses).xlsx
 IVOA Accepted 107 entries
  
@@ -1263,13 +1263,6 @@ The Australian astronomical user community is driving multi-node and multi-wavel
   ABS2 O'Toole, Simon How do you get the most out of your teams?
     ABS: How do you get the most out of your teams?
  
-P Obi, Ikechukwu Anthony tonykassidy_z@yahoo.com The impact of Virtual Observatory Tools in Astronomy Research  in Nigeria
-    ABS: Astronomy development in Nigeria has, over the years, been hampered by lack of adequate astronomical facilities and access to data due to poor internet connectivity.
-In this paper, we discuss how recent introduction of the Virtual Obervatory tools in schools and universities has brought a fast-growing interest in astronomy amongst students as well as boosting the level of astronomy research being carried out in
- arious universities.
-    T: 13) Other
-   TO: 
- 
 P Oloketuyi, Jacob jacob.oloketuyi@ynao.ac.cn The Analysis of Periodic Variation of Sunspot Groups and the X-ray Flare Classes
     ABS: The present solar cycle 24 has been thought to be unusually quiet in many respects. Both sunspot group numbers and flare numbers show a very low level of occurrence compared to the previous cycles. This study investigated the variations and relationship exhibited between the sunspot group numbers and the solar x-ray flares classes (B, C, M and X) in the solar cycles 23 and 24. The Observations of sunspot groups and the solar x-ray flares are archived in the National Oceanic and Atmospheric Administration (NOAA) website. The study was conducted using the continuous wavelet transforms, and the cross-correlation methods. Firstly, we found that the total daily solar flare produced is asynchronous and in antiphase with the sunspot group numbers while it is positively correlated with the sunspot group numbers on cross-correlation analysis. Periodicities of short and intermediate variations were also observed with sunspot group numbers having a significant periodicity around 400 days. The phase asynchrony between the sunspot group numbers and the total flares which is a result of the drop in B and C flares during solar maximum could be attributed to overwhelming of M and X flares produced by magnetic flux system from the active region/sunspot groups.
     T: 7) Software for Solar Systems Astronomy
@@ -1432,18 +1425,6 @@ Not all the code is designed and implemented ex novo for Euclid purposes; usuall
 We will present an overview of how that was done at the Italian SDC in Trieste and present some practical examples related to the integration of an external tool into the Euclid environent. The topic will be discussed taking into account the technicality and focused on the crucial, but usually ignored, aspect of human interfaces.
     T: 4) Data Science: Workflows Hardware Software Humanware
    TO: 
- 
-X Rots, Arnold arots@cfa.harvard.edu Data Citation
-    ABS: As data citation and data preservation have gained increased prominence in recent years, we feel that it is important to continue the conversation that was started during the DOI BoF at ADASS XXVI and expand its scope. There are a number of issues regarding data citation where a coordinated approach would be advantageous to archive managers, journal publishers, and practicing researchers. These include, but are not limited to:
-
-(1) criteria for persistent preservation and citation of data sets; 
-(2) labeling of citable datasets (especially DataCite DOIs); 
-(3) metadata conventions for DOIs; 
-(4) repositories and platforms for persistent preservation; 
-(5) discoverability of preserved data objects; 
-(6) granularity of the preserved data(sets).
-    T: 13) Other
-   TO: BoF
  
 P Rubtsov, Evgenii ev.rubtcov@physics.msu.ru Stellar atmospheric parameters from full spectrum fitting of intermediate and high-resolution spectra against PHOENIX/BT-Settl synthetic stellar atmospheres
     ABS: We present a new technique implemented in IDL for determination of the parameters of stellar atmospheres using PHOENIX and BT-Settl synthetic stellar spectra. The synthetic spectra provide good coverage in the Teff, logg, [Fe/H], [α/H] parameter space over a wide wavelength range and allow to fit observed spectra of a vast majority of stars. Our procedure also determines radial velocities and stellar rotation, and it takes into account flux calibration imperfections by fitting a polynomial continuum. Thanks to using pixel fitting, we can exclude certain spectral features, which are not present in the models, such as emission lines (chromospheric emission in late-type stars or discs around Be stars). We perform a non-linear chi2 minimization with the Levenberg-Marquardt method that is applied to the entire spectrum, with the exception of areas with peculiarities: emission lines, model shortcomings (incompleteness of the spectral line lists used for the atmospheric model calculation). We take into account systematic errors of the surface gravity estimates introduced by synthetic atmospheres by applying a correction computed from the comparison of our results with those obtained using asteroseismology. We present the comparative statistical analysis of optical spectral libraries ELODIE, INDO-US, MILES, UVES-POP, and a new near-infrared Las Campanas Stellar Library and discuss prospective applications of our technique.
