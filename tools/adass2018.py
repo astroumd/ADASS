@@ -314,14 +314,17 @@ class adass(object):
     #            w[i] = w[i].strip()
             
 
-    def print_col(self, col):
+    def print_col(self, col, verbose):
         """ print a given columns. expert mode
         """
         keys = list(self.x3.keys())
         keys.sort()
         for key in keys:
             r = self.x3[key]
-            print(r[col+self.off].value)
+            if verbose:
+                print(r[col+self.off].value, key)
+            else:
+                print(r[col+self.off].value)
 
     def report_0(self):
         """ print just the 'Lastname, Firstname' key
