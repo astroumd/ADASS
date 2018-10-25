@@ -120,7 +120,7 @@ class Program(object):
                 if talkid[0] != "T":
                     fp.write(abstract)
                 else:
-                    fp.write('See <a href="tutorials.html">Tutorials Page</a>')
+                    fp.write('See <a href="tutorial.html">Tutorials Page</a>')
                 fp.write(card2)
       fp.write(accordion_end)
 
