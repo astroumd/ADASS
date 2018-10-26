@@ -1,12 +1,15 @@
-| last                   | first          |   institution                  |  session | code    | day         | start | end    | title                                                                              |    abstract  |
-|  char                  | char           |   char                         |  char    | char    | char        | char  | char   | char                                                                               |    char      |
+| last                   | first          |   institution                  |  session | code    | day         | start | end    | title                                                                                                           |    abstract  |
+|  char                  | char           |   char                         |  char    | char    | char        | char  | char   | char                                                                                                            |    char      |
  Check-in                   Tutorials                                          0         Q         Sunday        12.00   13.00
- 1 &amp; 2                  Tutorials                                          0         T1        Sunday        13.00   15.00
- Break                      Coffee                                             0         C0        Sunday        15.00   15.30
- 3 &amp; 4                  Tutorials                                          0         T2        Sunday        15.30   17.30
+ Derriere                   Sebastien          CDS                             0         T1a       Sunday        13.00   15.00   All-sky astronomy with HiPS and MOCs 
+ Young                      Michael            Indiana Univ.                   0         T1b       Sunday        13.00   15.00   Creating Astronomical Web Applications From Scratch: Introduction to modern full-stack MEAN development 
+ Break                      &nbsp;                                             0         C0        Sunday        15.00   15.30
+ Heinl                      Hendrik            Heidelberg                      0         T2a       Sunday        15.30   17.30   A comprehensive use case scenario of VO standards and protocols 
+ Momcheva                   Ivelina            STScI                           0         T2b       Sunday        15.30   17.30   Working with the Hubble Space Telescope Public Data on Amazon Web Services
  Demo Booth/Poster Setup   Registration &                                      0         Q         Sunday        16.00   18.00
  Reception                  Opening                                            0         Q         Sunday        18.00   20.00 
  Demo Booth/Poster Setup   Registration &                                      0         Q         Monday        08.00   08.30
+ (Provided)                 Breakfast                                          0         C         Monday        07.30   08.30
  Remarks                    Opening                                            1         Q         Monday        08.30   08.40
  Lorente                    Nuria                                              1         H         Monday        08.30   10.15   Astrophysical Data Visualization from Line Plots to Augmented and Virtual Reality
  Varshney                   Amitabh         Univ. of Maryland                  1         I3.1      Monday        08.40   09.00
@@ -14,7 +17,7 @@
  Zapart                     Christopher         NAOJ                           1         O3.1      Monday        09.30   09.45 
  Comrie                     Angus           Univ. of Cape Town                 1         O3.2      Monday        09.45   10.00
  Ramirez                    Emanuel         Quasar Science Resources           1         O3.3      Monday        10.00   10.15
- Poster Session             Coffee Break/                                      0         C1        Monday        10.15   11.15
+ Poster Session                    Break/                                      0         C1        Monday        10.15   11.15
  Mechev                     Alexandar       Leiden University                  0         F1        Monday        10.45   11.15
  Lewis                      Jim                                                2         H         Monday        11.15   12.30   Algorithms
  Bosch                      James           Princeton U./LSST                  2         I12.1     Monday        11.15   11.45
@@ -26,7 +29,7 @@
  Dencheva                   Nadia           STScI                              3         O12.3     Monday        14.00   14.15
  Lam                        Cheuk Yin       Liverpool Telescope                3         O12.4     Monday        14.15   14.30
  Plante                     Ray             NIST                               3         I11.1     Monday        14.30   15.00
- Poster Session             Coffee Break/                                      0         C2        Monday        15.00   16.00
+ Poster Session             Break/                                             0         C2        Monday        15.00   16.00
  Raddick                    Michael         Johns Hopkins U.                   0         F2        Monday        15.30   16.00   
  Derriere                   Sebastien                                          4         H         Monday        16.00   17.00   Quality Assurance of Science Data continued)
  Diaz                       Rosa            STScI                              4         O11.1     Monday        16.00   16.15
@@ -37,18 +40,19 @@
  of Feather 2                Birds                                             0         B2        Monday        17.15   18.15
  of Feather 3                Birds                                             0         B3        Monday        18.15   19.15
  of Feather 4                Birds                                             0         B4        Monday        18.15   19.15
+ (Provided)                 Breakfast                                          0         C         Tuesday       07.30   08.30
  Announcements              Morning                                            0         Q         Tuesday       08.55   09.00
  Ibsen                      Jorge                                              5         H         Tuesday       09.00   10.15   Databases and Archives: Challenges and Solutions in the Big Data Era
  Stoehr                     Felix           ESO/ALMA                           5         I10.1     Tuesday       09.00   09.30
  Brasseur                   Clara           STSci                              5         O10.1     Tuesday       09.30   09.45
  Zecevic                    Petar           Univ. of Zagreb                    5         O10.2     Tuesday       09.45   10.00
  Buchschacher               Nicolas         Univ. of Geneva                    5         O10.3     Tuesday       10.00   10.15
- Poster Session             Coffee Break/                                      0         C3        Tuesday       10.15   11.15
+ Poster Session             Break/                                             0         C3        Tuesday       10.15   11.15
  Joliet                     Emmanuel        IPAC/Caltech                       0         F3        Tuesday       10.45   11.15
- Gwyn                       Stephen                                            6         H         Tuesday       11.15   12.15   Software for Solar System Astronomy
- Holman                     Matthew         CfA                                6         I7.1      Tuesday       11.15   11.45
- Racero                     Elena           ESAC - Serco                       6         O7.1      Tuesday       11.45   12.00
- Raugh                      Anne            Univ. of Maryland                  6         O7.2      Tuesday       12.00   12.15
+ Mink                       Jessica                                            11        H         Tuesday       11.15   12.30    Data Science: Workflows, Hardware, Software, Humanware
+ Borne                      Kirk            Booz Allen Hamilton                11        I4.1      Tuesday       11.15   11.45
+ Toledo                     Ignacio         Joint ALMA Observatory             11        O4.1      Tuesday       11.45   12.00
+ Nakazato                   Takeshi         NAOJ                               11        O4.2      Tuesday       12.00   12.15 
  Talks                      Lightning                                          0         LT3       Tuesday       12.15   12.30
  Photo                      Conference                                         0         Q         Tuesday       12.30   12.45
  (Provided)                 Lunch                                              0         C         Tuesday       12.45   14.00
@@ -56,7 +60,7 @@
  Lieu                       Maggie          ESA                                7         I1.1      Tuesday       14.00   14.30
  Ansdell                    Megan           UC Berkeley                        7         O1.1      Tuesday       14.30   14.45
  Nikolic                    Bojan           Univ. of Cambridge                 7         O1.2      Tuesday       14.45   15.00
- Poster Session             Coffee Break/                                      0         C4        Tuesday       15.00   16.00
+ Poster Session             Break/                                             0         C4        Tuesday       15.00   16.00
  Good                       John            Caltech/IPAC-NExScI                0         F4        Tuesday       15.30   16.00
  Shortridge                 Keith                                              8         H         Tuesday       16.00   17.00   Multi-Messenger Astronomy
  Gilda                      Sankalp         Carnegie Mellon University         8         O1.3      Tuesday       16.00   16.15
@@ -65,6 +69,7 @@
  of Feather 5                Birds                                             0         B5        Tuesday       17.15   18.15
  of Feather 6                Birds                                             0         B6        Tuesday       17.15   18.15
  Banquet                    Conference                                         0         Q         Tuesday       19.00   22.00
+ (Provided)                 Breakfast                                          0         C         Wednesday     07.30   08.30
  Announcements              Morning                                            0         Q         Wednesday     08.55   09.00
  Fitzpatrick                Mike                                               9         H         Wednesday     09.00   10.00   Databases and Archives (continued)
  Martinez                   Beatriz         Rhea Systems S.A.                  9         O10.4     Wednesday     09.00   09.15
@@ -72,7 +77,7 @@
  Gonzalez-Nuñez             Juan            European Space Agency              9         O10.6     Wednesday     09.30   09.45
  Graves                     Sarah           East Asian Observatory             9         O10.7     Wednesday     09.45   10.00
  Allen                      Alice           Astrophysics Source Code Libr      9         O13.1     Wednesday     10.00   10.15
- Poster Session             Coffee Break/                                      0         C4        Wednesday     10.15   11.15
+ Poster Session             Break/                                             0         C4        Wednesday     10.15   11.15
  Vahi                       Karan           Pegasus Team - USC/ISI             0         F5        Wednesday     10.45   11.15
  Pound                      Marc                                               10        H         Wednesday     11.00   12.20    Time Domain Astronomy
  Prizewinner                Hackathon                                          10        OH        Wednesday     11.15   11.20
@@ -81,24 +86,25 @@
  Juric                      Mario           Univ. of Washington                10        O8.2      Wednesday     12.05   12.20
  Talks                      Lightning                                          0         LT4       Wednesday     12.20   12.35
  (Provided)                 Lunch                                              0         C         Wednesday     12.35   14.00
- Mink                       Jessica                                            11        H         Wednesday     14.00   15.00    Data Science: Workflows, Hardware, Software, Humanware
- Borne                      Kirk            Booz Allen Hamilton                11        I4.1      Wednesday     14.00   14.30
- Toledo                     Ignacio         Joint ALMA Observatory             11        O4.1      Wednesday     14.30   14.45
- Nakazato                   Takeshi         NAOJ                               11        O4.2      Wednesday     14.45   15.00
- Poster Session             Coffee Break/                                      0         C5        Wednesday     15.00   16.00
+ Gwyn                       Stephen                                            6         H         Wednesday     14.00   15.00   Software for Solar System Astronomy
+ Holman                     Matthew         CfA                                6         I7.1      Wednesday     14.00   15.00
+ Racero                     Elena           ESAC - Serco                       6         O7.1      Wednesday     14.00   14.30
+ Raugh                      Anne            Univ. of Maryland                  6         O7.2      Wednesday     14.30   14.45 
+ Poster Session             Break/                                             0         C5        Wednesday     15.00   16.00
  Arviset                    Christophe                                         12        H         Wednesday     16.00   17.00    Science Platforms: Tools for Data Discovery and Analysis from Different Angles
  Momcheva                   Ivelina         STScI                              12        I5.1      Wednesday     16.00   16.30
  Fitzpatrick                Michael         NOAO                               12        O5.1      Wednesday     16.30   16.45
  Donaldson                  Tom             STScI                              12        O5.2      Wednesday     16.45   17.00
  of Feather 7                Birds                                             0         B7        Wednesday     17.15   18.15
  of Feather 8                Birds                                             0         B8        Wednesday     17.15   18.15
+ (Provided)                 Breakfast                                          0         C         Thursday      07.30   08.30
  Announcements              Morning                                            0         Q         Thursday      08.55   09.00
  Ballester                  Pascal                                             13        H         Thursday      09.00   10.00    DevOps Practices is Astronomy Software
  Guerra Noguero             Rocio           European Space Agency              13        I6.1      Thursday      09.00   09.30
  Loose                      Marcel          ASTRON                             13        O6.1      Thursday      09.30   09.45
  Smith                      Jeffrey         SETI Institute                     13        O5.3      Thursday      09.45   10.00
  Boussejra                  Malik Olivier   Keio Univ.                         13        O5.4      Thursday      10.00   10.15
- Poster Session             Coffee Break/                                      0         C5        Thursday      10.15   11.15
+ Poster Session             Break/                                             0         C5        Thursday      10.15   11.15
  Pizzo                      Roberto                                            14        H         Thursday      11.00   12.00   Management of Large Science Projects
  Wise                       Michael         ASTRON                             14        I2.1      Thursday      11.15   11.45
  Alexov                     Anastasia       STScI                              14        O2.1      Thursday      11.45   12.00
