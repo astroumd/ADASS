@@ -241,6 +241,7 @@ nsharp@nsf.gov
 pshawhan@umd.edu
 robert.shen@astronomyaustralia.org.au
 msshin@kasi.re.kr
+daniel.shipman@maine.edu
 russ@sron.nl
 yuji.shirasaki@nao.ac.jp
 keith@knaveandvarlet.com.au
@@ -287,6 +288,7 @@ zywu@nao.cas.cn
 xiaojian@tju.edu.cn
 yxu@nao.cas.cn
 masayuki.yamaguchi@nao.ac.jp
+youngmd@iu.edu
 yuxianchuan@163.com
 xuyf@nao.cas.cn
 chris.zapart@nao.ac.jp
