@@ -1,4 +1,7 @@
-% super simple template
+% super simple template for automated 2018 ADASS manuscript generation from the registration entry
+% most comments have been removed, see the ADASS_template.tex for a fully commented version
+
+% Version 25-oct-2018 (Peter Teuben)
 
 \documentclass[11pt,twoside]{article}
 
@@ -9,22 +12,22 @@
 
 \bibliographystyle{asp2014}
 
-\markboth{${LNAME}, Author2, and Author3}{${TITLE}}
+\markboth{${LNAME}, and Author2}{${TITLE}}   % remove/add authors as you need
 
 \begin{document}
 
 \title{${TITLE}}
 
-\author{${FNAME}~${LNAME},${F1} Sample~Author2,${F2} and Sample~Author3${F3}
-\affil{${F1}${INAME}, Institution City, State/Province, Country; \email{${EMAIL}}}
-\affil{${F2}Institution Name, Institution City, State/Province, Country}
-\affil{${F3}Institution Name, Institution City, State/Province, Country}}
-
+\author{${FNAME}~${LNAME},${F1} and Sample~Author2${F2}
+  \affil{${F1}${INAME}, Institution City, State/Province, Country; \email{${EMAIL}}}
+  \affil{${F2}Institution Name, Institution City, State/Province, Country}}
 
 \paperauthor{${FNAME}~${LNAME}}{${EMAIL}}{ORCID}{${INAME}}{Author1 Department}{City}{State/Province}{Postal Code}{Country}
 \paperauthor{Sample~Author2}{Author2Email@email.edu}{ORCID_Or_Blank}{Author2 Institution}{Author2 Department}{City}{State/Province}{Postal Code}{Country}
-\paperauthor{Sample~Author3}{Author3Email@email.edu}{ORCID_Or_Blank}{Author3 Institution}{Author3 Department}{City}{State/Province}{Postal Code}{Country}
 
+% \aindex{${LNAME},~${FNAMEI}.}
+% \aindex{Coauthor,~A.}          % remove and add as you need
+  
 \begin{abstract}
 
 ${ABSTRACT}
@@ -33,13 +36,13 @@ ${ABSTRACT}
 
 \section{Introduction}
 
-Your abstract currently has ${LENA} characters. For more than 1000 it's probably too long. Just sayin'
-Since this paper was written by some python code, you better edit this rubbish away.
+Your abstract currently has ${LENA} characters. For more than 1000 it's possibly too long. Just sayin'
+Since this paper was written by some python code, ignore that warning, but better edit most of this rubbish away.
 
 
 \section{The Template}
 
-To use this template instead of the ADASS\_template, copy this file to your given paper, e.g. O3.1.tex, P5.2.tex, B4.tex, F3.tex, I.tex, place the
+To use this 2018 template instead of the ADASS\_template, copy this file to your given paper, e.g. O3-1.tex, P5-2.tex, B4.tex, F3.tex, I.tex, place the
 paper type in the Makefile, review the Makefile, and hit ``make'' and hope for the best.  If that runs into trouble, check if your version of
 latex uses a different calling sequence.  Some instructions are in the Makefile.
 
