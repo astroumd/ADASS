@@ -129,9 +129,11 @@ index1: papers
 	pdflatex abstracts.tex
 	cp abstracts.pdf abstracts.tex www/abstracts
 
+#   author templates 
 papers:
 	./paper_writer.py all.tab template.tex
 
+#   templates for "toc" inclusion in the final volume, placeholder test
 papers_test:
 	./paper_writer.py all.tab template.tex comment
 
@@ -147,6 +149,14 @@ index2:
 	LANG=en_US.UTF-8 ./abstracts.py all.tab 1 | grep -i HREF >  junk2.html
 	cat header1.txt junk2.html footer1.txt | sed 's/Abstracts/Abstracts Sorted By Theme/'> www/abstracts/index2.html
 	/bin/rm -rf junk2.html
+
+# for orals latex for the session chairs
+index3:
+	cat orals.tab | grep -v ^\# | grep -v TBD |grep -v TDA > all.tab
+	LANG=en_US.UTF-8 ./abstracts.py all.tab 0 | grep -i HREF   > junk1.html
+	/bin/rm -rf junk1.html
+	cp abstracts.tex abstracts_orals.tex
+	pdflatex abstracts_orals.tex
 
 # for peter only
 sync:
