@@ -3,6 +3,7 @@
 TGT = adass-0     adass-1     adass-2     adass-3     adass-4      
 TXT = adass-0.txt adass-1.txt adass-2.txt adass-3.txt adass-4.txt  
 
+.PHONY: papers
 
 all: students countries dinner tutorial abstract focus comm demo financial companion proceedings date diet count \
 	$(TGT)
@@ -120,14 +121,19 @@ index:	 index1  index2
 
 
 # alphabetical
-index1:
+index1: papers
 	cat orals.tab posters.tab  | grep -v ^\# | grep -v TBD |grep -v TDA | sort > all.tab
 	LANG=en_US.UTF-8 ./abstracts.py all.tab 0 | grep -i HREF   > junk1.html
 	cat header1.txt junk1.html footer1.txt |sed 's/Abstracts/Abstracts Sorted Alphabetically by First Author/'> www/abstracts/index1.html
 	/bin/rm -rf junk1.html
 	pdflatex abstracts.tex
 	cp abstracts.pdf abstracts.tex www/abstracts
+
+papers:
 	./paper_writer.py all.tab template.tex
+
+papers_test:
+	./paper_writer.py all.tab template.tex comment
 
 
 # thematical
@@ -144,8 +150,18 @@ index2:
 
 # for peter only
 sync:
-	rsync -av reg_final chara.astro.umd.edu:public_html/adass
+	rsync -av --delete reg_final chara.astro.umd.edu:public_html/adass
+	rsync -av --delete papers chara.astro.umd.edu:public_html/adass
 
 # if this list doesn't agree with the app.certain list of registrants... something is duplicated or missing, i.e. a db error.
 list0:
 	tr '[A-Z]' '[a-z]' < adass-0.txt | sort | awk '{print NR,$$0}' | less
+
+# tells me what's missing.
+
+PDIR = ~/Dropbox/adass2018/Proceedings
+missing:
+	@ls $(PDIR)
+
+new1:
+	./makeprogram.py > program.html
