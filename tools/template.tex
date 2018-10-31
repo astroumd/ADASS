@@ -1,28 +1,31 @@
 % super simple template for automated 2018 ADASS manuscript generation from the registration entry
 % most comments have been removed, see the ADASS_template.tex for a fully commented version
 
-% Version 25-oct-2018 (Peter Teuben)
+% Version 30-oct-2018 (Peter Teuben)
 
-\documentclass[11pt,twoside]{article}
-
-\usepackage{asp2014}
+${COMMENT}\documentclass[11pt,twoside]{article}
+${COMMENT}\usepackage{asp2014}
 
 \aspSuppressVolSlug
 \resetcounters
 
 \bibliographystyle{asp2014}
 
-\markboth{${LNAME}, and Author2}{${TITLE}}   % remove/add authors as you need
 
-\begin{document}
+\markboth{${LNAME}, and Author2}{${TITLE}}      % remove/add authors as you need
+
+${COMMENT}\begin{document}
 
 \title{${TITLE}}
 
+
 \author{${FNAME}~${LNAME},${F1} and Sample~Author2${F2}
   \affil{${F1}${INAME}, Institution City, State/Province, Country; \email{${EMAIL}}}
-  \affil{${F2}Institution Name, Institution City, State/Province, Country}}
+  \affil{${F2}Institution Name, Institution City, State/Province, Country}}           % remove/add authors as you need
+
 
 \paperauthor{${FNAME}~${LNAME}}{${EMAIL}}{ORCID}{${INAME}}{Author1 Department}{City}{State/Province}{Postal Code}{Country}
+% remove/add authors as you need
 \paperauthor{Sample~Author2}{Author2Email@email.edu}{ORCID_Or_Blank}{Author2 Institution}{Author2 Department}{City}{State/Province}{Postal Code}{Country}
 
 % \aindex{${LNAME},~${FNAMEI}.}
@@ -54,6 +57,11 @@ Look for the larger template and Makefile how to do this.
 \section{References}
 
 This template has no bibtex file. 
-Look for the larger template and Makefile how to do this.
+Look for the larger template and Makefile how to do this. By default the Makefile will create
+an empty ${PCODE}.bib. When you add references to this,
+add a line \verb+\bibliography{${PCODE}}+  right before end of the document, make use ``make'' to
+create your beautifully looking PDF.
 
-\end{document}
+
+${COMMENT}\end{document}
+
