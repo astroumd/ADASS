@@ -106,6 +106,8 @@ class Program(object):
                 abstract      = row['abstract']
             else:
                 abstract = "TBD"
+            # make sure it gets into the votable
+            row['abstract'] = abstract
            
             #if key in self.a.x1:
             #    abstract      = self.a.x1[key][24].value
