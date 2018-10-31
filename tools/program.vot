@@ -29,20 +29,32 @@
       <TD>TBD</TD>
      </TR>
      <TR>
-      <TD>1 &amp;amp; 2</TD>
-      <TD>Tutorials</TD>
-      <TD/>
+      <TD>Derriere</TD>
+      <TD>Sebastien</TD>
+      <TD>CDS</TD>
       <TD>0</TD>
-      <TD>T1</TD>
+      <TD>T1a</TD>
       <TD>Sunday</TD>
       <TD>13.00</TD>
       <TD>15.00</TD>
-      <TD>TBD</TD>
-      <TD>TBD</TD>
+      <TD>All-sky Astronomy with HiPS and MOCs</TD>
+      <TD>None</TD>
+     </TR>
+     <TR>
+      <TD>Young</TD>
+      <TD>Michael</TD>
+      <TD>Indiana Univ.</TD>
+      <TD>0</TD>
+      <TD>T1b</TD>
+      <TD>Sunday</TD>
+      <TD>13.00</TD>
+      <TD>15.00</TD>
+      <TD>Creating Astronomical Web Applications From Scratch: Introduction to modern full-stack MEAN development</TD>
+      <TD>None</TD>
      </TR>
      <TR>
       <TD>Break</TD>
-      <TD>Coffee</TD>
+      <TD>&amp;nbsp;</TD>
       <TD/>
       <TD>0</TD>
       <TD>C0</TD>
@@ -53,16 +65,28 @@
       <TD>TBD</TD>
      </TR>
      <TR>
-      <TD>3 &amp;amp; 4</TD>
-      <TD>Tutorials</TD>
-      <TD/>
+      <TD>Heinl</TD>
+      <TD>Hendrik</TD>
+      <TD>Heidelberg</TD>
       <TD>0</TD>
-      <TD>T2</TD>
+      <TD>T2a</TD>
       <TD>Sunday</TD>
       <TD>15.30</TD>
       <TD>17.30</TD>
-      <TD>TBD</TD>
-      <TD>TBD</TD>
+      <TD>A comprehensive use case scenario of VO standards and protocols</TD>
+      <TD>None</TD>
+     </TR>
+     <TR>
+      <TD>Momcheva</TD>
+      <TD>Ivelina</TD>
+      <TD>STScI</TD>
+      <TD>0</TD>
+      <TD>T2b</TD>
+      <TD>Sunday</TD>
+      <TD>15.30</TD>
+      <TD>17.30</TD>
+      <TD>Working with the Hubble Space Telescope Public Data on Amazon Web Services</TD>
+      <TD>None</TD>
      </TR>
      <TR>
       <TD>Demo Booth/Poster Setup</TD>
@@ -101,6 +125,18 @@
       <TD>TBD</TD>
      </TR>
      <TR>
+      <TD>Breakfast</TD>
+      <TD>Buffet</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>C</TD>
+      <TD>Monday</TD>
+      <TD>07.00</TD>
+      <TD>08.30</TD>
+      <TD>TBD</TD>
+      <TD>TBD</TD>
+     </TR>
+     <TR>
       <TD>Remarks</TD>
       <TD>Opening</TD>
       <TD/>
@@ -129,12 +165,12 @@
       <TD>Amitabh</TD>
       <TD>Univ. of Maryland</TD>
       <TD>1</TD>
-      <TD>I3.1</TD>
+      <TD>xI3.1</TD>
       <TD>Monday</TD>
       <TD>08.40</TD>
       <TD>09.00</TD>
-      <TD>TBD</TD>
-      <TD>TBD</TD>
+      <TD>Astronomy-inspired Visual Computing</TD>
+      <TD>Astronomy has inspired mankind for generations to develop theories, tools, and technologies that have dramatically advanced our knowledge and practice of science. In this talk, I will give an overview of how the field of astronomy has helped advance the field of visual computing. My talk will span the advances in line integral convolutions, ambient occlusion, geometry-aware lighting, and much more. These techniques, with their origins and motivations in astronomy, are changing how we design aircraft, to rational drug design, to computer-generated games and movies.</TD>
      </TR>
      <TR>
       <TD>Kent</TD>
@@ -186,7 +222,7 @@
      </TR>
      <TR>
       <TD>Poster Session</TD>
-      <TD>Coffee Break/</TD>
+      <TD>Break/</TD>
       <TD/>
       <TD>0</TD>
       <TD>C1</TD>
@@ -269,13 +305,13 @@
       <TD>TBD</TD>
      </TR>
      <TR>
-      <TD>(Provided)</TD>
       <TD>Lunch</TD>
+      <TD>Buffet</TD>
       <TD/>
       <TD>0</TD>
       <TD>C</TD>
       <TD>Monday</TD>
-      <TD>12.30</TD>
+      <TD>12.3</TD>
       <TD>14.00</TD>
       <TD>TBD</TD>
       <TD>TBD</TD>
@@ -330,7 +366,7 @@
      </TR>
      <TR>
       <TD>Poster Session</TD>
-      <TD>Coffee Break/</TD>
+      <TD>Break/</TD>
       <TD/>
       <TD>0</TD>
       <TD>C2</TD>
@@ -361,7 +397,7 @@
       <TD>Monday</TD>
       <TD>16.00</TD>
       <TD>17.00</TD>
-      <TD>Quality Assurance of Science Data continued)</TD>
+      <TD>Quality Assurance of Science Data (continued)</TD>
       <TD>None</TD>
      </TR>
      <TR>
@@ -413,50 +449,62 @@
       <TD>TBD</TD>
      </TR>
      <TR>
-      <TD>of Feather 1</TD>
-      <TD>Birds</TD>
-      <TD/>
+      <TD>Mink</TD>
+      <TD>Jessica</TD>
+      <TD>CfA</TD>
       <TD>0</TD>
       <TD>B1</TD>
       <TD>Monday</TD>
       <TD>17.15</TD>
       <TD>18.15</TD>
-      <TD>TBD</TD>
-      <TD>TBD</TD>
+      <TD>Data Formats</TD>
+      <TD>None</TD>
      </TR>
      <TR>
-      <TD>of Feather 2</TD>
-      <TD>Birds</TD>
-      <TD/>
+      <TD>Tollerud</TD>
+      <TD>Eric</TD>
+      <TD>STScI</TD>
       <TD>0</TD>
       <TD>B2</TD>
       <TD>Monday</TD>
       <TD>17.15</TD>
       <TD>18.15</TD>
-      <TD>TBD</TD>
-      <TD>TBD</TD>
+      <TD>Open Source/Development Software Projects and Large Organizations/Missions: Recommendations and Challenges</TD>
+      <TD>None</TD>
      </TR>
      <TR>
-      <TD>of Feather 3</TD>
-      <TD>Birds</TD>
-      <TD/>
+      <TD>Muench</TD>
+      <TD>August</TD>
+      <TD>AAS</TD>
       <TD>0</TD>
       <TD>B3</TD>
       <TD>Monday</TD>
       <TD>18.15</TD>
       <TD>19.15</TD>
-      <TD>TBD</TD>
-      <TD>TBD</TD>
+      <TD>Data Citation: from Archives to Science Platforms</TD>
+      <TD>None</TD>
      </TR>
      <TR>
-      <TD>of Feather 4</TD>
-      <TD>Birds</TD>
-      <TD/>
+      <TD>Polsterer</TD>
+      <TD>Kai</TD>
+      <TD>HITS</TD>
       <TD>0</TD>
       <TD>B4</TD>
       <TD>Monday</TD>
       <TD>18.15</TD>
       <TD>19.15</TD>
+      <TD>Beginners Guide to Machine Learning in Astronomy</TD>
+      <TD>None</TD>
+     </TR>
+     <TR>
+      <TD>Breakfast</TD>
+      <TD>Buffet</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>C</TD>
+      <TD>Tuesday</TD>
+      <TD>07.00</TD>
+      <TD>08.30</TD>
       <TD>TBD</TD>
       <TD>TBD</TD>
      </TR>
@@ -499,7 +547,7 @@
      <TR>
       <TD>Brasseur</TD>
       <TD>Clara</TD>
-      <TD>STSci</TD>
+      <TD>STScI</TD>
       <TD>5</TD>
       <TD>O10.1</TD>
       <TD>Tuesday</TD>
@@ -534,7 +582,7 @@
      </TR>
      <TR>
       <TD>Poster Session</TD>
-      <TD>Coffee Break/</TD>
+      <TD>Break/</TD>
       <TD/>
       <TD>0</TD>
       <TD>C3</TD>
@@ -557,52 +605,52 @@
       <TD>text:"NASA/IPAC Infrared Science Archive (IRSA) curates the science products of NASA's infrared and submillimeter missions, including many large-area and all-sky surveys. IRSA offers access to digital archives through powerful query engines (including VO-compliant interfaces) and offers unique data analysis and visualization tools. IRSA exploits a re-useable architecture to deploy cost-effective archives, including 2MASS, Spitzer, WISE, Planck, and a large number of highly-used contributed data products from a diverse set of astrophysics projects.\n\nFirefly is IPAC's Advanced Astronomy WEB UI Framework. It was  open sourced in 2015, hosted at GitHub. Firefly is designed for building a web-based front end to access science archives  with advanced data visualization capabilities.The visualization provide user with an integrated experience with brushing and linking capabilities among images, catalogs, and plots.  Firefly has been used in many IPAC IRSA applications, in LSST Science Platform Portal, and in NED’s newly released interface.\n\nIn this focus demo, we will show case many data access interfaces and services provided by IRSA based on Firefly. It will demonstrate the reusability of Firefly in query, data display, and its visualization capabilities, including the newly released features of HiPS images display, MOC overlay, and the interactions between all those visualization components."</TD>
      </TR>
      <TR>
-      <TD>Gwyn</TD>
-      <TD>Stephen</TD>
+      <TD>Mink</TD>
+      <TD>Jessica</TD>
       <TD/>
-      <TD>6</TD>
+      <TD>11</TD>
       <TD>H</TD>
       <TD>Tuesday</TD>
       <TD>11.15</TD>
-      <TD>12.15</TD>
-      <TD>Software for Solar System Astronomy</TD>
+      <TD>12.30</TD>
+      <TD>Data Science: Workflows, Hardware, Software, Humanware</TD>
       <TD>None</TD>
      </TR>
      <TR>
-      <TD>Holman</TD>
-      <TD>Matthew</TD>
-      <TD>CfA</TD>
-      <TD>6</TD>
-      <TD>I7.1</TD>
+      <TD>Borne</TD>
+      <TD>Kirk</TD>
+      <TD>Booz Allen Hamilton</TD>
+      <TD>11</TD>
+      <TD>I4.1</TD>
       <TD>Tuesday</TD>
       <TD>11.15</TD>
       <TD>11.45</TD>
-      <TD>The Minor Planet Center Data Processing System</TD>
-      <TD>text:"The Minor Planet Center (MPC) is the international clearing house for\nall ground-based and space-based astrometric and radar observations of\nasteroids, comets, trans-Neptunian objects, and outer satellites of the\ngiant planets. The MPC assigns designations, provides up-to-date\nephemerides, and coordinates follow-up observations for these objects.  \nTo meet the needs of the community, the MPC currently receives and\nprocesses over two million observations per month and maintains a\ncatalog of orbits of more than 700K objects.\n\nAlthough the MPC processes observations of all minor solar system\nbodies, its focus is near-Earth objects (NEOs).  All MPC operations\nare organized around this central function.  The MPC is required to\nwarn of NEOs approaching within 6 Earth Radii within the coming 6\nmonths.  Thus, the main components of the MPC's data processing system\nenable real-time identification of candidate NEOs, with possible\nimpact trajectories, within a much larger volume of asteroids and\nother solar system objects.  A few such alerts are issued each year,\nincluding that for ZLAF9B2/2018 LA.  In addition, The MPC facilitates\nfollow up observations and the coordination of observing assets for\nefficient recovery searches for NEOs.\n\nWe anticipate that the data volumne will increase to a factor of 10 to\n100 over the next decade as surveys such as LSST and NEOCam come\nonline, augmenting the already-large volume from programs such as\nPan-STARRS, the Catalina Sky Survey, NEOWISE, and ZTF.  Thus, we are\nin the process of building and testing a new MPC data processing\nsystem.  The goals are to maximize accuracy, data accessibility,\nautomation, and uptime while minimizing latency and maintaining\ndependable archives of all data received.\n\nIn this talk I will highlight the challenges faced by the MPC, demonstrate\nthe key components of our data processing system, and describe a\nnumber of algorithmic advances that support a much more efficient and\nreliable system.\n\nThe MPC operates at the Smithsonian Astrophysical Observatory, part of\nthe Harvard-Smithsonian Center for Astrophysics (CfA), under the\nauspices of the International Astronomical Union (IAU). The MPC is\n100% funded by NASA as a functional sub-node of the Small Bodies Node\n(SBN) of the NASA Planetary Data System at U. Maryland."</TD>
+      <TD>Massive Data Exploration in Astronomy: What Does Cognitive Have To Do With It?</TD>
+      <TD>text:'There has been a tendency for astronomers to avoid unsupervised data exploration, due to the characterization of this approach as a non-scientific fishing expedition. But, a cognitive approach to massive data exploration has the potential to amplify hypothesis formulation and question generation for greater astronomical discovery. The incorporation of contextual data from other wavelengths and other surveys provides the basis for seeing interestingness in the multi-dimensional properties of sources that might otherwise appear uninteresting in a single survey database. Some suggested methods for cognitive exploration will be presented, including computer vision algorithms that are used in robotics to see patterns in the the world, but these can be used to see emergent patterns in the multi-dimensional parameter space of astronomical data.'</TD>
      </TR>
      <TR>
-      <TD>Racero</TD>
-      <TD>Elena</TD>
-      <TD>ESAC - Serco</TD>
-      <TD>6</TD>
-      <TD>O7.1</TD>
+      <TD>Toledo</TD>
+      <TD>Ignacio</TD>
+      <TD>Joint ALMA Observatory</TD>
+      <TD>11</TD>
+      <TD>O4.1</TD>
       <TD>Tuesday</TD>
       <TD>11.45</TD>
       <TD>12.00</TD>
-      <TD>ESASky: A New Window for Solar System Data Exploration</TD>
-      <TD>text:'Allowing the solar system community fast and easy access to the astronomical data archives is a long-standing issue. Moreover, the everyday increasing amount of archival data coming from a variety of facilities, both from ground-based telescopes and space missions, leads to the need for single points of entry for exploration purposes. Efforts to tackle this issue are already in place, such as the ‘Solar System Object Image Search by the Canadian Astronomy Data Centre’ (CADC), plus a number of ephemeris services, such as Horizons (NASA-JPL), Miriade (IMCCE) or the Minor Planet &amp; Comet Ephemeris Service (MPC).\n\nWithin this context, the ESAC Science Data Centre (ESDC), located at the European Space Astronomy Centre (ESAC) has developed ESASky (http://sky.esa.int), a science driven discovery portal to explore the multi-wavelength sky providing a fast and intuitive access to all ESA astronomy archive holdings. Released in May 2016, ESASky is a new web application that sits on top of ESAC hosted archives, with the goal of serving as an interface to all high-level science products generated by ESA astronomy missions. The data spans from radio to x-ray and gamma-ray regimes, with Planck, Herschel, ISO, HST, XMM-Newton and Integral missions. \n\nWe present here the first integration of the search mechanism for solar system objects through ESASky. Based on IMCCE Eproc software for ephemeris precomputation, it allows fast discovery of photometry observations from ESA missions that potentially contain those objects within their Field Of View. In this first integration, the user is able to input a target name and retrieve on-the-fly the results for all the observations from the above-mentioned missions that match the input provided, that is, that contains within the exposure time frame the ephemerides of such objects. \n\nFinally, we will also discuss current developments and future plans in strong collaboration with some of the main actors in the field.'</TD>
+      <TD>Data Science =! Software Engineering. Exploring a workflow for ALMA operations.</TD>
+      <TD>text:'In the last few years Data science has emerged as a discipline of its own to address problems where data is usually heterogeneous, complex and abundant. In a nutshell, data science allows to provide answers to situations where a hypothesis can be formulated and later can be either confirmed or rejected following standard scientific methodology using data as raw material. Data science has been called differently depending of the domain (business intelligence, operational management, astroinformatics) and it has been recently in the center of a hype related to artificial intelligence and machine learning. It has been quickly adopted by the digital industry as the tool to distill information of massive operational data sets.\n\nAmong the many tools data science requires (mathematics, statistics, domain knowledge of the data sets, …), IT infrastructure and software is by far the most visible and there is at present a whole ecosystem available as open source projects. The downside of this is data science is commonly confused with IT and software development, which creates conflicts between engineering- and scientific- mindsets, and leads to wrongly applying software development methodologies to it neglecting the experimental nature of the problem. In summary, creating the data lab becomes more important than answering questions with it.\n\nIn the domain of ALMA operations, there are many instances that can be identified and described as data science cases or projects ranging from monitoring array elements to understand performances and predict faults for engineering operations to routine monitoring of calibrators for science operations purposes. We have identified already around 30 different initial questions (or data science cases) and found that several of them have been addressed through individual efforts. \n\nIn parallel, several enabling platforms or frameworks have appear in the ecosystem that provides data scientists with both the “laboratory equipment” to conduct their “experiments” as well as enabling tools for collaboration, versioning control, and deploying results in production with a quick turnaround.\n\nThis talk aims to summarize the results of our exploration to apply data science workflows to resolve ALMA operations issues, identify suitable platforms that are already in use by the industry, share our experience in addressing specific ALMA operations data cases, and discuss the technical and sociological challenges we encountered along the way.\u200b\u200b'</TD>
      </TR>
      <TR>
-      <TD>Raugh</TD>
-      <TD>Anne</TD>
-      <TD>Univ. of Maryland</TD>
-      <TD>6</TD>
-      <TD>O7.2</TD>
+      <TD>Nakazato</TD>
+      <TD>Takeshi</TD>
+      <TD>NAOJ</TD>
+      <TD>11</TD>
+      <TD>O4.2</TD>
       <TD>Tuesday</TD>
       <TD>12.00</TD>
       <TD>12.15</TD>
-      <TD>The PDS Approach to Science  Data Quality Assurance</TD>
-      <TD>text:'The Planetary Data System (PDS) has been mandated by NASA not merely to preserve the bytes returned by its planetary spacecraft, but to ensure those data are usable through generations - 50-100 years into the future. When PDS accepts data for archiving, it must be complete, thoroughly documented, and as far as possible autonomous within the archive (that is, everything needed to understand and use the data must be in the archive as well).  Two pillars support the PDS mission: The PDS4 Information Model, and the mandatory External Peer Review.\n\nThe PDS4 Information Model codifies metadata not just for structure, but for provenance, interpretation, and analysis as well.  The XML document structures defined for the current implementation of the model and its various constituent namespaces define minimum requirements and present best practices for describing all these aspects of the archival data. The schematic enforcement of these requirements provides a simple, automated approach to ensuring the metadata are present and well-formed.\n\nThe PDS External Peer Review is required for all data prior to acceptance for archiving.  Equivalent to the refereeing process for journal articles, The PDS External Peer Review presents the candidate data to discipline experts unaffiliated with the creation of the data.  These reviewers exercise the data in its archival form by reproducing published results, doing comparative analysis between the candidate data and similar or correlated results, and so on, using only the archival resources.  These reviewers then determine if the data are of archival quality, and where needed, formulate a list of corrections and additions required prior to archiving.\n\nTogether, the Information Model guides data preparers to producing well-formatted, well-documented data products while the External Peer Review ensures the archive submission is complete, usable, and of sufficient quality to merit permit preservation - and support - as part of the Planetary Data System archives.'</TD>
+      <TD>New Synthesis Imaging Tool for ALMA based on the Sparse Modeling</TD>
+      <TD>text:'A new imaging tool for radio interferometry has been developed based on the sparse modeling approach. It has been implemented as a Python module operating on Common Astronomy Software Applications (CASA) so that the tool is able to process the data taken by Atacama Large Millimeter/submillimeter Array (ALMA). In order to handle large data of ALMA, the Fast Fourier Transform has been implemented with gridding process. The concept of the sparse modeling for the image reconstruction has been realized with two regularization terms: L1 norm term for the sparsity and Total Squared Variation (TSV) term for the smoothness of the resulting image. Since it is important to adjust the size of the regularization terms appropriately, the cross-validation routine, which is a standard method in statistics, has been implemented. This imaging tool runs even on a standard laptop PC and processes ALMA data within a reasonable time. The interface of the tool is comprehensible to CASA users and the usage is so simple that it consists of mainly three steps to obtain the result: an initialization, a configuration, and a processing. Remarkable feature of the tool is that it produces the solution without human intervention. Furthermore, the solution is robust in the sense that it is less affected by the processing parameters. For the verification of the imaging tool, we have tested it with two extreme examples from ALMA Science Verification Data: the protoplanetary disk, HL Tau as a typical smooth and filled image, and the lensed galaxy, SDP.81 as a sparse image. In our presentation, these results will be presented with some performance information. The comparison between our results and those of traditional CLEAN method will also be provided. Finally, our future improvement and enhancement plan to make our tool competitive with CLEAN will be shown.'</TD>
      </TR>
      <TR>
       <TD>Talks</TD>
@@ -629,8 +677,8 @@
       <TD>TBD</TD>
      </TR>
      <TR>
-      <TD>(Provided)</TD>
       <TD>Lunch</TD>
+      <TD>Buffet</TD>
       <TD/>
       <TD>0</TD>
       <TD>C</TD>
@@ -642,7 +690,7 @@
      </TR>
      <TR>
       <TD>DuPrie</TD>
-      <TD>Kim</TD>
+      <TD>Kimberly</TD>
       <TD/>
       <TD>7</TD>
       <TD>H</TD>
@@ -690,7 +738,7 @@
      </TR>
      <TR>
       <TD>Poster Session</TD>
-      <TD>Coffee Break/</TD>
+      <TD>Break/</TD>
       <TD/>
       <TD>0</TD>
       <TD>C4</TD>
@@ -761,28 +809,28 @@
       <TD>text:'The emergence of time-domain multi-messenger (astro)physics asks for new and more efficient ways of interchanging information, as well as collaboration. Many space- and ground-based observatories have web pages dedicated to showing information about the complete observations and planned observation schedule. The aim would be to standardise the exchange of information about observational schedules and set-ups between facilities and in addition, to standardise the automation of visibility checking for multiple facilities. To reach this, we propose to use the VO protocols (ObsTAP-like) to write services to expose these data to potential client applications and to develop cross facilities visibility servers.'</TD>
      </TR>
      <TR>
-      <TD>of Feather 5</TD>
-      <TD>Birds</TD>
-      <TD/>
+      <TD>O'Toole</TD>
+      <TD>Simon</TD>
+      <TD>AAO-MQ</TD>
       <TD>0</TD>
       <TD>B5</TD>
       <TD>Tuesday</TD>
       <TD>17.15</TD>
       <TD>18.15</TD>
-      <TD>TBD</TD>
-      <TD>TBD</TD>
+      <TD>How do you get the most out of your teams?</TD>
+      <TD>None</TD>
      </TR>
      <TR>
-      <TD>of Feather 6</TD>
-      <TD>Birds</TD>
-      <TD/>
+      <TD>Shawhan</TD>
+      <TD>Peter</TD>
+      <TD>Univ. of Maryland</TD>
       <TD>0</TD>
       <TD>B6</TD>
       <TD>Tuesday</TD>
       <TD>17.15</TD>
       <TD>18.15</TD>
-      <TD>TBD</TD>
-      <TD>TBD</TD>
+      <TD>Data analysis challenges for multi-messenger astrophysics</TD>
+      <TD>None</TD>
      </TR>
      <TR>
       <TD>Banquet</TD>
@@ -793,6 +841,18 @@
       <TD>Tuesday</TD>
       <TD>19.00</TD>
       <TD>22.00</TD>
+      <TD>TBD</TD>
+      <TD>TBD</TD>
+     </TR>
+     <TR>
+      <TD>Breakfast</TD>
+      <TD>Buffet</TD>
+      <TD/>
+      <TD>0</TD>
+      <TD>C</TD>
+      <TD>Wednesday</TD>
+      <TD>07.00</TD>
+      <TD>08.30</TD>
       <TD>TBD</TD>
       <TD>TBD</TD>
      </TR>
@@ -882,7 +942,7 @@
      </TR>
      <TR>
       <TD>Poster Session</TD>
-      <TD>Coffee Break/</TD>
+      <TD>Break/</TD>
       <TD/>
       <TD>0</TD>
       <TD>C4</TD>
@@ -894,7 +954,7 @@
      </TR>
      <TR>
       <TD>Vahi</TD>
-      <TD>Karen</TD>
+      <TD>Karan</TD>
       <TD>Pegasus Team - USC/ISI</TD>
       <TD>0</TD>
       <TD>F5</TD>
@@ -977,68 +1037,68 @@
       <TD>TBD</TD>
      </TR>
      <TR>
-      <TD>(Provided)</TD>
       <TD>Lunch</TD>
+      <TD>Buffet</TD>
       <TD/>
       <TD>0</TD>
       <TD>C</TD>
       <TD>Wednesday</TD>
-      <TD>12.35</TD>
+      <TD>12.3</TD>
       <TD>14.00</TD>
       <TD>TBD</TD>
       <TD>TBD</TD>
      </TR>
      <TR>
-      <TD>Mink</TD>
-      <TD>Jessica</TD>
+      <TD>Gwyn</TD>
+      <TD>Stephen</TD>
       <TD/>
-      <TD>11</TD>
+      <TD>6</TD>
       <TD>H</TD>
       <TD>Wednesday</TD>
       <TD>14.00</TD>
       <TD>15.00</TD>
-      <TD>Data Science: Workflows, Hardware, Software, Humanware</TD>
+      <TD>Software for Solar System Astronomy</TD>
       <TD>None</TD>
      </TR>
      <TR>
-      <TD>Borne</TD>
-      <TD>Kirk</TD>
-      <TD>Booz Allen Hamilton</TD>
-      <TD>11</TD>
-      <TD>I4.1</TD>
+      <TD>Holman</TD>
+      <TD>Matthew</TD>
+      <TD>CfA</TD>
+      <TD>6</TD>
+      <TD>I7.1</TD>
       <TD>Wednesday</TD>
       <TD>14.00</TD>
       <TD>14.30</TD>
-      <TD>Massive Data Exploration in Astronomy: What Does Cognitive Have To Do With It?</TD>
-      <TD>text:'There has been a tendency for astronomers to avoid unsupervised data exploration, due to the characterization of this approach as a non-scientific fishing expedition. But, a cognitive approach to massive data exploration has the potential to amplify hypothesis formulation and question generation for greater astronomical discovery. The incorporation of contextual data from other wavelengths and other surveys provides the basis for seeing interestingness in the multi-dimensional properties of sources that might otherwise appear uninteresting in a single survey database. Some suggested methods for cognitive exploration will be presented, including computer vision algorithms that are used in robotics to see patterns in the the world, but these can be used to see emergent patterns in the multi-dimensional parameter space of astronomical data.'</TD>
+      <TD>The Minor Planet Center Data Processing System</TD>
+      <TD>text:"The Minor Planet Center (MPC) is the international clearing house for\nall ground-based and space-based astrometric and radar observations of\nasteroids, comets, trans-Neptunian objects, and outer satellites of the\ngiant planets. The MPC assigns designations, provides up-to-date\nephemerides, and coordinates follow-up observations for these objects.  \nTo meet the needs of the community, the MPC currently receives and\nprocesses over two million observations per month and maintains a\ncatalog of orbits of more than 700K objects.\n\nAlthough the MPC processes observations of all minor solar system\nbodies, its focus is near-Earth objects (NEOs).  All MPC operations\nare organized around this central function.  The MPC is required to\nwarn of NEOs approaching within 6 Earth Radii within the coming 6\nmonths.  Thus, the main components of the MPC's data processing system\nenable real-time identification of candidate NEOs, with possible\nimpact trajectories, within a much larger volume of asteroids and\nother solar system objects.  A few such alerts are issued each year,\nincluding that for ZLAF9B2/2018 LA.  In addition, The MPC facilitates\nfollow up observations and the coordination of observing assets for\nefficient recovery searches for NEOs.\n\nWe anticipate that the data volumne will increase to a factor of 10 to\n100 over the next decade as surveys such as LSST and NEOCam come\nonline, augmenting the already-large volume from programs such as\nPan-STARRS, the Catalina Sky Survey, NEOWISE, and ZTF.  Thus, we are\nin the process of building and testing a new MPC data processing\nsystem.  The goals are to maximize accuracy, data accessibility,\nautomation, and uptime while minimizing latency and maintaining\ndependable archives of all data received.\n\nIn this talk I will highlight the challenges faced by the MPC, demonstrate\nthe key components of our data processing system, and describe a\nnumber of algorithmic advances that support a much more efficient and\nreliable system.\n\nThe MPC operates at the Smithsonian Astrophysical Observatory, part of\nthe Harvard-Smithsonian Center for Astrophysics (CfA), under the\nauspices of the International Astronomical Union (IAU). The MPC is\n100% funded by NASA as a functional sub-node of the Small Bodies Node\n(SBN) of the NASA Planetary Data System at U. Maryland."</TD>
      </TR>
      <TR>
-      <TD>Toledo</TD>
-      <TD>Ignacio</TD>
-      <TD>Joint ALMA Observatory</TD>
-      <TD>11</TD>
-      <TD>O4.1</TD>
+      <TD>Racero</TD>
+      <TD>Elena</TD>
+      <TD>ESAC - Serco</TD>
+      <TD>6</TD>
+      <TD>O7.1</TD>
       <TD>Wednesday</TD>
       <TD>14.30</TD>
       <TD>14.45</TD>
-      <TD>Data Science =! Software Engineering. Exploring a workflow for ALMA operations.</TD>
-      <TD>text:'In the last few years Data science has emerged as a discipline of its own to address problems where data is usually heterogeneous, complex and abundant. In a nutshell, data science allows to provide answers to situations where a hypothesis can be formulated and later can be either confirmed or rejected following standard scientific methodology using data as raw material. Data science has been called differently depending of the domain (business intelligence, operational management, astroinformatics) and it has been recently in the center of a hype related to artificial intelligence and machine learning. It has been quickly adopted by the digital industry as the tool to distill information of massive operational data sets.\n\nAmong the many tools data science requires (mathematics, statistics, domain knowledge of the data sets, …), IT infrastructure and software is by far the most visible and there is at present a whole ecosystem available as open source projects. The downside of this is data science is commonly confused with IT and software development, which creates conflicts between engineering- and scientific- mindsets, and leads to wrongly applying software development methodologies to it neglecting the experimental nature of the problem. In summary, creating the data lab becomes more important than answering questions with it.\n\nIn the domain of ALMA operations, there are many instances that can be identified and described as data science cases or projects ranging from monitoring array elements to understand performances and predict faults for engineering operations to routine monitoring of calibrators for science operations purposes. We have identified already around 30 different initial questions (or data science cases) and found that several of them have been addressed through individual efforts. \n\nIn parallel, several enabling platforms or frameworks have appear in the ecosystem that provides data scientists with both the “laboratory equipment” to conduct their “experiments” as well as enabling tools for collaboration, versioning control, and deploying results in production with a quick turnaround.\n\nThis talk aims to summarize the results of our exploration to apply data science workflows to resolve ALMA operations issues, identify suitable platforms that are already in use by the industry, share our experience in addressing specific ALMA operations data cases, and discuss the technical and sociological challenges we encountered along the way.\u200b\u200b'</TD>
+      <TD>ESASky: A New Window for Solar System Data Exploration</TD>
+      <TD>text:'Allowing the solar system community fast and easy access to the astronomical data archives is a long-standing issue. Moreover, the everyday increasing amount of archival data coming from a variety of facilities, both from ground-based telescopes and space missions, leads to the need for single points of entry for exploration purposes. Efforts to tackle this issue are already in place, such as the ‘Solar System Object Image Search by the Canadian Astronomy Data Centre’ (CADC), plus a number of ephemeris services, such as Horizons (NASA-JPL), Miriade (IMCCE) or the Minor Planet &amp; Comet Ephemeris Service (MPC).\n\nWithin this context, the ESAC Science Data Centre (ESDC), located at the European Space Astronomy Centre (ESAC) has developed ESASky (http://sky.esa.int), a science driven discovery portal to explore the multi-wavelength sky providing a fast and intuitive access to all ESA astronomy archive holdings. Released in May 2016, ESASky is a new web application that sits on top of ESAC hosted archives, with the goal of serving as an interface to all high-level science products generated by ESA astronomy missions. The data spans from radio to x-ray and gamma-ray regimes, with Planck, Herschel, ISO, HST, XMM-Newton and Integral missions. \n\nWe present here the first integration of the search mechanism for solar system objects through ESASky. Based on IMCCE Eproc software for ephemeris precomputation, it allows fast discovery of photometry observations from ESA missions that potentially contain those objects within their Field Of View. In this first integration, the user is able to input a target name and retrieve on-the-fly the results for all the observations from the above-mentioned missions that match the input provided, that is, that contains within the exposure time frame the ephemerides of such objects. \n\nFinally, we will also discuss current developments and future plans in strong collaboration with some of the main actors in the field.'</TD>
      </TR>
      <TR>
-      <TD>Nakazato</TD>
-      <TD>Takeshi</TD>
-      <TD>NAOJ</TD>
-      <TD>11</TD>
-      <TD>O4.2</TD>
+      <TD>Raugh</TD>
+      <TD>Anne</TD>
+      <TD>Univ. of Maryland</TD>
+      <TD>6</TD>
+      <TD>O7.2</TD>
       <TD>Wednesday</TD>
       <TD>14.45</TD>
       <TD>15.00</TD>
-      <TD>New Synthesis Imaging Tool for ALMA based on the Sparse Modeling</TD>
-      <TD>text:'A new imaging tool for radio interferometry has been developed based on the sparse modeling approach. It has been implemented as a Python module operating on Common Astronomy Software Applications (CASA) so that the tool is able to process the data taken by Atacama Large Millimeter/submillimeter Array (ALMA). In order to handle large data of ALMA, the Fast Fourier Transform has been implemented with gridding process. The concept of the sparse modeling for the image reconstruction has been realized with two regularization terms: L1 norm term for the sparsity and Total Squared Variation (TSV) term for the smoothness of the resulting image. Since it is important to adjust the size of the regularization terms appropriately, the cross-validation routine, which is a standard method in statistics, has been implemented. This imaging tool runs even on a standard laptop PC and processes ALMA data within a reasonable time. The interface of the tool is comprehensible to CASA users and the usage is so simple that it consists of mainly three steps to obtain the result: an initialization, a configuration, and a processing. Remarkable feature of the tool is that it produces the solution without human intervention. Furthermore, the solution is robust in the sense that it is less affected by the processing parameters. For the verification of the imaging tool, we have tested it with two extreme examples from ALMA Science Verification Data: the protoplanetary disk, HL Tau as a typical smooth and filled image, and the lensed galaxy, SDP.81 as a sparse image. In our presentation, these results will be presented with some performance information. The comparison between our results and those of traditional CLEAN method will also be provided. Finally, our future improvement and enhancement plan to make our tool competitive with CLEAN will be shown.'</TD>
+      <TD>The PDS Approach to Science  Data Quality Assurance</TD>
+      <TD>text:'The Planetary Data System (PDS) has been mandated by NASA not merely to preserve the bytes returned by its planetary spacecraft, but to ensure those data are usable through generations - 50-100 years into the future. When PDS accepts data for archiving, it must be complete, thoroughly documented, and as far as possible autonomous within the archive (that is, everything needed to understand and use the data must be in the archive as well).  Two pillars support the PDS mission: The PDS4 Information Model, and the mandatory External Peer Review.\n\nThe PDS4 Information Model codifies metadata not just for structure, but for provenance, interpretation, and analysis as well.  The XML document structures defined for the current implementation of the model and its various constituent namespaces define minimum requirements and present best practices for describing all these aspects of the archival data. The schematic enforcement of these requirements provides a simple, automated approach to ensuring the metadata are present and well-formed.\n\nThe PDS External Peer Review is required for all data prior to acceptance for archiving.  Equivalent to the refereeing process for journal articles, The PDS External Peer Review presents the candidate data to discipline experts unaffiliated with the creation of the data.  These reviewers exercise the data in its archival form by reproducing published results, doing comparative analysis between the candidate data and similar or correlated results, and so on, using only the archival resources.  These reviewers then determine if the data are of archival quality, and where needed, formulate a list of corrections and additions required prior to archiving.\n\nTogether, the Information Model guides data preparers to producing well-formatted, well-documented data products while the External Peer Review ensures the archive submission is complete, usable, and of sufficient quality to merit permit preservation - and support - as part of the Planetary Data System archives.'</TD>
      </TR>
      <TR>
       <TD>Poster Session</TD>
-      <TD>Coffee Break/</TD>
+      <TD>Break/</TD>
       <TD/>
       <TD>0</TD>
       <TD>C5</TD>
@@ -1097,26 +1157,26 @@
       <TD>text:'The International Virtual Observatory Alliance (IVOA) has been defining standards for interoperable astronomical data exchange since 2002.  Many of these standards are being used successfully and extensively by archives and end user tools to enable data discovery and access.  Nevertheless a skepticism persists in parts of the community about the utility and even relevance of these standards, as well as the processes by which they were written.  By contrast, the Astropy Project, with its very different processes (and somewhat different goals), has been widely embraced by the community for the usefulness and usability of its interoperable Python packages.  In this talk I will discuss what these projects might learn from each other, and how more collaboration might benefit both projects and the community in general.'</TD>
      </TR>
      <TR>
-      <TD>of Feather 7</TD>
-      <TD>Birds</TD>
+      <TD>Allen</TD>
+      <TD>Alice</TD>
       <TD/>
       <TD>0</TD>
       <TD>B7</TD>
       <TD>Wednesday</TD>
       <TD>17.15</TD>
       <TD>18.15</TD>
-      <TD>TBD</TD>
-      <TD>TBD</TD>
+      <TD>Unconference Session: I want to talk about...</TD>
+      <TD>None</TD>
      </TR>
      <TR>
-      <TD>of Feather 8</TD>
-      <TD>Birds</TD>
+      <TD>Breakfast</TD>
+      <TD>Buffet</TD>
       <TD/>
       <TD>0</TD>
-      <TD>B8</TD>
-      <TD>Wednesday</TD>
-      <TD>17.15</TD>
-      <TD>18.15</TD>
+      <TD>C</TD>
+      <TD>Thursday</TD>
+      <TD>07.00</TD>
+      <TD>08.30</TD>
       <TD>TBD</TD>
       <TD>TBD</TD>
      </TR>
@@ -1194,7 +1254,7 @@
      </TR>
      <TR>
       <TD>Poster Session</TD>
-      <TD>Coffee Break/</TD>
+      <TD>Break/</TD>
       <TD/>
       <TD>0</TD>
       <TD>C5</TD>
