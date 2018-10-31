@@ -640,7 +640,7 @@ class adass(object):
         fp.write(_footer2)
         fp.close()
                     
-    def report_3c(self,o1,o2,o3, template='template.tex', dirname='papers'):
+    def report_3c(self,o1,o2,o3, template='template.tex', comment = False, dirname='papers'):
         """ write a template conferences proceedings contribution
             o1 = names
             o2 = codes
@@ -662,7 +662,10 @@ class adass(object):
             return Template(template_file_content)
 
         T_paper = read_template(template)
- 
+
+
+        fn1 = dirname + '/' + 'toc.txt'
+        fp1 = open(fn1,'w')
         n=0
         for (k,c,t) in zip(o1,o2,o3):
             key = self.expand_name(k)
@@ -672,6 +675,7 @@ class adass(object):
                 lname     = self.x1[key][4].value
                 iname     = self.x1[key][5].value
                 email     = self.x1[key][6].value
+                pcode     = c.replace('.','-')
                 title1    = latex(self.x1[key][23].value)
                 abstract1 = latex(self.x1[key][24].value)
                 kwargs = {}
@@ -687,13 +691,22 @@ class adass(object):
                 kwargs['F3']       = '$^3$'
                 kwargs['LENA']     = str(len(abstract1))
                 kwargs['LENW']     = ""
+                kwargs['PCODE']    = pcode
+                if comment:
+                    kwargs['COMMENT']  = "%"
+                else:
+                    kwargs['COMMENT']  = ""
+                
                 
                 t1 = T_paper.substitute(**kwargs)
-                fn = dirname + '/' + c.replace('.','-') + '.tex'          #   no, it should be P1-12.tex, not P1.12.tex
+                fn = dirname + '/' + pcode  + '.tex'          #   no, it should be P1-12.tex, not P1.12.tex
                 print("Writing %s" % fn)
                 fp = open(fn,'w')
                 fp.write(t1)
                 fp.close()
+                msg = '\\tocinsertentry[r]{%s}{%s.~%s}{authors/%s}\n' % (title1,fname[0],lname,pcode)
+                fp1.write(msg)
+        fp1.close()
                     
     def report_4(self, full = False, name=None):
         """ report emails only"""
