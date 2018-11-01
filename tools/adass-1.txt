@@ -45,7 +45,6 @@ chb@bao.ac.cn
 juanlu001@gmail.com
 cardiel@ucm.es
 ceballos@ifca.unican.es
-chenwei@ihep.ac.cn
 igor.chilingarian@cfa.harvard.edu
 selina.chu@jpl.nasa.gov
 accomrie@gmail.com
@@ -145,7 +144,6 @@ matwey@sai.msu.ru
 karl.kosack@cea.fr
 george.kosugi@nao.ac.jp
 erik.kuulkers@esa.int
-kyp@stsci.edu
 marco.landoni@inaf.it
 klabrie@gemini.edu
 mlacy@nrao.edu
@@ -258,7 +256,6 @@ msolar95@gmail.com
 mauricio.solar@usm.cl
 songxy@ihep.ac.cn
 max.spolaor@tmctechnologies.com
-mqastro@acm.org
 thomas.stephens@nasa.gov
 felix.stoehr@gmx.de
 ole@aip.de
@@ -296,7 +293,6 @@ yxu@nao.cas.cn
 masayuki.yamaguchi@nao.ac.jp
 youngmd@iu.edu
 yuxianchuan@163.com
-xuyf@nao.cas.cn
 chris.zapart@nao.ac.jp
 Petar.Zecevic@fer.hr
 zyx@bao.ac.cn

@@ -45,7 +45,6 @@ Cai, Hongbo
 Cano, Juan Luis
 Cardiel, Nicolás
 Ceballos, M.Teresa
-Chen, Wei
 Chilingarian, Igor
 Chu, Selina
 Comrie, Angus
@@ -145,7 +144,6 @@ Kornilov, Matwey
 Kosack, Karl
 Kosugi, George
 Kuulkers, Erik
-Kyprianou, Mark
 LANDONI, MARCO
 Labrie, Kathleen
 Lacy, Mark
@@ -258,7 +256,6 @@ Solar, Martin
 Solar, Mauricio
 Song, Xinying
 Spolaor, Max
-Stenborg, Travis
 Stephens, Tom
 Stoehr, Felix
 Streicher, Ole
@@ -296,7 +293,6 @@ Xu, Yang
 Yamaguchi, Masayuki
 Young, Michael
 Yu, Xianchuan
-Yunfei, Xu
 Zapart, Christopher
 Zecevic, Petar
 Zhang, Yanxia
