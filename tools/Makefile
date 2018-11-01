@@ -158,6 +158,14 @@ index3:
 	cp abstracts.tex abstracts_orals.tex
 	pdflatex abstracts_orals.tex
 
+# thematical for posters only
+index4:
+	cat posters.tab | grep -v ^\# | grep -v TBD |grep -v TDA > all.tab
+	LANG=en_US.UTF-8 ./abstracts.py all.tab 0 | grep -i HREF   > junk1.html
+	/bin/rm -rf junk1.html
+	cp abstracts.tex abstracts_posters.tex
+	pdflatex abstracts_posters.tex
+
 # for peter only
 sync:
 	rsync -av --delete reg_final chara.astro.umd.edu:public_html/adass
