@@ -1,10 +1,10 @@
-214 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+210 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 210 entries
+Accepted 206 entries
 11 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 8 entries
-333 x 37 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 297 entries
+339 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+Accepted 299 entries
 109 x 5 in reg/IVOA Registration (Responses).xlsx
 IVOA Accepted 107 entries
  
@@ -271,13 +271,6 @@ However, the non-perfect sampling of the pulses rising-edges could result in sig
 
 We present here the analysis of the magnitude of this effect and propose a correction. In addition, we evaluate the impact of a reduced readout sampling frequency in the energy resolution, once the jitter correction has been applied.
     T: 12) Algorithms
-   TO: 
- 
-X Chen, Wei chenwei@ihep.ac.cn An automatic data collection and analysis software for GRB studies and its result
-    ABS: Gamma-ray bursts (GRBs), transient gamma rays from the sky, are currently the most luminous explosions in the universe. After its discovery in 1973, GRB has attracted more and more attentions due to its special properties, such as high energy, high redshift, and rich multi-band data.
-In this work, I mainly work on the research of central engine of GRB with its large collections of GRB multi-band data. I try to constrain the central engine models based on the statistical analysis of large GRB sample. As the first step, I develop Capella, an automatic data collection and statistical analysis code dedicated for GRB studies. We then collect large amounts of GRB data with Capella from all available public data archive. 
-One of the outputs of the software is the signature of a newborn Black Hole (BH) from the collapse of a supra-massive millisecond magnetar. We put special focus on the central engine of magnetar. If magnetars are the central engines of some GRBs, then several evolutionary results of magnetars are expected: (1) the immediate collapse into a BH; (2) the collapse of a supra-massive magnetar into a BH after it spins down; and (3) a stable magnetar. From GRB samples, we find two candidates exhibiting evidence of a magnetar central engine at early afterglow and a newborn starving BH at late time. Our results suggest that some magnetars may indeed collapse into a BH, which provides direct support for the magnetar and BH central engine models. Our results suggest that some magnetars may indeed collapse into a BH, which provides direct support for the magnetar and BH central engine models.
-    T: 9) Multi-Messenger Astronomy
    TO: 
  
 O Chilingarian, Igor igor.chilingarian@cfa.harvard.edu Binospec@MMT: a database-driven model of operations, from planning of observations to data reduction and archiving
@@ -929,11 +922,6 @@ X Kuulkers, Erik erik.kuulkers@esa.int Coordinating observations among ground an
     T: 9) Multi-Messenger Astronomy
    TO: 
  
-O Kyprianou, Mark kyp@stsci.edu Lessons Learned from the behemoth JWST Data Management effort
-    ABS: As with any large project, there are always lessons to be learned for future endeavors that can be applied and/or considered for similar endeavors.  The development of the Data Management Subsystem (DMS) for the James Webb Space Telescope (JWST) provides such an opportunity to take advantage of experiences and events that can be applied to other missions. The DMS software and hardware tool set is extensive; it involves more than 100 staff including developers, scientists and systems engineers.  It receives science and engineering telemetry data from the spacecraft, performs quality checking, calibration, data (re-)processing; archives the data; provides user notification, search, and access tools for JWST science and engineering data;  distributes data to the end user; provides extensive user analysis/visualization tools.  We will discuss the evolution of DMS and its interaction within the Science and Operations Center (S&OC) covering keys to our success and also those that did not work out so well.
-    T: 2) Management of Large Science Project
-   TO: 
- 
 P LANDONI, MARCO marco.landoni@inaf.it Application of Google Cloud Platform in Astrophysics
     ABS: The availability of new Cloud Platform offered by Google motivated us to propose nine Proof of Concepts (PoC) aiming to demonstrated and test the capabilities of the platform in the context of scientifically-driven tasks and requirements.
 In this poster, we review the status of our initiative by illustrating 3 out of 9 successfully closed PoC that we implemented on Google Cloud Platform.
@@ -1579,11 +1567,6 @@ X Song, Xinying songxy@ihep.ac.cn Development on Data Analysis Software on GECAM
     T: 4) Data Science: Workflows Hardware Software Humanware
    TO: 
  
-P Stenborg, Travis mqastro@acm.org Contracts Tracking for Astronomical Infrastructure Projects in Jira
-    ABS: A custom Jira workflow has been developed at Astronomy Australia Limited (AAL) for contract status management. The Jira cloud-hosted system provides quick determination of contracts' statuses for AAL's program of astronomical infrastructure projects. Passive, overview-style contracts' statuses are available from the standard, browser-accessible Jira dashboard and more detailed information accessible via views. Additionally, a configurable level of active contract status updates are provided via integration of workflow transitions with user-specified watchers.
-    T: 2) Management of Large Science Project
-   TO: 
- 
 P Stephens, Tom thomas.stephens@nasa.gov Running the Fermi Science Tools on Windows
     ABS: The Fermi Science Tools, publicly released software for performing analysis on science data from the Fermi Gamma-ray Space Telescope, have been available and supported on Linux and Mac since launch.  Running the tools on a Windows based host has always required a virtual machine running Linux.  New technologies, such as Docker and the Windows Subsystem for Linux has made it possible to use these tools in a more native like environment.
 
@@ -1785,14 +1768,6 @@ P Yamaguchi, Masayuki masayuki.yamaguchi@nao.ac.jp Super-resolution Imaging of t
     ABS: High-resolution observations of protoplanetary disks with radio interferometers are crucial for understanding the planet formation process. Recent observations using Atacama Large Millimeter/submillimeter Array (ALMA) have revealed various small-scale structures in disks. In interferometric observations, the observed data are an incomplete set of Fourier components of the radio source image. The image reconstruction is therefore essential in obtaining the images in real space. The CLEAN technique has been widely used, but recently, a new technique using the sparse modeling approach is suggested. This technique directly solves a set of undetermined equations and has been shown to behave better than the CLEAN technique based on mock observations with VLBI (Very Long Baseline Interferometry). However, it has never been applied to ALMA-like connected interferometers nor real observational data. In this work, for the first time, the sparse modeling technique is applied to observational data sets taken by ALMA. We evaluate the performance of the technique by comparing the resulting images with those derived by the CLEAN technique. We use two sets of ALMA archival data at Band 7 (~350GHz) for the protoplanetary disk around HD 142527. One is taken in the intermediate-baseline array configuration, and the other is in the longer-baseline array configuration. The image resolutions reconstructed from these data sets are different by a factor of ~ 3. We compare images reconstructed using sparse modeling and CLEAN. We find that the sparse modeling technique can successfully reconstruct the overall disk emission. The previously known disk structures appear on both images made by the sparse modeling and CLEAN at its nominal resolutions. Remarkably, the image reconstructed from intermediate-baseline data using the sparse-modeling technique matches very well with that obtained from longer-baseline data using the CLEAN technique with the accuracy of ~ 90 % on the image domain.
     T: 13) Other
    TO: Synthesis Imaging for Radio Interferometer
- 
-P Yunfei, Xu xuyf@nao.cas.cn aLigo/Virgo Gravitational Wave Electromagnetic Counterparts Host Galaxy Candidates Filtering Pipeline
-    ABS: An ongoing effort of the emergent field of multi-messenger astronomy is to discover electromagnetic (EM) counterparts of transient gravitational wave (GW) with EM follow-up observation. After each detection of the GW event, aLIGO -Virgo will distribute the GW source sky confidence distribution data to collaborators, with which astronomers can carry out follow-up observations at different wavelengths. However, based on the current observation accuracy, the 90% credible localization area of GW sources cover hundreds of square degrees. This makes the identification of EM counterpart challenging even with wide-field telescopes. 
-Due to the expected gravitational wave event source reside in or near a galaxy, so restricting follow-up observations to galaxies can significantly decrease the required number of pointing, the total integration time and the number of false positives found. Based on this idea, we set up a pipeline to query the GLADE catalogue based on the position error range and distance range of GW events published by aLIGO / Virgo, and sort the results according to their confidence of the locations, b band brightness, (metering) redshift to quickly screen out the galactic host candidates. The system realizes a series of automatic operations, such as analyzing GW alarm, extracting GW position data, querying catalog, filtering and sorting of host galaxy candidates, and notifying, etc. The whole process does not need manual intervention.
-By building the index of the GLADE catalog based on the HEALPix celestial sphere partitioning method, combining with the MOC query method based on the GW position data, the fast search of the host galaxy candidates was realized, one query and sort task’s time consumption is less than 10s.
-The overall pipeline is highly efficient and can perform a series of operations for data visualization, host galaxy candidates filtering, and observation list report within 5 minutes after receiving a GW event alert.
-    T: 9) Multi-Messenger Astronomy
-   TO: 
  
 X Zapart, Christopher chris.zapart@nao.ac.jp An introduction to FITSWebQL
     ABS: The JVO ALMA WebQL web service - available through the JVO ALMA FITS archive - has been upgraded to include legacy data from other telescopes, for example Nobeyama NRO45M in Japan. The updated server software has been renamed FITSWebQL. In addition, a standalone desktop version supporting Linux, macOS and Windows 10 Linux Subsystem (Bash on Windows) is also available for download from http://jvo.nao.ac.jp/~chris/ .

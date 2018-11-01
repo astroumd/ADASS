@@ -33,7 +33,6 @@ X Cai, Hongbo chb@bao.ac.cn
 O Cano, Juan Luis juanlu001@gmail.com Full Stack Data Science: Using Python to download, clean, analyze and visualize Gaia data
 P Cardiel, Nicolás cardiel@ucm.es Rectification and wavelength calibration of EMIR spectroscopic data with Python
 P Ceballos, M.Teresa ceballos@ifca.unican.es Jitter and readout sampling frequency impact on the Athena/X-IFU performance
-X Chen, Wei chenwei@ihep.ac.cn An automatic data collection and analysis software for GRB studies and its result
 O Chilingarian, Igor igor.chilingarian@cfa.harvard.edu Binospec@MMT: a database-driven model of operations, from planning of observations to data reduction and archiving
 P Chu, Selina selina.chu@jpl.nasa.gov Automatic Detection of Microlensing Events in the Galactic Bulge using Machine Learning Techniques
 O Comrie, Angus accomrie@gmail.com An HDF5 Schema for SKA Scale Image Cube Visualization
@@ -101,7 +100,6 @@ P Kong, Xiao kongx@nao.cas.cn The construction of a new stellar classification t
 O Kosack, Karl karl.kosack@cea.fr Data Processing Challenges for CTA
 P Kosugi, George george.kosugi@nao.ac.jp Qualification of Sparse Modeling Technique for radio interferometric imaging of ALMA
 X Kuulkers, Erik erik.kuulkers@esa.int Coordinating observations among ground and space-based telescopes in the multi-messenger era
-O Kyprianou, Mark kyp@stsci.edu Lessons Learned from the behemoth JWST Data Management effort
 P LANDONI, MARCO marco.landoni@inaf.it Application of Google Cloud Platform in Astrophysics
 P Labrie, Kathleen klabrie@gemini.edu DRAGONS - Data Reduction for Astronomy from Gemini Observatory North and South
 X Lacy, Mark mlacy@nrao.edu The VLA Sky Survey - operations, data processing and archiving
@@ -182,7 +180,6 @@ O Snyder, Gregory gsnyder@stsci.edu Mock Datasets and Galaxy Merger Statistics f
 P Solar, Martin msolar95@gmail.com Azimuthal variation of oxygen abundance in galactic stellar discs of the EAGLE simulations
 P Solar, Mauricio mauricio.solar@usm.cl Tensor Clusters for extracting and summarizing components in spectral cubes
 X Song, Xinying songxy@ihep.ac.cn Development on Data Analysis Software on GECAM
-P Stenborg, Travis mqastro@acm.org Contracts Tracking for Astronomical Infrastructure Projects in Jira
 P Stephens, Tom thomas.stephens@nasa.gov Running the Fermi Science Tools on Windows
 X Stoehr, Felix felix.stoehr@gmx.de Astronomical archives: Serving up the Universe
 P Streicher, Ole ole@aip.de DOI in Astronomy
@@ -207,7 +204,6 @@ P Woods, Paul paul.woods@nature.com Software and data policies for Nature journa
 P Xiao, Jian xiaojian@tju.edu.cn Research on Automatic Recognition of Radio Frequency Interference Based on Deep Learning
 P Xu, Yang yxu@nao.cas.cn An algorithm of selection of meteor candidates in GWAC system
 P Yamaguchi, Masayuki masayuki.yamaguchi@nao.ac.jp Super-resolution Imaging of the Protoplanetary Disk HD 142527 using Sparse Modeling
-P Yunfei, Xu xuyf@nao.cas.cn aLigo/Virgo Gravitational Wave Electromagnetic Counterparts Host Galaxy Candidates Filtering Pipeline
 X Zapart, Christopher chris.zapart@nao.ac.jp An introduction to FITSWebQL
 O Zecevic, Petar Petar.Zecevic@fer.hr AXS: Making end-user petascale analyses possible, scalable, and usable
 P Zhang, Yanxia zyx@bao.ac.cn Machine Learning for Quasar Candidate Selection
