@@ -20,6 +20,7 @@ Baffa, Carlo
 Baines, Deborah
 Bakker, Jorgo
 Ballester, Pascal
+Bauer, James
 Baumann, Matthieu
 Becciani, Ugo
 Becker, Stefan
@@ -251,6 +252,7 @@ Sihlangu, Isaac
 Smale, Alan
 Smith, Arfon
 Smith, Jeffrey
+Smith, Megan
 Snyder, Gregory
 Solar, Martin
 Solar, Mauricio

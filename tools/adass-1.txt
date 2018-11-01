@@ -20,6 +20,7 @@ baffa@arcetri.inaf.it
 dbaines@sciops.esa.int
 jbakker@sciops.esa.int
 pballest@eso.org
+gerbsb@astro.umd.edu
 matthieu.baumann@astro.unistra.fr
 ugo.becciani@inaf.it
 sbecker@ari.uni-heidelberg.de
@@ -251,6 +252,7 @@ isihlangu@ska.ac.za
 alan.smale@nasa.gov
 arfon@stsci.edu
 jeffrey.smith@nasa.gov
+meganmarshall20@gmail.com
 gsnyder@stsci.edu
 msolar95@gmail.com
 mauricio.solar@usm.cl
