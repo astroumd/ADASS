@@ -24,20 +24,26 @@ class Program(object):
        self._getadass()
     titles = []
     a1 = []
-    for c,h,t in zip(self._t["last"],self._t['code'],self._t['title']):
-       if h[0] == "H" or h[0] == "T":
-           # save the title of the session 
-           print("Saving %s"%t)
+    for c,h,t,ab in zip(self._t["last"],self._t['code'],self._t['title'],self._t['abstract']):
+       if h[0] == "H" or h[0] == "T" or h[0] == "B":
+           # save the title of the session, tutorial, or BOF
+           #print("Saving %s"%t)
            titles.append(t)
            a1.append("None")
        else:
-           z = self.a.titles.get(c,"TBD")
-           titles.append(z)
-           #zz = self.a.abstracts.get(c,"TBD")
-           #abstracts.append(zz)
+           # special case for Varshney
+           if h[0] == "x":
+               titles.append(t)
+           else:
+               z = self.a.titles.get(c,"TBD")
+               titles.append(z)
            if c in self.a.abstracts:
                self.abstracts[c]  = self.a.abstracts[c]
                a1.append(self.abstracts[c])
+           # special case for Varshney
+           elif ab != None:
+               print("For title %s, Saving abstract %s"%(t,ab))
+               a1.append(ab)
            else:
                a1.append("TBD")
          
@@ -96,8 +102,12 @@ class Program(object):
             #abstract      = self.a.abstracts.get(key,"TBD")
             if key in self.abstracts:
                 abstract      = self.abstracts[key].value
+            elif row['abstract'] != None:
+                abstract      = row['abstract']
             else:
                 abstract = "TBD"
+            # make sure it gets into the votable
+            row['abstract'] = abstract
            
             #if key in self.a.x1:
             #    abstract      = self.a.x1[key][24].value
