@@ -81,6 +81,16 @@ class adass(object):
                 self._htmlfooter = h.read()
         return self._htmlfooter
 
+    def latex(self, text):
+        """ attempt to turn text into latex
+        """
+        text = text.replace('_','\_')
+        text = text.replace('&','\&')
+        text = text.replace('#','\#')
+        text = text.replace('^','\^')
+        text = text.replace('%','\%')            
+        return text
+
     def xopen(self, path, debug=False, status = True):
         """
         path     file
@@ -693,9 +703,11 @@ class adass(object):
                 kwargs['LENW']     = ""
                 kwargs['PCODE']    = pcode
                 if comment:
-                    kwargs['COMMENT']  = "%"
+                    kwargs['COMMENT']    = "%"
+                    kwargs['NOCOMMENT']  = ""
                 else:
-                    kwargs['COMMENT']  = ""
+                    kwargs['COMMENT']    = ""
+                    kwargs['NOCOMMENT']  = "%"
                 
                 
                 t1 = T_paper.substitute(**kwargs)
@@ -749,6 +761,22 @@ class adass(object):
             else:
                 print('#', k)
                 
+    def report_7(self, latex=True):
+        """ report for latex attendee file
+        """
+
+        keys = list(self.x3.keys())
+        keys.sort()
+        for key in keys:
+            r = self.x3[key]
+            fname = r[3+self.off].value
+            lname = r[4+self.off].value
+            insti = self.latex(r[6+self.off].value)
+            count = r[12+self.off].value
+            
+            msg = '\\attendee{\\textsc{%s %s}}{}{%s}{%s}' % (fname,lname,insti,count)
+            print(msg)
+
     def report_demo(self):
         """ report who wants demo table
         """
