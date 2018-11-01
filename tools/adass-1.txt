@@ -75,6 +75,7 @@ gpdf@ipac.caltech.edu
 daniel_durand@mac.com
 rick@ipac.caltech.edu
 ebisawa@isas.jaxa.jp
+joseph.r.eggen@nasa.gov
 satoshieguchi@fukuoka-u.ac.jp
 eisenhamer@stsci.edu
 bjornemonts@gmail.com
@@ -115,6 +116,7 @@ heinl@ari.uni-heidelberg.de
 henry@stsci.edu
 fabio@in2p3.fr
 mholman@cfa.harvard.edu
+Donald.J.Horner@nasa.gov
 jorge.ibsen@alma.cl
 shiro@ism.ac.jp
 bryan.k.irby@nasa.gov
@@ -275,9 +277,11 @@ storres@ctio.noao.edu
 ttsutsum@nrao.edu
 vahi@isi.edu
 bvan@slac.stanford.edu
+j.l.veitchmichaelis@ljmu.ac.uk
 vermaas@astron.nl
 fabio.vitello@inaf.it
 wangrui@nao.cas.cn
+charlotte.ward@astro.umd.edu
 warnerem@astro.umd.edu
 andreas.wicenec@uwa.edu.au
 ewinter@stsci.edu

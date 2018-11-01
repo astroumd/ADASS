@@ -75,6 +75,7 @@ Dubois-Felsmann, Gregory
 Durand, Daniel
 Ebert, Rick
 Ebisawa, Ken
+Eggen, Joseph
 Eguchi, Satoshi
 Eisenhamer, Jonathan
 Emonts, Bjorn
@@ -115,6 +116,7 @@ Heinl, Hendrik
 Henry, Ronald
 Hernandez, Fabio
 Holman, Matthew
+Horner, Donald
 Ibsen, Jorge
 Ikeda, Shiro
 Irby, Bryan
@@ -275,9 +277,11 @@ Torres, Simón
 Tsutsumi, Takahiro
 Vahi, Karan
 Van Klaveren, Brian
+Veitch-Michaelis, Josh
 Vermaas, Nico
 Vitello, Fabio
 Wang, Rui
+Ward, Charlotte
 Warner, Elizabeth
 Wicenec, Andreas
 Winter, Eric
