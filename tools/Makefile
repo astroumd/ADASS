@@ -183,3 +183,12 @@ missing:
 
 new1:
 	./makeprogram.py > program.html
+
+# make an attendee list for the frontmatter, this will need a lot of utf-8 to latex editing
+att:
+	./attendee.py > ./participants.att
+
+
+regupd:
+	(cd ~/Downloads; mv ADASS\ 2018\ \ * ~/Dropbox/adass2018/)
+	cp ~/Dropbox/adass2018/ADASS\ 2018\ \ Total\ Registrant\ Re.xls reg_final/
