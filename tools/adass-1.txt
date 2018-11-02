@@ -20,6 +20,7 @@ baffa@arcetri.inaf.it
 dbaines@sciops.esa.int
 jbakker@sciops.esa.int
 pballest@eso.org
+gerbsb@astro.umd.edu
 matthieu.baumann@astro.unistra.fr
 ugo.becciani@inaf.it
 sbecker@ari.uni-heidelberg.de
@@ -44,7 +45,6 @@ chb@bao.ac.cn
 juanlu001@gmail.com
 cardiel@ucm.es
 ceballos@ifca.unican.es
-chenwei@ihep.ac.cn
 igor.chilingarian@cfa.harvard.edu
 selina.chu@jpl.nasa.gov
 accomrie@gmail.com
@@ -75,6 +75,7 @@ gpdf@ipac.caltech.edu
 daniel_durand@mac.com
 rick@ipac.caltech.edu
 ebisawa@isas.jaxa.jp
+joseph.r.eggen@nasa.gov
 satoshieguchi@fukuoka-u.ac.jp
 eisenhamer@stsci.edu
 bjornemonts@gmail.com
@@ -115,6 +116,7 @@ heinl@ari.uni-heidelberg.de
 henry@stsci.edu
 fabio@in2p3.fr
 mholman@cfa.harvard.edu
+Donald.J.Horner@nasa.gov
 jorge.ibsen@alma.cl
 shiro@ism.ac.jp
 bryan.k.irby@nasa.gov
@@ -142,7 +144,6 @@ matwey@sai.msu.ru
 karl.kosack@cea.fr
 george.kosugi@nao.ac.jp
 erik.kuulkers@esa.int
-kyp@stsci.edu
 marco.landoni@inaf.it
 klabrie@gemini.edu
 mlacy@nrao.edu
@@ -249,12 +250,12 @@ isihlangu@ska.ac.za
 alan.smale@nasa.gov
 arfon@stsci.edu
 jeffrey.smith@nasa.gov
+meganmarshall20@gmail.com
 gsnyder@stsci.edu
 msolar95@gmail.com
 mauricio.solar@usm.cl
 songxy@ihep.ac.cn
 max.spolaor@tmctechnologies.com
-mqastro@acm.org
 thomas.stephens@nasa.gov
 felix.stoehr@gmx.de
 ole@aip.de
@@ -275,9 +276,11 @@ storres@ctio.noao.edu
 ttsutsum@nrao.edu
 vahi@isi.edu
 bvan@slac.stanford.edu
+j.l.veitchmichaelis@ljmu.ac.uk
 vermaas@astron.nl
 fabio.vitello@inaf.it
 wangrui@nao.cas.cn
+charlotte.ward@astro.umd.edu
 warnerem@astro.umd.edu
 andreas.wicenec@uwa.edu.au
 ewinter@stsci.edu
@@ -290,7 +293,6 @@ yxu@nao.cas.cn
 masayuki.yamaguchi@nao.ac.jp
 youngmd@iu.edu
 yuxianchuan@163.com
-xuyf@nao.cas.cn
 chris.zapart@nao.ac.jp
 Petar.Zecevic@fer.hr
 zyx@bao.ac.cn
