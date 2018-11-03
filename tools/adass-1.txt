@@ -43,6 +43,7 @@ bushouse@stsci.edu
 busko@stsci.edu
 chb@bao.ac.cn
 juanlu001@gmail.com
+nicola.caon@iac.es
 cardiel@ucm.es
 ceballos@ifca.unican.es
 igor.chilingarian@cfa.harvard.edu
@@ -58,8 +59,8 @@ daicong2014@163.com
 Christophe.Dabin@cnes.fr
 pndaly@email.arizona.edu
 mdelgado@ast.cam.ac.uk
-james.dempsey@csiro.au
 dencheva@stsci.edu
+vladimir.dergachev@aei.mpg.de
 sebastien.derriere@astro.unistra.fr
 desai@ipac.caltech.edu
 shubhand@cs.cmu.edu
@@ -85,6 +86,7 @@ cfeinstein@fcaglp.unlp.edu.ar
 ferguson@stsci.edu
 Pierre.Fernique@astro.unistra.fr
 fitz@noao.edu
+matthias.fuessling@cta-observatory.org
 carlos.gabriel@sciops.esa.int
 ktg25@cam.ac.uk
 julio.gallegos@sciops.esa.int
@@ -108,7 +110,6 @@ guidorzi@fe.infn.it
 psgupta@uw.edu
 gwyn.cadc@gmail.com
 prh44@cam.ac.uk
-hanjun@nao.cas.cn
 jhargis@stsci.edu
 aharvey1@umbc.edu
 hhe@cfa.harvard.edu
@@ -151,7 +152,6 @@ c.y.lam@ljmu.ac.uk
 jlammers0@gmail.com
 gilles.landais@astro.unistra.fr
 olaurino@cfa.harvard.edu
-glemson1@jhu.edu
 jrl@ast.cam.ac.uk
 lich@nao.cas.cn
 maggie.lieu@sciops.esa.int
@@ -262,7 +262,6 @@ ole@aip.de
 rasutrisno@uh.edu
 swade@stsci.edu
 tadafumi.takata@nao.ac.jp
-y.tao@nao.cas.cn
 daniele.tavagnacco@inaf.it
 m.b.taylor@bristol.ac.uk
 teuben@astro.umd.edu
@@ -289,7 +288,6 @@ paul.woods@nature.com
 xiuqin@ipac.caltech.edu
 zywu@nao.cas.cn
 xiaojian@tju.edu.cn
-yxu@nao.cas.cn
 masayuki.yamaguchi@nao.ac.jp
 youngmd@iu.edu
 yuxianchuan@163.com

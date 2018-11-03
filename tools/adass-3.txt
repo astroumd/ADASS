@@ -1,10 +1,11 @@
-210 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+204 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 206 entries
+Accepted 200 entries
 11 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 8 entries
-339 x 37 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 299 entries
+343 x 37 in reg/ADASS 2018  Total Registrant Re.xls
+Warning: duplicate entry for Tollerud, Erik
+Accepted 297 entries
 109 x 5 in reg/IVOA Registration (Responses).xlsx
 IVOA Accepted 107 entries
  
@@ -324,8 +325,8 @@ feedback and new contributions.
     T: 6) DevOps Practices in Astronomy Software
    TO: 
  
-O Crawford, Steven scrawford@stsci.edu Triumphs and Challenges of the Astropy Project: Open Development of a Python Library for Astronomy
-    ABS: The Astropy Project is a community composed of individuals and institutes that are interested in building an open source framework in Python for astronomy.  Using collaborative development tools and following an open development philosophy, the project provides an ecosystem of inter-operable packages.   We describe the project infrastructure designed to facilitate collaboration on the development of open source software and provide an update of the most recent releases.   The project has had a number of successes and challenges while being one of the largest collaboratively developed software package in astronomy.  We discuss the aspects of the project that contributed to its success while also highlighting some of the challenges to the project and future developments.
+O Crawford, Steven scrawford@stsci.edu What’s new in Astropy v3.1
+    ABS: Astropy is about to release v3.1 of the package!   This release has been focused on performance enhancements with improvements across the package.   In addition to the performance enhancements, new features have been added including   “box least squares” periodogram in astropy.stats, new functionality to Coordinates and Time, and a new experimental Uncertainty class.  In addition, we highlight the project infrastructure designed to facilitate collaboration on the development of open source software.
     T: 2) Management of Large Science Project
    TO: 
  
@@ -345,11 +346,6 @@ Gaia data is transmitted daily from the spacecraft, and received and processed b
 For supporting astronomers to improve their interactions with each other, and to prioritise and optimise the follow-up of the alerts, the Gaia Marshall web application provides contextual data to the transients. The Marshall acts as a meeting point to exchange information, and improve classifications.
 In this poster we present an outline of the Gaia alerts data flow, from the alert candidates extraction to the follow-up.
     T: 5) Science Platforms: Tools for Data Discovery and Analysis from Different Angles
-   TO: 
- 
-O Dempsey, James james.dempsey@csiro.au Serving large scale survey data for ASKAP with SIA2 and SODA
-    ABS: The Australian SKA Pathfinder (ASKAP) telescope is a survey radio telescope that will produce image cubes of over 1 TB each in size. A key problem is how astronomers will work with these huge files. The CSIRO ASKAP Science Data Archive (CASDA) has taken the approach of allowing astronomers and their scripts to work with parts of the files as well as entire files. Both sub cubes and spectra can be extracted in-place for arbitrary subsets of the cubes. The Server-side Operations for Data Access (SODA) and Simple Image Access v2 (SIA2) virtual observatory protocols provide the foundations of these capabilities. I will review how we implemented these protocols and our planned future work in this area.
-    T: 10) Databases and Archives: Challenges and Solutions in the Big Data Era
    TO: 
  
 O Dencheva, Nadia dencheva@stsci.edu GWCS - A General Approach to  Astronomical World Coordinates
@@ -724,11 +720,6 @@ BaSC is freely available at https://www.github.com/petehague/BASC
     T: 3) Astrophysical Data Visualization from Line Plots to Augmented and Virtual Reality
    TO: 
  
-P Han, Jun hanjun@nao.cas.cn The conceptual design of amateur public observatory software framework
-    ABS: As the great demand of public observatory, the amateur has built lots of observatories. They usually carry out astronomy observation in remote field stations after traveling great distances. It is not only wasting lots of time, but also not safe. As a result, we designed a hardware integration system last year to support remote observation, and the printed circuit board platform is in making.  Based on this platform, we propose a conceptual design of amateur public observatory software framework as the observation control system. It could not only satisfy multiple observation modes' requirement, but also is easy to operate and more intelligent. It will be a huge boost to astronomy education and citizen science.
-    T: 6) DevOps Practices in Astronomy Software
-   TO: 
- 
 P He, Helen hhe@cfa.harvard.edu Pixel mask Filtering of CXC Datamodel
     ABS: We present pixel mask filtering algorithm, a new attribute to Datamodel library. Datamodel, a Chandra X-Ray Center data analysis software (CIAO) package, facilitates a wide range of on-the-fly data manipulation capabilities such as copy, differ, binning and filtering. The pixel mask filtering of a 2-D binary image is integrated into the CIAO region filtering syntax and logic, and thus complements the 
 conventional analytic shapes filtering of circle, rectangle, polynomial. The integration allows for the standard operations on combining masks and analytic shapes such as include, exclude, intersect, and union. The mask is stored in a data block, 
@@ -983,20 +974,6 @@ We present an overview of the quality assurance procedures in place for the oper
 P Laurino, Omar olaurino@cfa.harvard.edu Mapping Data Models to VOTable
     ABS: Data providers and curators provide a great deal of metadata with their data file. This metadata is invaluable for users and for Virtual Observatory software developers. In order to be interoperable, the metadata must refer to common data models. A new specification is being developed by the IVOA Data Modeling Working Group to define a scheme for annotating VOTable instances in a standard, consistent, interoperable fashion, so that each piece of metadata can unambiguously refer to the correct data model element it expresses. With this specification data providers can unambiguously and completely represent metadata in the VOTable format as data model instances, and clients can build faithful representations of such instances. The mapping can be extended to formats other than VOTable.
     T: 10) Databases and Archives: Challenges and Solutions in the Big Data Era
-   TO: 
- 
-O Lemson, Gerard glemson1@jhu.edu FileDB, a pattern for querying cosmological simulations
-    ABS: Cosmological simulations these days consist of 100s of billions of particles and 100s of snapshots. Summary data products derived from these data sets such as cluster catalogues are now frequently stored in large, publically accessible relational databases. But there is an increasing demand for access to the raw simulation data, which however are generally too large and less suited for a purely relational treatment.
-I will present FileDB, a system for querying such simulations from within a relational database, without requiring the ingestion of the raw data into the database itself. FileDB uses a special organization of the simulation snapshots along space filling curves to achieve efficient support for the main, spatial query patterns.  We have created for this purpose a query library inside SQL Server that calculates the overlap between 3D query volumes and these curves to derive efficient retrieval patterns of the required data. This library is callable in SQL though user defined functions, and has been ported to Java for use in Oracle for example.
-We have implemented FileDB on the Millennium database and other simulations accessible in the online SciServer/CasJobs query service. As example I will show SQL queries joining the raw data to the halo catalogues stored in the database to determine density profiles. 
-The fact that FileDB leaves the files in their original form means they can also be accessed directly on the file system. This is particularly useful for global analysis of the files, for which databases could be a bottle neck. I will show examples how SciServer/Compute provides access to these same simulations from within Jupyter notebooks running server side in Docker containers that have the data volumes directly mounted. 
-Finally, the FileDB pattern easily translates to other domains such ocean circulation models, allowing the creation of multi-petabyte database in a cheap and efficient manner.
-    T: 10) Databases and Archives: Challenges and Solutions in the Big Data Era
-   TO: 
- 
-O Li, Changhua lich@nao.cas.cn Design of KNN Star-QSO Classification Algorithm Based on Cloud Computing
-    ABS: KNN classification algorithm is a mature and simple machine learning algorithm, which is widely used in astronomical spectral classification. However, with the increasing sample size, the traditional KNN algorithm can’t meet the requirements of performance. Based on the cloud computing environment of China Virtual Observatory, the KNN algorithm is optimized based on SPARK + HDFS architecture. Through Map/Reduce, the large samples are segmented and distributed on different SPARK computing nodes, and the obvious acceleration effect is achieved. By comparing with the python-ML general algorithm, KNN's computation time can be reduced by nearly 20 times in a large scale samples
-    T: 1) Machine Learning in Astronomy
    TO: 
  
 X Lieu, Maggie maggie.lieu@sciops.esa.int Deep learning of astronomical features with big data.
@@ -1606,15 +1583,6 @@ The MAST architecture is designed to support multiple missions.  MAST currently 
     T: 10) Databases and Archives: Challenges and Solutions in the Big Data Era
    TO: 
  
-O Tao, Yihan y.tao@nao.cas.cn Spectral Classification of Galaxies using Deep Neural Networks and Self-taught Learning
-    ABS: Spectral classification using machine learning methods is highly in need these days for large sky survey (e.g. LAMOST and SDSS) . These survey produce large amount of spectra data，automated methods can save human researchers from the painful task of classifying and checking the spectra by eye. Recent years, many research has found it promising by using deep neural networks. However, it has the problem of difficult to understand the model, and the trained model is hardly reusable for a new data set. 
-
-In previous work, we carried out experiments using supervised machine learning methods (Logistic Regression, Random Forest and Linear SVM) to select active galactic nucleus (AGNs) from a dataset of galaxy spectra (including AGNs, starburst galaxies, starforming galaxies, and others) provided by SDSS DR14. The results show that the accuracy of these traditional machine learning method is acceptable as the classification accuracy reaches ~91%. However, it can be limited because we used linear PCA of 20 components to present spectra features.
-
-In this paper, we investigate the accuracy of applying deep neural networks (DNNs) to learn the feature representation from the galaxy spectra. We trained a DNN of three hidden layer and its test accuracy achieved higher than 95%. To make the model reusable and more interpretable, we also employed self-taught learning (unsupervised feature learning) to let the spectra data speak for itself. The advantage of self-taught learning and unsupervised feature learning is that we can get the algorithms to learn a feature representation from large amount of unlabeled data. This is especially useful for some kind of galaxies (such as LINERs, BL Lacs) which we have relatively small amount of labeled spectra. We trained a 7-layer auto-encoder (2600-1024-256-20-256-768-1024-2600) and then feed into the classifiers.  In addition, we present and visualize the features learnt from our auto-encoder and try to explain which part of the spectra is more important for classification.
-    T: 1) Machine Learning in Astronomy
-   TO: 
- 
 O Tavagnacco, Daniele daniele.tavagnacco@inaf.it Performance-related aspects in the Big Data Astronomy Era: architects in software optimization
     ABS: In the last decades the amount of data collected by Astronomical Instruments and the evolution of computational demands have grown exponentially. Today it is not possible to obtain scientific
 results without prodigious amounts of computation. For this reason, the software performance plays a key role in modern Astronomy data analysis.
@@ -1757,11 +1725,6 @@ P Woods, Paul paul.woods@nature.com Software and data policies for Nature journa
 P Xiao, Jian xiaojian@tju.edu.cn Research on Automatic Recognition of Radio Frequency Interference Based on Deep Learning
     ABS: Radio frequency interference (RFI) mitigation is a key phase in data pipeline of radio telescopes. Classical RFI mitigation methods depend on the RFI physical characteristics, often fail to recognize some complicated patterns or result in misrecognition. We developed a novel approach of RFI recognition and automatic flagging with an improved convolution neural network. The network was constructed based on U-net with much deeper network structure for more complicated patterns and more components to reduce recognition error caused by over-fitting. Compared to the most widely used classical method -- SumThreshold, our method has better performance on both precision and recall rate, it also outperformed the U-net, a traditional deep learning model, and KNN,a typical machine learning model.
     T: 1) Machine Learning in Astronomy
-   TO: 
- 
-P Xu, Yang yxu@nao.cas.cn An algorithm of selection of meteor candidates in GWAC system
-    ABS: With its large field of view, GWAC can record hundreds of meteors every day. These meteors disturb the detection process of optical transients in the GWAC system, and may be a valuable treasure for some meteor research groups. It is therefore very important to accurately find all of these meteors. To address the challenge of precisely distinguishing meteors from other elongated objects in a GWAC-like sky survey system, we design and implement a meteor candidate recognition algorithm, including the recognizing and morphology analysis of the light curves of the meteor candidates. Although the algorithm may filter out some real meteors, it can provide a sample of meteor with high confidence. After processing the images of Mini-GWAC taken in two months, we detect 109,000 elongated objects in which more than 90 percent of objects are not meteor. Among the elongated objects, about 5.9% objects are identified as meteors with high confidence, after the filters based upon an existence in a single frame, a single peak in the light curves, and a slow variation of the light curves.
-    T: 12) Algorithms
    TO: 
  
 P Yamaguchi, Masayuki masayuki.yamaguchi@nao.ac.jp Super-resolution Imaging of the Protoplanetary Disk HD 142527 using Sparse Modeling
