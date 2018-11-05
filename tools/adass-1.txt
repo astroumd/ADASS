@@ -53,6 +53,7 @@ michael.f.corcoran@nasa.gov
 alain.coulais@obspm.fr
 scrawford@stsci.edu
 mdittmar@cfa.harvard.edu
+andre.csillaghy@fhnw.ch
 ccz@bao.ac.cn
 guido.cupani@inaf.it
 daicong2014@163.com
@@ -282,6 +283,7 @@ wangrui@nao.cas.cn
 charlotte.ward@astro.umd.edu
 warnerem@astro.umd.edu
 andreas.wicenec@uwa.edu.au
+pwilliams@cfa.harvard.edu
 ewinter@stsci.edu
 wise@astron.nl
 paul.woods@nature.com
