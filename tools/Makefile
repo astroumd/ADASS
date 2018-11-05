@@ -117,7 +117,7 @@ www:
 
 # index2 should be last, so the prev/next in the html files are thematical
 # Not we don't have the B and the T in here, only I,O,P and F.
-index:	 index1  index2
+index:	 index1  index2 index3 index4
 
 
 # alphabetical
