@@ -1,7 +1,7 @@
 % super simple template for automated 2018 ADASS manuscript generation from the registration entry
 % most comments have been removed, see the ADASS_template.tex for a fully commented version
 
-% Version 30-oct-2018 (Peter Teuben)
+% Version 4-nov-2018 (Peter Teuben)
 
 ${COMMENT}\documentclass[11pt,twoside]{article}
 ${COMMENT}\usepackage{asp2014}
@@ -28,8 +28,9 @@ ${COMMENT}\begin{document}
 % remove/add authors as you need
 \paperauthor{Sample~Author2}{Author2Email@email.edu}{ORCID_Or_Blank}{Author2 Institution}{Author2 Department}{City}{State/Province}{Postal Code}{Country}
 
-% \aindex{${LNAME},~${FNAMEI}.}
-% \aindex{Coauthor,~A.}          % remove and add as you need
+% leave these commented for the editors to enable them
+${NOCOMMENT}\aindex{${LNAME},~${FNAMEI}.}
+${NOCOMMENT}\aindex{Coauthor,~A.}          % remove and add as you need
   
 \begin{abstract}
 
@@ -58,10 +59,11 @@ Look for the larger template and Makefile how to do this.
 
 This template has no bibtex file. 
 Look for the larger template and Makefile how to do this. By default the Makefile will create
-an empty ${PCODE}.bib. When you add references to this,
-add a line \verb+\bibliography{${PCODE}}+  right before end of the document, make use ``make'' to
+an empty ${PCODE}.bib. When you add references to this, uncomment  the 
+line \verb+\bibliography+  below, make use ``make'' to
 create your beautifully looking PDF.
 
+% \bibliography{${PCODE}}
 
 ${COMMENT}\end{document}
 
