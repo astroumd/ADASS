@@ -208,9 +208,9 @@ if __name__ == "__main__":
     
     p = Program('orals2.ipac','ipac')
     p.maketitle()
-    if False:
-        p.write('program.vot',format='votable',include_abstracts=True)
-        p.write('program.ipac',format='ipac',include_abstracts=False)
-        #p.write('program.ipac','ipac') Exception
-        p.tohtml(_days)
+    p.write('program.vot',format='votable',include_abstracts=True)
+    p.write('program.ipac',format='ipac',include_abstracts=False)
+    #p.write('program.ipac','ipac') Exception
+    p.tohtml(_days)
+    print("making session sheets in sessionsheets.tex")
     p.sessionsheet()
