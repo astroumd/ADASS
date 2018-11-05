@@ -42,7 +42,7 @@ class Program(object):
                a1.append(self.abstracts[c])
            # special case for Varshney
            elif ab != None:
-               print("For title %s, Saving abstract %s"%(t,ab))
+               #print("For title %s, Saving abstract %s"%(t,ab))
                a1.append(ab)
            else:
                a1.append("TBD")
@@ -59,7 +59,55 @@ class Program(object):
         t = self._t.copy()
         t.remove_column('abstract')
         t.write(file,overwrite=True,format=format)
+
+  def sessionsheet(self):
+      fp = codecs.open('sessionsheets.tex','w','utf-8')
+      fp.write("\\documentclass[12pt]{article}\n\\textwidth 6.5truein \n\\textheight 9.5truein\n\\oddsidemargin 0.0pt \n\\evensidemargin 0.0pt \n\\topmargin -0.5in \n\\Huge\n\\pagestyle{empty}\n\\begin{document}")
+      days = self._df.day.unique()
+      #bofAB = 'SALON AB\\newline '
+      #bofG  = 'SALON G\\newline '
+      bofAB = '{\it SALON AB}\\newline '
+      bofG  = '{\it SALON G}\\newline '
+      for d in days:
+        daydf = self._df[(self._df.day == d)]
+        title=True
+        for row_index,row in daydf.iterrows():
+           h = row['code'][0]
+           if h == "H":
+              fp.write("\\newpage\n")
+              fp.write("\\section*{%s -- SESSION %s}\n"%(d.upper(),row['session']))
+              fp.write("\\subsection*{%s}\n"% (row['title'].upper()))
+              fp.write("\\ \\newline")
+              fp.write("\\subsection*{\\underline{Invited and Contributed}}\n")
+           if h == "I" or h == "O" or h == "x" or h == "L":
+              if row['institution'] == "nan" or row['institution']=="N/A":
+                  fp.write("%s -- %s $\\>$ %s %s\n\\newline\\newline\n"%(row['start'],row['end'],row['first'],row['last']))
+              else:
+                  fp.write("%s -- %s $\\>$ %s %s (%s) \n\\newline{\\bf %s}\\newline\\newline\n"%(row['start'],row['end'],row['first'],row['last'],row['institution'],row['title']))
+           if h == "F":
+              fp.write("\\subsection*{\\underline{Focus Demo}}\n")
+              fp.write("%s -- %s $\\>$ %s %s (%s) \n\\newline{\\bf %s}\\newline\\newline\n"%(row['start'],row['end'],row['first'],row['last'],row['institution'],row['title']))
+           if h == "B":
+              if title:
+                  fp.write("\\subsection*{\\underline{Birds of Feather}}\n")
+                  title=False
+              s  = row['code'][1]
+              if s == '1' or s == '3' or s == '5' or s == '7':
+                 bofAB += ("%s -- %s $\\>$ %s %s (%s) \n\\newline{\\bf %s}\\newline\\newline\n"%(row['start'],row['end'],row['first'],row['last'],row['institution'],row['title']))
+              else: 
+                 bofG += ("%s -- %s $\\>$ %s %s (%s) \n\\newline{\\bf %s}\\newline\\newline\n"%(row['start'],row['end'],row['first'],row['last'],row['institution'],row['title']))
+
+        if bofAB != '{\it SALON AB}\\newline ':
+           fp.write(bofAB)
+           bofAB = '{\it SALON AB}\\newline '
+        if bofG != '{\it SALON G}\\newline ':
+           fp.write(bofG)
+           bofG  = '{\it SALON G}\\newline '
      
+     
+        #fp.write("\\newpage\n")
+      fp.write("\\end{document}")
+      
 
   def tohtml(self,days):
     fp = codecs.open('program.html','w','utf-8')
@@ -160,7 +208,9 @@ if __name__ == "__main__":
     
     p = Program('orals2.ipac','ipac')
     p.maketitle()
-    p.write('program.vot',format='votable',include_abstracts=True)
-    p.write('program.ipac',format='ipac',include_abstracts=False)
-    #p.write('program.ipac','ipac') Exception
-    p.tohtml(_days)
+    if False:
+        p.write('program.vot',format='votable',include_abstracts=True)
+        p.write('program.ipac',format='ipac',include_abstracts=False)
+        #p.write('program.ipac','ipac') Exception
+        p.tohtml(_days)
+    p.sessionsheet()
