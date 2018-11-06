@@ -1,17 +1,17 @@
-O ALESINA, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
-O Adámek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
+O Adamek, Karel karel.adamek@oerc.ox.ac.uk A GPU implementation of the harmonic sum algorithm
 P Afrin Badhan, Mahmuda afrin20m@astro.umd.edu STELLAR ACTIVITY EFFECTS ON MOIST HABITABLE TERRESTRIAL ATMOSPHERES AROUND M DWARFS
 O Albert, Kinga albert@mps.mpg.de Performance analysis of the SO/PHI software framework for on-board data reduction
+O Alesina, Fabien fabien.alesina@unige.ch Exoplanets data visualization in multidimensional plots using virtual reality in DACE
 O Alexov, Anastasia alexov@stsci.edu Hit the Ground Running: Data Management for JWST
 O Allen, Alice aallen@ascl.net Receiving Credit for Research Software
   ABS2 Allen, Alice Unconference session: I want to talk about...
 P Allen, Christopher ceallen@cfa.harvard.edu Optimization of Aperture Photometry in the Chandra Source Catalog
 P Allen, Mark mark.allen@astro.unistra.fr Toward common solutions for data access, discovery and interoperability
-O Ansdell, Megan ansdell@berkeley.edu Automatic Classification of TESS Planet Candidates using Deep Learning
+O Ansdell, Megan ansdell@berkeley.edu Automatic Classification of  Planet Candidates using Deep Learning
 P Araya, Mauricio mauricio.araya@usm.cl Cherenkov Shower Detection Combining Probability Distributions from Convolutional Neural Networks.
 X Arviset, Christophe Christophe.Arviset@esa.int ESA Science Archives and ESASky
 O Asercion, Joseph joseph.a.asercion@nasa.gov Utilizing Conda for Fermi Data Analysis Software Releases
-P Atemkeng Teufack, Marcellin m.atemkeng@gmail.com Baseline-dependent dimensional reduction techniques for radio interferometric big data compression
+P Atemkeng, Marcellin m.atemkeng@gmail.com Baseline-dependent dimensional reduction techniques for radio interferometric big data compression
 P Baines, Deborah dbaines@sciops.esa.int DEAVI: Dynamic Evolution Added Value Interface
 P Baumann, Matthieu matthieu.baumann@astro.unistra.fr New Python developments to access CDS services
 P Becciani, Ugo ugo.becciani@inaf.it VisIVO Visual Analytics Tool an EOSC Science Demonstrator for data discovery
@@ -39,7 +39,7 @@ O Comrie, Angus accomrie@gmail.com An HDF5 Schema for SKA Scale Image Cube Visua
 O Coulais, Alain alain.coulais@obspm.fr GDL - GNU Data Language 1.0
 O Crawford, Steven scrawford@stsci.edu What’s new in Astropy v3.1
 O Cupani, Guido guido.cupani@inaf.it Astrocook: your spectral analysis recipe book, now with a GUI
-O DAI, CONG daicong2014@163.com A method to detect radio frequency interference based on convolutional neural networks
+O DAI, Cong daicong2014@163.com A method to detect radio frequency interference based on convolutional neural networks
 P Delgado, Arancha mdelgado@ast.cam.ac.uk Gaia Photometric Science Alerts Data Flow
 O Dencheva, Nadia dencheva@stsci.edu GWCS - A General Approach to  Astronomical World Coordinates
 P Deshpande, Shubhankar shubhand@cs.cmu.edu GMRT Archive Processing Project
@@ -98,12 +98,12 @@ P Kong, Xiao kongx@nao.cas.cn The construction of a new stellar classification t
 O Kosack, Karl karl.kosack@cea.fr Data Processing Challenges for CTA
 P Kosugi, George george.kosugi@nao.ac.jp Qualification of Sparse Modeling Technique for radio interferometric imaging of ALMA
 X Kuulkers, Erik erik.kuulkers@esa.int Coordinating observations among ground and space-based telescopes in the multi-messenger era
-P LANDONI, MARCO marco.landoni@inaf.it Application of Google Cloud Platform in Astrophysics
 P Labrie, Kathleen klabrie@gemini.edu DRAGONS - Data Reduction for Astronomy from Gemini Observatory North and South
 X Lacy, Mark mlacy@nrao.edu The VLA Sky Survey - operations, data processing and archiving
 O Lam, Cheuk Yin c.y.lam@ljmu.ac.uk Data-Driven Pixelisation with Voronoi Tessellation
 P Lammers, Jason jlammers0@gmail.com Optimization Strategies for running Legacy Codes
 O Landais, Gilles gilles.landais@astro.unistra.fr Quality assurance in the ingestion of data into the CDS VizieR catalogue and data services
+P Landoni, Marco marco.landoni@inaf.it Application of Google Cloud Platform in Astrophysics
 P Laurino, Omar olaurino@cfa.harvard.edu Mapping Data Models to VOTable
 X Lieu, Maggie maggie.lieu@sciops.esa.int Deep learning of astronomical features with big data.
 P Lim, Pey Lian lim@stsci.edu stginga: Ginga Plugins for Data Analysis and Quality Assurance of HST and JWST Science Data

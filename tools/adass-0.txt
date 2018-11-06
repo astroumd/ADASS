@@ -1,8 +1,8 @@
-ALESINA, Fabien
 Accomazzi, Alberto
-Adámek, Karel
+Adamek, Karel
 Afrin Badhan, Mahmuda
 Albert, Kinga
+Alesina, Fabien
 Alexov, Anastasia
 Allen, Alice
 Allen, Christopher
@@ -15,7 +15,7 @@ Araya, Mauricio
 Arnaud, Keith
 Arviset, Christophe
 Asercion, Joseph
-Atemkeng Teufack, Marcellin
+Atemkeng, Marcellin
 Baffa, Carlo
 Baines, Deborah
 Bakker, Jorgo
@@ -56,7 +56,7 @@ Cresitello-Dittmar, Mark
 Csillaghy, André
 Cui, Chenzhou
 Cupani, Guido
-DAI, CONG
+DAI, Cong
 Dabin, Christophe
 Daly, Philip
 Delgado, Arancha
@@ -107,7 +107,6 @@ Grishin, Kirill
 Groom, Steve
 Guedes dos Santos, Luiz Fernando
 Guerra Noguero, Rocio
-Guidorzi, Cristiano
 Gupta, Pramod
 Gwyn, Stephen
 Hague, Peter
@@ -146,15 +145,14 @@ Kornilov, Matwey
 Kosack, Karl
 Kosugi, George
 Kuulkers, Erik
-LANDONI, MARCO
 Labrie, Kathleen
 Lacy, Mark
 Lam, Cheuk Yin
 Lammers, Jason
 Landais, Gilles
+Landoni, Marco
 Laurino, Omar
 Lewis, James
-Li, Changhua
 Lieu, Maggie
 Lim, Pey Lian
 Lin, Ganghua
@@ -280,7 +278,6 @@ Veitch-Michaelis, Josh
 Vermaas, Nico
 Vitello, Fabio
 Wang, Rui
-Ward, Charlotte
 Warner, Elizabeth
 Wicenec, Andreas
 Williams, Peter

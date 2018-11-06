@@ -1,8 +1,8 @@
-fabien.alesina@unige.ch
 aaccomazzi@gmail.com
 karel.adamek@oerc.ox.ac.uk
 afrin20m@astro.umd.edu
 albert@mps.mpg.de
+fabien.alesina@unige.ch
 alexov@stsci.edu
 aallen@ascl.net
 ceallen@cfa.harvard.edu
@@ -107,7 +107,6 @@ kirillg6@gmail.com
 sgroom@ipac.caltech.edu
 51guedesdossantos@cua.edu
 rguerra@sciops.esa.int
-guidorzi@fe.infn.it
 psgupta@uw.edu
 gwyn.cadc@gmail.com
 prh44@cam.ac.uk
@@ -146,15 +145,14 @@ matwey@sai.msu.ru
 karl.kosack@cea.fr
 george.kosugi@nao.ac.jp
 erik.kuulkers@esa.int
-marco.landoni@inaf.it
 klabrie@gemini.edu
 mlacy@nrao.edu
 c.y.lam@ljmu.ac.uk
 jlammers0@gmail.com
 gilles.landais@astro.unistra.fr
+marco.landoni@inaf.it
 olaurino@cfa.harvard.edu
 jrl@ast.cam.ac.uk
-lich@nao.cas.cn
 maggie.lieu@sciops.esa.int
 lim@stsci.edu
 lgh@bao.ac.cn
@@ -280,7 +278,6 @@ j.l.veitchmichaelis@ljmu.ac.uk
 vermaas@astron.nl
 fabio.vitello@inaf.it
 wangrui@nao.cas.cn
-charlotte.ward@astro.umd.edu
 warnerem@astro.umd.edu
 andreas.wicenec@uwa.edu.au
 pwilliams@cfa.harvard.edu
