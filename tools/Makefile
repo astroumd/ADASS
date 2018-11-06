@@ -181,8 +181,13 @@ PDIR = ~/Dropbox/adass2018/Proceedings
 missing:
 	@ls $(PDIR)
 
-new1:
-	./makeprogram.py > program.html
+# program and session sheets
+program:
+	./makeprogram.py 
+	cat sessionsheets.tex | sed 's/Nu/Nu{\\~n}/' > foo
+	mv foo sessionsheets.tex
+	pdflatex sessionsheets.tex
+
 
 # make an attendee list for the frontmatter, this will need a lot of utf-8 to latex editing
 att:

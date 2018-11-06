@@ -516,7 +516,7 @@ class adass(object):
                 if themes > 0:
                     if c[0] == 'F':
                         if old_focus == 0:
-                            print("<!-- HREF4theme --> <br><a name='#Focus Demos'><h3 class='session-heading'>Focus Demos</h3><br>\n")
+                            print("<!-- HREF4theme --> <br><a name='#FocusDemos'><h3 class='session-heading'>Focus Demos</h3><br>\n")
                             old_focus = 1
                     elif theme1 != old_theme1:
                         print("<!-- HREF4theme --> <br><a name='#%s'><h3 class='session-heading'>%s</h3><br>\n" % (theme1.strip(), theme1))
