@@ -184,6 +184,8 @@ missing:
 # program and session sheets
 program:
 	./makeprogram.py 
+	cat sessionsheets.tex | sed 's/Nu/Nu{\\~n}/' > foo
+	mv foo sessionsheets.tex
 	pdflatex sessionsheets.tex
 
 
