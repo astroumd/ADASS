@@ -739,7 +739,7 @@ class adass(object):
             else:
                 print(email)
 
-    def report_5(self):
+    def report_5(self, latex=True):
         """ report IVOA names"""
 
         keys = list(self.x4.keys())
@@ -747,7 +747,11 @@ class adass(object):
         for key in keys:
             r = self.x4[key]
             name = r[1].value
-            print(name)
+            inst = r[3].value
+            if latex:
+                print("\\confpin{%s}{%s}" % (name,inst))
+            else:
+                print(name)
 
     def report_6(self,o1, col=0):
         """ report a column
