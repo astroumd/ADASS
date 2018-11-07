@@ -28,7 +28,6 @@ Berriman, Bruce
 Blanco-Cuaresma, Sergi
 Boch, Thomas
 Boisson, Catherine
-Bolton, Adam
 Bonnarel, François
 Booker, Joseph
 Borne, Kirk
@@ -140,7 +139,6 @@ Kent, Brian
 Kepley, Amanda
 Kitaeff, Vyacheslav
 Klazema, Auke
-Kong, Xiao
 Kornilov, Matwey
 Kosack, Karl
 Kosugi, George
@@ -286,11 +284,9 @@ Wise, Michael
 Woods, Paul
 Wu, Xiuqin
 Wu, Zhenyu
-Xiao, Jian
 Yamaguchi, Masayuki
 Young, Michael
 Yu, Xianchuan
 Zapart, Christopher
 Zecevic, Petar
-Zhang, Yanxia
 da Silva, Daniel

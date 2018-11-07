@@ -28,7 +28,6 @@ gbb@ipac.caltech.edu
 sblancocuaresma@cfa.harvard.edu
 thomas.boch@astro.unistra.fr
 catherine.boisson@obspm.fr
-bolton@noao.edu
 francois.bonnarel@astro.unistra.fr
 josephbooker@jhu.edu
 borne_kirk@bah.com
@@ -140,7 +139,6 @@ bkent@nrao.edu
 akepley@nrao.edu
 slava.kitaeff@uwa.edu.au
 secretaryobservatory@astron.nl
-kongx@nao.cas.cn
 matwey@sai.msu.ru
 karl.kosack@cea.fr
 george.kosugi@nao.ac.jp
@@ -286,11 +284,9 @@ wise@astron.nl
 paul.woods@nature.com
 xiuqin@ipac.caltech.edu
 zywu@nao.cas.cn
-xiaojian@tju.edu.cn
 masayuki.yamaguchi@nao.ac.jp
 youngmd@iu.edu
 yuxianchuan@163.com
 chris.zapart@nao.ac.jp
 Petar.Zecevic@fer.hr
-zyx@bao.ac.cn
 dasilva@jhu.edu

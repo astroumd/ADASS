@@ -19,7 +19,6 @@ O Berriman, Bruce gbb@ipac.caltech.edu Breathing New Life Into An Old Pipeline: 
 P Blanco-Cuaresma, Sergi sblancocuaresma@cfa.harvard.edu Fundamentals of effective cloud management for the new NASA Astrophysics Data System
 P Boch, Thomas thomas.boch@astro.unistra.fr Creating and managing very large HiPS: the PanSTARRS case
 P Boisson, Catherine catherine.boisson@obspm.fr Executable user documentation for in-development software
-O Bolton, Adam bolton@noao.edu Towards a National Center for Optical and Infrared Astronomy: Opportunities and Challenges in Science, Software, and Data
 O Bonnarel, François francois.bonnarel@astro.unistra.fr ProvTAP: A TAP service for providing IVOA provenance metadata
 X Borne, Kirk borne_kirk@bah.com Massive Data Exploration in Astronomy: What Does Cognitive Have To Do With It?
 X Bosch, James jbosch@astro.princeton.edu An Overview of the LSST Image Processing Pipelines
@@ -94,7 +93,6 @@ P Kelley, Michael msk@astro.umd.edu ZChecker: Finding Cometary Outbursts with th
 O Kent, Brian bkent@nrao.edu 3D Data Visualization in Astrophysics
 O Kepley, Amanda akepley@nrao.edu Auto-multithresh: A General Purpose Automated Masking Algorithm for Clean
 X Kitaeff, Vyacheslav slava.kitaeff@uwa.edu.au DALiuGE/CASA based processing for the extragalactic HI observations with FAST.
-P Kong, Xiao kongx@nao.cas.cn The construction of a new stellar classification template library for the LAMOST 1D Pipeline based on LAMOST DR5
 O Kosack, Karl karl.kosack@cea.fr Data Processing Challenges for CTA
 P Kosugi, George george.kosugi@nao.ac.jp Qualification of Sparse Modeling Technique for radio interferometric imaging of ALMA
 X Kuulkers, Erik erik.kuulkers@esa.int Coordinating observations among ground and space-based telescopes in the multi-messenger era
@@ -196,9 +194,7 @@ P Wang, Rui wangrui@nao.cas.cn Analysis of Stellar Spectra from LAMOST DR5 with 
 P Wicenec, Andreas andreas.wicenec@uwa.edu.au The Murchison Widefield Array's VO compliant archive
 X Wise, Michael wise@astron.nl Establishing the SKA Regional Centre Network: Mesh Management and Culture Change
 P Woods, Paul paul.woods@nature.com Software and data policies for Nature journals
-P Xiao, Jian xiaojian@tju.edu.cn Research on Automatic Recognition of Radio Frequency Interference Based on Deep Learning
 P Yamaguchi, Masayuki masayuki.yamaguchi@nao.ac.jp Super-resolution Imaging of the Protoplanetary Disk HD 142527 using Sparse Modeling
 X Zapart, Christopher chris.zapart@nao.ac.jp An introduction to FITSWebQL
 O Zecevic, Petar Petar.Zecevic@fer.hr AXS: Making end-user petascale analyses possible, scalable, and usable
-P Zhang, Yanxia zyx@bao.ac.cn Machine Learning for Quasar Candidate Selection
 P da Silva, Daniel dasilva@jhu.edu CCSDSPy - Convenient Decoding of Binary Spacecraft Telemetry

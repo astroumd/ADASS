@@ -1,10 +1,10 @@
-204 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+200 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 200 entries
+Accepted 196 entries
 11 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 8 entries
 346 x 37 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 296 entries
+Accepted 292 entries
 109 x 5 in reg/IVOA Registration (Responses).xlsx
 IVOA Accepted 107 entries
  
@@ -148,11 +148,6 @@ In addition, a color HiPS, based on the two already available HiPS, has been mad
 P Boisson, Catherine catherine.boisson@obspm.fr Executable user documentation for in-development software
     ABS: One key aspect of software development is feedback from users and beta-testers. This community is not always aware of the developments undertaken in the base-code, neither use the tools and practices followed by the developers to deal with issues related with a non-stable software in continuous evolution. The open-source Python package for gamma-ray astronomy, Gammapy, provides its beta-tester user community with versioned reproducible environments and executable documentation, based on Jupyter notebooks and virtual environment  technologies from conda and Docker. We believe this set-up greatly improves the user experience for a software in prototyping phase, as well as communication with the user community. We will present such a setup where code and tutorial are versioned coupled.
     T: 6) DevOps Practices in Astronomy Software
-   TO: 
- 
-O Bolton, Adam bolton@noao.edu Towards a National Center for Optical and Infrared Astronomy: Opportunities and Challenges in Science, Software, and Data
-    ABS: Following guidance from the US National Science Foundation (NSF), the present-day operating programs of the US National Optical Astronomy Observatory (NOAO) and the Gemini Observatory are being restructured along with the future operations of the Large Synoptic Survey Telescope into a single organization, currently known as the NSF’s National Center for Optical and Infrared Astronomy (NCOA). NCOA will be the focal point for federal investment in open-access ground-based optical and infrared astronomy for the foreseeable future. I will give an overview of NCOA planning and implementation, with a focus on the new opportunities in science delivery, software, and data systems that this new organization will provide.
-    T: 2) Management of Large Science Project
    TO: 
  
 O Bonnarel, François francois.bonnarel@astro.unistra.fr ProvTAP: A TAP service for providing IVOA provenance metadata
@@ -876,24 +871,6 @@ O Kepley, Amanda akepley@nrao.edu Auto-multithresh: A General Purpose Automated 
 X Kitaeff, Vyacheslav slava.kitaeff@uwa.edu.au DALiuGE/CASA based processing for the extragalactic HI observations with FAST.
     ABS: We present a prototype for the spectral-line data reduction pipeline based on  the graph-based execution framework DALiuGE, and the CASA single-dish spectral-line package. The pipeline has been designed for the drift-scan mode of FAST multi-beam telescope targeting extra-galactic HI observations.
     T: 4) Data Science: Workflows Hardware Software Humanware
-   TO: 
- 
-P Kong, Xiao kongx@nao.cas.cn The construction of a new stellar classification template library for the LAMOST 1D Pipeline based on LAMOST DR5
-    ABS: With the ability of capturing four thousands spectra in one exposure, the Large Sky Area Multi-Object Fiber Spectroscopic Telescope (LAMOST) is a special quasi-meridian reflecting Schmidt telescope located in Xinglong Station of national Astronomical Observatory, China.
-It released the fifth spectral data this year, containing 8,171,443 star, 153,090 galaxy, 51,133 QSO and 642,178 unknown type, all of which are classified by the LAMOST 1D pipeline.
-This pipeline is used for spectral analysis, aiming to determine the spectral type and redshifts of the spectra observed by LAMOST by matching with spectral templates.
-Generally, the performance of the stellar classification greatly depends on the quality of templates.
-In this paper, we construct a new stellar template library, which is supposed to increase the number of types and the accuracy of the classification, for LAMOST based on the data from LAMOST DR5.
-All the 9 million spectra from LAMOST DR5 are participated in this construction experiment and they are gathered in 500 groups using k-means clustering method.
-Those group centers corresponding to spectra less than 1000 are abandoned at first.
-Then the weighted average spectrum (group center) is served as the template spectrum in each group.
-Initially, 417 centers are obtained.
-We visually inspect all template spectra and discard 181 centers due to low spectral quality or the similarity between different group centers.
-Furthermore, the types of the remained clustering centers are assigned by the subclass of spectra from LAMOST DR5.
-Meanwhile, 19 templates whose subclass are difficult to determine are also abandoned.
-Afterwards, we obtain a new template library containing 197 LAMOST template spectra with 82 different MK classes.
-Finally, the feasibility and accuracy of using this template for classification has been verified by comparing and analyzing the classification results of several control groups of data.
-    T: 1) Machine Learning in Astronomy
    TO: 
  
 O Kosack, Karl karl.kosack@cea.fr Data Processing Challenges for CTA
@@ -1721,11 +1698,6 @@ P Woods, Paul paul.woods@nature.com Software and data policies for Nature journa
     T: 13) Other
    TO: Policy
  
-P Xiao, Jian xiaojian@tju.edu.cn Research on Automatic Recognition of Radio Frequency Interference Based on Deep Learning
-    ABS: Radio frequency interference (RFI) mitigation is a key phase in data pipeline of radio telescopes. Classical RFI mitigation methods depend on the RFI physical characteristics, often fail to recognize some complicated patterns or result in misrecognition. We developed a novel approach of RFI recognition and automatic flagging with an improved convolution neural network. The network was constructed based on U-net with much deeper network structure for more complicated patterns and more components to reduce recognition error caused by over-fitting. Compared to the most widely used classical method -- SumThreshold, our method has better performance on both precision and recall rate, it also outperformed the U-net, a traditional deep learning model, and KNN,a typical machine learning model.
-    T: 1) Machine Learning in Astronomy
-   TO: 
- 
 P Yamaguchi, Masayuki masayuki.yamaguchi@nao.ac.jp Super-resolution Imaging of the Protoplanetary Disk HD 142527 using Sparse Modeling
     ABS: High-resolution observations of protoplanetary disks with radio interferometers are crucial for understanding the planet formation process. Recent observations using Atacama Large Millimeter/submillimeter Array (ALMA) have revealed various small-scale structures in disks. In interferometric observations, the observed data are an incomplete set of Fourier components of the radio source image. The image reconstruction is therefore essential in obtaining the images in real space. The CLEAN technique has been widely used, but recently, a new technique using the sparse modeling approach is suggested. This technique directly solves a set of undetermined equations and has been shown to behave better than the CLEAN technique based on mock observations with VLBI (Very Long Baseline Interferometry). However, it has never been applied to ALMA-like connected interferometers nor real observational data. In this work, for the first time, the sparse modeling technique is applied to observational data sets taken by ALMA. We evaluate the performance of the technique by comparing the resulting images with those derived by the CLEAN technique. We use two sets of ALMA archival data at Band 7 (~350GHz) for the protoplanetary disk around HD 142527. One is taken in the intermediate-baseline array configuration, and the other is in the longer-baseline array configuration. The image resolutions reconstructed from these data sets are different by a factor of ~ 3. We compare images reconstructed using sparse modeling and CLEAN. We find that the sparse modeling technique can successfully reconstruct the overall disk emission. The previously known disk structures appear on both images made by the sparse modeling and CLEAN at its nominal resolutions. Remarkably, the image reconstructed from intermediate-baseline data using the sparse-modeling technique matches very well with that obtained from longer-baseline data using the CLEAN technique with the accuracy of ~ 90 % on the image domain.
     T: 13) Other
@@ -1749,11 +1721,6 @@ In the age when the most challenging questions of the day demand repeated, compl
 
 AXS is regularly used within the University of Washington's DIRAC Institute, enabling the analysis of ZTF (Zwicky Transient Facility) and other datasets. As an example, AXS is able to cross-match Gaia DR2 (1.8 billion rows) and SDSS (800 million rows) in 2 minutes, with the data of interest (photometry) being passed to Python routines for further processing. Here, we will present current AXS capabilities, give an overview of future plans, and discuss some implications to analysis of LSST and similarly sized datasets. The long-term goal of AXS is to enable petascale catalog and stream analyses by individual researchers and groups.
     T: 10) Databases and Archives: Challenges and Solutions in the Big Data Era
-   TO: 
- 
-P Zhang, Yanxia zyx@bao.ac.cn Machine Learning for Quasar Candidate Selection
-    ABS: With the big data era of astronomy coming, machine learning becomes more popular in various astronomical aspects, for example, classification of celestial objects, physical parameter measurement, rare object detection and so on. Quasar candidate selection belongs to the classification problem. Based on a number of present photometric and spectroscopic sky survey projects, preselecting quasar candidates from galaxies and stars is a hot issue. It is easy to separate quasars and stars from galaxies by morphology while it is difficult to distinguish quasars from stars due to their similar morphology. Nevertheless, researchers have figured out various approaches on quasar candidate selection. We will introduce them in detail.
-    T: 1) Machine Learning in Astronomy
    TO: 
  
 P da Silva, Daniel dasilva@jhu.edu CCSDSPy - Convenient Decoding of Binary Spacecraft Telemetry
