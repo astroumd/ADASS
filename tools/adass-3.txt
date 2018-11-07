@@ -1,10 +1,10 @@
-200 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+193 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 196 entries
+Accepted 189 entries
 11 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 8 entries
 346 x 37 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 292 entries
+Accepted 286 entries
 109 x 5 in reg/IVOA Registration (Responses).xlsx
 IVOA Accepted 107 entries
  
@@ -239,15 +239,6 @@ X Cai, Hongbo chb@bao.ac.cn
     T: 
    TO: 
  
-O Cano, Juan Luis juanlu001@gmail.com Full Stack Data Science: Using Python to download, clean, analyze and visualize Gaia data
-    ABS: Python has become of the most important programming languages in the software industry and in Astronomy, specially thanks to its popularity in the Data Science field. However, with the explosion of the Big Data movement, the tooling became quite fragmented and one single language turned out to be insufficient: efficient data access has to be done through databases using SQL, all the Hadoop stack is written in Java or Scala, and modern visualization is usually developed in JavaScript. Even if some current solutions, such as PySpark, enable the use of Python for Big Data, the deployment is often complex and the workflow fragile. This complexity is an obstacle for scientists without formal training in Software Engineering and also for the general public, particularly in Astronomy.
-
-In recent times, the Python ecosystem has evolved to catch up with the Big Data world, and new tools have appeared to process, analyze and visualize bigger than RAM datasets. On the one hand, libraries like numba allow Python to scale up by compiling a subset of the language to assembly code, and on the other hand projects like Dask are bringing distributed and out-of-core capabilities to the usual “small data” tools of the Python in Data Science stack, allowing easy reuse of existing codebases and easy scaling to tens to thousands of nodes.
-
-In this talk we will showcase the power of these modern Python packages to perform Full Stack Data Science on the Gaia Data Release 2. We will demonstrate how to easily download Gaia data, how to process big amounts of data on a modest laptop, and how to scale that to a distributed cloud computing cluster to increase performance with minimal cost and code changes. We will also feature special Python libraries for Big Data visualization that avoid common visualization pitfalls. Lastly, we will justify how these tools simplify the access to Astronomical data in general, discuss the limitations of the approach and talk about future developments.
-    T: 4) Data Science: Workflows Hardware Software Humanware
-   TO: 
- 
 P Cardiel, Nicolás cardiel@ucm.es Rectification and wavelength calibration of EMIR spectroscopic data with Python
     ABS: EMIR, the near-infrared camera and multi-object spectrograph operating in the spectral region from 0.9 to 2.5 microns, has been commissioned at the Nasmyth focus of the Gran Telescopio Canarias. One of the most outstanding capabilities of EMIR is its multi-object spectroscopic mode which, with the help of a robotic reconfigurable slit system, allows to take around 53 spectra simultaneously. This poster describes how important reduction steps, concerning image rectification and wavelength calibration, are performed with the help of PyEmir, the python code developed as part of the contribution of the Universidad Complutense de Madrid in this instrument.
     T: 11) Quality Assurance of Science Data
@@ -322,11 +313,6 @@ feedback and new contributions.
 O Crawford, Steven scrawford@stsci.edu What’s new in Astropy v3.1
     ABS: Astropy is about to release v3.1 of the package!   This release has been focused on performance enhancements with improvements across the package.   In addition to the performance enhancements, new features have been added including   “box least squares” periodogram in astropy.stats, new functionality to Coordinates and Time, and a new experimental Uncertainty class.  In addition, we highlight the project infrastructure designed to facilitate collaboration on the development of open source software.
     T: 2) Management of Large Science Project
-   TO: 
- 
-O Cupani, Guido guido.cupani@inaf.it Astrocook: your spectral analysis recipe book, now with a GUI
-    ABS: Astrocook (http://github.com/DAS-OATs/astrocook) is a budding Python package for the analysis of quasar spectra. The project was first presented last year at ADASS and has since grown in scope and perspective with the development of a dedicated graphical user interface to control its multiple recipes for line detection, continuum determination and fitting of the absorption systems. As we will show, the Astrocook GUI is not only a user-friendly tool to access the packages functionalities, but it also provides a framework to solve the automation-vs-customization conundrum of spectral analysis. Through the GUI recipe editor, the users can now design their own workflows, tweak their parameters on test data, and launch them over extended datasets with no need for scripting. Such approach has been proved effective in fields where the human analysis fails (e.g. the assessment of completeness in the detection of the absorption systems) and is meant to set a standard for the next-generation spectrograph data analysis tools.
-    T: 4) Data Science: Workflows Hardware Software Humanware
    TO: 
  
 O DAI, Cong daicong2014@163.com A method to detect radio frequency interference based on convolutional neural networks
@@ -510,12 +496,6 @@ c) an extension of the Programme with the aim of motivating younger students to 
 direction of space sciences in developing countries.
     T: 13) Other
    TO: Education
- 
-P Gallegos, Julio julio.gallegos@sciops.esa.int Agile meets Requirements
-    ABS: Initially, the Science Ground Segment development for the BepiColombo mission; a joined venture to explore Mercury with two separate spacecraft ESA’s Mercury Planetary Orbiter and JAXA’s Mercury Magnetospheric Orbiter; followed a requirements flow-down approach, i.e. a V-model; from the Science Implementation Requirements Document (SIRD) to System to Sub-system requirements, split into Launch and Mercury systems; each system with iterative versions every six months. After two years into the development, it was decided to introduce Agile methodology for the development of the iterative versions.  The decided approach was to have 6 sprints of one month each with a final formal release at the end of the six-sprint period.  This transition required the implementation of user-stories to convey the requirements to the development team; the use of a continuous integration/continuous deployment environment and the automation of several tasks.
-This paper describes the drivers for the transition to a Scrum development, its advantages and drawbacks; and the full traceability from the (SIRD) to the validation of the product, through system and subsystem requirements, user-stories and test-cases; to maintain information consistency. We consider this a good example of the applicability and effectiveness of an Agile-Scrum development methodology to a long-life development cycle program.
-    T: 6) DevOps Practices in Astronomy Software
-   TO: 
  
 P Geers, Vincent vincent.geers@stfc.ac.uk MIRISim: the JWST-MIRI simulator
     ABS: MIRISim is the simulator package for the JWST Mid-Infrared Instrument (MIRI), created by the MIRI European Consortium. MIRISim is designed to simulate photon propagation through MIRI, and delivers detector images consistent with the expected on-orbit performance. The simulated data have the same uncalibrated data format that will be made available to JWST observers, and include all metadata required for processing with the JWST calibration pipeline (under development by STScI). MIRISim is written in Python 3 and released as part of an Anaconda environment that is publicly available at www.miricle.org. We present an overview of MIRISim together with example simulations.
@@ -1010,13 +990,6 @@ At the CADC we see a lot of potential in Arcade and will be planning its evoluti
     T: 5) Science Platforms: Tools for Data Discovery and Analysis from Different Angles
    TO: 
  
-O Marquez, Maria Jose mariajose.marquez@eumetsat.int Galaxy Cataloguing Expert System (GCES): Use Cases
-    ABS: Title: Galaxy Cataloguing Expert System (GCES): Use Cases
-Lead author: María José Márquez
-The observational nature of Science, especially relevant in domains such as Astronomy and Astrophysics sets important challenges in the data analysis domain. Nowadays astronomical surveys yield challenging images with crowded populations, overlapping objects, and faint detections. Here we present a Galaxy Cataloguing Expert System (GCES) to better exploit the knowledge that can be extracted from the surveys. This expert system involves the combination of appropriate AI methodologies, i.e. Bayesian inference, Voronoi tessellation and computer vision all this integrated in an automatic and configurable processing pipeline and requiring intense and intelligent computational capabilities. The GCES system addresses a multiple problem, i.e. i) label sources in an astronomical image according to the probability that each one is blended or contaminated with surrounding sources, using Voronoi tessellation and rule-based system; ii) extract photometric measurements of extended objects using contour-based approaches; and iii) carry out a probabilistic cross-match of sources from different images and bands, using all astro-photometric information available. We demonstrate here the use of the GCES in full with the most representative use cases. When the GCES system is used with the COSMOS catalogue, apparent false detections are re-discovered as real sources. This demonstrates the benefits of using artificial intelligence methodologies in the exploitation of Big Data and the consequent knowledge discovery. The paper is structured as follows: section 1 presents an introduction of the multi-axis problem and its context; section 2 describes the expert data processing and analysis pipeline (GCSE) and its specific use for the problem indicated in section 1; finally section 3 presents relevant results obtained from the different use cases with real COSMOS data sets along with a critical assessment.
-    T: 5) Science Platforms: Tools for Data Discovery and Analysis from Different Angles
-   TO: 
- 
 O Martin, Thomas thomas.martin.1@ulaval.ca Putting more intelligence into the reduction and analysis of SITELLE data.
     ABS: SITELLE is the imaging Fourier transform spectrometer of the Canada-France-Hawaii Telescope (CFHT). It delivers cubes of 4 million spectra at moderate resolution (R~3000 - 10000) on a 11'x11' FOV with a spatial resolution of 0.32. 
 
@@ -1209,7 +1182,7 @@ P Oloketuyi, Jacob jacob.oloketuyi@ynao.ac.cn The Analysis of Periodic Variation
     T: 7) Software for Solar Systems Astronomy
    TO: 
  
-P Paillassa, Maxime maxime.paillassa@u-bordeaux.fr Identifying contaminants in astronomical images using convolutional neural networks
+P Paillassa, Maxime maxime.paillassa@u-bordeaux.fr MaxiMask: Identifying contaminants in astronomical images using convolutional neural networks
     ABS: In this work, we propose to use convolutional neural networks to detect contaminants in astronomical images. Each contaminant is treated in a one vs all fashion. Once trained, our networks are able to detect various contaminants such as cosmic rays, hot and bad pixels defaults, saturated pixels, diffraction spikes, nebulosities, persistence effects, satellite trails, residual fringe patterns, or tracking errors in images, encompassing a broad range of ambient conditions, PSF sampling, detectors, optics and stellar density. The CNN is performing semantic segmentation: it can output a probability map, assigning to each pixel its probability to belong to the contaminant or the background class, except for tracking errors where another convolutional neural network can assign to a whole focal plane the probability that it is affected by tracking error. Training and testing data have been gathered from real data originating from various modern CCD and near-IR cameras or simulated.
     T: 1) Machine Learning in Astronomy
    TO: 
@@ -1344,11 +1317,6 @@ P Renil, Rosly rosly@ska.ac.za MeerKAT: Operational Workflow and Data Analysis
     T: 4) Data Science: Workflows Hardware Software Humanware
    TO: 
  
-O Reustle, Alexander alexander.w.reustle@nasa.gov Automating the Fermi Software Development Process with Continuous Integration Practices
-    ABS: In 2017 The Fermi LAT collaboration embarked on a plan to modernize its legacy system for software development. The goal was to employ a set of techniques known collectively as Continuous Integration to improve reliability and speed of release. This brief talk will describe the strategies and tools employed, as well as the experiences gained while migrating to this new system.
-    T: 6) DevOps Practices in Astronomy Software
-   TO: 
- 
 O Roby, Trey roby@ipac.caltech.edu New visualization Features in Firefly
     ABS: Firefly is IPAC's Advanced Astronomy WEB UI Framework. It was  open sourced in 2015, hosted at GitHub. Firefly is designed for building a web-based front end to access science archives  with data visualization capabilities. Firefly provides integrated interactive data visualization capabilities with images, catalogs, and plots.  It has been used in many IPAC IRSA applications, in LSST Science Platform Portal, and in NED’s newly released interface.
 
@@ -1475,17 +1443,6 @@ also the data of Hitomi satellite under the collaboration with C-SODA/JAXA.
 We present those our recent development on Japanese Virtual Observatory system.
     T: 13) Other
    TO: Virtual Observatory
- 
-P Sihlangu, Isaac isihlangu@ska.ac.za MeerKAT Radio Frequency Interefence characterization using Machine Learning
-    ABS: The Square Kilometer Array (SKA) project is an international effort to build the worlds largest radio telescope, with a square kilometre (one million square metres) of collecting area spread over sites in Southern Africa and Australia. It will be the largest and the most sensitive radio telescope ever built and will observe the sky with unprecedented depth and detail. Science results from the SKA telescope are expected to change our understanding of the Universe.
-
-Detection and mitigation of Radio Frequency Interference (RFI) is one of the biggest challenges when analysing the observational data collected from the modern radio telescopes. Due to industrial and technological developments, radio astronomy observations are being
-threatened by increasing levels of RFI. Also, an important by−product of the increased collecting area of the these telescopes is their increased sensitivity and as the sensitivity of the these instruments increases, so does the sensitivity to unwanted signals (i.e satellites, mobile cellphones, airplanes, etc). Furthermore the dawn of big data has begun with next generation telescopes such as the SKA that will generate orders of magnitude more data than the current generation. The combination of these issues means that old techniques used to detect and mitigate RFI signals are no longer sufficient. More sophisticated and automated techniques will be required.
-
-My research is focused on finding novel techniques and methods that can provide additional insight into various types and sources of RFI phenomena detected by radio telescopes, specifically via the techniques of machine learning and deep learning. My work aims to characterise and classify RFI signals detected by a brute-force algorithm. I will study and catalogue the different kinds of RFI signals that are detected. Attributes found to be statistically discriminative will be extracted from RFI signals and will be used as feature sets. The attributes extracted will be used to train machine learning algorithms such as Random Forests, Decision Trees and Neural Networks that will classify different types of RFI categories. Thus,
-this analysis will help in separating outlier signals into different kinds of RFI or signals of astronomical importance. We will also be able to predict when certain kinds of RFI are likely to occur which will aid in proper scheduling of observations.
-    T: 1) Machine Learning in Astronomy
-   TO: 
  
 O Smith, Jeffrey jeffrey.smith@nasa.gov Lilith: A Versatile Instrument and All-Sky Simulator for use with Space-Based Astrophysics Observatories
     ABS: To help facilitate the development of the Transiting Exoplanet Survey Satalite (TESS) data analysis pipeline, it was necessary to produce simulated flight data with sufficient fidelity and volume to exercise all the capabilities of the pipeline in an integrated way. As a generator of simulated flight data, Lilith, was developed for this purpose. We describe the capabilities of the Lilith software package, with particular attention to the interaction between the implemented features and the pipeline capabilities that it exercises.  Using a physics-based TESS instrument and sky model, Lilith creates a set of raw TESS data which includes models for the CCDs, readout electronics, camera optics, behavior of the attitude control system (ACS), spacecraft orbit, spacecraft jitter and the sky, including zodiacal light, and the TESS Input Catalog. The model also incorporates realistic instances of stellar astrophysics, including stellar variability, eclipsing binaries, background eclipsing binaries, transiting planets and diffuse light. This simulated data is then processed through the TESS pipeline generating full archivable data products. Full instrumental and astrophysics ground truth is available and can be used as a training set for TESS data analysis software, such as when training a machine learning classifier for planet candidates. Our intention is to continue to tune Lilith as real TESS flight data becomes available, allowing for an up-to-date simulated set of data products to complement the mission flight data products, thereby aiding researchers as they continue to adapt their tools to the TESS data streams. We discuss the execution performance of the resulting package, and offer some suggestions for improvements for instrument and sky simulators to be developed for other missions.
@@ -1662,19 +1619,6 @@ Jupyter notebook.
    TO: 
   ABS2 Vahi, Karan Enabling Weak Gravitational Lensing Pipelines using Pegasus
     ABS: Enabling Weak Gravitational Lensing Pipelines using Pegasus
- 
-O Vitello, Fabio fabio.vitello@inaf.it VisIVO Visual Analytics Tool an EOSC Science Demonstrator for data discovery
-    ABS: VisIVO is an integrated suite of tools and services for data discovery that include collaborative portals, mobile applications, visual analytics tool and a number of key components such as workflow applications, analysis and data mining functionalities.
-
-Space missions and ground-based facilities produce massive volumes of data and the ability to collect and store them is increasing at a higher pace than the ability to analyze them. This gap leads to new challenges in the analysis pipeline to discover information contained in the data. 
-
-VisIVO Visual analytics tool for star formation regions focuses on handling these massive and heterogeneous volumes of information accessing the data previously processed by data mining algorithms and advanced analysis techniques with highly interactive visual interfaces offering scientists the opportunity for in-depth understanding of massive, noisy, and high-dimensional data.
-
-The aforementioned challenges demands an increasing archiving and computing resources as well as a federated and interoperable virtual environment enabling collaboration and re-use of data and knowledge. Thus, the connection with the European Open Science Cloud is being investigated exploiting the EGI services such as the Check-in (for federated authentication and authorization) and the Federated Cloud (for analysis and archiving services). 
-
-Recently the VisIVO development has been exploited for the experimentation of cutting-edge interactive visualization technologies for the improvement of teaching and scientific dissemination. This work is being carried out as a knowledge transfer from astrophysical sciences to geological sciences in the context of an international collaboration to innovate teaching, learning and dissemination of earth sciences, using virtual reality.
-    T: 3) Astrophysical Data Visualization from Line Plots to Augmented and Virtual Reality
-   TO: 
  
 P Wang, Rui wangrui@nao.cas.cn Analysis of Stellar Spectra from LAMOST DR5 with Generative Spectrum Networks
     ABS: We derived the fundamental stellar atmospheric parameters (Teff, log g, [Fe/H] and [α/Fe]) of low-resolution spectroscopy from LAMOST DR5 with Generative Spectrum Networks(GSN), which follows the same scheme as a normal ANN with stellar parameters as the inputs and spectrum as outputs. After training on PHOENIX theoretical spectra, the GSN model performed effectively on producing synthetic spectra. Combining with Bayes framework,  application in analysis of LAMOST observed spectra become efficient on the Spark platform. Also, we examined and validated the results by comparing with reference parameters of high-resolution surveys and asteroseismic results. Our method is credible with a precision of ~130K for Teff, ~0.15 dex for log g, ~0.13 dex for [Fe/H] and ~0.10 dex for [α/Fe].

@@ -41,7 +41,6 @@ julien.burnier@unige.ch
 bushouse@stsci.edu
 busko@stsci.edu
 chb@bao.ac.cn
-juanlu001@gmail.com
 nicola.caon@iac.es
 cardiel@ucm.es
 ceballos@ifca.unican.es
@@ -54,7 +53,6 @@ scrawford@stsci.edu
 mdittmar@cfa.harvard.edu
 andre.csillaghy@fhnw.ch
 ccz@bao.ac.cn
-guido.cupani@inaf.it
 daicong2014@163.com
 Christophe.Dabin@cnes.fr
 pndaly@email.arizona.edu
@@ -89,7 +87,6 @@ fitz@noao.edu
 matthias.fuessling@cta-observatory.org
 carlos.gabriel@sciops.esa.int
 ktg25@cam.ac.uk
-julio.gallegos@sciops.esa.int
 severin.gaudet@nrc-cnrc.gc.ca
 vincent.geers@stfc.ac.uk
 Giovanna.Giardino@esa.int
@@ -167,7 +164,6 @@ katharina.lutz@astro.unistra.fr
 max@ihep.ac.cn
 jeff.mader@gmail.com
 major.brian@gmail.com
-mariajose.marquez@eumetsat.int
 thomas.martin.1@ulaval.ca
 beatriz.martinez@esa.int
 patrick.masi-phelps@dataiku.com
@@ -222,7 +218,6 @@ jordan.raddick@gmail.com
 eramirez@quasarsr.com
 araugh@umd.edu
 rosly@ska.ac.za
-alexander.w.reustle@nasa.gov
 lrizzi@keck.hawaii.edu
 roby@ipac.caltech.edu
 erik.romelli@inaf.it
@@ -243,7 +238,6 @@ daniel.shipman@maine.edu
 russ@sron.nl
 yuji.shirasaki@nao.ac.jp
 keith@knaveandvarlet.com.au
-isihlangu@ska.ac.za
 alan.smale@nasa.gov
 arfon@stsci.edu
 jeffrey.smith@nasa.gov
@@ -274,7 +268,6 @@ vahi@isi.edu
 bvan@slac.stanford.edu
 j.l.veitchmichaelis@ljmu.ac.uk
 vermaas@astron.nl
-fabio.vitello@inaf.it
 wangrui@nao.cas.cn
 warnerem@astro.umd.edu
 andreas.wicenec@uwa.edu.au
@@ -284,6 +277,7 @@ wise@astron.nl
 paul.woods@nature.com
 xiuqin@ipac.caltech.edu
 zywu@nao.cas.cn
+xiaojian@tju.edu.cn
 masayuki.yamaguchi@nao.ac.jp
 youngmd@iu.edu
 yuxianchuan@163.com

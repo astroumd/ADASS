@@ -41,7 +41,6 @@ Burnier, Julien
 Bushouse, Howard
 Busko, Ivo
 Cai, Hongbo
-Cano, Juan Luis
 Caon, Nicola
 Cardiel, Nicolás
 Ceballos, M.Teresa
@@ -54,7 +53,6 @@ Crawford, Steven
 Cresitello-Dittmar, Mark
 Csillaghy, André
 Cui, Chenzhou
-Cupani, Guido
 DAI, Cong
 Dabin, Christophe
 Daly, Philip
@@ -89,7 +87,6 @@ Fitzpatrick, Michael
 Fuessling, Matthias
 Gabriel, Carlos
 Gale-Sides, Kingsley
-Gallegos, Julio
 Gaudet, Séverin
 Geers, Vincent
 Giardino, Giovanna
@@ -167,7 +164,6 @@ Lutz, Katharina
 Ma, Xiang
 Mader, Jeff
 Major, Brian
-Marquez, Maria Jose
 Martin, Thomas
 Martinez, Beatriz
 Masi-Phelps, Patrick
@@ -222,7 +218,6 @@ Raddick, Michael
 Ramirez, Emanuel
 Raugh, Anne
 Renil, Rosly
-Reustle, Alexander
 Rizzi, Luca
 Roby, Trey
 Romelli, Erik
@@ -243,7 +238,6 @@ Shipman, Daniel
 Shipman, Russell
 Shirasaki, Yuji
 Shortridge, Keith
-Sihlangu, Isaac
 Smale, Alan
 Smith, Arfon
 Smith, Jeffrey
@@ -274,7 +268,6 @@ Vahi, Karan
 Van Klaveren, Brian
 Veitch-Michaelis, Josh
 Vermaas, Nico
-Vitello, Fabio
 Wang, Rui
 Warner, Elizabeth
 Wicenec, Andreas
@@ -284,6 +277,7 @@ Wise, Michael
 Woods, Paul
 Wu, Xiuqin
 Wu, Zhenyu
+Xiao, Jian
 Yamaguchi, Masayuki
 Young, Michael
 Yu, Xianchuan
