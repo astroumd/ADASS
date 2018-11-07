@@ -22,7 +22,7 @@ Guedes dos Santos, Luiz Fernando  ; P1.20
 Chu, Selina                       ; P1.21
 #
 Arviset, Christophe               ; P10.1
-Atemkeng Teufack, Marcellin       ; P10.2
+Atemkeng, Marcellin               ; P10.2
 Boch, Thomas                      ; P10.3
 #Dempsey, James                    ; P10.4 not coming
 Dowler, Patrick                   ; P10.5
@@ -87,14 +87,14 @@ Woods, Paul                       ; P13.21
 Yamaguchi, Masayuki               ; P13.22
 #
 Allen, Mark                       ; P2.1
-Bolton, Adam                      ; P2.2
+#Bolton, Adam                      ; P2.2 not coming
 Crawford, Steven                  ; P2.3
 Gracia Abril, Gonzalo             ; P2.4
 #Kyprianou, Mark                   ; P2.5 not coming
 Lacy, Mark                        ; P2.6
 #Stenborg, Travis                  ; P2.7  not coming
 #
-ALESINA, Fabien                   ; P3.1
+Alesina, Fabien                   ; P3.1
 Becciani, Ugo                     ; P3.2
 Grishin, Kirill                   ; P3.3
 Hague, Peter                      ; P3.4
@@ -147,7 +147,7 @@ Coulais, Alain                    ; P6.4
 Dower, Theresa                    ; P6.5
 Gallegos, Julio                   ; P6.6
 #Han, Jun                          ; P6.7 not coming
-LANDONI, MARCO                    ; P6.8
+Landoni, Marco                    ; P6.8
 Paxson, Charles                   ; P6.9
 Perez, Fernando                   ; P6.10
 Reustle, Alexander                ; P6.11
@@ -158,7 +158,7 @@ Ireland, Jack                     ; P7.3
 Kelley, Michael                   ; P7.4
 Oloketuyi, Jacob                  ; P7.5
 #
-Adámek, Karel                     ; P8.1
+Adamek, Karel                     ; P8.1
 Eguchi, Satoshi                   ; P8.2
 Fernique, Pierre                  ; P8.3
 Ma, Xiang                         ; P8.4
