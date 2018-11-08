@@ -168,7 +168,7 @@
       <TD>xI3.1</TD>
       <TD>Monday</TD>
       <TD>08.40</TD>
-      <TD>09.00</TD>
+      <TD>09.05</TD>
       <TD>Astronomy-inspired Visual Computing</TD>
       <TD>Astronomy has inspired mankind for generations to develop theories, tools, and technologies that have dramatically advanced our knowledge and practice of science. In this talk, I will give an overview of how the field of astronomy has helped advance the field of visual computing. My talk will span the advances in line integral convolutions, ambient occlusion, geometry-aware lighting, and much more. These techniques, with their origins and motivations in astronomy, are changing how we design aircraft, to rational drug design, to computer-generated games and movies.</TD>
      </TR>
@@ -179,8 +179,8 @@
       <TD>1</TD>
       <TD>I3.2</TD>
       <TD>Monday</TD>
-      <TD>09.00</TD>
-      <TD>09.30</TD>
+      <TD>09.05</TD>
+      <TD>09.35</TD>
       <TD>3D Data Visualization in Astrophysics</TD>
       <TD>text:'We present unique methods for rendering astronomical data - 3D galaxy catalogs, planetary maps, data cubes, and simulations.  Using tools and languages including Blender, Python, and Google Spatial Media, a user can render their own science results, allowing for further analysis of their data phase space.  We aim to put these tools and methods in the hands of students and researchers so that they can bring their own data visualizations to life on different computing platforms.'</TD>
      </TR>
@@ -191,8 +191,8 @@
       <TD>1</TD>
       <TD>O3.1</TD>
       <TD>Monday</TD>
-      <TD>09.30</TD>
-      <TD>09.45</TD>
+      <TD>09.35</TD>
+      <TD>09.50</TD>
       <TD>An introduction to FITSWebQL</TD>
       <TD>text:'The JVO ALMA WebQL web service - available through the JVO ALMA FITS archive - has been upgraded to include legacy data from other telescopes, for example Nobeyama NRO45M in Japan. The updated server software has been renamed FITSWebQL. In addition, a standalone desktop version supporting Linux, macOS and Windows 10 Linux Subsystem (Bash on Windows) is also available for download from http://jvo.nao.ac.jp/~chris/ .\n\nThe FITSWebQL server enables viewing of even 100GB-large FITS files in a web browser running on a PC with a limited amount of RAM. Users can interactively zoom-in to selected areas of interest with the corresponding frequency spectrum being calculated on the server in near real-time. The client (a browser) is a JavaScript application built on AJAX, WebSockets, HTML5, WebGL and SVG.\n\nThere are many challenges when providing a web browser-based real-time FITS data cube preview service over high-latency low-bandwidth network connections. The upgraded version tries to overcome the latency issue by predicting user mouse movements with a Kalman Filter in order to speculatively deliver the real-time spectrum data at a point where the user is likely to be looking at. The new version also allows one to view multiple FITS files simultaneously in an RGB composite mode (NRO45M FUGIN only), where each dataset is assigned one RGB channel to form a colour image. Spectra from multiple FITS cubes are shown together too.\n\nThe talk gives a brief tour of the FITSWebQL main features. We also touch on some of the recent developments, such as an experimental switch from C/C++ to Rust (see https://www.rust-lang.org/) for improved stability, better memory management and fearless concurrency, or attempts to display FITS data cubes in the form of interactive on-demand video streams in a web browser.'</TD>
      </TR>
@@ -203,8 +203,8 @@
       <TD>1</TD>
       <TD>O3.2</TD>
       <TD>Monday</TD>
-      <TD>09.45</TD>
-      <TD>10.00</TD>
+      <TD>09.50</TD>
+      <TD>10.05</TD>
       <TD>An HDF5 Schema for SKA Scale Image Cube Visualization</TD>
       <TD>text:'In this paper, we describe work that has been performed to create an HDF5 schema to support the efficient visualization of image data cubes that will result from SKA Phase 1 and precursor observations. The schema has been developed in parallel to a prototype client-server visualization system, intended to serve as a testbed for ideas that will be implemented in replacements for the existing CyberSKA and CASA viewers.\n\nMost astronomy image files are currently packaged using the FITS standard, however this has a number of shortcomings for very large images. The HDF5 technology suite provides a data model, file format, API, library, and tools, which are are all open and distributed without charge. This enables structured schemas to be created for different applications. We will show how these can be beneficial to packaging radio astronomy (RA) data. In particular, our interest is in supporting fast interactive visualization of data cubes that will be produced by the SKA telescope. Existing HDF5 schemas developed for RA data were unable to meet our requirements. The LOFAR HDF5 schema did not meet performance requirements, due to the approach of storing each 2D image plane in a separate group. The HDFITS schema serves as a starting point for an HDF5 schema that maintains round-trip compatibility with the FITS format, but lacks the additional structures required for pre-calculated and cached datasets. Therefore, we have created a new schema designed to suite our application, though this may be advantageous for other processing and analysis applications. \n\nThe schema is similar to that of HDFITS, but extensions have been added to support a number of features required for efficient visualization of large data sets. We will discuss these extensions and provide details on performance improvements with commonly used access patterns. We will also describe real-world performance when used with our prototype visualization system.'</TD>
      </TR>
@@ -215,8 +215,8 @@
       <TD>1</TD>
       <TD>O3.3</TD>
       <TD>Monday</TD>
-      <TD>10.00</TD>
-      <TD>10.15</TD>
+      <TD>10.05</TD>
+      <TD>10.20</TD>
       <TD>Analysis of Astronomical Data using VR: the Gaia catalogue in 3D</TD>
       <TD>text:'Since 2016, the ESAC Science Data Centre have been working on a number of Virtual Reality projects to visualise Gaia data in 3D. The Gaia mission is providing unprecedented astrometric measurements of more than 1 billion stars. Using these measurements, we can estimate the distance to these stars and therefore project their 3D positions in the Galaxy. A new application to analyse Gaia DR2 data will be publicly released for Virtual Reality devices during 2018. In this presentation we will give a demo of the latest version of the Oculus Rift application and will show specific use cases to analyse Gaia DR2 data as well as a demonstration on how can Virtual Reality be integrated into a data analysis workflow.\nWe will also show how can new input techniques such as hand-tracking can bring new levels of freedom in how we interact with data.'</TD>
      </TR>
@@ -227,7 +227,7 @@
       <TD>0</TD>
       <TD>C1</TD>
       <TD>Monday</TD>
-      <TD>10.15</TD>
+      <TD>10.20</TD>
       <TD>11.15</TD>
       <TD>TBD</TD>
       <TD>TBD</TD>
@@ -295,7 +295,7 @@
      <TR>
       <TD>Talks</TD>
       <TD>Lightning</TD>
-      <TD/>
+      <TD>N/A</TD>
       <TD>2</TD>
       <TD>LT1</TD>
       <TD>Monday</TD>
@@ -311,7 +311,7 @@
       <TD>0</TD>
       <TD>C</TD>
       <TD>Monday</TD>
-      <TD>12.3</TD>
+      <TD>12.30</TD>
       <TD>14.00</TD>
       <TD>TBD</TD>
       <TD>TBD</TD>
@@ -439,7 +439,7 @@
      <TR>
       <TD>Talks</TD>
       <TD>Lightning</TD>
-      <TD/>
+      <TD>N/A</TD>
       <TD>4</TD>
       <TD>LT2</TD>
       <TD>Monday</TD>
@@ -608,7 +608,7 @@
       <TD>Mink</TD>
       <TD>Jessica</TD>
       <TD/>
-      <TD>11</TD>
+      <TD>6</TD>
       <TD>H</TD>
       <TD>Tuesday</TD>
       <TD>11.15</TD>
@@ -620,7 +620,7 @@
       <TD>Borne</TD>
       <TD>Kirk</TD>
       <TD>Booz Allen Hamilton</TD>
-      <TD>11</TD>
+      <TD>6</TD>
       <TD>I4.1</TD>
       <TD>Tuesday</TD>
       <TD>11.15</TD>
@@ -632,7 +632,7 @@
       <TD>Toledo</TD>
       <TD>Ignacio</TD>
       <TD>Joint ALMA Observatory</TD>
-      <TD>11</TD>
+      <TD>6</TD>
       <TD>O4.1</TD>
       <TD>Tuesday</TD>
       <TD>11.45</TD>
@@ -644,7 +644,7 @@
       <TD>Nakazato</TD>
       <TD>Takeshi</TD>
       <TD>NAOJ</TD>
-      <TD>11</TD>
+      <TD>6</TD>
       <TD>O4.2</TD>
       <TD>Tuesday</TD>
       <TD>12.00</TD>
@@ -655,7 +655,7 @@
      <TR>
       <TD>Talks</TD>
       <TD>Lightning</TD>
-      <TD/>
+      <TD>N/A</TD>
       <TD>0</TD>
       <TD>LT3</TD>
       <TD>Tuesday</TD>
@@ -721,8 +721,8 @@
       <TD>Tuesday</TD>
       <TD>14.30</TD>
       <TD>14.45</TD>
-      <TD>Automatic Classification of TESS Planet Candidates using Deep Learning</TD>
-      <TD>text:"We present results from a NASA Frontier Development Lab (FDL) project to automatically classify exoplanet candidates identified by the Transiting Exoplanet Survey Satellite (TESS) using artificial intelligence (AI) techniques applied with compute resources provided by the Google Cloud Platform. NASA FDL is an applied AI research accelerator aimed at implementing cutting-edge AI technologies to challenges in the space sciences. NASA's TESS mission, launched in April 2018, is conducting an all-sky transit survey to discover thousands of exoplanets around bright stars that are amenable to follow-up observations needed to characterize planet sizes, masses, and even atmospheres. TESS observes sectors of the sky for 27 days, after which the TESS pipeline generates flux time series for each stellar target, identifies any transit-like signatures, and calculates diagnostic metrics for each event. Time is of the utmost importance given the short ground-based observing window following each TESS observing sector. Thus prior to the first TESS science data release, we developed a deep neural network classification system to rapidly identify planet candidates or flag false positives. We generated raw TESS data using a physics-based instrument and sky simulator, Lilith, which models the full range of instrument behavior (e.g., camera optics, readout electronics, spacecraft jigger) and includes realistic instances of stellar astrophysics (e.g., transiting planets, eclipsing binaries, stellar variability). This simulated data was then processed through the TESS pipeline to produce complete archivable data products, which we used as ground-truth data to train our deep neutral net classification system and evaluate its performance characteristics. We also show transfer learning results from a neural network trained on 150,000 Kepler light curves, then fine-tuned on simulated TESS data, and evaluate the domain gap for our model between these two distinct data sources."</TD>
+      <TD>Automatic Classification of  Planet Candidates using Deep Learning</TD>
+      <TD>text:'We present results from a NASA Frontier Development Lab (FDL) project to automatically classify candidate transit signals identified by the Kepler mission and the Transiting Exoplanet Survey Satellite (TESS) using deep learning techniques applied with compute resources provided by the Google Cloud Platform. NASA FDL is an applied artificial intelligence research accelerator aimed at implementing cutting-edge machine learning techniques to challenges in the space sciences. The Kepler and TESS missions produce large datasets that need to be analyzed efficiently and systematically in order to yield accurate exoplanet statistics as well as reliably identify small, Earth-sized planets at the edge of detectability. Thus we have developed a deep neural network classification system to rapidly and reliably identify real planet transits and flag false positives. We build on the recent work of Shallue &amp; Vanderburg (2018) by adding "scientific domain knowledge" to their deep learning model architecture and input representations to significantly increase model performance on Kepler data, in particular for the lowest signal-to-noise transits that can represent the most interesting cases of rocky planets in the habitable zone. These improvements also allowed us to drastically reduce the size of the deep learning model, while still maintaining improved performance; smaller models are better for generalization, for example from Kepler to TESS data. This classification tool will be especially useful for the next generation of space-based photometry missions focused on finding small planets, such as TESS and PLATO.'</TD>
      </TR>
      <TR>
       <TD>Nikolic</TD>
@@ -979,12 +979,12 @@
      <TR>
       <TD>Prizewinner</TD>
       <TD>Hackathon</TD>
-      <TD/>
+      <TD>N/A</TD>
       <TD>10</TD>
       <TD>OH</TD>
       <TD>Wednesday</TD>
       <TD>11.15</TD>
-      <TD>11.20</TD>
+      <TD>11.30</TD>
       <TD>TBD</TD>
       <TD>TBD</TD>
      </TR>
@@ -995,22 +995,10 @@
       <TD>10</TD>
       <TD>I8.1</TD>
       <TD>Wednesday</TD>
-      <TD>11.20</TD>
-      <TD>11.50</TD>
+      <TD>11.30</TD>
+      <TD>12.00</TD>
       <TD>Data challenges of the VO in Time Domain Astronomy</TD>
       <TD>text:'Surveys specifically designed to monitor the transient sky have opened the window for discovery and exploration through time domain. Source classification and transmission of the alerts for further follow-up as well as analysing possible periodicity in variable sources poses a challenge with the huge amounts of data synoptic missions are providing. We will review some of the challenges of Time Domain data and we will share some of the tools and services that are being built within the Virtual Observatory to discover, access, visualise and analyse Time Domain data, focusing in particular on Time Series.'</TD>
-     </TR>
-     <TR>
-      <TD>Stevens</TD>
-      <TD>Abigail</TD>
-      <TD>Michigan State U/U. Michigan</TD>
-      <TD>10</TD>
-      <TD>O8.1</TD>
-      <TD>Wednesday</TD>
-      <TD>11.50</TD>
-      <TD>12.05</TD>
-      <TD>TBD</TD>
-      <TD>TBD</TD>
      </TR>
      <TR>
       <TD>Juric</TD>
@@ -1019,20 +1007,20 @@
       <TD>10</TD>
       <TD>O8.2</TD>
       <TD>Wednesday</TD>
-      <TD>12.05</TD>
-      <TD>12.20</TD>
+      <TD>12.00</TD>
+      <TD>12.15</TD>
       <TD>The ZTF Alert Stream: Lessons from the first six months of operating an LSST precursor</TD>
       <TD>text:'The Zwicky Transient Facility (ZTF) is an optical time-domain survey that is currently generating about one million alerts each night for transient, variable, and moving objects. The ZTF Alert Distribution System (ZADS; Patterson et al.) packages these alerts, distributes them to the ZTF Partnership members and community brokers, and allows for filtering of the alerts to objects of interest, all in near-real time. This system builds on industry-standard real-time stream processing tools: the Apache Avro binary serialization format and the Apache Kafka distributed streaming platform. It leverages concepts and tools being developed for LSST (Python client libraries), with the source code publicly available on GitHub.\n\nThis talk will give an overview of the ZTF alert distribution system. We will examine lessons learned from ~six months of operating an LSST precursor alert stream (both from the operator and end-user perspective), discuss opportunities for standardization, and implications for the LSST.'</TD>
      </TR>
      <TR>
       <TD>Talks</TD>
       <TD>Lightning</TD>
-      <TD/>
+      <TD>N/A</TD>
       <TD>0</TD>
       <TD>LT4</TD>
       <TD>Wednesday</TD>
-      <TD>12.20</TD>
-      <TD>12.35</TD>
+      <TD>12.15</TD>
+      <TD>12.30</TD>
       <TD>TBD</TD>
       <TD>TBD</TD>
      </TR>
@@ -1043,7 +1031,7 @@
       <TD>0</TD>
       <TD>C</TD>
       <TD>Wednesday</TD>
-      <TD>12.3</TD>
+      <TD>12.30</TD>
       <TD>14.00</TD>
       <TD>TBD</TD>
       <TD>TBD</TD>
@@ -1052,7 +1040,7 @@
       <TD>Gwyn</TD>
       <TD>Stephen</TD>
       <TD/>
-      <TD>6</TD>
+      <TD>11</TD>
       <TD>H</TD>
       <TD>Wednesday</TD>
       <TD>14.00</TD>
@@ -1064,7 +1052,7 @@
       <TD>Holman</TD>
       <TD>Matthew</TD>
       <TD>CfA</TD>
-      <TD>6</TD>
+      <TD>11</TD>
       <TD>I7.1</TD>
       <TD>Wednesday</TD>
       <TD>14.00</TD>
@@ -1076,7 +1064,7 @@
       <TD>Racero</TD>
       <TD>Elena</TD>
       <TD>ESAC - Serco</TD>
-      <TD>6</TD>
+      <TD>11</TD>
       <TD>O7.1</TD>
       <TD>Wednesday</TD>
       <TD>14.30</TD>
@@ -1088,7 +1076,7 @@
       <TD>Raugh</TD>
       <TD>Anne</TD>
       <TD>Univ. of Maryland</TD>
-      <TD>6</TD>
+      <TD>11</TD>
       <TD>O7.2</TD>
       <TD>Wednesday</TD>
       <TD>14.45</TD>
@@ -1159,7 +1147,7 @@
      <TR>
       <TD>Allen</TD>
       <TD>Alice</TD>
-      <TD/>
+      <TD>Astrophysics Source Code Libr</TD>
       <TD>0</TD>
       <TD>B7</TD>
       <TD>Wednesday</TD>
@@ -1315,7 +1303,7 @@
      <TR>
       <TD>Summaries</TD>
       <TD>BOF Lightning</TD>
-      <TD/>
+      <TD>N/A</TD>
       <TD>14</TD>
       <TD>LT5</TD>
       <TD>Thursday</TD>
