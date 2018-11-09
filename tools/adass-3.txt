@@ -1,10 +1,10 @@
-191 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+190 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 187 entries
+Accepted 186 entries
 11 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 8 entries
 346 x 37 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 282 entries
+Accepted 281 entries
 109 x 5 in reg/IVOA Registration (Responses).xlsx
 IVOA Accepted 107 entries
  
@@ -1459,11 +1459,6 @@ Conclusions: We find that there is a dispersion in the metallicity profiles depe
 P Solar, Mauricio mauricio.solar@usm.cl Tensor Clusters for extracting and summarizing components in spectral cubes
     ABS: As it is already known, modern observatories like the Atacama Large Millimeter/ sub- millimeter Array (ALMA) and the Very Long Baseline Array (VLBA) generate large- scale data. This problem of data size that has been extensively studied in recent times but there is another equally relevant problem, the data cubes also exhibit unprecedented complexity and dimensionality. These complex sources can be modeled using tensor algebraic methods. In this representation the cube has two physical axes (Right ascension(Ra)/Declination(Dec)), and a third axis (Wavelet, Time, Intensity), a representation in a tensor of order 3. This representation leads to a concise description of cubes of astronomical data. Over this representation was applied​ a tensor-cluster approach to find the morphology of components expected in these complex data cubes. To achieve this goal the TensorFit library with strong GPU support to handle spectral cubes in a tensor mode was used.
     T: 12) Algorithms
-   TO: 
- 
-X Song, Xinying songxy@ihep.ac.cn Development on Data Analysis Software on GECAM
-    ABS: Introduction on Development on Data Analysis Software on GECAM.
-    T: 4) Data Science: Workflows Hardware Software Humanware
    TO: 
  
 P Stephens, Tom thomas.stephens@nasa.gov Running the Fermi Science Tools on Windows

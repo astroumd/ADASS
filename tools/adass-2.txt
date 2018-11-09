@@ -165,7 +165,6 @@ O Smith, Jeffrey jeffrey.smith@nasa.gov Lilith: A Versatile Instrument and All-S
 O Snyder, Gregory gsnyder@stsci.edu Mock Datasets and Galaxy Merger Statistics from Cosmological Hydro Simulations
 P Solar, Martin msolar95@gmail.com Azimuthal variation of oxygen abundance in galactic stellar discs of the EAGLE simulations
 P Solar, Mauricio mauricio.solar@usm.cl Tensor Clusters for extracting and summarizing components in spectral cubes
-X Song, Xinying songxy@ihep.ac.cn Development on Data Analysis Software on GECAM
 P Stephens, Tom thomas.stephens@nasa.gov Running the Fermi Science Tools on Windows
 X Stoehr, Felix felix.stoehr@gmx.de Astronomical archives: Serving up the Universe
 P Streicher, Ole ole@aip.de DOI in Astronomy
