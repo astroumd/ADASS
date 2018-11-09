@@ -1,10 +1,10 @@
-193 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
+191 x 29 in reg/ADASS 2018  Submitted Abstracts.xls
 Warning: duplicate entry for Kosack, Karl
-Accepted 189 entries
+Accepted 187 entries
 11 x 29 in reg/ADASS 2018  2nd Submitted Abstr.xls
 Accepted 8 entries
 346 x 37 in reg/ADASS 2018  Total Registrant Re.xls
-Accepted 286 entries
+Accepted 282 entries
 109 x 5 in reg/IVOA Registration (Responses).xlsx
 IVOA Accepted 107 entries
  
@@ -315,7 +315,7 @@ O Crawford, Steven scrawford@stsci.edu What’s new in Astropy v3.1
     T: 2) Management of Large Science Project
    TO: 
  
-O DAI, Cong daicong2014@163.com A method to detect radio frequency interference based on convolutional neural networks
+O Dai, Cong daicong2014@163.com A method to detect radio frequency interference based on convolutional neural networks
     ABS: Along with the rapid development of telecommunication, radio frequency interference (RFI) generated from diverse human produced sources like electronic equipment, cell phones, GPS and so on can contaminate the weak radio band data. Therefore, RFI is an important challenge for radio astronomy. RFI detection can be regarded a special task of image segmentation. As for RFI signals, they appears in the form of point, vertical or horizontal lines. However, most existing convolution neural networks (CNNs) perform classification tasks, where the output is the single classification label of an image. The U-Net enables classification of each pixel within the image, which is suitable and competitive for image segmentation. Thus, in this paper, we implement the U-Net of 14 layers with framework of Keras to detect RFI signals. The U-Net can perform the classification task of clean signal and RFI. Also, the U-Net is a kind of extended CNN with symmetric architecture, which consists of a contracting path to capture context information and extract features and an expanding path to get precise localization. It extracts the features of RFI for learning RFI distribution pattern and then calculates the probability value of RFI for each pixel. Then we set a threshold to get the results flagged by RFI. We train the parameter of the U-Net with “Tianlai” data(A radio telescope-array, the observing time is from 20:15:45 to 24:18:45 on 27th of September 2016, the frequency is from 744MHz to 756MHz and the number of baseline is 18528). The experimental results show that, compared with the traditional RFI flagging method, this approach performs better with satisfying accuracy and takes into account the relationship between different baselines, which contributes to correctly and effectively flag RFI.
     T: 1) Machine Learning in Astronomy
    TO: 
@@ -683,17 +683,6 @@ http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/access/graph.html
     T: 13) Other
    TO: 
  
-O Hague, Peter prh44@cam.ac.uk BaSC - A Bayesian path to improved source finding in radio astronomy
-    ABS: Widely used source detection and characterisation methods in radio interferometry borrow from those developed for optical astronomy. This approach does not account for the fundamental differences in the data, and rely on algorithms such as CLEAN to preprocess interferometric maps in such a way that information may be lost.
-
-We present BaSC (Bayesian Source Characterisation) - a Python library that calculates likelihoods for sources based on visibilities rather than CLEANed maps, and applies Bayesian methods to generate evidence values for different models of the part of the sky being observed. BaSC is extensible, and can for example provide the ability to account for data from other wavelengths in its calculations.
-
-We will discuss the limitations of existing methods in cases such as the confusion of two sources, and demonstrate the performance of BaSC on both simulated and real observations. 
-
-BaSC is freely available at https://www.github.com/petehague/BASC
-    T: 3) Astrophysical Data Visualization from Line Plots to Augmented and Virtual Reality
-   TO: 
- 
 P He, Helen hhe@cfa.harvard.edu Pixel mask Filtering of CXC Datamodel
     ABS: We present pixel mask filtering algorithm, a new attribute to Datamodel library. Datamodel, a Chandra X-Ray Center data analysis software (CIAO) package, facilitates a wide range of on-the-fly data manipulation capabilities such as copy, differ, binning and filtering. The pixel mask filtering of a 2-D binary image is integrated into the CIAO region filtering syntax and logic, and thus complements the 
 conventional analytic shapes filtering of circle, rectangle, polynomial. The integration allows for the standard operations on combining masks and analytic shapes such as include, exclude, intersect, and union. The mask is stored in a data block, 
@@ -853,6 +842,24 @@ X Kitaeff, Vyacheslav slava.kitaeff@uwa.edu.au DALiuGE/CASA based processing for
     T: 4) Data Science: Workflows Hardware Software Humanware
    TO: 
  
+P Kong, Xiao kongx@nao.cas.cn The construction of a new stellar classification template library for the LAMOST 1D Pipeline based on LAMOST DR5
+    ABS: With the ability of capturing four thousands spectra in one exposure, the Large Sky Area Multi-Object Fiber Spectroscopic Telescope (LAMOST) is a special quasi-meridian reflecting Schmidt telescope located in Xinglong Station of national Astronomical Observatory, China.
+It released the fifth spectral data this year, containing 8,171,443 star, 153,090 galaxy, 51,133 QSO and 642,178 unknown type, all of which are classified by the LAMOST 1D pipeline.
+This pipeline is used for spectral analysis, aiming to determine the spectral type and redshifts of the spectra observed by LAMOST by matching with spectral templates.
+Generally, the performance of the stellar classification greatly depends on the quality of templates.
+In this paper, we construct a new stellar template library, which is supposed to increase the number of types and the accuracy of the classification, for LAMOST based on the data from LAMOST DR5.
+All the 9 million spectra from LAMOST DR5 are participated in this construction experiment and they are gathered in 500 groups using k-means clustering method.
+Those group centers corresponding to spectra less than 1000 are abandoned at first.
+Then the weighted average spectrum (group center) is served as the template spectrum in each group.
+Initially, 417 centers are obtained.
+We visually inspect all template spectra and discard 181 centers due to low spectral quality or the similarity between different group centers.
+Furthermore, the types of the remained clustering centers are assigned by the subclass of spectra from LAMOST DR5.
+Meanwhile, 19 templates whose subclass are difficult to determine are also abandoned.
+Afterwards, we obtain a new template library containing 197 LAMOST template spectra with 82 different MK classes.
+Finally, the feasibility and accuracy of using this template for classification has been verified by comparing and analyzing the classification results of several control groups of data.
+    T: 1) Machine Learning in Astronomy
+   TO: 
+ 
 O Kosack, Karl karl.kosack@cea.fr Data Processing Challenges for CTA
     ABS: The Cherenkov Telescope Array (CTA) Observatory will generate hundreds of petabytes of raw and simulated data during its operation---orders of magnitude more than any current gamma-ray instrument.  We present the current status of the design and prototyping efforts for a system to handle the large volume of raw data, to produce a nearly equal volume of simulated data needed to characterize the instrumental response, and to process it all to provide much more compact science
 data to users. This includes our efforts at a comprehensive architectural model, as well as the use of modern technologies for distributed data processing and storage, and for a python-driven analysis.
@@ -976,11 +983,6 @@ P Lutz, Katharina katharina.lutz@astro.unistra.fr Getting ready for the fourth A
     T: 13) Other
    TO: Community engangement: bringing VO tools to the astronomer
  
-P Ma, Xiang max@ihep.ac.cn Insight-HXMT Timing Analysis of New Black Hole Candidate MAXI J1820+070
-    ABS: We present the Insight-HXMT timing analysis of the new black hole candidate MAXI J1820+070 discovered in March 2018.We find that the source  exhibits state transitions from LHS to HIMS and eventually to SIMS.  Low frequency quasi-periodic oscillations(QPO) is found in the hard state and intermediate states and its centroid frequency increase with time while Q and RMS do not show evolution. With the large effective area of Insight-HXMT at high energy band, we are able to present the energy dependence of the QPO amplitude and centroid frequency up to 200 keV which supplies more constraints on the region of QPO.
-    T: 8) Time Domain Astronomy
-   TO: 
- 
 P Major, Brian major.brian@gmail.com Arcade: A User Focussed, Visual Compute Environment in CANFAR
     ABS: For a number of years CANFAR (Canadian Advanced Network for Astronomy Research) has offered virtual machines (VMs) as a way to do both interactive computing and batch processing in the cloud.  A VM is a general and flexible base offering that can suit nearly any given astronomy compute project, but demands of users a thorough understanding of the intricacies of software installation and maintenance, and requires significant effort to achieve initial benefits.  Arcade is an effort by the Canadian Astronomy Data Centre (CADC) to offer the CANFAR community an astronomy-focussed, easier-to-use, and more intuitive science platform.
 
@@ -988,19 +990,6 @@ Arcade is composed of a number of pre-built, specialized application bundles ('g
 
 At the CADC we see a lot of potential in Arcade and will be planning its evolution based on a number of key questions.  How can scalability be best achieved?  How can we reduce the burden of software and infrastructure maintenance for users and operators?  Can we allow users to customize their Arcade experience?  How can consoles be launched in batch processing?  How can we best leverage open source technology and development from other projects?  We shall discuss the core concepts of Arcade and explore its potential in respect to these questions and from feedback from the astronomy computing community.
     T: 5) Science Platforms: Tools for Data Discovery and Analysis from Different Angles
-   TO: 
- 
-O Martin, Thomas thomas.martin.1@ulaval.ca Putting more intelligence into the reduction and analysis of SITELLE data.
-    ABS: SITELLE is the imaging Fourier transform spectrometer of the Canada-France-Hawaii Telescope (CFHT). It delivers cubes of 4 million spectra at moderate resolution (R~3000 - 10000) on a 11'x11' FOV with a spatial resolution of 0.32. 
-
-Each data cube contains up to 34 Go of data and a handful of different astrophysical objects which cannot all be detected easily (especially at low signal-to-noise ratio) : high-redshift galaxies, planetary nebulae, emission-line stars, compact hii regions, etc. Object detection and classification is a challenge. We have developed tools based on convolutional neural networks that greatly help reasearcher to quickly find the most hidden objects.
-
-Data reduction have also been enhanced with deep neural networks for cosmic ray detection and stars detection.
-
-Finally, spectral model fitting can also take advantage of the python library Tensor Flow which provides GPU optimized minimization algorithm.
-
-We will also see more of the marvelous data obtained recently.
-    T: 1) Machine Learning in Astronomy
    TO: 
  
 O Martinez, Beatriz beatriz.martinez@esa.int Data-driven Space Science at ESA Science Data Centre

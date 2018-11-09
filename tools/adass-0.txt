@@ -8,7 +8,6 @@ Allen, Alice
 Allen, Christopher
 Allen, Mark
 Alonso, Anna
-Alshehri, Marwan
 Annyas, Jasper
 Ansdell, Megan
 Araya, Mauricio
@@ -53,8 +52,8 @@ Crawford, Steven
 Cresitello-Dittmar, Mark
 Csillaghy, André
 Cui, Chenzhou
-DAI, Cong
 Dabin, Christophe
+Dai, Cong
 Daly, Philip
 Delgado, Arancha
 Dencheva, Nadia
@@ -105,7 +104,6 @@ Guedes dos Santos, Luiz Fernando
 Guerra Noguero, Rocio
 Gupta, Pramod
 Gwyn, Stephen
-Hague, Peter
 Hargis, Jonathan
 Harvey, Adam
 He, Helen
@@ -136,6 +134,7 @@ Kent, Brian
 Kepley, Amanda
 Kitaeff, Vyacheslav
 Klazema, Auke
+Kong, Xiao
 Kornilov, Matwey
 Kosack, Karl
 Kosugi, George
@@ -161,10 +160,8 @@ Louys, Mireille
 Lu, Yuxi
 Lundquist, Michael
 Lutz, Katharina
-Ma, Xiang
 Mader, Jeff
 Major, Brian
-Martin, Thomas
 Martinez, Beatriz
 Masi-Phelps, Patrick
 McGlynn, Thomas
@@ -277,7 +274,6 @@ Wise, Michael
 Woods, Paul
 Wu, Xiuqin
 Wu, Zhenyu
-Xiao, Jian
 Yamaguchi, Masayuki
 Young, Michael
 Yu, Xianchuan
