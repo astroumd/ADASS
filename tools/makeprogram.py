@@ -24,7 +24,9 @@ class Program(object):
        self._getadass()
     titles = []
     a1 = []
-    for c,h,t,ab in zip(self._t["last"],self._t['code'],self._t['title'],self._t['abstract']):
+    for b,q,h,t,ab in zip(self._t["last"],self._t["first"],self._t['code'],self._t['title'],self._t['abstract']):
+       c = b + ", " + q
+       print("Key = %s"%c)
        if h[0] == "H" or h[0] == "T" or h[0] == "B":
            # save the title of the session, tutorial, or BOF
            #print("Saving %s"%t)
@@ -138,7 +140,7 @@ class Program(object):
       fp.write(tabopen)
       fp.write(accordion_start)
       for row_index,row in xdf.iterrows():
-            key = row['last']
+            key = row['last'] + ", " + row['first']
             talkid        = row['code']
             #speaker_first = self.encode_for_html(row['first']).decode('utf-8').replace("&amp;","&")
             #speaker_last  = self.encode_for_html(row['last']).decode('utf-8').replace("&amp;","&")
