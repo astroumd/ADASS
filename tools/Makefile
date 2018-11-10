@@ -197,3 +197,7 @@ att:
 regupd:
 	(cd ~/Downloads; mv ADASS\ 2018\ \ * ~/Dropbox/adass2018/)
 	cp ~/Dropbox/adass2018/ADASS\ 2018\ \ Total\ Registrant\ Re.xls reg_final/
+
+compare:
+	grep -v ^# ../../ADASSProceedings2018/papers/papers.tab | sort > papers1s.tab
+	cat orals.tab posters.tab bof.tab tutorial.tab | grep -v ^\# | grep -v TBD |grep -v TDA | sort > papers2s.tab

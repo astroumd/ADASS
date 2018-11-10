@@ -36,7 +36,7 @@ P Chu, Selina selina.chu@jpl.nasa.gov Automatic Detection of Microlensing Events
 O Comrie, Angus accomrie@gmail.com An HDF5 Schema for SKA Scale Image Cube Visualization
 O Coulais, Alain alain.coulais@obspm.fr GDL - GNU Data Language 1.0
 O Crawford, Steven scrawford@stsci.edu What’s new in Astropy v3.1
-O DAI, Cong daicong2014@163.com A method to detect radio frequency interference based on convolutional neural networks
+O Dai, Cong daicong2014@163.com A method to detect radio frequency interference based on convolutional neural networks
 P Delgado, Arancha mdelgado@ast.cam.ac.uk Gaia Photometric Science Alerts Data Flow
 O Dencheva, Nadia dencheva@stsci.edu GWCS - A General Approach to  Astronomical World Coordinates
 P Deshpande, Shubhankar shubhand@cs.cmu.edu GMRT Archive Processing Project
@@ -70,7 +70,6 @@ P Guedes dos Santos, Luiz Fernando 51guedesdossantos@cua.edu Analyzing WIND data
 X Guerra Noguero, Rocio rguerra@sciops.esa.int DevOps: the perfect ally for Science Operations for a large and distributed astronomy project.
 P Gupta, Pramod psgupta@uw.edu Computational Astrophysics with Go
 X Gwyn, Stephen gwyn.cadc@gmail.com MegaPipe 2.0: 10000 square degrees of CFHT MegaCam imaging
-O Hague, Peter prh44@cam.ac.uk BaSC - A Bayesian path to improved source finding in radio astronomy
 P He, Helen hhe@cfa.harvard.edu Pixel mask Filtering of CXC Datamodel
 X Holman, Matthew mholman@cfa.harvard.edu The Minor Planet Center Data Processing System
 P Irby, Bryan bryan.k.irby@nasa.gov HEASOFT: A FITS Data Processing and Analysis Software Suite
@@ -90,6 +89,7 @@ P Kelley, Michael msk@astro.umd.edu ZChecker: Finding Cometary Outbursts with th
 O Kent, Brian bkent@nrao.edu 3D Data Visualization in Astrophysics
 O Kepley, Amanda akepley@nrao.edu Auto-multithresh: A General Purpose Automated Masking Algorithm for Clean
 X Kitaeff, Vyacheslav slava.kitaeff@uwa.edu.au DALiuGE/CASA based processing for the extragalactic HI observations with FAST.
+P Kong, Xiao kongx@nao.cas.cn The construction of a new stellar classification template library for the LAMOST 1D Pipeline based on LAMOST DR5
 O Kosack, Karl karl.kosack@cea.fr Data Processing Challenges for CTA
 P Kosugi, George george.kosugi@nao.ac.jp Qualification of Sparse Modeling Technique for radio interferometric imaging of ALMA
 X Kuulkers, Erik erik.kuulkers@esa.int Coordinating observations among ground and space-based telescopes in the multi-messenger era
@@ -108,9 +108,7 @@ P Louys, Mireille mireille.louys@unistra.fr A TripleStore implementation of the 
 P Lu, Yuxi lucylulu12311@gmail.com Modeling Narrow Rings with a Single Chain of Gravitating Particles
 P Lundquist, Michael mlundquist@email.arizona.edu Searching for Optical Counterparts to Gravitational Wave Events with the Catalina Sky Survey
 P Lutz, Katharina katharina.lutz@astro.unistra.fr Getting ready for the fourth Asterics DADI virtual observatory school
-P Ma, Xiang max@ihep.ac.cn Insight-HXMT Timing Analysis of New Black Hole Candidate MAXI J1820+070
 P Major, Brian major.brian@gmail.com Arcade: A User Focussed, Visual Compute Environment in CANFAR
-O Martin, Thomas thomas.martin.1@ulaval.ca Putting more intelligence into the reduction and analysis of SITELLE data.
 O Martinez, Beatriz beatriz.martinez@esa.int Data-driven Space Science at ESA Science Data Centre
 P McWhirter, Paul Ross P.R.McWhirter@ljmu.ac.uk Saving endangered animals with Astro-Ecology
 F Mechev, Alexandar apmechev@strw.leidenuniv.nl Building LOFAR As A Service: Processing Petabytes with just a click
@@ -167,7 +165,6 @@ O Smith, Jeffrey jeffrey.smith@nasa.gov Lilith: A Versatile Instrument and All-S
 O Snyder, Gregory gsnyder@stsci.edu Mock Datasets and Galaxy Merger Statistics from Cosmological Hydro Simulations
 P Solar, Martin msolar95@gmail.com Azimuthal variation of oxygen abundance in galactic stellar discs of the EAGLE simulations
 P Solar, Mauricio mauricio.solar@usm.cl Tensor Clusters for extracting and summarizing components in spectral cubes
-X Song, Xinying songxy@ihep.ac.cn Development on Data Analysis Software on GECAM
 P Stephens, Tom thomas.stephens@nasa.gov Running the Fermi Science Tools on Windows
 X Stoehr, Felix felix.stoehr@gmx.de Astronomical archives: Serving up the Universe
 P Streicher, Ole ole@aip.de DOI in Astronomy

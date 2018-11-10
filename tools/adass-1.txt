@@ -8,7 +8,6 @@ aallen@ascl.net
 ceallen@cfa.harvard.edu
 mark.allen@astro.unistra.fr
 anna.alonso@dataiku.com
-malshehr@terpmail.umd.edu
 annyas@astron.nl
 ansdell@berkeley.edu
 mauricio.araya@usm.cl
@@ -53,8 +52,8 @@ scrawford@stsci.edu
 mdittmar@cfa.harvard.edu
 andre.csillaghy@fhnw.ch
 ccz@bao.ac.cn
-daicong2014@163.com
 Christophe.Dabin@cnes.fr
+daicong2014@163.com
 pndaly@email.arizona.edu
 mdelgado@ast.cam.ac.uk
 dencheva@stsci.edu
@@ -105,7 +104,6 @@ sgroom@ipac.caltech.edu
 rguerra@sciops.esa.int
 psgupta@uw.edu
 gwyn.cadc@gmail.com
-prh44@cam.ac.uk
 jhargis@stsci.edu
 aharvey1@umbc.edu
 hhe@cfa.harvard.edu
@@ -136,6 +134,7 @@ bkent@nrao.edu
 akepley@nrao.edu
 slava.kitaeff@uwa.edu.au
 secretaryobservatory@astron.nl
+kongx@nao.cas.cn
 matwey@sai.msu.ru
 karl.kosack@cea.fr
 george.kosugi@nao.ac.jp
@@ -161,10 +160,8 @@ mireille.louys@unistra.fr
 lucylulu12311@gmail.com
 mlundquist@email.arizona.edu
 katharina.lutz@astro.unistra.fr
-max@ihep.ac.cn
 jeff.mader@gmail.com
 major.brian@gmail.com
-thomas.martin.1@ulaval.ca
 beatriz.martinez@esa.int
 patrick.masi-phelps@dataiku.com
 tom.mcglynn@nasa.gov
@@ -245,7 +242,6 @@ meganmarshall20@gmail.com
 gsnyder@stsci.edu
 msolar95@gmail.com
 mauricio.solar@usm.cl
-songxy@ihep.ac.cn
 max.spolaor@tmctechnologies.com
 thomas.stephens@nasa.gov
 felix.stoehr@gmx.de
@@ -277,7 +273,6 @@ wise@astron.nl
 paul.woods@nature.com
 xiuqin@ipac.caltech.edu
 zywu@nao.cas.cn
-xiaojian@tju.edu.cn
 masayuki.yamaguchi@nao.ac.jp
 youngmd@iu.edu
 yuxianchuan@163.com
