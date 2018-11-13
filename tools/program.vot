@@ -361,8 +361,8 @@
       <TD>Monday</TD>
       <TD>14.30</TD>
       <TD>15.00</TD>
-      <TD>The BagIt Packaging Standard for Interoperability and Preservation</TD>
-      <TD>text:'BagIt is a simple, self-describing format for packaging related data files together which is gaining traction across many research data systems and research fields.  One of its great advantages is in how it allows a community to define and document a profile on that standard--that is, additional requirements on top of the BagIt standard that speaks to the needs of that community.  In this presentation, I will summarize the key features of the standard, highlight some important profiles that have been defined by communities, and talk about how this standard is being used as part of the NIST Public Data Repository.  I will compare and contrast the use of BagIt for enabling interoperability (e.g. for transfering data between two systems) and its use for preseravation.  I will then give an overview of the NIST BagIt profile for preservation as well as introduce a general-purpose MultiBag profile which addresses issues of evolving data and scaling to large datasets.'</TD>
+      <TD>TBD</TD>
+      <TD>TBD</TD>
      </TR>
      <TR>
       <TD>Poster Session</TD>
@@ -793,8 +793,8 @@
       <TD>Tuesday</TD>
       <TD>16.15</TD>
       <TD>16.30</TD>
-      <TD>TBD</TD>
-      <TD>TBD</TD>
+      <TD>A method to detect radio frequency interference based on convolutional neural networks</TD>
+      <TD>text:'Along with the rapid development of telecommunication, radio frequency interference (RFI) generated from diverse human produced sources like electronic equipment, cell phones, GPS and so on can contaminate the weak radio band data. Therefore, RFI is an important challenge for radio astronomy. RFI detection can be regarded a special task of image segmentation. As for RFI signals, they appears in the form of point, vertical or horizontal lines. However, most existing convolution neural networks (CNNs) perform classification tasks, where the output is the single classification label of an image. The U-Net enables classification of each pixel within the image, which is suitable and competitive for image segmentation. Thus, in this paper, we implement the U-Net of 14 layers with framework of Keras to detect RFI signals. The U-Net can perform the classification task of clean signal and RFI. Also, the U-Net is a kind of extended CNN with symmetric architecture, which consists of a contracting path to capture context information and extract features and an expanding path to get precise localization. It extracts the features of RFI for learning RFI distribution pattern and then calculates the probability value of RFI for each pixel. Then we set a threshold to get the results flagged by RFI. We train the parameter of the U-Net with “Tianlai” data(A radio telescope-array, the observing time is from 20:15:45 to 24:18:45 on 27th of September 2016, the frequency is from 744MHz to 756MHz and the number of baseline is 18528). The experimental results show that, compared with the traditional RFI flagging method, this approach performs better with satisfying accuracy and takes into account the relationship between different baselines, which contributes to correctly and effectively flag RFI.'</TD>
      </TR>
      <TR>
       <TD>Kuulkers</TD>
@@ -937,8 +937,8 @@
       <TD>Wednesday</TD>
       <TD>10.00</TD>
       <TD>10.15</TD>
-      <TD>Toward common solutions for data access, discovery and interoperability</TD>
-      <TD>text:'The ASTERICS project has supported a program of work to make enablethe data from large astronomy infrastructures (ESFRI) and pathfinder projects to become available for discovery and usage by the whole astronomical community, interoperable in the Virtual Observatory framework, and accessible with a set of common tools.  We highlight the successes and lessons learned.'</TD>
+      <TD>Receiving Credit for Research Software</TD>
+      <TD>text:'Though computational methods are widely used in many disciplines, those who author these methods have not always received credit for their work. This presentation will cover recent changes in astronomy, and indeed, in many other disciplines, that include new journals, policy changes for existing journals, community resources, changes to infrastructure, and availability of new workflows that make recognizing the contributions of software authors easier. This talk will include steps coders can take to increase the probability of having their software cited correctly and steps researchers can take to improve their articles by including citations for the computational methods that enabled their research.'</TD>
      </TR>
      <TR>
       <TD>Poster Session</TD>

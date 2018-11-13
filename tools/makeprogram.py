@@ -24,25 +24,27 @@ class Program(object):
        self._getadass()
     titles = []
     a1 = []
-    for c,h,t,ab in zip(self._t["last"],self._t['code'],self._t['title'],self._t['abstract']):
+    for b,q,h,t,ab in zip(self._t["last"],self._t["first"],self._t['code'],self._t['title'],self._t['abstract']):
+       c = b + ", " + q
+       #print("Key = %s"%c)
        if h[0] == "H" or h[0] == "T" or h[0] == "B":
            # save the title of the session, tutorial, or BOF
            #print("Saving %s"%t)
            titles.append(t)
            a1.append("None")
        else:
-           # special case for Varshney
-           if h[0] == "x":
+           #kkk special case for Varshney
+           if h[0] == "x" :
                titles.append(t)
            else:
                z = self.a.titles.get(c,"TBD")
                titles.append(z)
+           # special case for Varshney and O'Tool bof
            if c in self.a.abstracts:
                self.abstracts[c]  = self.a.abstracts[c]
                a1.append(self.abstracts[c])
-           # special case for Varshney
            elif ab != None:
-               #print("For title %s, Saving abstract %s"%(t,ab))
+               print("For title %s, Saving abstract %s"%(t,ab))
                a1.append(ab)
            else:
                a1.append("TBD")
@@ -138,12 +140,12 @@ class Program(object):
       fp.write(tabopen)
       fp.write(accordion_start)
       for row_index,row in xdf.iterrows():
-            key = row['last']
+            key = row['last'] + ", " + row['first']
             talkid        = row['code']
             #speaker_first = self.encode_for_html(row['first']).decode('utf-8').replace("&amp;","&")
             #speaker_last  = self.encode_for_html(row['last']).decode('utf-8').replace("&amp;","&")
             speaker_first = row['first']
-            speaker_last  = key
+            speaker_last  = row['last']
             title         = row['title']
             time_start    = row['start']
             time_end      = row['end']
@@ -175,10 +177,12 @@ class Program(object):
                 card2="</p></div></div></div>\n\n"
 
                 fp.write(card1)
-                if talkid[0] != "T":
-                    fp.write(abstract)
-                else:
+                if talkid[0] == "T":
                     fp.write('See <a href="tutorial.html">Tutorials Page</a>')
+                elif talkid[0] == "B":
+                    fp.write('See <a href="bof.html">BoF Page</a>')
+                else:
+                    fp.write(abstract)
                 fp.write(card2)
       fp.write(accordion_end)
 
