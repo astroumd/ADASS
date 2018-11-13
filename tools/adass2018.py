@@ -535,7 +535,8 @@ class adass(object):
                         msg = 'Next: <a href="/abstracts/%s.html">%s</a> ' % (co2[i+1],co2[i+1])
                         fp.write(msg)
                     fp.write("<br><br>\n")
-
+                    
+                    pcode     = c.replace('.','-')                    
                     msg = '<b>%s: %s</b>\n' % (c, key)   ; fp.write(msg)
                     msg = '<br>\n'                       ; fp.write(msg)
                     if True:
@@ -568,10 +569,12 @@ class adass(object):
                     if c[0] == 'P' and posters:
                        txt = "%s\t%s\t\t%s\n" % (c,key,title1)
                        pfile.write(txt)
+                    msg = 'Link to PDF (may not be available yet): <A HREF=%s.pdf>%s.pdf</A>\n' % (pcode,pcode)
+                    fp.write(msg)
                     fp.write(self.getfooter())
                     fp.close()
                     if index:
-                        msg = '<a href="/abstracts/%s.html">%s </a> <b>%s</b> :  %s<br>' % (c,key,c,title1)
+                        msg = '<a href="/abstracts/%s.html">%s </a> <b>%s</b> :  %s<br>' % (c,key,pcode,title1)
                         print(msg)
         if posters: pfile.close()
         if index:
