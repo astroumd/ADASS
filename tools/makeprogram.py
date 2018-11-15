@@ -111,6 +111,11 @@ class Program(object):
       fp.write("\\end{document}")
       
 
+  def getpdf(self,talkid):
+    fname = 'abstracts/'+talkid.replace('.','-')+'.pdf'
+    #if exists fname:
+    return '</p><br><p><a href="'+fname+'">Presentation file</a>'
+
   def tohtml(self,days):
     fp = codecs.open('program.html','w','utf-8')
     colors = {"C": "lightblue", "L": "yellow", "F":"#ddd", "I":"orange", "Q":"lightgreen", "B":"yellow", "H":"#e9f9f9", "T":"#ddd"}
@@ -183,6 +188,7 @@ class Program(object):
                     fp.write('See <a href="bof.html">BoF Page</a>')
                 else:
                     fp.write(abstract)
+                    fp.write(self.getpdf(talkid))
                 fp.write(card2)
       fp.write(accordion_end)
 
