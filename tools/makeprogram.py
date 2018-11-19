@@ -2,6 +2,8 @@
 from astropy.table import Table
 import pandas as pd
 import codecs
+import re
+from pathlib import Path
 from html.entities import codepoint2name
 
 
@@ -13,7 +15,10 @@ class Program(object):
     self._df = self._t.to_pandas()
     self.a = None
     self.abstracts = dict()
+    # PDF presentations are currently only stored on the final rootdir
+    self.presentdir= "/home/www/adass2018/abstracts/"
     codecs.register_error('html_replace', self.html_replace)
+    
 
   def _getadass(self):
     from adass2018 import adass
@@ -112,9 +117,16 @@ class Program(object):
       
 
   def getpdf(self,talkid):
-    fname = 'abstracts/'+talkid.replace('.','-')+'.pdf'
-    #if exists fname:
-    return '</p><br><p><a href="'+fname+'">Presentation file</a>'
+    # remove special char x used for other reasons and replace . with -
+    pdf = re.sub('^x','',talkid.replace('.','-')) + '.pdf'
+    fullfname = self.presentdir + pdf
+    fname = "abstracts/"+pdf
+    if Path(fullfname).exists():
+        return '</p><br><p><a href="'+fname+'">Presentation file</a>'
+    else:
+        #print("%s doesn't exist"%fullfname)
+        print(pdf)
+        return ""
 
   def tohtml(self,days):
     fp = codecs.open('program.html','w','utf-8')
@@ -168,7 +180,7 @@ class Program(object):
             #    abstract      = self.a.x1[key][24].value
 
             if talkid[0] == "H":  # session heading
-                print("doing session heading %s"% title)
+                #print("doing session heading %s"% title)
                 card = '<div class="card"> \n<div id="headingSession%s"> <div class="card-header p-2 m-0 session-heading" style="background-color:%s;"> <h6 align="center"><i>Session %s</i></h5><h5 align="center">%s</h5><h6 align="center">Chair: %s %s</h6> \n</div></div></div>\n\n' %(row['session'],colors[talkid[0]],row['session'],title,speaker_first,speaker_last)
                 fp.write(card)
             elif talkid[0] == "C" or talkid[0] == "L" or talkid[0] == "Q":
@@ -222,5 +234,6 @@ if __name__ == "__main__":
     p.write('program.ipac',format='ipac',include_abstracts=False)
     #p.write('program.ipac','ipac') Exception
     p.tohtml(_days)
-    print("making session sheets in sessionsheets.tex")
-    p.sessionsheet()
+    if False:
+        print("making session sheets in sessionsheets.tex")
+        p.sessionsheet()
