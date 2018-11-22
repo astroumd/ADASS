@@ -46,9 +46,12 @@ Since this paper was written by some python code, ignore that warning, but bette
 
 \section{The Template}
 
-To use this 2018 template instead of the ADASS\_template, copy this file to your given paper, e.g. O3-1.tex, P5-2.tex, B4.tex, F3.tex, I.tex, place the
-paper type in the Makefile, review the Makefile, and hit ``make'' and hope for the best.  If that runs into trouble, check if your version of
+To use this 2018 template instead of the ADASS\_template, copy this file to your given paper,
+e.g. O3-1.tex, P5-2.tex, B4.tex, F3.tex, I2-1.tex, place the
+paper type in the Makefile, review the Makefile, and hit ``make'' and hope for the best.
+If that runs into trouble, check if your version of
 latex uses a different calling sequence.  Some instructions are in the Makefile.
+The Makefile also orchestrates putting the correct (and no more) files in the tar or zip file.
 
 \section{Figures}
 
@@ -60,7 +63,7 @@ Look for the larger template and Makefile how to do this.
 This template has no bibtex file. 
 Look for the larger template and Makefile how to do this. By default the Makefile will create
 an empty ${PCODE}.bib. When you add references to this, uncomment  the 
-line \verb+\bibliography+  below, make use ``make'' to
+line \verb+% \bibliography+  below, then use ``make'' to
 create your beautifully looking PDF.
 
 % \bibliography{${PCODE}}
