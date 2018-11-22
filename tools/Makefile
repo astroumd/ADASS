@@ -1,4 +1,4 @@
-
+D = Downloads
 
 TGT = adass-0     adass-1     adass-2     adass-3     adass-4      
 TXT = adass-0.txt adass-1.txt adass-2.txt adass-3.txt adass-4.txt  
@@ -195,7 +195,7 @@ att:
 
 
 regupd:
-	(cd ~/Downloads; mv ADASS\ 2018\ \ * ~/Dropbox/adass2018/)
+	(cd ~/$(D); mv ADASS\ 2018\ \ * ~/Dropbox/adass2018/)
 	cp ~/Dropbox/adass2018/ADASS\ 2018\ \ Total\ Registrant\ Re.xls reg_final/
 
 compare:
