@@ -1,7 +1,7 @@
 % super simple template for automated 2018 ADASS manuscript generation from the registration entry
 % most comments have been removed, see the ADASS_template.tex for a fully commented version
 
-% Version 20-nov-2018 (Peter Teuben)
+% Version 22-nov-2018 (Peter Teuben)
 
 ${COMMENT}\documentclass[11pt,twoside]{article}
 ${COMMENT}\usepackage{asp2014}
@@ -10,7 +10,6 @@ ${COMMENT}\usepackage{asp2014}
 \resetcounters
 
 \bibliographystyle{asp2014}
-
 
 \markboth{${LNAME}, and Author2}{${TITLE}}      % remove/add authors as you need
 
@@ -28,7 +27,7 @@ ${COMMENT}\begin{document}
 % remove/add authors as you need
 \paperauthor{Sample~Author2}{Author2Email@email.edu}{ORCID_Or_Blank}{Author2 Institution}{Author2 Department}{City}{State/Province}{Postal Code}{Country}
 
-% leave these commented for the editors to enable them
+% leave these next few aindex lines commented for the editors to enable them
 ${NOCOMMENT}\aindex{${LNAME},~${FNAMEI}.}
 ${NOCOMMENT}\aindex{Coauthor,~A.}          % remove and add as you need
   
@@ -40,31 +39,48 @@ ${ABSTRACT}
 
 \section{Introduction}
 
-Your abstract currently has ${LENA} characters. For more than 1000 it's possibly too long. Just sayin'
-Since this paper was written by some python code, ignore that warning, but better edit most of this rubbish away.
+Your abstract currently has ${LENA} characters. For more than 1000
+it's possibly too long. Just sayin' Since this paper was written by
+some python code, ignore that warning, since you will edit most of
+this rubbish away for your final version.
 
 
-\section{The Template}
+\section{This Template}
 
-To use this 2018 template instead of the ADASS\_template, copy this file to your given paper,
-e.g. O3-1.tex, P5-2.tex, B4.tex, F3.tex, I2-1.tex, place the
-paper type in the Makefile, review the Makefile, and hit ``make'' and hope for the best.
-If that runs into trouble, check if your version of
-latex uses a different calling sequence.  Some instructions are in the Makefile.
-The Makefile also orchestrates putting the correct (and no more) files in the tar or zip file.
+To use this 2018 personalized template instead of the {\tt
+  ADASS\_template}, copy this file (named something like O3-1.tex,
+P5-2.tex, B4.tex, F3.tex, T1.tex, or I2-1.tex) in your local {\tt
+  ADASS2018\_author\_template} directory (where you also find the
+asp2014.sty, the Makefile etc).  Edit the macros in the {\tt makedefs}
+file, and run ``{\tt make}'' and hope for the best.  If that runs into
+trouble, check if your version of latex uses a different calling
+sequence.  Some instructions are in the Makefile. When you send your
+tar file, it's useful to send the {\tt makedefs} file along.
 
-\section{Figures}
+\section{Any Figures?}
 
-This template has no figures.
-Look for the larger template and Makefile how to do this.
+This template has no figures. Look for the larger template and
+Makefile how to do this.
+
+\section{Final Check}
+
+Please use ``{\tt make check}'' (which runs {\tt PaperCheck.py}) to
+check if you can make life for the ADASS editors a little
+easier. Pretty Please.
+
+After this ``{\tt make tar}'' will create the correct archive to be sent to
+the editors.
+
 
 \section{References}
 
-This template has no bibtex file. 
-Look for the larger template and Makefile how to do this. By default the Makefile will create
-an empty ${PCODE}.bib. When you add references to this, uncomment  the 
-line \verb+% \bibliography+  below, then use ``make'' to
-create your beautifully looking PDF.
+This template has no bibtex file.  Look for the larger template and
+Makefile how to do this. By default the {\tt Makefile} will create an
+empty ${PCODE}.bib. When you add references to this, uncomment the
+line \verb+\bibliography+ below, use ``{\tt make pdf}'' to create
+your beautifully looking PDF,
+
+
 
 % \bibliography{${PCODE}}
 
