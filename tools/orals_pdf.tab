@@ -85,3 +85,4 @@ Boussejra	; O5.4                  ; Thu 10.00 - 10.15 ; pdf
 Wise			; I2.1		; Thu 11.15 - 11.45 ; pdf
 Alexov		; O2.1	  		; Thu 11.45 - 12.00 ; pdf
 Tomasi		; O4.5                  ; Thu 12.00 - 12.15 ; pdf
+# grep -v ^# orals_pdf.tab | grep -v pdf 
