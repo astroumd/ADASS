@@ -50,7 +50,7 @@ Good            ; F4                    ; Tue 15.30 - 16.00         email
 # S8
 Gilda		; O1.3			; Tue 16.00 - 16.15 ; pdf
 Dai		; O1.4                  ; Tue 16.15 - 16.30 ; pdf
-Kuulkers		; I9.1		; Tue 16.30 - 17.00                email
+Kuulkers		; I9.1		; Tue 16.30 - 17.00 ; pdf
 #
 # S9 ---------------------------------------------------------
 Martinez	; O10.4                 ; Wed 09.00 - 09.15 ; pdf
@@ -72,7 +72,7 @@ Raugh		; O7.2			; Wed 14.45 - 15.00 ; pdf
 #
 # S12
 Momcheva		; I5.1		; Wed 16.00 - 16.30          email
-Fitzpatrick	; O5.1	  		; Wed 16.30 - 16.45 ; pptx
+Fitzpatrick	; O5.1	  		; Wed 16.30 - 16.45 ; pdf
 Donaldson	; O5.2			; Wed 16.45 - 17.00 ; pdf
 #
 # S13 --------------------------------------------------------
@@ -85,4 +85,3 @@ Boussejra	; O5.4                  ; Thu 10.00 - 10.15 ; pdf
 Wise			; I2.1		; Thu 11.15 - 11.45 ; pdf
 Alexov		; O2.1	  		; Thu 11.45 - 12.00 ; pdf
 Tomasi		; O4.5                  ; Thu 12.00 - 12.15 ; pdf
-
