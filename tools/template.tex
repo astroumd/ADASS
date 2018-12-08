@@ -1,7 +1,11 @@
 % super simple template for automated 2018 ADASS manuscript generation from the registration entry
-% most comments have been removed, see the ADASS_template.tex for a fully commented version
+% place this file in your ADASS2018_author_template directory
+%
+% Only few comments here, see the ADASS_template.tex for a more fully commented version, and
+% ManuscriptInstructions.pdf if you need more background, and if you even need more, APS's own
+% manual2010.pdf has it all!
 
-% Version 22-nov-2018 (Peter Teuben)
+% Version 6-dec-2018 (Peter Teuben)
 
 ${COMMENT}\documentclass[11pt,twoside]{article}
 ${COMMENT}\usepackage{asp2014}
@@ -11,7 +15,8 @@ ${COMMENT}\usepackage{asp2014}
 
 \bibliographystyle{asp2014}
 
-\markboth{${LNAME}, and Author2}{${TITLE}}      % remove/add authors as you need
+\markboth{${LNAME} and Author2}{${TITLE}}
+% remove/add as you need
 
 ${COMMENT}\begin{document}
 
@@ -20,16 +25,18 @@ ${COMMENT}\begin{document}
 
 \author{${FNAME}~${LNAME},${F1} and Sample~Author2${F2}}
 \affil{${F1}${INAME}, Institution City, State/Province, Country; \email{${EMAIL}}}
-\affil{${F2}Institution Name, Institution City, State/Province, Country}           % remove/add authors as you need
+\affil{${F2}Institution Name, Institution City, State/Province, Country}
+% remove/add as you need
 
 
 \paperauthor{${FNAME}~${LNAME}}{${EMAIL}}{ORCID}{${INAME}}{Author1 Department}{City}{State/Province}{Postal Code}{Country}
-% remove/add authors as you need
 \paperauthor{Sample~Author2}{Author2Email@email.edu}{ORCID_Or_Blank}{Author2 Institution}{Author2 Department}{City}{State/Province}{Postal Code}{Country}
+% remove/add as you need
 
 % leave these next few aindex lines commented for the editors to enable them
 ${NOCOMMENT}\aindex{${LNAME},~${FNAMEI}.}
-${NOCOMMENT}\aindex{Coauthor,~A.}          % remove and add as you need
+${NOCOMMENT}\aindex{Coauthor,~A.}
+% remove/add as you need
   
 \begin{abstract}
 
@@ -60,8 +67,8 @@ tar file, it's useful to send the {\tt makedefs} file along.
 \section{Any Figures?}
 
 This template has no figures. Look for the larger template and
-Makefile how to do this.
-
+Makefile how to do this. Just remember they need to be EPS files,
+and you can use the very easy to use \verb+\articlefigure+ macro.
 \section{Final Check}
 
 Please use ``{\tt make check}'' (which runs {\tt PaperCheck.py}) to
@@ -69,7 +76,7 @@ check if you can make life for the ADASS editors a little
 easier. Pretty Please.
 
 After this ``{\tt make tar}'' will create the correct archive to be sent to
-the editors.
+the editors. zip files also work. 
 
 
 \section{References}
@@ -78,7 +85,7 @@ This template has no bibtex file.  Look for the larger template and
 Makefile how to do this. By default the {\tt Makefile} will create an
 empty ${PCODE}.bib. When you add references to this, uncomment the
 line \verb+\bibliography+ below, use ``{\tt make pdf}'' to create
-your beautifully looking PDF,
+your beautifully looking PDF. Only use the citep and citet macros.
 
 
 
