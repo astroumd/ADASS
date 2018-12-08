@@ -720,7 +720,7 @@ class adass(object):
                 fp = open(fn,'w')
                 fp.write(t1)
                 fp.close()
-                msg = '\\tocinsertentry[r]{%s}{%s.~%s}{authors/%s}\n' % (title1,fname[0],lname,pcode)
+                msg = '\\tocinsertentry[r]{%s}{%s.~%s}{authors/%s_inc}\n' % (title1,fname[0],lname,pcode)
                 fp1.write(msg)
         fp1.close()
                     
