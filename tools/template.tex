@@ -33,10 +33,17 @@ ${COMMENT}\begin{document}
 \paperauthor{Sample~Author2}{Author2Email@email.edu}{ORCID_Or_Blank}{Author2 Institution}{Author2 Department}{City}{State/Province}{Postal Code}{Country}
 % remove/add as you need
 
-% leave these next few aindex lines commented for the editors to enable them
+% leave these next few aindex lines commented for the editors to enable them. Use Aindex.py to generate them for yourself.
 ${NOCOMMENT}\aindex{${LNAME},~${FNAMEI}.}
 ${NOCOMMENT}\aindex{Author2,~S.}
 % remove/add as you need
+
+% leave the ssindex lines commented for the editors to enable them, use Index.py to suggest yours
+${NOCOMMENT}\ssindex{FOOBAR!conference!ADASS 2018}
+${NOCOMMENT}\ssindex{FOOBAR!organisations!ASP}
+
+% leave the ooindex lines commented for the editors to enable them, use ascl.py to suggest yours
+${NOCOMMENT}\ooindex{FOOBAR, ascl:1101.010}
   
 \begin{abstract}
 
@@ -82,8 +89,12 @@ check if you can make life for the ADASS editors a little
 easier. Pretty Please.
 
 After this ``{\tt make tar}'' will create the correct archive to be sent to
-the editors. zip files also work. 
+the editors. zip files also work.
 
+\section{Any Photographs?}
+
+If your paper has enough room at the end, the editors may decide to use this
+for a conference photograph.
 
 \section{Summary}
 
@@ -91,7 +102,9 @@ This template has no bibtex file.  Look for the larger template and
 Makefile how to do this. By default the {\tt Makefile} will create an
 empty ${PCODE}.bib. When you add references to this, uncomment the
 line \verb+\bibliography+ below, use ``{\tt make pdf}'' to create
-your beautifully looking PDF. Only use the citep and citet macros!
+your beautifully looking PDF. Only use the
+\verb"\citet" and \verb"\citep" macros!
+
 
 
 % \bibliography{${PCODE}}
