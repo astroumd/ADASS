@@ -5,7 +5,7 @@
 % ManuscriptInstructions.pdf if you need more background, and if you even need more, APS's own
 % manual2010.pdf has it all!
 
-% Version 6-dec-2018 (Peter Teuben)
+% Version 18-dec-2018 (Peter Teuben)
 
 ${COMMENT}\documentclass[11pt,twoside]{article}
 ${COMMENT}\usepackage{asp2014}
@@ -35,7 +35,7 @@ ${COMMENT}\begin{document}
 
 % leave these next few aindex lines commented for the editors to enable them
 ${NOCOMMENT}\aindex{${LNAME},~${FNAMEI}.}
-${NOCOMMENT}\aindex{Coauthor,~A.}
+${NOCOMMENT}\aindex{Author2,~S.}
 % remove/add as you need
   
 \begin{abstract}
@@ -69,6 +69,12 @@ tar file, it's useful to send the {\tt makedefs} file along.
 This template has no figures. Look for the larger template and
 Makefile how to do this. Just remember they need to be EPS files,
 and you can use the very easy to use \verb+\articlefigure+ macro.
+
+\section{Any Tables?}
+
+This template has no tables. Look for the larger template
+how to do this. 
+
 \section{Final Check}
 
 Please use ``{\tt make check}'' (which runs {\tt PaperCheck.py}) to
@@ -79,17 +85,20 @@ After this ``{\tt make tar}'' will create the correct archive to be sent to
 the editors. zip files also work. 
 
 
-\section{References}
+\section{Summary}
 
 This template has no bibtex file.  Look for the larger template and
 Makefile how to do this. By default the {\tt Makefile} will create an
 empty ${PCODE}.bib. When you add references to this, uncomment the
 line \verb+\bibliography+ below, use ``{\tt make pdf}'' to create
-your beautifully looking PDF. Only use the citep and citet macros.
-
+your beautifully looking PDF. Only use the citep and citet macros!
 
 
 % \bibliography{${PCODE}}
+
+% if we have space left, we might add a conference photograph here. Leave commented for now.
+% \bookpartphoto[width=1.0\textwidth]{foobar.eps}{FooBar Photo (Photo: Any Photographer)}
+
 
 ${COMMENT}\end{document}
 
