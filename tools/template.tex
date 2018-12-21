@@ -1,7 +1,7 @@
 % super simple template for automated 2018 ADASS manuscript generation from the registration entry
 % most comments have been removed, see the ADASS_template.tex for a fully commented version
 
-% Version 22-nov-2018 (Peter Teuben)
+% Version 21-dec-2018 (Peter Teuben)
 
 ${COMMENT}\documentclass[11pt,twoside]{article}
 ${COMMENT}\usepackage{asp2014}
@@ -11,23 +11,24 @@ ${COMMENT}\usepackage{asp2014}
 
 \bibliographystyle{asp2014}
 
-\markboth{${LNAME}, and Author2}{${TITLE}}      % remove/add authors as you need
+% remove/add authors as you need
+\markboth{${LNAME}, and Author2}{${TITLE}}
 
 ${COMMENT}\begin{document}
 
 \title{${TITLE}}
 
 
-\author{${FNAME}~${LNAME},${F1} and Sample~Author2${F2}}
+\author{${FNAME}~${LNAME}${F1} and Sample~Author2${F2}}
 \affil{${F1}${INAME}, Institution City, State/Province, Country; \email{${EMAIL}}}
 \affil{${F2}Institution Name, Institution City, State/Province, Country}           % remove/add authors as you need
 
-
-\paperauthor{${FNAME}~${LNAME}}{${EMAIL}}{ORCID}{${INAME}}{Author1 Department}{City}{State/Province}{Postal Code}{Country}
 % remove/add authors as you need
+\paperauthor{${FNAME}~${LNAME}}{${EMAIL}}{ORCID}{${INAME}}{Author1 Department}{City}{State/Province}{Postal Code}{Country}
 \paperauthor{Sample~Author2}{Author2Email@email.edu}{ORCID_Or_Blank}{Author2 Institution}{Author2 Department}{City}{State/Province}{Postal Code}{Country}
 
 % leave these next few aindex lines commented for the editors to enable them
+% you can also cheat and use the Aindex.py command to generate them for you from the \author list
 ${NOCOMMENT}\aindex{${LNAME},~${FNAMEI}.}
 ${NOCOMMENT}\aindex{Coauthor,~A.}          % remove and add as you need
   
@@ -60,7 +61,9 @@ tar file, it's useful to send the {\tt makedefs} file along.
 \section{Any Figures?}
 
 This template has no figures. Look for the larger template and
-Makefile how to do this.
+Makefile how to do this. But most importantly, your figures need to
+be EPS files, and their names should be ${PCODE}\_f1.eps ,
+${PCODE}\_f2.eps  etc.
 
 \section{Final Check}
 
