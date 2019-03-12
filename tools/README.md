@@ -24,11 +24,11 @@ key on the  "LastName, FirstName" string.
 ## Bad Design of Contributions
 
 Contribution should have been:
- 1a. Oral
- 1b. Poster
- 1c. Focus Demo [$200]
- 2.  BoF
- 3.  Demo Booth [$200]
+       1a. Oral
+       1b. Poster
+       1c. Focus Demo [$200]
+       2.  BoF
+       3.  Demo Booth [$200]
 
 Where 1 selects one of a/b/c [radio button]
 Where 1,2,3 can be zero, one, two or three selected 
@@ -39,28 +39,28 @@ Where 1,2,3 can be zero, one, two or three selected
 
 Example to send mass mail:
 
-./mailer.py email2.txt test1 email2.tab EMAIL
+       ./mailer.py email2.txt test1 email2.tab EMAIL
 
 in this case the email2.tab just has one column. If you have more columns, you can do
 
-./mailer.py email3.txt test123 email3.tab EMAIL,NAME,TITLE
+       ./mailer.py email3.txt test123 email3.tab EMAIL,NAME,TITLE
 
 Real example:
 
-./mailer.py email2.txt "ADASS deadlines today" adass-1.txt EMAIL
+      ./mailer.py email2.txt "ADASS deadlines today" adass-1.txt EMAIL
 
 
 ## Names
 
 We designate 
 
-Bn   = BoF (Birds of a Feather) (8?)      B1...
-Dn   = demo booth (11)                    D1...
-Fn   = focus demo (5)                     F1...
-Is.c = invited talk (13)                  Is.c (by session number s=1..13)
-Os.c = oral contribtution (36?)           Os.c (s=session c=contribution)
-Ps.c = poster (???)                       Ps.c (s=session c=contribution)
-Tn   = tutorial (4)                       T1...4
+       Bn   = BoF (Birds of a Feather) (8?)      B1...
+       Dn   = demo booth (11)                    D1...
+       Fn   = focus demo (5)                     F1...
+       Is.c = invited talk (13)                  Is.c (by session number s=1..13)
+       Os.c = oral contribtution (36?)           Os.c (s=session c=contribution)
+       Ps.c = poster (???)                       Ps.c (s=session c=contribution)
+       Tn   = tutorial (4)                       T1...4
 
 ## Layout of contributions
 
@@ -97,7 +97,7 @@ This workflow worked on chara and algol:
 	make
 	make index
 
-and no utf-8 errors.
+and no UTF-8 errors.
 
 
 
