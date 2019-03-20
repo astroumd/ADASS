@@ -5,7 +5,7 @@
 % ManuscriptInstructions.pdf if you need more background, and if you even need more, APS's own
 % manual2010.pdf has it all!
 
-% Version 18-dec-2018 (Peter Teuben)
+% Version 21-dec-2018 (Peter Teuben)
 
 ${COMMENT}\documentclass[11pt,twoside]{article}
 ${COMMENT}\usepackage{asp2014}
@@ -23,12 +23,12 @@ ${COMMENT}\begin{document}
 \title{${TITLE}}
 
 
-\author{${FNAME}~${LNAME},${F1} and Sample~Author2${F2}}
+\author{${FNAME}~${LNAME}${F1} and Sample~Author2${F2}}
 \affil{${F1}${INAME}, Institution City, State/Province, Country; \email{${EMAIL}}}
 \affil{${F2}Institution Name, Institution City, State/Province, Country}
 % remove/add as you need
 
-
+% remove/add authors as you need
 \paperauthor{${FNAME}~${LNAME}}{${EMAIL}}{ORCID}{${INAME}}{Author1 Department}{City}{State/Province}{Postal Code}{Country}
 \paperauthor{Sample~Author2}{Author2Email@email.edu}{ORCID_Or_Blank}{Author2 Institution}{Author2 Department}{City}{State/Province}{Postal Code}{Country}
 % remove/add as you need
@@ -75,8 +75,9 @@ tar file, it's useful to send the {\tt makedefs} file along.
 \section{Any Figures?}
 
 This template has no figures. Look for the larger template and
-Makefile how to do this. Just remember they need to be EPS files,
-and you can use the very easy to use \verb+\articlefigure+ macro.
+Makefile how to do this. But most importantly, your figures need to
+be EPS files, and their names should be ${PCODE}\_f1.eps ,
+${PCODE}\_f2.eps  etc.
 
 \section{Any Tables?}
 
